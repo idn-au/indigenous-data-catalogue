@@ -1,0 +1,53 @@
+PREFIX sdo: <https://schema.org/>
+
+
+<https://linked.data.gov.au/org/anu>
+    a sdo:Organization ;
+    sdo:name "Australian National University" ;
+    sdo:alternateName "ANU" ;
+    sdo:url "https://anu.edu.au"^^xsd:anyURI ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+.
+
+<https://data.idnau.org/pid/org/cass>
+    a sdo:Organization ;
+    sdo:name "ANU College of Arts & Social Science" ;
+    sdo:alternateName "CASS" ;
+    sdo:url "https://cass.anu.edu.au"^^xsd:anyURI ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+.
+
+<https://data.idnau.org/pid/org/cos>
+    a sdo:Organization ;
+    sdo:name "ANU College of Science" ;
+    sdo:alternateName "CoS" ;
+    sdo:url "https://science.anu.edu.au"^^xsd:anyURI ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+.
+
+<https://data.idnau.org/pid/org/ncis>
+    a sdo:Organization ;
+    sdo:name "ANU National Centre for Indigenous Studies" ;
+    sdo:alternateName "NCIS" ;
+    sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
+.
+
+<https://data.idnau.org/pid/org/caepr>
+    a sdo:Organization ;
+    sdo:name "ANU Centre for Aboriginal Economic Policy Research" ;
+    sdo:alternateName "CAEPR" ;
+    sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
+.
+
+<https://data.idnau.org/pid/org/fses>
+    a sdo:Organization ;
+    sdo:name "Fenner School of Environment & Science" ;
+    sdo:alternateName "FSES" ;
+    sdo:url "https://fennerschool.anu.edu.au"^^xsd:anyURI ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/cos> ;
+.
+
+
+
