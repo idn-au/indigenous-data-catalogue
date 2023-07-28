@@ -1,4 +1,5 @@
 PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
 <https://linked.data.gov.au/org/anu>
