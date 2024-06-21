@@ -130,7 +130,7 @@ PREFIX sdo: <https://schema.org/>
 .
 
 <https://orcid.org/0000-0002-5477-0874>
-    a sdo:Organization ;
+    a sdo:Person ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
     sdo:name "Len Smith" ;
 .
