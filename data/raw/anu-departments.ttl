@@ -1,0 +1,694 @@
+PREFIX agent: <https://anufncatalogue.anu.edu.au/pid/agent/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/org/anu>
+    a schema:Organization ;
+    schema:department
+        agent:028fe8af-7f9c-4848-b568-7d8856ba4b77 ,
+        agent:098a873c-b054-4292-853f-24b0b2acc9fc ,
+        agent:0a76edf5-5954-4616-8ea4-cd3ba88d4a05 ,
+        agent:0af12c76-b8b4-42f4-9de3-867aa3d6202a ,
+        agent:0b7b049e-8a4f-46d3-bff3-908f3ab765f9 ,
+        agent:0e24e82f-0d2e-4fa6-b1c1-f0f27017911e ,
+        agent:115a1fa6-556f-4e07-9366-e23800d4d360 ,
+        agent:12da0db2-b625-4ba8-9f8d-bdb22fdc0842 ,
+        agent:1863e306-5c53-4a84-9ae9-4b89c05988d5 ,
+        agent:198c6915-1f6c-4519-aba4-8cceb09050a2 ,
+        agent:1d0cc43c-7837-4dfc-ac00-3c98b031fc91 ,
+        agent:1e695e84-5520-402b-84d6-cc1adffb55bd ,
+        agent:1eda43c4-574c-4fc5-b694-6e6dddae12c2 ,
+        agent:23e66b1b-d2aa-46eb-bc05-52b9228a11e2 ,
+        agent:26e992cb-f929-40ab-a515-9da2d9bbf0c7 ,
+        agent:27097bae-e184-44c3-8037-6e86e73d50f2 ,
+        agent:273efb56-caff-4e40-98ee-fa16e6ef8f4e ,
+        agent:2922afe4-ef18-4072-804c-f59f3c3db91d ,
+        agent:29d6058c-d215-4350-af99-91827d6bbbf4 ,
+        agent:2a2c10e4-1b2d-4e61-baec-c9dc6dcc4f07 ,
+        agent:2c33f9bd-f483-4be8-80af-6493292b876f ,
+        agent:2f19e273-f7f5-4b29-a8b7-c2c0e7ba80db ,
+        agent:324f2134-06d8-4311-8c4c-9b876e51a713 ,
+        agent:339f035a-1860-42a5-adaa-085b7015aeba ,
+        agent:3423e955-b137-40bb-8108-59282a39e569 ,
+        agent:3860c36a-8d79-4812-bbeb-a12f2a88e7b3 ,
+        agent:38804e7d-2209-41c9-8407-fd8760455220 ,
+        agent:391ad8b7-825c-48da-9bca-02fb32667014 ,
+        agent:39d91035-07f7-44de-a174-486a198ced7a ,
+        agent:3da2a757-a666-4b53-8bf0-cb5002f2bf82 ,
+        agent:3e233b90-a321-40af-bb3a-877000884600 ,
+        agent:3e353f19-ae0e-4d7d-a8c0-2cdc467b1166 ,
+        agent:3ea9251a-be76-42f2-8925-9580272394a6 ,
+        agent:40f83381-b0db-4965-85f8-de7ffbd706d5 ,
+        agent:467da8df-727a-430e-a3d1-fcbe4d035685 ,
+        agent:47bef0f3-c0d1-4e14-8eb8-ad3ab44b3c67 ,
+        agent:4898286e-ae52-400f-a56a-4ead13184630 ,
+        agent:4bc1feff-82d1-4e3f-a50a-8e963f79218c ,
+        agent:4fe561ba-71d5-4992-8d68-e682c67e168b ,
+        agent:5072ec2a-4f88-4b54-9029-0077186f0cea ,
+        agent:5113c39f-0dbe-4312-ac5c-33e1ae79eac8 ,
+        agent:523bc56a-66cb-49fe-9f89-ac4a1c9ed408 ,
+        agent:53335cc1-1480-4c51-83e6-df74c01f8986 ,
+        agent:537bf10b-cccb-4d83-b4ac-9328b32fe39b ,
+        agent:53c094dd-98be-4b68-82ef-fcd6d3ac955b ,
+        agent:59eba19d-2ce8-4d31-9c5c-60068c8eb3e3 ,
+        agent:5e8e2cb3-5b2f-47a7-85e4-31e1a84333e5 ,
+        agent:5ff78ea2-2b54-4e12-8156-c851db44364f ,
+        agent:62869699-5d32-4d7b-8c81-848e1130c2f7 ,
+        agent:62b9d66b-0012-4ac1-b39e-85d43fdded22 ,
+        agent:62d234ab-9d6b-4b37-aacc-a550d107a3aa ,
+        agent:6734b6d8-77de-4961-8458-e0ee2f14ae37 ,
+        agent:6a170306-4ac0-4437-8307-9b476b49e33f ,
+        agent:6c5ece46-926e-42e4-b21e-80a0fdf791a6 ,
+        agent:6e3b6265-82db-47f3-9669-70107c7cee91 ,
+        agent:6f17f48d-8fc2-418a-9282-6cb7426fdf6d ,
+        agent:707b1e35-7e5c-4013-9859-0e1979a8a760 ,
+        agent:72797718-fca1-4aa0-975d-22f0bbc5e89b ,
+        agent:74d38689-d1a0-40e5-90d0-1acbd27591a5 ,
+        agent:75cd29d1-a6dd-4da9-8941-928c6a96059f ,
+        agent:7a074d00-7885-42e8-a8e5-f9b1a0720cd8 ,
+        agent:7e3e696a-8ea4-467f-9458-7922193b91ec ,
+        agent:7ec07fa6-c519-4a56-860b-6021da7fa45c ,
+        agent:7f0548ac-a471-4401-98ec-39706b3e186c ,
+        agent:7f8758a7-012c-4fea-ac2e-1537e3ae34b7 ,
+        agent:8201a3d8-ccca-4755-a18e-6c052a32c122 ,
+        agent:84ee72b9-df1d-4582-8bc0-c84c56284461 ,
+        agent:8547cb33-ff38-4134-a534-0feb75385264 ,
+        agent:8e6ae02b-c2d0-4bed-ba79-278e7a297458 ,
+        agent:8eef6753-bc24-47e3-aae8-221eb811f190 ,
+        agent:8ff1564e-d3b0-485d-9c18-91f283e57373 ,
+        agent:9005d2c5-394f-4c24-8022-06c02cb931ba ,
+        agent:9a07d190-bf5d-404b-a9da-fa9e8837a0a4 ,
+        agent:9b25743f-c1e8-4b3f-98b7-dbdb3dadaa54 ,
+        agent:9b99b26e-a756-4616-b381-1418ee7af6fb ,
+        agent:9d3f1c18-61ab-41f6-99be-b62578b246d6 ,
+        agent:9fe1fbec-ecd1-4777-9b7a-a3b61edbbb60 ,
+        agent:a3babb2c-9d9f-4419-ba61-7145def742f2 ,
+        agent:aa9070ff-8e45-4317-9e73-fc98c9acff8a ,
+        agent:ad76802b-5bda-4b3b-8dce-c986a5857d08 ,
+        agent:b17c4269-4fd1-4dd4-9fbe-6815a357082b ,
+        agent:b38c57b0-1912-4ffe-8e47-9020a9431cbc ,
+        agent:b6139889-3911-45a3-8f07-dcf3b07558cd ,
+        agent:b685af21-8fef-454a-9505-04cb220e4250 ,
+        agent:b81405a0-e1cd-44f5-a1fe-9fb2faaf061c ,
+        agent:bb2ebdea-ad82-4029-ae6c-9bbe5bc80927 ,
+        agent:bc6257f9-f978-4533-bbc6-8290879fac34 ,
+        agent:be527c16-8c6d-4233-9c88-17d431ea8022 ,
+        agent:c136dd69-4af2-4a46-a9fc-659ef9fa62f0 ,
+        agent:c17ea378-cdc6-4054-9b97-a5518568dbf5 ,
+        agent:c353e0e7-a26a-4f3a-bf6a-60a779aa85a6 ,
+        agent:cea253ca-7332-4448-8cec-783280fb3531 ,
+        agent:cfab7e0a-f7cb-4bda-884c-cabb03d5d6d3 ,
+        agent:d32368e4-213c-4ad6-a553-c68ed3420c8d ,
+        agent:d5c52498-a38f-4450-934a-85f22f120985 ,
+        agent:d793913c-0c94-4c7e-88c5-545d46536d9b ,
+        agent:d8532b08-a874-4cb3-891c-55c092a4ed1b ,
+        agent:dc9f6835-ea63-43f8-860b-d2dde0df953b ,
+        agent:e0040124-5266-4e2b-87ef-993e8492ff7e ,
+        agent:e251a93d-a380-440c-b269-8c18e3d76b5c ,
+        agent:e25c682b-b220-4995-a96b-16dbc964a154 ,
+        agent:e3295f63-23af-4d83-b49a-737996632280 ,
+        agent:ec6a756f-d76a-43b7-bd79-fed93a4137ff ,
+        agent:ecdb4999-fb54-4c85-83ee-d6687c3beabe ,
+        agent:f2e2635c-eda6-4d2d-a215-26954f28cf0d ,
+        agent:f5039544-e8ae-4532-b5df-e8d4d3a9113c ,
+        agent:f55c7b32-317c-444d-9dec-66d5d93855d9 ,
+        agent:f5a9b0fa-08c4-4a5a-abc8-9f32442b876c ,
+        agent:f68d48d6-c5e1-400f-98e0-be283d780507 ,
+        agent:f8c464bd-4f94-4cbd-b08e-d23a14222d8a ,
+        agent:fe658912-af63-4775-8d69-a48f4ba11688 ;
+    schema:name "Australian National University" ;
+    schema:url "https://anu.edu.au"^^xsd:anyURI ;
+.
+
+agent:028fe8af-7f9c-4848-b568-7d8856ba4b77
+    a schema:Organization ;
+    schema:name "department of nuclear physics" ;
+.
+
+agent:098a873c-b054-4292-853f-24b0b2acc9fc
+    a schema:Organization ;
+    schema:name "department of asian civilizations" ;
+.
+
+agent:0a76edf5-5954-4616-8ea4-cd3ba88d4a05
+    a schema:Organization ;
+    schema:alternateName "department of geology" ;
+    schema:name "department of ecology" ;
+.
+
+agent:0af12c76-b8b4-42f4-9de3-867aa3d6202a
+    a schema:Organization ;
+    schema:name "department of sociology" ;
+.
+
+agent:0b7b049e-8a4f-46d3-bff3-908f3ab765f9
+    a schema:Organization ;
+    schema:name "department of accounting and public finance" ;
+.
+
+agent:0e24e82f-0d2e-4fa6-b1c1-f0f27017911e
+    a schema:Organization ;
+    schema:name "department of immunology" ;
+.
+
+agent:115a1fa6-556f-4e07-9366-e23800d4d360
+    a schema:Organization ;
+    schema:name "department of anthropology" ;
+.
+
+agent:12da0db2-b625-4ba8-9f8d-bdb22fdc0842
+    a schema:Organization ;
+    schema:name "department of education and science" ;
+.
+
+agent:1863e306-5c53-4a84-9ae9-4b89c05988d5
+    a schema:Organization ;
+    schema:alternateName "department of appied mathematics" ;
+    schema:name "department of applied mathematics" ;
+.
+
+agent:198c6915-1f6c-4519-aba4-8cceb09050a2
+    a schema:Organization ;
+    schema:name "department of indonesian languages and literatures" ;
+.
+
+agent:1d0cc43c-7837-4dfc-ac00-3c98b031fc91
+    a schema:Organization ;
+    schema:name "department of mathematics" ;
+.
+
+agent:1e695e84-5520-402b-84d6-cc1adffb55bd
+    a schema:Organization ;
+    schema:name "department of developmental neurobiology" ;
+.
+
+agent:1eda43c4-574c-4fc5-b694-6e6dddae12c2
+    a schema:Organization ;
+    schema:name "department of far eastern history" ;
+.
+
+agent:23e66b1b-d2aa-46eb-bc05-52b9228a11e2
+    a schema:Organization ;
+    schema:name "department of economic history" ;
+.
+
+agent:26e992cb-f929-40ab-a515-9da2d9bbf0c7
+    a schema:Organization ;
+    schema:name "department of forestry" ;
+.
+
+agent:27097bae-e184-44c3-8037-6e86e73d50f2
+    a schema:Organization ;
+    schema:name "department of anthropology and archaeology" ;
+.
+
+agent:273efb56-caff-4e40-98ee-fa16e6ef8f4e
+    a schema:Organization ;
+    schema:name "department of information engineering" ;
+.
+
+agent:2922afe4-ef18-4072-804c-f59f3c3db91d
+    a schema:Organization ;
+    schema:alternateName "department of physics" ;
+    schema:name "department of geophysics" ;
+.
+
+agent:29d6058c-d215-4350-af99-91827d6bbbf4
+    a schema:Organization ;
+    schema:alternateName "department of genome science" ;
+    schema:name "department of genome sciences" ;
+.
+
+agent:2a2c10e4-1b2d-4e61-baec-c9dc6dcc4f07
+    a schema:Organization ;
+    schema:name "department of economics" ;
+.
+
+agent:2c33f9bd-f483-4be8-80af-6493292b876f
+    a schema:Organization ;
+    schema:name "department of evolution" ;
+.
+
+agent:2f19e273-f7f5-4b29-a8b7-c2c0e7ba80db
+    a schema:Organization ;
+    schema:name "department of chinese" ;
+.
+
+agent:324f2134-06d8-4311-8c4c-9b876e51a713
+    a schema:Organization ;
+    schema:name "department of plant science" ;
+.
+
+agent:339f035a-1860-42a5-adaa-085b7015aeba
+    a schema:Organization ;
+    schema:name "department of psychology" ;
+.
+
+agent:3423e955-b137-40bb-8108-59282a39e569
+    a schema:Organization ;
+    schema:alternateName "department of biochemistry" ;
+    schema:name "department of chemistry" ;
+.
+
+agent:3860c36a-8d79-4812-bbeb-a12f2a88e7b3
+    a schema:Organization ;
+    schema:name "department of economics of development" ;
+.
+
+agent:38804e7d-2209-41c9-8407-fd8760455220
+    a schema:Organization ;
+    schema:name "department of pacific affairs" ;
+.
+
+agent:391ad8b7-825c-48da-9bca-02fb32667014
+    a schema:Organization ;
+    schema:alternateName
+        "department of electriconic material engineering" ,
+        "department of electronic materials and engineering" ,
+        "department of electronics materials engineering" ;
+    schema:name "department of electronic materials engineering" ;
+.
+
+agent:39d91035-07f7-44de-a174-486a198ced7a
+    a schema:Organization ;
+    schema:name "department of physics and theoretical physics" ;
+.
+
+agent:3da2a757-a666-4b53-8bf0-cb5002f2bf82
+    a schema:Organization ;
+    schema:name "department of solid state physics" ;
+.
+
+agent:3e233b90-a321-40af-bb3a-877000884600
+    a schema:Organization ;
+    schema:name "department of earth and marine science" ;
+.
+
+agent:3e353f19-ae0e-4d7d-a8c0-2cdc467b1166
+    a schema:Organization ;
+    schema:name "department of political and social change pacific affairs" ;
+.
+
+agent:3ea9251a-be76-42f2-8925-9580272394a6
+    a schema:Organization ;
+    schema:name "department of commerce" ;
+.
+
+agent:40f83381-b0db-4965-85f8-de7ffbd706d5
+    a schema:Organization ;
+    schema:name "department of statistics" ;
+.
+
+agent:467da8df-727a-430e-a3d1-fcbe4d035685
+    a schema:Organization ;
+    schema:name "department of germanic languages" ;
+.
+
+agent:47bef0f3-c0d1-4e14-8eb8-ad3ab44b3c67
+    a schema:Organization ;
+    schema:name "department of asian studies" ;
+.
+
+agent:4898286e-ae52-400f-a56a-4ead13184630
+    a schema:Organization ;
+    schema:name "department of biogeography and geomorphology" ;
+.
+
+agent:4bc1feff-82d1-4e3f-a50a-8e963f79218c
+    a schema:Organization ;
+    schema:name "department of archaeology and anthropology" ;
+.
+
+agent:4fe561ba-71d5-4992-8d68-e682c67e168b
+    a schema:Organization ;
+    schema:name "department of human geography" ;
+.
+
+agent:5072ec2a-4f88-4b54-9029-0077186f0cea
+    a schema:Organization ;
+    schema:name "department of experimental pathology" ;
+.
+
+agent:5113c39f-0dbe-4312-ac5c-33e1ae79eac8
+    a schema:Organization ;
+    schema:name "department of art history and visual studies" ;
+.
+
+agent:523bc56a-66cb-49fe-9f89-ac4a1c9ed408
+    a schema:Organization ;
+    schema:name "department of astronomy and astrophysics" ;
+.
+
+agent:53335cc1-1480-4c51-83e6-df74c01f8986
+    a schema:Organization ;
+    schema:name "department of botany" ;
+.
+
+agent:537bf10b-cccb-4d83-b4ac-9328b32fe39b
+    a schema:Organization ;
+    schema:alternateName "department of physiology" ;
+    schema:name "department of psysiology" ;
+.
+
+agent:53c094dd-98be-4b68-82ef-fcd6d3ac955b
+    a schema:Organization ;
+    schema:name "department of pacific history and politics" ;
+.
+
+agent:59eba19d-2ce8-4d31-9c5c-60068c8eb3e3
+    a schema:Organization ;
+    schema:name "department of telecommunications engineering" ;
+.
+
+agent:5e8e2cb3-5b2f-47a7-85e4-31e1a84333e5
+    a schema:Organization ;
+    schema:name "department of quantum science and technology" ;
+.
+
+agent:5ff78ea2-2b54-4e12-8156-c851db44364f
+    a schema:Organization ;
+    schema:name "department of zoology" ;
+.
+
+agent:62869699-5d32-4d7b-8c81-848e1130c2f7
+    a schema:Organization ;
+    schema:name "department of genetics" ;
+.
+
+agent:62b9d66b-0012-4ac1-b39e-85d43fdded22
+    a schema:Organization ;
+    schema:alternateName "department of pacific and southeast asian history" ;
+    schema:name "department of pacific and south east asian history" ;
+.
+
+agent:62d234ab-9d6b-4b37-aacc-a550d107a3aa
+    a schema:Organization ;
+    schema:name "department of mathematics and statistics" ;
+.
+
+agent:6734b6d8-77de-4961-8458-e0ee2f14ae37
+    a schema:Organization ;
+    schema:name "department of geophysics and geochemistry" ;
+.
+
+agent:6a170306-4ac0-4437-8307-9b476b49e33f
+    a schema:Organization ;
+    schema:alternateName "department of immunology and infectious diseases" ;
+    schema:name "department of immunology and infectious disease" ;
+.
+
+agent:6c5ece46-926e-42e4-b21e-80a0fdf791a6
+    a schema:Organization ;
+    schema:name "department of south asian and buddhist studies" ;
+.
+
+agent:6e3b6265-82db-47f3-9669-70107c7cee91
+    a schema:Organization ;
+    schema:name "department of particle physics" ;
+.
+
+agent:6f17f48d-8fc2-418a-9282-6cb7426fdf6d
+    a schema:Organization ;
+    schema:name "department of gender" ;
+.
+
+agent:707b1e35-7e5c-4013-9859-0e1979a8a760
+    a schema:Organization ;
+    schema:name "department of philosophy" ;
+.
+
+agent:72797718-fca1-4aa0-975d-22f0bbc5e89b
+    a schema:Organization ;
+    schema:name "department of classics" ;
+.
+
+agent:74d38689-d1a0-40e5-90d0-1acbd27591a5
+    a schema:Organization ;
+    schema:name "department of anthropology and sociology" ;
+.
+
+agent:75cd29d1-a6dd-4da9-8941-928c6a96059f
+    a schema:Organization ;
+    schema:name "department of geography and prehistory" ;
+.
+
+agent:7a074d00-7885-42e8-a8e5-f9b1a0720cd8
+    a schema:Organization ;
+    schema:name "department of political science" ;
+.
+
+agent:7e3e696a-8ea4-467f-9458-7922193b91ec
+    a schema:Organization ;
+    schema:name "department of statistics of the institute of advanced studies" ;
+.
+
+agent:7ec07fa6-c519-4a56-860b-6021da7fa45c
+    a schema:Organization ;
+    schema:name "department of archaeology and natural history" ;
+.
+
+agent:7f0548ac-a471-4401-98ec-39706b3e186c
+    a schema:Organization ;
+    schema:name "department of modern european languages" ;
+.
+
+agent:7f8758a7-012c-4fea-ac2e-1537e3ae34b7
+    a schema:Organization ;
+    schema:alternateName "department of geography" ;
+    schema:name "department of demography" ;
+.
+
+agent:8201a3d8-ccca-4755-a18e-6c052a32c122
+    a schema:Organization ;
+    schema:name "department of pure mathematics" ;
+.
+
+agent:84ee72b9-df1d-4582-8bc0-c84c56284461
+    a schema:Organization ;
+    schema:name "department of systems engineering" ;
+.
+
+agent:8547cb33-ff38-4134-a534-0feb75385264
+    a schema:Organization ;
+    schema:name "department of health services research and policy" ;
+.
+
+agent:8e6ae02b-c2d0-4bed-ba79-278e7a297458
+    a schema:Organization ;
+    schema:name "department of physical biochemistry" ;
+.
+
+agent:8eef6753-bc24-47e3-aae8-221eb811f190
+    a schema:Organization ;
+    schema:name "department of pacific history" ;
+.
+
+agent:8ff1564e-d3b0-485d-9c18-91f283e57373
+    a schema:Organization ;
+    schema:alternateName "department of prehistory" ;
+    schema:name "department of history" ;
+.
+
+agent:9005d2c5-394f-4c24-8022-06c02cb931ba
+    a schema:Organization ;
+    schema:name "department of population biology" ;
+.
+
+agent:9a07d190-bf5d-404b-a9da-fa9e8837a0a4
+    a schema:Organization ;
+    schema:name "department of biological anthropology" ;
+.
+
+agent:9b25743f-c1e8-4b3f-98b7-dbdb3dadaa54
+    a schema:Organization ;
+    schema:name "department of ecology and evolution" ;
+.
+
+agent:9b99b26e-a756-4616-b381-1418ee7af6fb
+    a schema:Organization ;
+    schema:name "department of painting" ;
+.
+
+agent:9d3f1c18-61ab-41f6-99be-b62578b246d6
+    a schema:Organization ;
+    schema:name "department of global health" ;
+.
+
+agent:9fe1fbec-ecd1-4777-9b7a-a3b61edbbb60
+    a schema:Organization ;
+    schema:name "department of asian and pacific history" ;
+.
+
+agent:a3babb2c-9d9f-4419-ba61-7145def742f2
+    a schema:Organization ;
+    schema:name "department of engineering physics" ;
+.
+
+agent:aa9070ff-8e45-4317-9e73-fc98c9acff8a
+    a schema:Organization ;
+    schema:name "department of biomedical science and biochemsitry" ;
+.
+
+agent:ad76802b-5bda-4b3b-8dce-c986a5857d08
+    a schema:Organization ;
+    schema:name "department of the research school of social sciences" ;
+.
+
+agent:b17c4269-4fd1-4dd4-9fbe-6815a357082b
+    a schema:Organization ;
+    schema:name "department of astronomy" ;
+.
+
+agent:b38c57b0-1912-4ffe-8e47-9020a9431cbc
+    a schema:Organization ;
+    schema:name "department of political and social change" ;
+.
+
+agent:b6139889-3911-45a3-8f07-dcf3b07558cd
+    a schema:Organization ;
+    schema:name "department of international relations" ;
+.
+
+agent:b685af21-8fef-454a-9505-04cb220e4250
+    a schema:Organization ;
+    schema:name "department of endocrinology and diabetes research" ;
+.
+
+agent:b81405a0-e1cd-44f5-a1fe-9fb2faaf061c
+    a schema:Organization ;
+    schema:name "department of engineering and computer science" ;
+.
+
+agent:bb2ebdea-ad82-4029-ae6c-9bbe5bc80927
+    a schema:Organization ;
+    schema:name "department of medical chemistry" ;
+.
+
+agent:bc6257f9-f978-4533-bbc6-8290879fac34
+    a schema:Organization ;
+    schema:name "department of international relations research" ;
+.
+
+agent:be527c16-8c6d-4233-9c88-17d431ea8022
+    a schema:Organization ;
+    schema:name "department of clinical science" ;
+.
+
+agent:c136dd69-4af2-4a46-a9fc-659ef9fa62f0
+    a schema:Organization ;
+    schema:name "department of theoretical physics" ;
+.
+
+agent:c17ea378-cdc6-4054-9b97-a5518568dbf5
+    a schema:Organization ;
+    schema:name "department of quantum science" ;
+.
+
+agent:c353e0e7-a26a-4f3a-bf6a-60a779aa85a6
+    a schema:Organization ;
+    schema:name "department of medicine" ;
+.
+
+agent:cea253ca-7332-4448-8cec-783280fb3531
+    a schema:Organization ;
+    schema:name "department of romance languages" ;
+.
+
+agent:cfab7e0a-f7cb-4bda-884c-cabb03d5d6d3
+    a schema:Organization ;
+    schema:name "department of environmental biology" ;
+.
+
+agent:d32368e4-213c-4ad6-a553-c68ed3420c8d
+    a schema:Organization ;
+    schema:name "department of japanese" ;
+.
+
+agent:d5c52498-a38f-4450-934a-85f22f120985
+    a schema:Organization ;
+    schema:name "department of environmental pathology" ;
+.
+
+agent:d793913c-0c94-4c7e-88c5-545d46536d9b
+    a schema:Organization ;
+    schema:name "department of art history" ;
+.
+
+agent:d8532b08-a874-4cb3-891c-55c092a4ed1b
+    a schema:Organization ;
+    schema:alternateName "department of microbioloby" ;
+    schema:name "department of microbiology" ;
+.
+
+agent:dc9f6835-ea63-43f8-860b-d2dde0df953b
+    a schema:Organization ;
+    schema:name "department of education research unit" ;
+.
+
+agent:e0040124-5266-4e2b-87ef-993e8492ff7e
+    a schema:Organization ;
+    schema:name "department of linguistics" ;
+.
+
+agent:e251a93d-a380-440c-b269-8c18e3d76b5c
+    a schema:Organization ;
+    schema:name "department of english" ;
+.
+
+agent:e25c682b-b220-4995-a96b-16dbc964a154
+    a schema:Organization ;
+    schema:name "department of engineering" ;
+.
+
+agent:e3295f63-23af-4d83-b49a-737996632280
+    a schema:Organization ;
+    schema:name "department of neuroscience" ;
+.
+
+agent:ec6a756f-d76a-43b7-bd79-fed93a4137ff
+    a schema:Organization ;
+    schema:name "department of human biology" ;
+.
+
+agent:ecdb4999-fb54-4c85-83ee-d6687c3beabe
+    a schema:Organization ;
+    schema:alternateName "department of resource" ;
+    schema:name "department of resources" ;
+.
+
+agent:f2e2635c-eda6-4d2d-a215-26954f28cf0d
+    a schema:Organization ;
+    schema:alternateName "department of asian history and civilisations" ;
+    schema:name "department of asian history and civilizations" ;
+.
+
+agent:f5039544-e8ae-4532-b5df-e8d4d3a9113c
+    a schema:Organization ;
+    schema:alternateName "department of prehistory and anthropology" ;
+    schema:name "department of prehistory and anthropolgy" ;
+.
+
+agent:f55c7b32-317c-444d-9dec-66d5d93855d9
+    a schema:Organization ;
+    schema:name "department of art history and art theory" ;
+.
+
+agent:f5a9b0fa-08c4-4a5a-abc8-9f32442b876c
+    a schema:Organization ;
+    schema:name "department of cancer biology and therapeutics" ;
+.
+
+agent:f68d48d6-c5e1-400f-98e0-be283d780507
+    a schema:Organization ;
+    schema:name "department of neurobiology" ;
+.
+
+agent:f8c464bd-4f94-4cbd-b08e-d23a14222d8a
+    a schema:Organization ;
+    schema:name "department of computer science" ;
+.
+
+agent:fe658912-af63-4775-8d69-a48f4ba11688
+    a schema:Organization ;
+    schema:name "department of law" ;
+.
