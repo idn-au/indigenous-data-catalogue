@@ -1,18 +1,23 @@
 PREFIX sdo: <https://schema.org/>
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 
 <https://linked.data.gov.au/org/capad-AAD>
     a sdo:Organization ;
     sdo:name "Australian Antarctic Division" ;
+    sdo:identifier "https://ror.org/05e89k615"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/capad-ACT_EPSDD>
     a sdo:Organization ;
     sdo:name "Environment, Planning and Sustainable Development Directorate" ;
+    sdo:url "https://www.act.gov.au/directorates-and-agencies/epsdd"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/capad-AWC>
     a sdo:Organization ;
     sdo:name "Australian Wildlife Conservancy" ;
+    sdo:url "http://www.australianwildlife.org/"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/04b3ehq94"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/capad-AWC_BA>
@@ -43,6 +48,8 @@ PREFIX sdo: <https://schema.org/>
 <https://linked.data.gov.au/org/capad-BHA>
     a sdo:Organization ;
     sdo:name "Bush Heritage Australia" ;
+    sdo:url "https://www.bushheritage.org.au"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/02bpt5c58"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/capad-BHA_NTWA>
@@ -93,6 +100,8 @@ PREFIX sdo: <https://schema.org/>
 <https://linked.data.gov.au/org/capad-FUA>
     a sdo:Organization ;
     sdo:name "Federation University Australia" ;
+    sdo:url "https://www.federation.edu.au"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/05qbzwv83"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/capad-GCC_NSW>
@@ -268,6 +277,7 @@ PREFIX sdo: <https://schema.org/>
 <https://linked.data.gov.au/org/capad-WAC>
     a sdo:Organization ;
     sdo:name "Winangakirri Aboriginal Corporation" ;
+    sdo:url "https://www.winangakirri.org.au"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/capad-WA_DBCA>
