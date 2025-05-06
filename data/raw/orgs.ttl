@@ -1,4 +1,4 @@
-PREFIX adb: <https://data.idnau.org/pid/adb/>
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -48,6 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "Australian National University" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     sdo:url "https://anu.edu.au"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/019wvm592"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/und>
@@ -55,6 +56,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:alternateName "Notre Dame" ;
     sdo:name "University of Notre Dame" ;
     sdo:url "https://www.notredame.edu.au"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/02stey378"^^id:ror ;
 .
 
 <https://data.idnau.org/pid/org/nulungu>
@@ -67,7 +69,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/kimberleyinstitute>
     a sdo:Organization ;
     sdo:name "Kimberley Institute" ;
-    sdo:url "https://www.kimberleyinstitute.org.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/yawuru>
@@ -82,6 +83,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "Department of Defence" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     sdo:url "https://www.defence.gov.au"^^xsd:anyURI ;
+    sdo:identifier "68 706 814 312"^^id:ausbn ;    
 .
 
 <https://data.idnau.org/pid/org/awm>
@@ -89,6 +91,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "Australian War Memorial" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     sdo:url "https://www.awm.gov.au"^^xsd:anyURI ;
+    sdo:identifier "64 909 221 257"^^id:ausbn ;
 .
 
 <https://data.idnau.org/pid/org/dva>
@@ -96,6 +99,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "Department of Veterans' Affairs" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     sdo:url "https://www.dva.gov.au"^^xsd:anyURI ;
+    sdo:identifier "23 964 290 824"^^id:ausbn ;    
 .
 
 <https://data.idnau.org/pid/org/coap>
@@ -115,20 +119,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/knp>
     a sdo:Organization ;
     sdo:name "Kakadu Native Plants Pty Ltd" ;
-    sdo:identifier "37 125 747 140"^^adb:abn ;
+    sdo:identifier "37 125 747 140"^^id:ausbn ;
 .
 
 <https://data.idnau.org/pid/org/nailsa>
     a sdo:Organization ;
     sdo:name "North Australia Indigenous Land & Sea Alliance Ltd" ;
-    sdo:identifier "80 149 061 174"^^adb:abn ;
+    sdo:identifier "80 149 061 174"^^id:ausbn ;
     sdo:url "https://nailsma.org.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/cribb>
     a sdo:Organization ;
     sdo:name "Julian Cribb & Associates" ;
-    sdo:identifier "68 082 652 471"^^adb:abn ;
+    sdo:identifier "68 082 652 471"^^id:ausbn ;
     sdo:url "https://www.juliancribb.net"^^xsd:anyURI ;
 .
 
@@ -137,14 +141,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "French National Centre for Scientific Research" ;
     sdo:alternateName "Centre National de la Recherche Scientifique"@fr ;
     sdo:url "https://www.cnrs.fr/en/cnrs"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/02feahw73"^^adb:ror ;
+    sdo:identifier "https://ror.org/02feahw73"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/cdu>
     a sdo:Organization ;
     sdo:name "Charles Darwin University" ;
     sdo:url "https://www.cdu.edu.au"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/048zcaj52"^^id:ror ;
+
 .
-
-
 
