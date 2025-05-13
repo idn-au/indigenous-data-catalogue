@@ -38,7 +38,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:alternateName "NCIS" ;
     sdo:name "ANU National Centre for Indigenous Studies" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
     sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
 .
 
