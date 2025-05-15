@@ -1,122 +1,123 @@
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://example.org/pid/person/00001>
+<https://orcid.org/0009-0004-9228-3892>
     a sdo:Person ;
     sdo:honorificTitle "Professor" ;
     sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
     sdo:name "John Taylor" ;
 .
 
-<https://example.org/pid/person/00002>
+<https://orcid.org/0000-0002-4214-2205>
     a sdo:Person ;
     sdo:honorificTitle "Dr" ;
     sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
     sdo:name "Bruce Doran" ;
 .
 
-<https://example.org/pid/person/00003>
+<https://orcid.org/0000-0002-0879-0313>
     a sdo:Person ;
     sdo:honorificTitle "PhD Scholar" ;
     sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
     sdo:name "Mandy Yap" ;
 .
 
-<https://example.org/pid/person/00004>
+<https://data.idnau.org/pid/person/34d5d6aa-a5b7-4e3a-91f8-117ffeb474d1>
     a sdo:Person ;
     sdo:honorificTitle "PhD Scholar" ;
     sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
+    sdo:url "https://www.researchgate.net/profile/Sandra-Potter"^^xsd:anyURI ;
     sdo:name "Sandra Potter" ;
 .
 
-<https://example.org/pid/person/00005>
+<https://data.idnau.org/pid/person/e758f983-540b-4e36-aebd-f00a55132a15>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
     sdo:name "Mia Sangdren" ;
 .
 
-<https://example.org/pid/person/00006>
+<https://data.idnau.org/pid/person/32541463-d9dc-4977-a20f-79caabdbbb1b>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/yawuru> ;
     sdo:name "Eunice Yu" ;
 .
 
-<https://example.org/pid/person/00007>
+<https://orcid.org/0000-0002-7923-6379>
     a sdo:Person ;
     sdo:honorificTitle "Dr" ;
     sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
     sdo:name "Kathryn Thorburn" ;
 .
 
-<https://example.org/pid/person/00008>
+<https://data.idnau.org/pid/person/26ec685f-409d-4698-9aa6-3e8b70f0de40>
     a sdo:Person ;
     sdo:honorificTitle "Professor (Emeritus)" ;
     sdo:memberOf <https://data.idnau.org/pid/org/ncis> ;
     sdo:name "Mick Dodson" ;
 .
 
-<https://example.org/pid/person/00009>
+<https://orcid.org/0000-0003-4471-0998>
     a sdo:Person ;
     sdo:honorificTitle "Senior Fellow" ;
     sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
     sdo:name "Patrick Sullivan" ;
 .
 
-<https://example.org/pid/person/00010>
+<https://orcid.org/0000-0002-3128-4638>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
     sdo:name "Janet Hunt" ;
 .
 
-<https://example.org/pid/person/00011>
+<https://data.idnau.org/pid/person/cab5236f-d970-472b-86ca-6d64d746b382>
     a sdo:Person ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
     sdo:name "Julie Lahn" ;
 .
 
-<https://example.org/pid/person/00012>
+<https://data.idnau.org/pid/person/06a6f668-3b50-42cd-962e-f687060539fd>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/yawuru> ;
     sdo:name "Dean Mathews" ;
 .
 
-<https://example.org/pid/person/00013>
+<https://orcid.org/0000-0001-7121-9710>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/coap> ;
     sdo:name "Ian Chambers" ;
 .
 
-<https://example.org/pid/person/00014>
+<https://orcid.org/0000-0003-1489-2866>
     a sdo:Person ;
     sdo:memberOf <https://linked.data.gov.au/org/cdu> ;
     sdo:name "Jeremy Russell‐Smith" ;
 .
 
-<https://example.org/pid/person/00015>
+<https://orcid.org/0000-0001-6348-8734>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/coap> ;
     sdo:name "Robert Costanza" ;
 .
 
-<https://example.org/pid/person/00016>
+<https://orcid.org/0000-0002-9046-8226>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/cass> ;
     sdo:name "Sean Kerins" ;
 .
 
-<https://example.org/pid/person/00017>
+<https://data.idnau.org/pid/person/8d860850-d344-4345-803f-63bf953f5970>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/yawuru> ;
     sdo:name "Howard Pedersen" ;
 .
 
-<https://example.org/pid/person/00018>
+<https://data.idnau.org/pid/person/abe4bbc4-171b-4ad2-be4b-3fa6c741cb98>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/kimberleyinstitute> ;
     sdo:name "Paul Lane" ;
 .
 
-<https://example.org/pid/person/00019>
+<https://orcid.org/0000-0002-7675-9916>
     a sdo:Person ;
     sdo:honorificTitle "Dr" ;
     sdo:memberOf <https://linked.data.gov.au/org/cdu> ;
@@ -124,63 +125,63 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:url "https://www.cdu.edu.au/research-and-innovation/higher-degree-research/find-supervisor/environment/dr-kamaljit-k-sangha"^^xsd:anyURI ;
 .
 
-<https://example.org/pid/person/00020>
+<https://data.idnau.org/pid/person/2661a8c6-5f2b-443b-9396-91abeb661805>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/alfant> ;
     sdo:name "Jennifer Ansell" ;
 .
 
-<https://example.org/pid/person/00021>
+<https://data.idnau.org/pid/person/4d3e7bf1-8c6f-46e5-b37b-c935bdcd4a29>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/knp> ;
     sdo:name "Peter Christopherson" ;
 .
 
-<https://example.org/pid/person/00022>
+<https://data.idnau.org/pid/person/7028f9cd-099c-43be-8183-73ed90666564>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/nailsa> ;
     sdo:name "Melissa George" ;
 .
 
-<https://example.org/pid/person/00023>
+<https://data.idnau.org/pid/person/c38257f6-e2f7-4b25-a0f8-61fc35333971>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/nailsa> ;
     sdo:name "Glenn James" ;
 .
 
-<https://example.org/pid/person/00024>
+<https://data.idnau.org/pid/person/4bcdb364-2bc6-4352-90eb-272c962849c5>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/cribb> ;
     sdo:name "Julian Cribb" ;
 .
 
-<https://example.org/pid/person/00025>
+<https://data.idnau.org/pid/person/35f3968d-5b48-472d-9c11-f25816e14156>
     a sdo:Person ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
     sdo:name "Komei Hosokawa" ;
 .
 
-<https://example.org/pid/person/00026>
+<https://data.idnau.org/pid/person/303733f1-8467-4f6c-a076-1dde806b77c8>
     a sdo:Person ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
     sdo:name "Tom Dutton" ;
     sdo:url "https://en.wikipedia.org/wiki/Tom_Dutton_(linguist)"^^xsd:anyURI ;
 .
 
-<https://example.org/pid/person/00027>
+<https://data.idnau.org/pid/person/92dc96f8-d130-4fe0-acb5-e20449d701a5>
     a sdo:Person ;
     sdo:honorificTitle "Professor (Emeritus)" ;
     sdo:memberOf <https://data.idnau.org/pid/org/coap> ;
     sdo:name "Darrell Tryon" ;
 .
 
-<https://example.org/pid/person/00028>
+<https://data.idnau.org/pid/person/9ae5ce5c-ac22-43eb-a7a5-7edb8e54ddfe>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/cass> ;
     sdo:name "Nicholas Biddle" ;
 .
 
-<https://example.org/pid/person/00029>
+<https://data.idnau.org/pid/person/6b196829-bdf7-44d0-9372-e81b787e8030>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/cnrs> ;
     sdo:name "Barbara Glowczewski" ;
