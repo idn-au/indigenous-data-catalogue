@@ -1,13 +1,13 @@
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 
 <https://linked.data.gov.au/org/anu>
     a sdo:Organization ;
     sdo:name "Australian National University" ;
     sdo:alternateName "ANU" ;
     sdo:url "https://anu.edu.au"^^xsd:anyURI ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    sdo:identifiers "https://ror.org/019wvm592"^^id:ror ;
 .
 
 <https://data.idnau.org/pid/org/cass>
