@@ -116,13 +116,13 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     sdo:url "http://www.nntt.gov.au"^^xsd:anyURI ;
 .
 
-<https://kurrawong.net>
+<https://kurrawong.ai>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     sdo:description "Kurrawong AI is a small, Artificial Intelligence, company in Australia specialising in Knowledge Graphs." ;
     sdo:identifier "31 353 542 036"^^id:ausbn ;
     sdo:name "KurrawongAI" ;
-    sdo:url "https://kurrawong.net"^^xsd:anyURI ;
+    sdo:url "https://kurrawong.ai"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/abs>
