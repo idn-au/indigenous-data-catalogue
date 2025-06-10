@@ -4,7 +4,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/anu>
     a schema:Organization ;
-    schema:department
+    schema:subOrganization
         agent:028fe8af-7f9c-4848-b568-7d8856ba4b77 ,
         agent:098a873c-b054-4292-853f-24b0b2acc9fc ,
         agent:0a76edf5-5954-4616-8ea4-cd3ba88d4a05 ,
