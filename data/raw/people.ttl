@@ -185,6 +185,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/cnrs> ;
     sdo:name "Barbara Glowczewski" ;
+    sdo:identifier "0000-0002-9629-2516"^^id:orcid ;
+    sdo:sameAs <https://orcid.org/0000-0002-9629-2516> ;
 .
 
 
