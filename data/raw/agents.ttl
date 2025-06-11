@@ -48,7 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:url "https://www.abs.gov.au/about/aboriginal-and-torres-strait-islander-peoples/aboriginal-and-torres-strait-islander-engagement"^^xsd:anyURI ;
 .
 
-<https://data.idnau.org/pid/agent/agilwg>
+<https://data.idnau.org/pid/organization/agilwg>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:relation [
@@ -57,8 +57,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ;
     sdo:description "Australian Government Indigenous Locations Working Group 2007-2012" ;
     sdo:name
-        "Australian Government Indigenous Locations Working Group" ,
-        "Australian Government Indigenous Locations Working Group 2007-2012" ;
+        "Australian Government Indigenous Locations Working Group" ;
 .
 
 <https://data.idnau.org/pid/agent/atns>
