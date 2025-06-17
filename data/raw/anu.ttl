@@ -7,7 +7,8 @@ PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
     sdo:name "Australian National University" ;
     sdo:alternateName "ANU" ;
     sdo:url "https://anu.edu.au"^^xsd:anyURI ;
-    sdo:identifiers "https://ror.org/019wvm592"^^id:ror ;
+    sdo:identifiers "019wvm592"^^id:ror ;
+    sdo:sameAs <https://ror.org/019wvm592> ;
 .
 
 <https://data.idnau.org/pid/org/cass>

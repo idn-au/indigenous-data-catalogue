@@ -23,7 +23,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     sdo:name "University of Technology Sydney" ;
     sdo:url "https://www.uts.edu.au"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/03f0f6041"^^id:ror ;
+    sdo:identifier "03f0f6041"^^id:ror ;
+    sdo:sameAs <https://ror.org/03f0f6041> ;
 .
 
 <https://orcid.org/0000-0003-1983-6687>
@@ -122,13 +123,13 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     dcterms:replaces <https://data.idnau.org/pid/agent/nntt>
 .
 
-<https://kurrawong.net>
+<https://kurrawong.ai>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     sdo:description "Kurrawong AI is a small, Artificial Intelligence, company in Australia specialising in Knowledge Graphs." ;
     sdo:identifier "31353542036"^^id:ausbn ;
     sdo:name "KurrawongAI" ;
-    sdo:url "https://kurrawong.net"^^xsd:anyURI ;
+    sdo:url "https://kurrawong.ai"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/abs>
@@ -184,7 +185,8 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
         ] ;
     sdo:name "Services Australia" ;
     sdo:url "https://www.servicesaustralia.gov.au"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/03gwaxw53"^^id:ror ;
+    sdo:identifier "03gwaxw53"^^id:ror ;
+    sdo:sameAs <https://ror.org/03gwaxw53> ;
 .
 
 <https://orcid.org/0000-0002-8742-7730>
@@ -202,7 +204,7 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
 <https://data.idnau.org/pid/org/isu>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons> ;
-    dcat:qualifieRelation [
+    dcat:qualifiedRelation [
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/uom>
         ] ;
@@ -233,7 +235,6 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
 <https://orcid.org/0000-0002-5477-0874>
     a sdo:Person ;
     dcterms:type
-        sdo:Person ,
         <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation [
         dcat:hadRole aarr:affiliateOf ;
