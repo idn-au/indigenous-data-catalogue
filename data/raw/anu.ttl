@@ -1,6 +1,7 @@
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
 
 <https://linked.data.gov.au/org/anu>
     a sdo:Organization ;
