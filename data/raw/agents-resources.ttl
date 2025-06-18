@@ -62,7 +62,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/anu-archives>
     a sdo:Organization ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/anu>
     ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
@@ -73,7 +73,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "ANU Collections" ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/anu>
     ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
@@ -83,7 +83,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "ANU Library" ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/anu>
     ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
@@ -93,7 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "National Centre for Epidemiology and Population Health" ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/anu>
     ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
@@ -103,7 +103,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Research Service Division" ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/anu>
     ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
@@ -114,7 +114,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "Aboriginal and Torres Strait Islander Data Archive" ;
     sdo:alternateName "ATSIDA.1" ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/ada>
     ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/ada> ;
@@ -124,7 +124,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Jumbunna" ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/uts>
     ] ;
 
@@ -135,7 +135,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Mayi Kuwayu" ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/anu-fnp>
     ] ;
     sdo:parentOrganization <https://data.idnau.org/pid/org/anu-fnp> ;
@@ -145,7 +145,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "National Centre for Indigenous Genomics" ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/anu>
     ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
@@ -175,7 +175,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0002-1398-7524>
     a sdo:Person ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:memberOf ;
+        dcat:hadRole aarr:memberOf ;
         sdo:agent <https://linked.data.gov.au/org/um>
     ] ;
     sdo:memberOf <https://linked.data.gov.au/org/um> ;
@@ -185,7 +185,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0002-2151-2190>
     a sdo:Person ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:memberOf ;
+        dcat:hadRole aarr:memberOf ;
         sdo:agent <https://linked.data.gov.au/org/anu>
     ] ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
@@ -195,7 +195,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0002-5477-0874>
     a sdo:Person ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:memberOf ;
+        dcat:hadRole aarr:memberOf ;
         sdo:agent <https://linked.data.gov.au/org/anu>
     ] ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
@@ -205,7 +205,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0003-1983-6687>
     a sdo:Person ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:memberOf ;
+        dcat:hadRole aarr:memberOf ;
         sdo:agent <https://linked.data.gov.au/org/um>
     ] ;
     sdo:memberOf <https://linked.data.gov.au/org/um> ;
@@ -216,7 +216,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "ANU First Nations Portfolio" ;
     dcat:qualifiedRelation [
-        dcat:hadRoll aarr:partOf ;
+        dcat:hadRole aarr:partOf ;
         sdo:agent <https://linked.data.gov.au/org/anu>
     ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
