@@ -12,8 +12,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:honorificTitle "Professor" ;
     dcat:qualifiedRelation [
-            dcat:hadRole aarr:memberOf ;
-            sdo:agent <https://data.idnau.org/pid/org/caepr>
+    a dcat:Relationship ;
+       dcat:hadRole aarr:memberOf ;
+       sdo:agent <https://data.idnau.org/pid/org/caepr>
         ] ;
     sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
     sdo:name "John Taylor" ;
@@ -23,8 +24,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:honorificTitle "Dr" ;
     dcat:qualifiedRelation [
-            dcat:hadRole aarr:memberOf ;
-            sdo:agent <https://data.idnau.org/pid/org/fses>
+    a dcat:Relationship ;
+        dcat:hadRole aarr:memberOf ;
+        sdo:agent <https://data.idnau.org/pid/org/fses>
         ] ;
     sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
     sdo:name "Bruce Doran" ;
@@ -34,8 +36,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:honorificTitle "PhD Scholar" ;
     dcat:qualifiedRelation [
-            dcat:hadRole aarr:memberOf ;
-            sdo:agent <https://data.idnau.org/pid/org/caepr>
+    a dcat:Relationship ;
+        dcat:hadRole aarr:memberOf ;
+        sdo:agent <https://data.idnau.org/pid/org/caepr>
         ] ;
     sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
     sdo:name "Mandy Yap" ;
@@ -45,6 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:honorificTitle "PhD Scholar" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/fses>
         ] ;
@@ -57,6 +61,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/fses>
         ] ;
@@ -66,6 +71,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/32541463-d9dc-4977-a20f-79caabdbbb1b>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/yawuru>
         ] ;
@@ -78,6 +84,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:honorificTitle "Dr" ;
     sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/caepr>
         ] ;
@@ -88,6 +95,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:honorificTitle "Professor (Emeritus)" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/ncis>
         ] ;
@@ -99,6 +107,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:honorificTitle "Senior Fellow" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/caepr>
         ] ;
@@ -109,6 +118,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0002-3128-4638>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/caepr>
         ] ;
@@ -119,6 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/cab5236f-d970-472b-86ca-6d64d746b382>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/anu>
         ] ;
@@ -129,6 +140,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/06a6f668-3b50-42cd-962e-f687060539fd>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/yawuru>
         ] ;
@@ -139,6 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0001-7121-9710>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/coap>
         ] ;
@@ -149,6 +162,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0003-1489-2866>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/cdu>
         ] ;
@@ -159,6 +173,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0001-6348-8734>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/coap>
         ] ;
@@ -169,6 +184,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0002-9046-8226>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/cass>
         ] ;
@@ -179,6 +195,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/8d860850-d344-4345-803f-63bf953f5970>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/yawuru>
         ] ;
@@ -190,6 +207,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/kimberleyinstitute> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/kimberleyinstitute>
         ] ;
@@ -200,6 +218,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:honorificTitle "Dr" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/cdu>
         ] ;
@@ -212,6 +231,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:memberOf <https://data.idnau.org/pid/org/alfant> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/alfant>
         ] ;
@@ -221,6 +241,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/4d3e7bf1-8c6f-46e5-b37b-c935bdcd4a29>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/knp>
         ] ;
@@ -231,6 +252,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/7028f9cd-099c-43be-8183-73ed90666564>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/nailsa>
         ] ;
@@ -241,6 +263,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/c38257f6-e2f7-4b25-a0f8-61fc35333971>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/nailsa>
         ] ;
@@ -251,6 +274,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/4bcdb364-2bc6-4352-90eb-272c962849c5>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/cribb>
         ] ;
@@ -261,6 +285,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/35f3968d-5b48-472d-9c11-f25816e14156>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/anu>
         ] ;
@@ -271,6 +296,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/303733f1-8467-4f6c-a076-1dde806b77c8>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/anu>
         ] ;
@@ -283,6 +309,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:honorificTitle "Professor (Emeritus)" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/coap>
         ] ;
@@ -293,6 +320,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/9ae5ce5c-ac22-43eb-a7a5-7edb8e54ddfe>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/cass>
         ] ;
@@ -303,6 +331,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/6b196829-bdf7-44d0-9372-e81b787e8030>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/knp>
         ] ;
@@ -310,5 +339,3 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "Barbara Glowczewski" ;
     sdo:identifier "https://orcid.org/0000-0002-9629-2516"^^id:orcid ;
 .
-
-
