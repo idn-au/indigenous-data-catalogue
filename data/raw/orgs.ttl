@@ -13,8 +13,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:alternateName "CAEPR" ;
     sdo:name "ANU Centre for Aboriginal Economic Policy Research" ;
     dcat:qualifiedRelation [
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/cass>
+    a dcat:Relationship ;
+        dcat:hadRole aarr:partOf ;
+        sdo:agent <https://linked.data.gov.au/org/cass>
         ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
     sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
@@ -25,6 +26,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:alternateName "CASS" ;
     sdo:name "ANU College of Arts & Social Science" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/anu>
         ] ;
@@ -37,6 +39,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:alternateName "CoS" ;
     sdo:name "ANU College of Science" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/anu>
         ] ;
@@ -49,6 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:alternateName "FSES" ;
     sdo:name "Fenner School of Environment & Science" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/cos>
         ] ;
@@ -61,6 +65,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:alternateName "NCIS" ;
     sdo:name "ANU National Centre for Indigenous Studies" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/anu>
         ] ;
@@ -91,6 +96,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Nulungu Research Institute" ;
     dcat:qualifiedRelation [
+    a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/und>
         ] ;
@@ -114,6 +120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Department of Defence" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/au>
         ] ;
@@ -128,6 +135,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "Australian War Memorial" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/au>
         ] ;
@@ -139,6 +147,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Department of Veterans' Affairs" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/au>
         ] ;
@@ -153,6 +162,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "ANU College of Asia and the Pacific" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/anu>
         ] ;
