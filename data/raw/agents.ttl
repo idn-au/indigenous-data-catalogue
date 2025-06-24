@@ -11,6 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <http://linked.data.gov.au/org/nla>
     a sdo:Organization ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/au>
         ] ;
@@ -30,6 +31,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0003-1983-6687>
     a sdo:Person ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:affiliateOf ;
             sdo:agent <https://linked.data.gov.au/org/idn>
         ] ;
@@ -42,6 +44,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons> ;
     sdo:description "The Centre of Aboriginal and Torres Strait Islander Statistics (CoATSIS) has a leadership and coordination role for national statistical activity about Aboriginal and Torres Strait Islander peoples. They engage with communities across a range of statistical activities and outputs such as the Aboriginal and Torres Strait Islander health and social surveys, the five-yearly Census, administrative data, and data integration projects."@en ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/abs>
         ] ;
@@ -54,6 +57,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/au>
         ] ;
@@ -76,6 +80,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     reg:status <https://linked.data.gov.au/def/reg-status/submitted> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/anu>
         ] ;
@@ -108,6 +113,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/nntt>
     a sdo:Organization ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://linked.data.gov.au/org/au>
         ] ;
@@ -154,6 +160,7 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:descendantOrganisation ;
             sdo:agent <https://linked.data.gov.au/org/sa>
         ] ;
@@ -168,6 +175,7 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/isu>
         ] ;
@@ -180,6 +188,7 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:precursorOrganisation ;
             sdo:agent <https://linked.data.gov.au/org/dhs>
         ] ;
@@ -194,6 +203,7 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     dcterms:type 
         <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:affiliateOf ;
             sdo:agent <https://kurrawong.ai>
         ] ;
@@ -205,6 +215,7 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/uom>
         ] ;
@@ -237,10 +248,12 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     dcterms:type
         <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
         dcat:hadRole aarr:affiliateOf ;
         sdo:agent <https://linked.data.gov.au/org/anu> ;
     ] ,
     [
+        a dcat:Relationship ;
         dcat:hadRole aarr:affiliateOf ;
         sdo:agent <https://linked.data.gov.au/org/idn> ;
     ] ;
