@@ -19,6 +19,7 @@ PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
     sdo:name "ANU College of Arts & Social Science" ;
     sdo:alternateName "CASS" ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/anu>
         ] ;
@@ -33,6 +34,7 @@ PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
     sdo:alternateName "CoS" ;
     sdo:url "https://science.anu.edu.au"^^xsd:anyURI ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/anu>
         ] ;
@@ -45,6 +47,7 @@ PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
     sdo:alternateName "NCIS" ;
     sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/anu>
         ] ;
@@ -57,6 +60,7 @@ PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
     sdo:alternateName "CAEPR" ;
     sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/cass>
         ] ;
@@ -69,11 +73,9 @@ PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
     sdo:alternateName "FSES" ;
     sdo:url "https://fennerschool.anu.edu.au"^^xsd:anyURI ;
     dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/cos>
         ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/cos> ;
 .
-
-
-
