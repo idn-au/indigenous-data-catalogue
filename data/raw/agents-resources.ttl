@@ -15,8 +15,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/org/61-249-878-937>
     a sdo:Organization ;
-    sdo:identifier "61249878937"^^id:ausbn ;
-    sdo:identifier "https://ror.org/00892tw58"^^id:ror ;
+    sdo:identifier 
+    "61249878937"^^id:ausbn ,
+    "https://ror.org/00892tw58"^^id:ror ;
     sdo:name "University of Adelaide" ;
 .
 
@@ -46,8 +47,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/org/99-154-937-005>
     a sdo:Organization ;
-    sdo:identifier "99154937005"^^id:ausbn ;
-    sdo:identifier "https://ror.org/0351xae06"^^id:ror ;
+    sdo:identifier 
+       "99154937005"^^id:ausbn ,
+       "https://ror.org/0351xae06"^^id:ror ;
     sdo:name "Torrens University Australia" ;
 .
 
@@ -238,8 +240,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/uts>
     a sdo:Organization ;
-    sdo:identifier "77257686961"^^id:ausbn ;
-    sdo:identifier "https://ror.org/03f0f6041"^^id:ror ;
+    sdo:identifier 
+      "77257686961"^^id:ausbn ,
+      "https://ror.org/03f0f6041"^^id:ror ;
     sdo:name "University of Technology Sydney" ;
 .
 
@@ -251,8 +254,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://linked.data.gov.au/org/csiro>
     a sdo:Organization ;
-    sdo:identifier "41687119230"^^id:ausbn ;
-    sdo:identifier "https://ror.org/03qn8fb07"^^id:ror ;
+    sdo:identifier 
+        "41687119230"^^id:ausbn ,
+        "https://ror.org/03qn8fb07"^^id:ror ;
     sdo:name "Commonwealth Scientific and Industrial Research Organisation" ;
     sdo:alternateName "CSIRO" ;
 .
