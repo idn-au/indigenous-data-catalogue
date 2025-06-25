@@ -1,12 +1,16 @@
-PREFIX sdo: <https://schema.org/>
+PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX idncp: <https://data.idnau.org/pid/cp/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/capad-AAD>
     a sdo:Organization ;
     sdo:name "Australian Antarctic Division" ;
-    sdo:identifier "05e89k615"^^id:ror ;
-    sdo:sameAs <https://ror.org/05e89k615> ;
+    sdo:identifier "https://ror.org/05e89k615"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/capad-ACT_EPSDD>
@@ -19,8 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Australian Wildlife Conservancy" ;
     sdo:url "http://www.australianwildlife.org/"^^xsd:anyURI ;
-    sdo:identifier "05e89k615"^^id:ror ;
-    sdo:sameAs <https://ror.org/05e89k615> ;
+    sdo:identifier "https://ror.org/05e89k615"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/capad-AWC_BA>
@@ -52,8 +55,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Bush Heritage Australia" ;
     sdo:url "https://www.bushheritage.org.au"^^xsd:anyURI ;
-    sdo:identifier "02bpt5c58"^^id:ror ;
-    sdo:sameAs <https://ror.org/02bpt5c58> ;
+    sdo:identifier "https://ror.org/02bpt5c58"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/capad-BHA_NTWA>
@@ -74,6 +76,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://linked.data.gov.au/org/capad-DAWE>
     a sdo:Organization ;
     sdo:name "Australian Government, Department of Climate Change, Energy, the Environment and Water" ;
+    sdo:alternateName "DCCEEW" ;
+    sdo:identifier "https://ror.org/01db6n192"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/capad-DCC_TAS>
@@ -105,8 +109,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Federation University Australia" ;
     sdo:url "https://www.federation.edu.au"^^xsd:anyURI ;
-    sdo:identifier "05qbzwv83"^^id:ror ;
-    sdo:sameAs <https://ror.org/05qbzwv83> ;
+    sdo:identifier "https://ror.org/05qbzwv83"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/capad-GCC_NSW>

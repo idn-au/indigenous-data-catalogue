@@ -10,9 +10,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://linked.data.gov.au/org/nla>
     a sdo:Organization ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
-            prov:agent <https://linked.data.gov.au/org/au>
+            sdo:agent <https://linked.data.gov.au/org/au>
         ] ;
     sdo:name "National Library of Australia" ;
     sdo:url "https://www.nla.gov.au/"^^xsd:anyURI ;
@@ -29,53 +30,59 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/0000-0003-1983-6687>
     a sdo:Person ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:affiliateOf ;
-            prov:agent <https://linked.data.gov.au/org/idn>
+            sdo:agent <https://linked.data.gov.au/org/idn>
         ] ;
     sdo:email "ssilcot@gmail.com"^^xsd:anyURI ;
     sdo:name "Sandra Silcot"@en ;
 .
 
-<https://data.idnau.org/pid/agent/abs-coatsis>
+<https://data.idnau.org/pid/org/abs-coatsis>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons> ;
     sdo:description "The Centre of Aboriginal and Torres Strait Islander Statistics (CoATSIS) has a leadership and coordination role for national statistical activity about Aboriginal and Torres Strait Islander peoples. They engage with communities across a range of statistical activities and outputs such as the Aboriginal and Torres Strait Islander health and social surveys, the five-yearly Census, administrative data, and data integration projects."@en ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
-            prov:agent <https://linked.data.gov.au/org/abs>
+            sdo:agent <https://linked.data.gov.au/org/abs>
         ] ;
     sdo:name "Australian Bureau of Statistics Centre of Aboriginal and Torres Strait Islander Statistics" ;
     sdo:url "https://www.abs.gov.au/about/aboriginal-and-torres-strait-islander-peoples/aboriginal-and-torres-strait-islander-engagement"^^xsd:anyURI ;
+    dcterms:replaces <https://data.idnau.org/pid/agent/abs-coatsis> ;
 .
 
-<https://data.idnau.org/pid/agent/agilwg>
+<https://data.idnau.org/pid/org/agilwg>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
-            prov:agent <https://linked.data.gov.au/org/au>
+            sdo:agent <https://linked.data.gov.au/org/au>
         ] ;
     sdo:description "Australian Government Indigenous Locations Working Group 2007-2012" ;
     sdo:name
-        "Australian Government Indigenous Locations Working Group" ,
-        "Australian Government Indigenous Locations Working Group 2007-2012" ;
+        "Australian Government Indigenous Locations Working Group" ;
+    dcterms:replaces <https://data.idnau.org/pid/organization/agilwg> ;
 .
 
-<https://data.idnau.org/pid/agent/atns>
+<https://data.idnau.org/pid/org/atns>
     a sdo:Organization ;
     sdo:description "ATNS was launched in 2002 and developed under a series of Australian Research Council (ARC) Linkage Projects focusing on treaties and agreement making with Indigenous Australians. The projects were led by a team of multidisciplinary researchers and partner organisations, including Indigenous organisations and industry partners." ;
     sdo:name "Agreements Treaties and Negotiated Settlements" ;
     sdo:url "https://www.atns.net.au"^^xsd:anyURI ;
+    dcterms:replaces <https://data.idnau.org/pid/agent/atns> ;
 .
 
-<https://data.idnau.org/pid/agent/cecc>
+<https://data.idnau.org/pid/org/cecc>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     reg:status <https://linked.data.gov.au/def/reg-status/submitted> ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
-            prov:agent <https://linked.data.gov.au/org/anu>
+            sdo:agent <https://linked.data.gov.au/org/anu>
         ] ;
     prov:qualifiedGeneration [
             prov:agent <https://orcid.org/0000-0002-8742-7730> ;
@@ -83,29 +90,32 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ;
     sdo:name "College of Engineering, Computing & Cybernetics" ;
     sdo:url "https://cecc.anu.edu.au/"^^xsd:anyURI ;
+    dcterms:replaces <https://data.idnau.org/pid/agent/cecc> ;
 .
 
-<https://data.idnau.org/pid/agent/lc>
+<https://data.idnau.org/pid/org/lc>
     a sdo:Organization ;
     sdo:description "Local Contexts was founded by Jane Anderson and Kim Christen in 2010. The primary objectives of Local Contexts are to enhance and legitimize locally based decision-making and Indigenous governance frameworks for determining ownership, access, and culturally appropriate conditions for sharing historical, contemporary and future collections of cultural heritage and Indigenous data. Local Contexts is focused on increasing Indigenous involvement in data governance through the integration of Indigenous values into data systems. Local Contexts offers digital strategies for Indigenous communities, cultural institutions and researchers through the TK (Traditional Knowledge) & BC (Biocultural) Labels and Notices. Together they function as a practical mechanism to advance aspirations for Indigenous data sovereignty and Indigenous innovation." ;
     sdo:name "Local Contexts" ;
     sdo:url "https://localcontexts.org/about/"^^xsd:anyURI ;
-    sdo:identifier "03k8h3h23"^^id:ror ;
-    sdo:sameAs <https://ror.org/03k8h3h23> ;
+    sdo:identifier "https://ror.org/03k8h3h23"^^id:ror ;
+    dcterms:replaces <https://data.idnau.org/pid/agent/lc> ;
 .
 
-<https://data.idnau.org/pid/agent/nby>
+<https://data.idnau.org/pid/org/nby>
     a sdo:Organization ;
     sdo:description "The Yawuru people are the traditional owners of the lands and waters in and around Rubibi (the town of Broome)" ;
     sdo:name "Nyamba Buru Yawuru Ltd" ;
     sdo:url "http://www.yawuru.org.au"^^xsd:anyURI ;
+    dcterms:replaces <https://data.idnau.org/pid/agent/nby> ;
 .
 
-<https://data.idnau.org/pid/agent/nntt>
+<https://data.idnau.org/pid/org/nntt>
     a sdo:Organization ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
-            prov:agent <https://linked.data.gov.au/org/au>
+            sdo:agent <https://linked.data.gov.au/org/au>
         ] ;
     sdo:description """The Native Title Act 1993 (Cth) (the "Act") creates an Australia-wide native title scheme, the objectives of which include:
 
@@ -116,6 +126,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 The Act establishes the Tribunal as an independent body with a wide range of functions. The Act is, itself, a 'special measure' for the advancement and protection of Aboriginal peoples and Torres Strait Islanders (Indigenous Australian peoples). The Act is intended to advance the process of reconciliation among all Australians.""" ;
     sdo:name "National Native Title Tribunal" ;
     sdo:url "http://www.nntt.gov.au"^^xsd:anyURI ;
+    dcterms:replaces <https://data.idnau.org/pid/agent/nntt>
 .
 
 <https://kurrawong.ai>
@@ -138,17 +149,21 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     sdo:description "ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education." ;
-    sdo:identifier "O-000827"^^idncp:agorId ;
+    sdo:identifier 
+       "O-000827"^^idncp:agorId ,
+    "https://ror.org/019wvm592"^^id:ror ;
     sdo:name "Australian National University" ;
+    sdo:alternateName "ANU" ;
     sdo:url "https://www.anu.edu.au"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/dhs>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:descendantOrganisation ;
-            prov:agent <https://linked.data.gov.au/org/sa>
+            sdo:agent <https://linked.data.gov.au/org/sa>
         ] ;
     sdo:identifier
         "O-000880"^^idncp:agorId ,
@@ -160,9 +175,10 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
 <https://linked.data.gov.au/org/idn>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
-            prov:agent <https://data.idnau.org/pid/agent/isu>
+            sdo:agent <https://data.idnau.org/pid/org/isu>
         ] ;
     sdo:description "The IDN is within the University of Melbourne. It was established in 2018 to support and coordinate the governance of Indigenous data for Aboriginal and Torres Strait Islander peoples and empower Aboriginal and Torres Strait Islander communities to decide their own local data priorities." ;
     sdo:name "Indigenous Data Network" ;
@@ -172,9 +188,10 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
 <https://linked.data.gov.au/org/sa>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:precursorOrganisation ;
-            prov:agent <https://linked.data.gov.au/org/dhs>
+            sdo:agent <https://linked.data.gov.au/org/dhs>
         ] ;
     sdo:name "Services Australia" ;
     sdo:url "https://www.servicesaustralia.gov.au"^^xsd:anyURI ;
@@ -184,28 +201,29 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
 
 <https://orcid.org/0000-0002-8742-7730>
     a sdo:Person ;
-    dcterms:type
-        sdo:Person ,
+    dcterms:type 
         <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:affiliateOf ;
-            prov:agent <https://kurrawong.net>
+            sdo:agent <https://kurrawong.ai>
         ] ;
-    sdo:email "nick@kurrawong.net"^^xsd:anyURI ;
+    sdo:email "nick@kurrawong.ai"^^xsd:anyURI ;
     sdo:name "Nicholas J. Car"@en ;
 .
 
-<https://data.idnau.org/pid/agent/isu>
+<https://data.idnau.org/pid/org/isu>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons> ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
-            prov:agent <https://data.idnau.org/pid/agent/uom>
+            sdo:agent <https://data.idnau.org/pid/org/uom>
         ] ;
     sdo:description "The Indigenous Studies Unit undertakes research aiming to improve outcomes in Indigenous health and wellbeing, particularly in relation to alcohol misuse and family violence, Indigenous data governance, digital archives, cultural heritage, technology and resource management. We make regular contributions to Parliamentary reviews and Inquiries, cross-platform media, and policy development." ;
     sdo:name "Indigenous Studies Unit of the University of Melbourne" ;
     sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit"^^xsd:anyURI ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/uom> ;
+    dcterms:replaces <https://data.idnau.org/pid/agent/isu> ;
 .
 
 <https://linked.data.gov.au/org/uom>
@@ -215,8 +233,7 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     sdo:url "https://www.unimelb.edu.au/"^^xsd:anyURI ;
     sdo:identifier
         "84002705224"^^id:ausbn ,
-        "01ej9dk98"^^id:ror ;
-    sdo:sameAs <https://ror.org/01ej9dk98> ;
+        "https://ror.org/01ej9dk98"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/au>
@@ -224,22 +241,22 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     sdo:name "Australian Government" ;
     sdo:url "https://www.australia.gov.au"^^xsd:anyURI ;
-    sdo:identifier "0314h5y94"^^id:ror ;
-    sdo:sameAs <https://ror.org/0314h5y94> ;
+    sdo:identifier "https://ror.org/0314h5y94"^^id:ror ;
 .
 
 <https://orcid.org/0000-0002-5477-0874>
     a sdo:Person ;
     dcterms:type
-        sdo:Person ,
         <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    dcat:relation [
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
         dcat:hadRole aarr:affiliateOf ;
-        prov:agent <https://linked.data.gov.au/org/anu> ;
+        sdo:agent <https://linked.data.gov.au/org/anu> ;
     ] ,
     [
+        a dcat:Relationship ;
         dcat:hadRole aarr:affiliateOf ;
-        prov:agent <https://linked.data.gov.au/org/idn> ;
+        sdo:agent <https://linked.data.gov.au/org/idn> ;
     ] ;
     sdo:email "leonard.smith@anu.edu.au"^^xsd:anyURI ;
     sdo:name "Len Smith"@en ;
