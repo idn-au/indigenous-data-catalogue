@@ -149,8 +149,9 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     sdo:description "ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education." ;
-    sdo:identifier "O-000827"^^idncp:agorId ;
-    sdo:identifiers "https://ror.org/019wvm592"^^id:ror ;
+    sdo:identifier 
+       "O-000827"^^idncp:agorId ,
+    "https://ror.org/019wvm592"^^id:ror ;
     sdo:name "Australian National University" ;
     sdo:alternateName "ANU" ;
     sdo:url "https://www.anu.edu.au"^^xsd:anyURI ;
