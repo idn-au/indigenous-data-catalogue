@@ -77,8 +77,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     sdo:description "ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education." ;
-    sdo:identifier "O-000827"^^idncp:agorId ;
-    sdo:identifiers "https://ror.org/019wvm592"^^id:ror ;
+    sdo:identifier 
+        "O-000827"^^idncp:agorId ,
+        "https://ror.org/019wvm592"^^id:ror ;
     sdo:name "Australian National University" ;
     sdo:alternateName "ANU" ;
     sdo:url "https://www.anu.edu.au"^^xsd:anyURI ;
@@ -126,8 +127,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     sdo:url "https://www.defence.gov.au"^^xsd:anyURI ;
-    sdo:identifier "68706814312"^^id:ausbn ;
-    sdo:identifier "https://ror.org/051wnqr14"^^id:ror ;
+    sdo:identifier 
+        "68706814312"^^id:ausbn ,
+        "https://ror.org/051wnqr14"^^id:ror ;
 .
 
 <https://data.idnau.org/pid/org/awm>
