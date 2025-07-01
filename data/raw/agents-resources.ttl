@@ -7,6 +7,22 @@ PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<https://ror.org/00rqy9422>
+    a sdo:Organization ;
+sdo:name "University of Queensland" ;
+sdo:identifier "https://ror.org/00rqy9422"^^id:ror ;
+.
+
+<https://data.idnau.org/pid/org/29c3e9cb-5ea5-456e-b4fa-a90828207ffc>
+    a sdo:Organization ;
+   dcat:qualifiedRelation [
+    a dcat:Relationship ;
+        dcat:hadRole aarr:partOf ;
+        sdo:agent <https://ror.org/00rqy9422>
+    ] ;
+    sdo:name "University of Queensland Library" ;
+.
+
 <https://data.idnau.org/pid/org/28-221-722-606>
     a sdo:Organization ;
     sdo:identifier "28221722606"^^id:ausbn ;
