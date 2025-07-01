@@ -177,10 +177,10 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
+            dcat:hadRole aarr:part ;
             sdo:agent <https://data.idnau.org/pid/org/isu>
         ] ;
-    sdo:description "The IDN is within the University of Melbourne. It was established in 2018 to support and coordinate the governance of Indigenous data for Aboriginal and Torres Strait Islander peoples and empower Aboriginal and Torres Strait Islander communities to decide their own local data priorities." ;
+    sdo:description "The IDN was established in 2018 to support and coordinate the governance of Indigenous data for Aboriginal and Torres Strait Islander peoples and empower Aboriginal and Torres Strait Islander communities to decide their own local data priorities." ;
     sdo:name "Indigenous Data Network" ;
     sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/centre-for-health-equity/research-group/indigenous-data-network"^^xsd:anyURI ;
 .
