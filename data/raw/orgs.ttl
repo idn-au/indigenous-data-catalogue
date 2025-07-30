@@ -2,6 +2,18 @@ PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<https://data.idnau.org/pid/org/7fb4c3c8-2317-4cfd-b5b8-b1c6a8c6e321> 
+    a sdo:Organization ;
+    sdo:name "Aboriginal & Torres Strait Islander Cultural Heritage Oversight Committee" ;
+    sdo:description "advises the Provost and Vice President, Strategy and Culture on the implementation of the University's Aboriginal and Torres Strait Islander Cultural Heritage Policy, which outlines the principles by which the University will manage Aboriginal and Torres Strait Islander Ancestral Remains and cultural heritage, including with respect to the built and landscape environment." ;
+    dcterms:type <undefined//data.idnau.org/pid/vocab/org-indigeneity/indigeneity-unknown>;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+         dcat:hadRole aarr:partOf ;
+    sdo:agent <https://linked.data.gov.au/org/uom> ]
+    sdo:url "https://www.unimelb.edu.au/indigenous/governance/consultative-and-advisory-bodies"^^xsd:anyURI ;
+.
+
 <https://data.idnau.org/pid/org/caepr>
     a sdo:Organization ;
     sdo:alternateName "CAEPR" ;
