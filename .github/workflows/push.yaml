@@ -4,39 +4,42 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - "main"
+      - main
 
 jobs:
+  # Detects changes in specific directories
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      data: ${{ steps.filter.outputs.data }}
+    steps:
+    - uses: actions/checkout@v4
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          data:
+            - 'data/raw/**'
+  # Deploy if files have changed, or if workflow was triggered by another repo/manually
   upload:
     runs-on: ubuntu-latest
-    env:
-      TRIPLESTORE_URL: ${{ secrets.TRIPLESTORE_URL }}
-      TRIPLESTORE_USERNAME: ${{ secrets.TRIPLESTORE_USERNAME }}
-      TRIPLESTORE_PASSWORD: ${{ secrets.TRIPLESTORE_PASSWORD }}
+    needs: changes
+    if: ${{ needs.changes.outputs.data == 'true' || github.event_name != 'push' }}
     steps:
       - name: Checkout the repo
-        uses: actions/checkout@v3
-      # Detects files changed in specific directories
-      - uses: dorny/paths-filter@v2
-        id: changes
-        with:
-          filters: |
-            data:
-              - 'data/raw/**'
-      # only setup for upload if any data has changed
+        uses: actions/checkout@v4
       - name: Setup Python
-        if: ${{ steps.changes.outputs.data == 'true' || github.event_name != 'push' }}
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
           # cache: poetry
       - name: Install Poetry
-        if: ${{ steps.changes.outputs.data == 'true' || github.event_name != 'push' }}
         uses: snok/install-poetry@v1
       - name: Install dependencies
-        if: ${{ steps.changes.outputs.data == 'true' || github.event_name != 'push' }}
         run: poetry install --without dev --no-interaction --no-root
-      # upload background data if changed
       - name: Upload data
-        if: ${{ steps.changes.outputs.data == 'true' || github.event_name != 'push' }}
+        env:
+          TRIPLESTORE_URL: ${{ secrets.TRIPLESTORE_URL }}
+          TRIPLESTORE_USERNAME: ${{ secrets.TRIPLESTORE_USERNAME }}
+          TRIPLESTORE_PASSWORD: ${{ secrets.TRIPLESTORE_PASSWORD }}
         run: poetry run python scripts/upload.py
