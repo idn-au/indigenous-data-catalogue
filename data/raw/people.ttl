@@ -3,10 +3,23 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX idncp: <https://data.idnau.org/pid/cp/>
+PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://orcid.org/0000-0002-0346-2820>
+    a sdo:Person ;
+    sdo:honorificTitle "Principal Research Fellow" ;
+    dcterms:type pis:nonIndigenous ;
+    dcat:qualifiedRelation [
+    a dcat:Relationship ;
+       dcat:hadRole aarr:memberOf ;
+       sdo:agent <<https://data.idnau.org/pid/org/isu>
+        ] ;
+    sdo:name "Kristen Smith" ;
+.
 
 <https://orcid.org/0009-0004-9228-3892>
     a sdo:Person ;
@@ -70,6 +83,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/person/32541463-d9dc-4977-a20f-79caabdbbb1b>
     a sdo:Person ;
+    dcterms:type pis:indigenous ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
@@ -94,6 +108,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/person/26ec685f-409d-4698-9aa6-3e8b70f0de40>
     a sdo:Person ;
     sdo:honorificTitle "Professor (Emeritus)" ;
+    dcterms:type pis:indigenous ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
