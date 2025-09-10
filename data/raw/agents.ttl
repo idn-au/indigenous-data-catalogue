@@ -3,6 +3,7 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX idncp: <https://data.idnau.org/pid/cp/>
+PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX sdo: <https://schema.org/>
@@ -246,8 +247,7 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
 
 <https://orcid.org/0000-0002-5477-0874>
     a sdo:Person ;
-    dcterms:type
-        <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    dcterms:type pis:nonIndigenous ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
         dcat:hadRole aarr:affiliateOf ;
