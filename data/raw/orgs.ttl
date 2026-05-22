@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcat:qualifiedRelation [
         a dcat:Relationship ;
          dcat:hadRole aarr:partOf ;
-    sdo:agent <https://linked.data.gov.au/org/uom> ]
+    sdo:agent <https://linked.data.gov.au/org/uom> ] ;
     sdo:url "https://www.unimelb.edu.au/indigenous/governance/consultative-and-advisory-bodies"^^xsd:anyURI ;
 .
 
@@ -222,4 +222,95 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "Charles Darwin University" ;
     sdo:url "https://www.cdu.edu.au"^^xsd:anyURI ;
     sdo:identifier "https://ror.org/048zcaj52"^^id:ror ;
+.
+
+<https://ror.org/0059y1582>
+    a sdo:Organization ;
+    sdo:name "World Wide Web Consortium" ;
+    sdo:alternateName "W3C" ;
+    sdo:url "https://www.w3.org/"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/0059y1582"^^id:ror ;
+.
+
+<https://ror.org/011rpdz66>
+    a sdo:Organization ;
+    sdo:name "Australian Institute of Aboriginal and Torres Strait Islander Studies" ;
+    sdo:alternateName "AIATSIS" ;
+    sdo:url "https://www.w3.org/"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/011rpdz66"^^id:ror ;
+.
+
+<https://data.idnau.org/pid/org/ardc>
+    a sdo:Organization ;
+    sdo:name "Australian Research Data Commons" ;
+    sdo:alternateName "ARDC" ;
+    sdo:url "https://ardc.edu.au"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/038sjwq14"^^id:ror ;
+.
+
+<https://data.idnau.org/pid/org/atsichs>
+    a sdo:Organization ;
+    sdo:name "Aboriginal and Torres Strait Islander Community Health Service Brisbane" ;
+    sdo:alternateName "ATSICHS Brisbane" ;
+    sdo:url "https://atsichsbrisbane.org.au"^^xsd:anyURI ;
+    sdo:identifier "22009943435"^^id:ausbn ;
+.
+
+<https://data.idnau.org/pid/org/apsc>
+    a sdo:Organization ;
+    sdo:name "Australian Public Service Commission" ;
+    sdo:url "https://www.apsc.gov.au"^^xsd:anyURI ;
+    sdo:identifier "99470863260"^^id:ausbn ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/au>
+        ] ;
+.
+
+<https://data.idnau.org/pid/org/aihw>
+    a sdo:Organization ;
+    sdo:name "Australian Institute of Health and Welfare" ;
+    sdo:url "https://www.aihw.gov.au"^^xsd:anyURI ;
+    sdo:identifier 
+        "16515245497"^^id:ausbn , 
+        "https://ror.org/01972fe66"^^id:ror ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://ror.org/02swcnz29>
+        ] ;
+.
+
+<https://ror.org/02swcnz29>
+    a sdo:Organization ;
+    sdo:name "Department of Health, Disability and Ageing" ;
+    sdo:url "https://www.health.gov.au/"^^xsd:anyURI ;
+    sdo:identifier 
+        "83605426759"^^id:ausbn , 
+        "https://ror.org/02swcnz29"^^id:ror ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/au>
+        ] ;
+.
+
+<https://data.idnau.org/pid/org/naaja>
+    a sdo:Organization ;
+    sdo:name "North Australian Aboriginal Justice Agency" ;
+    sdo:url "https://www.naaja.org.au"^^xsd:anyURI ;
+    sdo:identifier "63118017842"^^id:ausbn ; 
+.
+
+<https://data.idnau.org/pid/org/niaa>
+    a sdo:Organization ;
+    sdo:name "National Indigenous Australians Agency" ;
+    sdo:url "https://www.niaa.gov.au"^^xsd:anyURI ;
+    sdo:identifier "30429895164"^^id:ausbn ; 
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/au>
+        ] ;
 .
