@@ -13,10 +13,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Person ;
     sdo:honorificTitle "Principal Research Fellow" ;
     dcterms:type pis:nonIndigenous ;
+    sdo:identifier "https://orcid.org/0000-0002-0346-2820"^^id:orcid ;
     dcat:qualifiedRelation [
     a dcat:Relationship ;
        dcat:hadRole aarr:memberOf ;
-       sdo:agent <<https://data.idnau.org/pid/org/isu>
+       sdo:agent <https://data.idnau.org/pid/org/isu>
         ] ;
     sdo:name "Kristen Smith" ;
 .
@@ -24,6 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0009-0004-9228-3892>
     a sdo:Person ;
     sdo:honorificTitle "Professor" ;
+    sdo:identifier "https://orcid.org/0009-0004-9228-3892"^^id:orcid ;
     dcat:qualifiedRelation [
     a dcat:Relationship ;
        dcat:hadRole aarr:memberOf ;
@@ -36,6 +38,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0002-4214-2205>
     a sdo:Person ;
     sdo:honorificTitle "Dr" ;
+    sdo:identifier "https://orcid.org/0000-0002-4214-2205"^^id:orcid ;
     dcat:qualifiedRelation [
     a dcat:Relationship ;
         dcat:hadRole aarr:memberOf ;
@@ -48,6 +51,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0002-0879-0313>
     a sdo:Person ;
     sdo:honorificTitle "PhD Scholar" ;
+    sdo:identifier "https://orcid.org/0000-0002-0879-0313"^^id:orcid ;
     dcat:qualifiedRelation [
     a dcat:Relationship ;
         dcat:hadRole aarr:memberOf ;
@@ -67,6 +71,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ;
     sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
     sdo:url "https://www.researchgate.net/profile/Sandra-Potter"^^xsd:anyURI ;
+    sdo:email "sandra.potter@anu.edu.au"^^xsd:anyURI ;
     sdo:name "Sandra Potter" ;
 .
 
@@ -96,6 +101,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0002-7923-6379>
     a sdo:Person ;
     sdo:honorificTitle "Dr" ;
+    sdo:identifier "https://orcid.org/0000-0002-7923-6379"^^id:orcid ;
     sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
@@ -121,6 +127,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0003-4471-0998>
     a sdo:Person ;
     sdo:honorificTitle "Senior Fellow" ;
+    sdo:identifier "https://orcid.org/0000-0003-4471-0998"^^id:orcid ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
@@ -132,6 +139,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/0000-0002-3128-4638>
     a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0002-3128-4638"^^id:orcid ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
@@ -143,6 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/person/cab5236f-d970-472b-86ca-6d64d746b382>
     a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0003-2925-2861"^^id:orcid ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
@@ -165,6 +174,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/0000-0001-7121-9710>
     a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0001-7121-9710"^^id:orcid ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
@@ -176,6 +186,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/0000-0003-1489-2866>
     a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0003-1489-2866"^^id:orcid ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
@@ -187,6 +198,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/0000-0001-6348-8734>
     a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0001-6348-8734"^^id:orcid ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
@@ -203,6 +215,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             dcat:hadRole aarr:memberOf ;
             sdo:agent <https://data.idnau.org/pid/org/cass>
         ] ;
+    sdo:identifier "https://orcid.org/0000-0002-9046-8226"^^id:orcid ; 
     sdo:memberOf <https://data.idnau.org/pid/org/cass> ;
     sdo:name "Sean Kerins" ;
 .
@@ -238,6 +251,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://data.idnau.org/pid/org/cdu>
         ] ;
     sdo:memberOf <https://linked.data.gov.au/org/cdu> ;
+    sdo:identifier "https://orcid.org/0000-0002-7675-9916"^^id:orcid ;
     sdo:name "Kamaljit K Sangha" ;
     sdo:url "https://www.cdu.edu.au/research-and-innovation/higher-degree-research/find-supervisor/environment/dr-kamaljit-k-sangha"^^xsd:anyURI ;
 .
@@ -288,6 +302,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/person/4bcdb364-2bc6-4352-90eb-272c962849c5>
     a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0003-0521-4094"^^id:orcid ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
@@ -334,6 +349,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/person/9ae5ce5c-ac22-43eb-a7a5-7edb8e54ddfe>
     a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0002-4765-4445"^^id:orcid ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:memberOf ;
@@ -353,4 +369,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:memberOf <https://data.idnau.org/pid/org/knp> ;
     sdo:name "Barbara Glowczewski" ;
     sdo:identifier "https://orcid.org/0000-0002-9629-2516"^^id:orcid ;
+.
+
+<https://data.idnau.org/pid/person/af428829-0c5c-4bb9-9cd8-47c24e10577c> a sdo:Person;
+    sdo:name "Gordon Briscoe" ;
+    dcterms:type pis:indigenous ;
+    sdo:identifier "https://en.wikipedia.org/wiki/Gordon_Briscoe"^^xsd:token ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/anu>
+        ] ;
+    sdo:memberOf <https://linked.data.gov.au/org/anu> ;
+
 .
