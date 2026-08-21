@@ -1,0 +1,19 @@
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://doi.org/10.3138/9781442624986-020>
+    a schema:CreativeWork ;
+    odrl:hasPolicy
+        <https://data.idnau.org/pid/MPF1242> ,
+        <https://data.idnau.org/pid/MPF1289> ,
+        <https://data.idnau.org/pid/MPF1309> ;
+    schema:additionalType <http://purl.org/spar/fabio/BookChapter> ;
+    schema:creator "Davis, M. & Langton, M" ;
+    schema:dateCreated "2016"^^xsd:gYear ;
+    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:description "The chapter has traverses the period of Federation and the exclusion of Aboriginal people in the drafting of the Constitution to the 1967 referendum, the so-called reconciliation phase to the contemporary period of  \"recognition\"  –  a  concept  embraced  by  the  state  only  as  long  as  it  means symbolism and non-justiciability. The preference for symbolism and non-substance reflects the resignation of the state to the conservative  nature  of  the  polity  evidenced  by  the  few  times  the  Constitution  has been amended. Eight out of forty-four referendums have succeeded since 1901, and the distinguishing feature of success was support from both political parties. In addition these changes have occurred under conservative government that has heightened the hysteria around who can and cannot drive constitutional reform. The starting point for the state on constitutional reform has shifted from what is best for the Aus-tralian people and what legally and technically robust to what minimal, inoffensive gesture will get support." ;
+    schema:keywords "ISU" ;
+    schema:name "Constitutional Reform in Australia: Recognizing Indigenous Australians in the Absence of a Reconciliation Process" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+.

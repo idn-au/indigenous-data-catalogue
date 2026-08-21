@@ -1,0 +1,144 @@
+PREFIX : <https://data.idnau.org/pid/>
+PREFIX dataroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX orcid: <https://orcid.org/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX ror: <https://ror.org/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:7460bb2c-33dd-4b11-8935-12d57fae901f
+    a
+        schema:CreativeWork ,
+        schema:ResearchProject ;
+    prov:qualifiedAttribution 
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0003-2079-7216 ;
+            schema:name "Tess Bright" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0002-7497-1681 ;
+            schema:name "Amalia Karahalios" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0002-7213-3692 ;
+            schema:name "Graham Gee" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0002-4179-4682 ;
+            schema:name "Meghan Bohren" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0001-9691-068X ;
+            schema:name "Michelle Kennedy" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0002-8284-4746 ;
+            schema:name "Emmanuel Gnanamanickam" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0001-9378-5852 ;
+            schema:name "Jamie Bryant" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0002-6695-5470 ;
+            schema:name "Kimberley Jones" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0002-0346-2820 ;
+            schema:name "Kristen Smith" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0003-3784-0540 ;
+            schema:name "Amy Morgan" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0001-7538-4844 ;
+            schema:name "Sally A Brinkman" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0001-6231-5305 ;
+            schema:name "Anita D'Aprano" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0003-2440-3667 ;
+            schema:name "Melissa O'Donnell" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0002-7550-8007 ;
+            schema:name "Jacynta Krakouer" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0003-3446-0227 ;
+            schema:name "Catherine Chamberlain" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ;
+    schema:dateCreated "2026-07-01"^^xsd:date ;
+    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:description "This project establishes a large-scale, ground-breaking interdisciplinary research program. Led by exceptional mid-career researchers from diverse backgrounds, it aims to revolutionise perinatal care for Aboriginal and Torres Strait Islander (Aboriginal) families. In partnership with Aboriginal community-controlled organisations, we will build infrastructure to progress towards diffusion and sustainability of community-led, culturally-responsive, evidence-based, trauma-aware, healing-informed continuity of care to enable families to foster a healthy start to life – a fundamental foundation for Closing the Gap." ;
+    schema:funder
+        [
+            a schema:FundingAgency ;
+            schema:agent ror:011kf5r70 ;
+            schema:name "National Health and Medical Research Council" ;
+            schema:url "https://www.nhmrc.gov.au/"^^xsd:anyURI ;
+        ] ;
+    schema:funding 
+        [
+            a schema:Grant ;
+            schema:identifier "GA360337"^^xsd:token ;
+            schema:name """Relighting the firesticks: Accelerating diffusion and progressing to sustainability of innovative 
+care to foster a healthy start to life for Aboriginal and Torres Strait Islander families"""@en ;
+            schema:url "https://www.grants.gov.au/Ga/Show/7c78a351-2be1-4dfb-95d7-099364488a44"^^xsd:anyURI ;
+        ] ,
+        [
+            a schema:FundingScheme ;
+            schema:name "MRFF Early to Mid-Career Researchers Grant"@en ;
+        ] ,
+        [
+            a schema:MonetaryAmount ;
+            schema:currency "AUD" ;
+            schema:value 4999953.0 ;
+        ] ;
+    schema:keywords
+        <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=6> ,
+        "ISU" ;
+    schema:name "Relighting the Firesticks: Accelerating Diffusion and Progressing to Sustainability of Innovative Care to Foster a Healthy Start to Life for Aboriginal and Torres Strait Islander Families." ;
+    schema:temporalCoverage
+        [
+            a dcterms:PeriodOfTime ;
+            schema:coverageEndTime "2028"^^xsd:gYear ;
+            schema:coverageStartTime "2024"^^xsd:gYear ;
+        ] ;
+    schema:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-health-equity-unit/research/relighting-the-firesticks"^^xsd:anyURI ;
+.

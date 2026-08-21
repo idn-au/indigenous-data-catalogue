@@ -1,0 +1,98 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/cbf9b05f-dcb7-4ce7-9123-a73283d52e84>
+    a schema:CreativeWork ;
+    prov:qualifiedAttribution 
+        [
+            a prov:Attribution ;
+            prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
+            schema:agent <https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9> ;
+        ] ,
+        [
+            a prov:Attribution ;
+            prov:hadRole
+                <https://def.isotc211.org/common/RoleCode/custodian> ,
+                <https://def.isotc211.org/common/RoleCode/distributor> ,
+                <https://def.isotc211.org/common/RoleCode/pointOfContact> ,
+                <https://def.isotc211.org/common/RoleCode/publisher> ;
+            schema:agent <https://linked.data.gov.au/org/abs> ;
+        ] ;
+    schema:additionalType schema:Dataset ;
+    schema:copyrightNotice """© Commonwealth of Australia
+The Commonwealth owns the copyright in all material produced by the Australian Bureau of Statistics (ABS)
+Apart from any use as permitted under the Copyright Act 1968, and some exceptions, all other rights are reserved.
+""" ;
+    schema:dateCreated "2015"^^xsd:gYear ;
+    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:description """PLIDA is a secure data asset combining information on health, education, government payments, income and taxation, employment, and population demographics (including the Census) over time.
+The Australian Statistician announced the rename of the Multi-Agency Data Integration Project (MADIP) to the Person Level Integrated Data Asset (PLIDA) in 2023. Historical documents and projects retain their references to MADIP.
+PLIDA provides whole-of-life insights about various population groups in Australia, such as the interactions between their characteristics, use of services like healthcare and education, and outcomes like improved health and employment.
+MADIP was first established in 2015 in response to a review of the Commonwealth arrangements for data integration that found more focus was needed to access the substantial value inherent in public data. The MADIP data asset was further developed between 2017 and 2020 through the Data Integration Partnership for Australia (DIPA).
+The ABS is trusted as the accredited Integrating Authority for PLIDA. It collects and combines the data, provides access to authorised researchers, protects privacy and keeps information secure at all times.
+The project is enabled through a partnership of agencies, which includes:
+    Australian Bureau of Statistics
+    Australian Taxation Office
+    Department of Education
+    Department of Health and Aged Care
+    Department of Social Services
+    Services Australia
+    Department of Home Affairs.
+These agencies are also the members of the PLIDA Board, which is responsible for the operation and strategic direction of PLIDA. The Board is also attended by the following agencies as observers:
+    Australian Institute of Health and Welfare
+    Department of Industry, Innovation and Science
+    Finance
+    Treasury
+    Department of Employment & Workplace Relations (DEWR)
+The Person Linkage Spine allows the ABS to link resources through a spine of key information, separate from the main body of data. This approach improves privacy and security and enables more efficient and higher quality linkage. The Spine supports the regular maintenance and expansion of PLIDA.
+""" ;
+    schema:distribution
+        [
+            a schema:DataDownload ;
+            dcat:accessURL "https://www.abs.gov.au/statistics/microdata-tablebuilder/datalab"^^xsd:anyURI ;
+            schema:description """Researchers affiliated with Australian Government or academic research organisations can apply to use the PLIDA Modular Product in the DataLab for in-depth analysis using a range of statistical software packages.
+Information about the DataLab can be found on the About DataLab page.
+To find out how to apply for access to the PLIDA Modular Product in the DataLab, email mydataportal@abs.gov.au.
+Further information to assist users in understanding and accessing microdata is available from the Microdata Entry Page.""" ;
+            schema:keywords
+                <https://data.idnau.org/pid/vocab/cat-roles/home> ,
+                <https://data.idnau.org/pid/vocab/cat-roles/original> ;
+            schema:name "PLIDA Modular Product in the DataLab" ;
+        ] ;
+    schema:keywords
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1004> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1391> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=181> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=189> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=2320> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=2355> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=27> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=359> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=691> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=762> ,
+        "External" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "Person Level Integrated Data Asset (PLIDA)" ;
+    schema:temporalCoverage
+        [
+            a dcterms:PeriodOfTime ;
+            schema:coverageEndTime "2023"^^xsd:gYear ;
+            schema:coverageStartTime "2015"^^xsd:gYear ;
+        ] ;
+    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/metadata-only> ;
+.
+
+<https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9>
+    a schema:Person ;
+    schema:name "Person Level Integrated Data Asset (PLIDA)" ;
+.
+
+<https://linked.data.gov.au/org/abs>
+    a schema:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:name "Australian Bureau of Statistics" ;
+    schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
+.

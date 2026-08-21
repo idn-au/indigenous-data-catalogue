@@ -1,0 +1,18 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/MPF1242>
+    a schema:CreativeWork ;
+    schema:additionalType <http://purl.org/spar/fabio/PolicyDocument> ;
+    schema:creator <https://data.idnau.org/pid/org/1035ce81-c6b1-4c67-85f5-5213ad0bcf6c> ;
+    schema:dateCreated "2023"^^xsd:gYear ;
+    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:description "The objectives of this policy are to (a) Preserve the value of research data and records for researchers, research students, research participants, the University and wider community by defining expected standards for their management; and (b) Facilitate effective research practices."@en ;
+    schema:identifier "MPF1242" ;
+    schema:keywords
+        <https://terms.codata.org/rdmt/indigenous-data> ,
+        "ISU" ;
+    schema:name "Research Data Management Policy" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+    schema:url "https://policy.unimelb.edu.au/MPF1242/"^^xsd:anyURI ;
+.

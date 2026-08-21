@@ -1,0 +1,266 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://id.loc.gov/vocabulary/identifiers/isbn>
+    schema:name "International standard book number" ;
+.
+
+<http://id.loc.gov/vocabulary/marcgt/art>
+    schema:name "article" ;
+.
+
+<http://id.loc.gov/vocabulary/marcgt/boo>
+    schema:name "book" ;
+.
+
+<http://purl.org/spar/fabio/BookChapter>
+    schema:name "Book Chapter" ;
+.
+
+dcat:theme
+    schema:name "theme" ;
+.
+
+<https://data.idnau.org/pid/org/7fb4c3c8-2317-4cfd-b5b8-b1c6a8c6e321>
+    schema:description "advises the Provost and Vice President, Strategy and Culture on the implementation of the University's Aboriginal and Torres Strait Islander Cultural Heritage Policy, which outlines the principles by which the University will manage Aboriginal and Torres Strait Islander Ancestral Remains and cultural heritage, including with respect to the built and landscape environment." ;
+    schema:name "Aboriginal & Torres Strait Islander Cultural Heritage Oversight Committee" ;
+.
+
+<https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>
+    schema:name "About Indigenous People"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things>
+    schema:name "About Indigenous Things"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people>
+    schema:name "By Indigenous People"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/policy-types/data-governance>
+    schema:description "The process of setting and enforcing policies for managing and using data as a strategic asset. This is achieved through the definition of roles and responsibilities for the governance of data acquired, used and released."@en ;
+    schema:name "data governance"@en ;
+.
+
+<https://linked.data.gov.au/def/data-access-rights/open>
+    schema:description "Open access refers to a resource that is immediately and permanently online, and free for all on the Web, without financial and technical barriers."@en ;
+    schema:name "Open access"@en ;
+.
+
+<https://linked.data.gov.au/def/data-access-rights/restricted>
+    schema:description "Restricted access refers to a resource that is stored in a system but is not freely accessible. Access is limited to specific personnel or user groups."@en ;
+    schema:name "Restricted access"@en ;
+.
+
+<https://linked.data.gov.au/def/policy/3f74d52e-2aec-4a8c-a643-34d43c2cbac7>
+    schema:description "The process of returning human remains to their communities of origin. This process can help create healing and reconciliation for the descendants of those remains."@en ;
+    schema:name "Repatriation of historic human remains"@en ;
+.
+
+<https://linked.data.gov.au/org/isu>
+    a schema:Organization ;
+    schema:name "Indigenous Studies Unit" ;
+    schema:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/uom>
+    a schema:Organization ;
+    schema:description "The University of Melbourne is a public research university located in Melbourne, Australia. Founded in 1853, it is Australia's second oldest university and the oldest in Victoria." ;
+    schema:name
+        "The University of Melbourne" ,
+        "University of Melbourne" ;
+    schema:url "https://www.unimelb.edu.au/"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-0346-2820>
+    schema:name "Kristen Smith" ;
+.
+
+<https://orcid.org/0000-0002-1398-7524>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
+    schema:name "Marcia Langton" ;
+.
+
+<https://orcid.org/0000-0002-4797-9776>
+    schema:name "Aaron Corn" ;
+.
+
+<https://orcid.org/0000-0002-5477-0874>
+    a schema:Person ;
+    schema:email "leonard.smith@anu.edu.au"^^xsd:anyURI ;
+    schema:name "Len Smith" ;
+.
+
+schema:color
+    schema:name "colour" ;
+.
+
+schema:spatialCoverage
+    schema:name "spatial coverage" ;
+.
+
+schema:status
+    schema:name "status" ;
+.
+
+schema:temporalCoverage
+    schema:name "temporal coverage" ;
+.
+
+<https://sws.geonames.org/8310768/>
+    schema:name "Pormpuraaw" ;
+.
+
+<https://terms.codata.org/rdmt/indigenous-data>
+    schema:description "Data that pertains to (is created or gathered by, or is about) Indigenous peoples."@en ;
+    schema:name "Indigenous data"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=10>
+    schema:name "Aboriginal education"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1004>
+    schema:name "Health" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1029>
+    schema:name "History" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1096>
+    schema:name "Indigenous peoples"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=12>
+    schema:name "Aboriginal health"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=13>
+    schema:name "Aboriginal history"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=14>
+    schema:name "Aboriginal land rights"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1483>
+    schema:name "Native title"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=15>
+    schema:name "Aboriginal languages"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=16>
+    schema:name "Aboriginal literature"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=17>
+    schema:name "Aboriginal men"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=18>
+    schema:name "Aboriginal music"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=181>
+    schema:name "Australia" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=2>
+    schema:description "Aboriginal archaeology"@en ;
+    schema:name "Aboriginal archaeology"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=21>
+    schema:name "Aboriginal reconciliation"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=24>
+    schema:name "Aboriginal title"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=25>
+    schema:name "Aboriginal women"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=26>
+    schema:name "Aboriginal youth"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=27>
+    schema:name "Aborigines"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=3>
+    schema:name "Aboriginal art"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=4>
+    schema:name "Aboriginal artists"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=5>
+    schema:name "Aboriginal arts"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=553>
+    schema:description "Culture" ;
+    schema:name "Culture" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=6>
+    schema:name "Aboriginal children"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=7>
+    schema:name "Aboriginal communities"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=8>
+    schema:name "Aboriginal culture"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=9>
+    schema:name "Aboriginal customary law"@en ;
+.
+
+<https://www.geonames.org/8605117>
+    schema:name "Milingimbi Island" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/Place>
+    schema:name "Place" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/Record>
+    schema:name "Record" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/RecordResource>
+    schema:name "Record Resource" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/RecordSet>
+    schema:name "Record Set" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/generalDescription>
+    schema:name "general description" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/hasDirectPart>
+    schema:name "has direct part" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/hasOrHadLocation>
+    schema:name "has or had location" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/name>
+    schema:name "name" ;
+.

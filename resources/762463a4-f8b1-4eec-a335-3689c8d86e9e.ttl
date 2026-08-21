@@ -1,0 +1,23 @@
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/762463a4-f8b1-4eec-a335-3689c8d86e9e>
+    a schema:CreativeWork ;
+    odrl:hasPolicy
+        <https://data.idnau.org/pid/MPF1242> ,
+        <https://data.idnau.org/pid/MPF1289> ,
+        <https://data.idnau.org/pid/MPF1309> ;
+    schema:additionalType schema:Book ;
+    schema:creator "Langton, M., Corn A." ;
+    schema:dateCreated "2023"^^xsd:gYear ;
+    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:description "The authors show how Indigenous law has enabled people to survive and thrive in Australia for more than 2000 generations. Nurturing people and places, law is the foundation of all Indigenous societies in Australia, giving them the tools to respond and adapt to major environmental and social changes." ;
+    schema:identifier "9781760762827"^^id:isbn ;
+    schema:keywords
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1251> ,
+        "ISU" ;
+    schema:name "Law: The Way of the Ancestors" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+.
