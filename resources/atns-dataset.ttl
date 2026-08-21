@@ -1,0 +1,65 @@
+PREFIX atns: <https://linked.data.gov.au/def/atns/model/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX idn-resource: <https://data.idnau.org/pid/resource/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/d23405b4-fc04-47e2-9e7a-9c5735ae3780>
+    a schema:Dataset ;
+    odrl:hasPolicy <https://data.idnau.org/pid/MPF1242> ;
+    prov:qualifiedAttribution 
+        [
+            a prov:Attribution ;
+            dcat:hadRole
+                <https://linked.data.gov.au/def/data-roles/owner> ,
+                <https://linked.data.gov.au/def/data-roles/pointOfContact> ,
+                <https://linked.data.gov.au/def/data-roles/principalInvestigator> ;
+            schema:agent <https://orcid.org/0000-0002-1398-7524> ;
+        ] ,
+        [
+            a prov:Attribution ;
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
+            schema:agent <https://linked.data.gov.au/org/uom> ;
+        ] ;
+    schema:creator <https://orcid.org/0000-0002-1398-7524> ;
+    schema:dateCreated "2002"^^xsd:gYear ;
+    schema:dateIssued "2002"^^xsd:gYear ;
+    schema:dateModified "2026-08-14"^^xsd:date ;
+    schema:usageInfo idn-resource:atns-reference-guidance ;
+    schema:description "The ATNS Database is a comprehensive online resource documenting agreements, treaties, and negotiated settlements between Indigenous peoples and governments — primarily focused on Australia, but also includes comparative international examples." ;
+    schema:distribution
+        [
+            a
+                dcat:Distribution ,
+                schema:DataDownload ;
+            schema:description "The ATNS Database is a comprehensive online resource documenting agreements, treaties, and negotiated settlements between Indigenous peoples and governments — primarily focused on Australia, but also includes comparative international examples." ;
+            schema:name "Agreements, Treaties and Negotiated Settlements" ;
+            schema:url "https://www.atns.net.au/"^^xsd:anyURI ;
+        ] ;
+    schema:keywords
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1004> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1029> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=13> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=14> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1483> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=15> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=181> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=21> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=24> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by-nc-nd4.0> ;
+    schema:name "Agreements, Treaties and Negotiated Settlements" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+    schema:temporalCoverage
+        [
+            schema:coverageStartTime "2002"^^xsd:gYear ;
+        ] ;
+    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/open> ;
+.

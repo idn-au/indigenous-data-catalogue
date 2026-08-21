@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.idnau.org/pid/resource/f1d6b140-8c6d-42a3-a9d6-f85c31b8840a> a schema:CreativeWork ;
+    prov:qualifiedAttribution [ dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
+            prov:agent <https://data.idnau.org/pid/org/eede9aa2-0299-4cab-b8c6-588a5103777b> ] ;
+    schema:additionalType <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ;
+    schema:dateCreated "2012-02-01"^^xsd:date ;
+    schema:dateModified "2013-02-27"^^xsd:date ;
+    schema:description "Rock art, occupation sites and Jukurrpa from the Western Desert." ;
+    schema:distribution [ schema:url "https://research-repository.uwa.edu.au/en/datasets/western-desert-canning-stock-route"^^xsd:anyURI ] ;
+    schema:keywords <https://vocabularyserver.com/apais/xml.php?skosTema=13>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=17>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=2>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=25>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=26>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=27>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=3>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=5>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
+    schema:name "Canning Stock Route" .
+

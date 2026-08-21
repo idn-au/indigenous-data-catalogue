@@ -1,0 +1,313 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+
+<http://purl.org/NET/rdflicense/allrightsreserved>
+    schema:description "This license does not disclose any of the IPR and database rights.."@en ;
+    schema:name "All rights reserved"@en ;
+.
+
+<http://purl.org/NET/rdflicense/cc-by-nc-nd4.0>
+    schema:name
+        "Creative Commons CC-BY-NC-ND" ,
+        "Creative Commons - Attribution-NonCommercial-NoDerivatives 4.0 International - CC BY-NC-ND 4.0"@en ;
+    schema:url <http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode> ;
+.
+
+<http://purl.org/NET/rdflicense/cc-by4.0>
+    schema:name
+        "Creative Commons CC-BY" ,
+        "Creative Commons - Attribution 4.0 International - CC BY 4.0"@en ;
+    schema:url <http://creativecommons.org/licenses/by/4.0/legalcode> ;
+.
+
+dcterms:accessRights
+    schema:description "Information about who access the resource or an indication of its security status."@en ;
+    schema:name "Access Rights"@en ;
+.
+
+dcterms:created
+    schema:description "Date of creation of the resource."@en ;
+    schema:name "Date Created"@en ;
+.
+
+dcterms:description
+    schema:description "An account of the resource."@en ;
+    schema:name "Description"@en ;
+.
+
+dcterms:modified
+    schema:description "Date on which the resource was changed."@en ;
+    schema:name "Date Modified"@en ;
+.
+
+dcterms:spatial
+    schema:description "Spatial characteristics of the resource."@en ;
+    schema:name "Spatial Coverage"@en ;
+.
+
+dcterms:temporal
+    schema:description "Temporal characteristics of the resource."@en ;
+    schema:name "Temporal Coverage"@en ;
+.
+
+dcterms:title
+    schema:description "A name given to the resource."@en ;
+    schema:name "Title"@en ;
+.
+
+dcterms:type
+    schema:description "The nature or genre of the resource."@en ;
+    schema:name "Type"@en ;
+.
+
+<http://purl.org/spar/fabio/DataFile>
+    schema:description "A realisation of a fabio:Dataset (a frbr:Work) containing a defined collection of data with specific content and possibly with a specific version number, that can be embodied as a fabio:Digital Manifestation (a frbr:Manifestation with a specific format) and be represented by a specific fabio:ComputerFile (a frbr:Item) on someone's hard drive."@en ;
+    schema:name "data file"@en ;
+.
+
+dcat:Distribution
+    schema:description "A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above)."@en ;
+    schema:name "Distribution"@en ;
+.
+
+dcat:Resource
+    schema:description "Resource published or curated by a single agent."@en ;
+    schema:name "Catalogued resource"@en ;
+.
+
+dcat:hadRole
+    schema:description "The function of an entity or agent with respect to another entity or resource."@en ;
+    schema:name "hadRole"@en ;
+.
+
+dcat:theme
+    schema:description "A main category of the resource. A resource can have multiple themes."@en ;
+    schema:name "theme"@en ;
+.
+
+prof:hasArtifact
+    schema:description "The URL of a downloadable file with particulars such as its format and role indicated by the Resource Descriptor"@en ;
+    schema:name "has artifact" ;
+.
+
+prof:hasResource
+    schema:description "A resource which describes the nature of an artifact and the role it plays in relation to the Profile"@en ;
+    schema:name "has resource"@en ;
+.
+
+prof:hasRole
+    schema:description "The function of an artifact described by a Resource Descriptor, such as specification, guidance etc."@en ;
+    schema:name "has role" ;
+.
+
+odrl:Policy
+    schema:description "A non-empty group of Permissions and/or Prohibitions."@en ;
+    schema:name "Policy"@en ;
+.
+
+odrl:duty
+    schema:description "Relates an individual Duty to a Permission."@en ;
+    schema:name "Has Duty"@en ;
+.
+
+odrl:hasPolicy
+    schema:description "Identifies an ODRL Policy for which the identified Asset is the target Asset to all the Rules."@en ;
+    schema:name "Target Policy"@en ;
+.
+
+prov:agent
+    schema:name "agent" ;
+.
+
+prov:endedAtTime
+    schema:description "The time at which an activity ended. See also prov:startedAtTime."@en ;
+    schema:name "ended at time" ;
+.
+
+prov:qualifiedAttribution
+    schema:description "If this Entity prov:wasAttributedTo Agent :ag, then it can qualify how it was influenced using prov:qualifiedAttribution [ a prov:Attribution;  prov:agent :ag; :foo :bar ]."@en ;
+    schema:name "qualified attribution" ;
+.
+
+prov:startedAtTime
+    schema:description "The time at which an activity started. See also prov:endedAtTime."@en ;
+    schema:name "started at time" ;
+.
+
+<https://linked.data.gov.au/def/data-roles/author>
+    schema:description "party who authored the resource" ;
+    schema:name "author"@en ;
+.
+
+<https://linked.data.gov.au/def/data-roles/custodian>
+    schema:description "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource" ;
+    schema:name "custodian"@en ;
+.
+
+<https://linked.data.gov.au/def/data-roles/originator>
+    schema:description "party who created the resource" ;
+    schema:name "originator"@en ;
+.
+
+<https://linked.data.gov.au/def/data-roles/owner>
+    schema:description "party that owns the resource" ;
+    schema:name "owner"@en ;
+.
+
+<https://linked.data.gov.au/def/data-roles/pointOfContact>
+    schema:description "party who can be contacted for acquiring knowledge about or acquisition of the resource" ;
+    schema:name "point of contact"@en ;
+.
+
+<https://linked.data.gov.au/def/data-roles/principalInvestigator>
+    schema:description "key party responsible for gathering information and conducting research" ;
+    schema:name "principal investigator"@en ;
+.
+
+<https://linked.data.gov.au/def/reg-statuses/experimental>
+    schema:color "#eae72c" ;
+    schema:description "An entry that has been accepted into the register temporarily and may be subject to change or withdrawal."@en ;
+    schema:name "experimental"@en ;
+.
+
+<https://prez.dev/Manifest>
+    schema:name "Manifest" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/CatalogueAndResourceModel>
+    schema:description "The default model for the container and the content. Must be a set of SHACL Shapes" ;
+    schema:name "Catalogue & Resource Model" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/CatalogueData>
+    schema:description "Data for the container, usually a Catalogue, including the identity of it and each item fo content" ;
+    schema:name "Catalogue Data" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/IncompleteCatalogueAndResourceLabels>
+    schema:description "Some of the labels - possibly including names, descriptions & seeAlso links - for the Catalogue and Resource objects" ;
+    schema:name "Incomplete Catalogue and Resource Labels" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/ResourceData>
+    schema:description "Data for the content of the container" ;
+    schema:name "Resource Data" ;
+.
+
+schema:CreativeWork
+    schema:description "The most generic kind of creative work, including books, movies, photographs, software programs, etc" ;
+    schema:name "Creative work" ;
+.
+
+schema:DataCatalog
+    schema:description "A collection of datasets" ;
+    schema:name "Data catalog" ;
+.
+
+schema:Dataset
+    schema:description "A body of structured information describing some topic(s) of interest" ;
+    schema:name "Dataset" ;
+.
+
+schema:additionalType
+    schema:description
+        "An additional type for the item, typically used for adding more specific types from external vocabularies" ,
+        """An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the
+    use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org <a href="https://schema.org/docs/styleguide.html">style guide</a>.""" ,
+        "An additional type for the item, typically used for adding more specific types from external vocabularies"@en ;
+    schema:name
+        "additional type" ,
+        "additional type"@en ;
+.
+
+schema:codeRepository
+    schema:description "Link to the repository where the un-compiled, human readable code and related code is located (SVN, GitHub, CodePlex)" ;
+    schema:name "code repository" ;
+.
+
+schema:creator
+    schema:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork" ;
+    schema:name "creator" ;
+.
+
+schema:dateCreated
+    schema:description "The date on which the CreativeWork was created or the item was added to a DataFeed" ;
+    schema:name "date created" ;
+.
+
+schema:dateIssued
+    schema:description "The date the ticket was issued" ;
+    schema:name "date issued" ;
+.
+
+schema:dateModified
+    schema:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed" ;
+    schema:name "date modified" ;
+.
+
+schema:description
+    schema:description "A description of the item" ;
+    schema:name "description" ;
+.
+
+schema:distribution
+    schema:description "A downloadable form of this dataset, at a specific location, in a specific format. This property can be repeated if different variations are available. There is no expectation that different downloadable distributions must contain exactly equivalent information (see also [DCAT](https://www.w3.org/TR/vocab-dcat-3/#Class:Distribution) on this point). Different distributions might include or exclude different subsets of the entire dataset, for example" ;
+    schema:name "distribution" ;
+.
+
+schema:hasPart
+    schema:description
+        "Indicates a Resource that is part of this item" ,
+        "Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense)" ;
+    schema:name
+        "has part" ,
+        "member" ;
+.
+
+schema:keywords
+    schema:description "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property" ;
+    schema:name "keywords" ;
+.
+
+schema:license
+    schema:description "A license document that applies to this content, typically indicated by URL" ;
+    schema:name "license" ;
+.
+
+schema:name
+    schema:description "The name of the item" ;
+    schema:name "name" ;
+.
+
+schema:publisher
+    schema:description "The publisher of the creative work" ;
+    schema:name "publisher" ;
+.
+
+schema:status
+    schema:description "The status of the study (enumerated)" ;
+    schema:name "status" ;
+.
+
+schema:temporal
+    schema:description """The "temporal" property can be used in cases where more specific properties
+(e.g. [[temporalCoverage]], [[dateCreated]], [[dateModified]], [[datePublished]]) are not known to be appropriate.""" ;
+    schema:name "temporal" ;
+.
+
+schema:url
+    schema:description "URL of the item" ;
+    schema:name "url" ;
+.
+
+schema:usageInfo
+    schema:description """The schema.org [[usageInfo]] property indicates further information about a [[CreativeWork]]. This property is applicable both to works that are freely available and to those that require payment or other transactions. It can reference additional information, e.g. community expectations on preferred linking and citation conventions, as well as purchasing details. For something that can be commercially licensed, usageInfo can provide detailed, resource-specific information about licensing options.
+
+This property can be used alongside the license property which indicates license(s) applicable to some piece of content. The usageInfo property can provide information about other licensing options, e.g. acquiring commercial usage rights for an image that is also available under non-commercial creative commons licenses.""" ;
+    schema:name "usage info" ;
+.
+

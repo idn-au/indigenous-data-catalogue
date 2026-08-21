@@ -1,0 +1,49 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/1af3c08e-e217-4472-a481-1e6d0e123456>
+    a schema:Dataset ;
+    prov:qualifiedAttribution 
+        [
+            a prov:Attribution ;
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/author> ;
+            schema:agent <https://data.idnau.org/pid/org/43581c86-892a-48dc-be9f-874477c0b6d2> ;
+        ] ,
+        [
+            a prov:Attribution ;
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
+            schema:agent <https://data.idnau.org/pid/org/636c32e3-b7c8-4d63-a192-9337f0793aac> ;
+        ] ;
+    schema:dateCreated "2024-01-15"^^xsd:date ;
+    schema:dateModified "2026-05-25"^^xsd:date ;
+    schema:description """Milingimbi Art and Culture is an Indigenous-owned, non-profit corporation which supports Yolŋu culture and sustainable livelihoods for artists on the island of Yurrwi (Milingimbi), in North East Arnhem Land.
+
+This dataset is the of cultural material from Milingimbi Island separate to the main Centre dataset.""" ;
+    schema:distribution
+        [
+            a schema:DataDownload ;
+            schema:name "UoM archived copy of data files" ;
+            schema:url "https://mediaflux.researchsoftware.unimelb.edu.au/projects/proj-5050_isu-1128.4.708/keeping-place/milingimbi" ;
+        ] ;
+    schema:keywords
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=3> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=4> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=5> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
+    schema:license <http://purl.org/NET/rdflicense/allrightsreserved> ;
+    schema:name "Milingimbi Art & Cultural Centre Historical Cultural Data" ;
+    schema:spatialCoverage <https://www.geonames.org/8605117> ;
+    schema:temporalCoverage
+        [
+            schema:coverageStartTime "1970"^^xsd:gYear ;
+        ] ;
+    schema:usageInfo
+        <https://linked.data.gov.au/def/data-access-rights/restricted> ,
+        "For use by the Milingimbi Art & Culture Centre" ;
+.

@@ -1,0 +1,33 @@
+{
+  "@context": "context.jsonld",
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "ro-crate-metadata.json",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "identifier": "https://data.idnau.org/pid/041b30a8-f187-4846-9890-de2a200dbfc8",
+      "@type": "Dataset",
+      "datePublished": "2025-02-12",
+      "name": "Source data of the Australian Message Stick Database",
+      "description": "An online version control repository containing data files for the content of the Australian Message Stick Database",
+      "license": {
+        "@id": "http://purl.org/NET/rdflicense/cc-by4.0"
+      }
+    },
+    {
+      "@id": "http://purl.org/NET/rdflicense/cc-by4.0",
+      "@type": "CreativeWork",
+      "description": "This work is licensed under the Creative Commons Attribution Attribution 4.0 International License. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.",
+      "identifier": "http://purl.org/NET/rdflicense/cc-by4.0",
+      "name": "Attribution 4.0 International (CC BY 4.0)"
+    }
+  ]
+}
