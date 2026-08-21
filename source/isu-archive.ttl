@@ -1,0 +1,548 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isu: <https://data.idnau.org/pid/resource/> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+isu:isu-archive a schema:CreativeWork,
+        rico:RecordResource ;
+    dcterms:title "ISU Archive" ;
+    schema:additionalType "David Duran House Short Term Archive" ;
+    schema:creator <https://linked.data.gov.au/org/isu> ;
+    schema:description "Room with archival boxes at David Duran House, University of Melbourne, belonging to the Indigenous Studies Unit" ;
+    schema:name "Archival boxes" ;
+    rico:hasDirectPart <https://data.idnau.org/pid/resource/isu-archive/box-15>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-19>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-2>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-4>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-8>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-9> ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G21/22" ] .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15> a rico:RecordSet ;
+    dcterms:title "Marcia Langton's Annual Publications, Speeches, Papers" ;
+    rico:hasDirectPart <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4> ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15" ] ;
+    rico:name "Box 15" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1> a rico:RecordSet ;
+    dcterms:title "Marcia Langton's Annual Publications, Speeches, Papers 2009-2010" ;
+    rico:generalDescription "Includes articles, reviews, and speeches from 2009-2010." ;
+    rico:hasDirectPart <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-1>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-10>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-11>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-12>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-13>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-14>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-15>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-16>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-2>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-3>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-4>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-5>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-6>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-7>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-8>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-9> ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15" ] ;
+    rico:name "Folder 1" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-1> a rico:Record ;
+    dcterms:date "2009"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "The Australian article - Chronicler of disaster foretold" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-10> a rico:Record ;
+    dcterms:date "2010"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Talk at the Queensland state library - The resource curse - New outback principalities and he paradox of plenty" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-11> a rico:Record ;
+    dcterms:date "2010"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Comparitive perspective on communal lands and individual ownership - sustainable futures" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-12> a rico:Record ;
+    dcterms:date "2010"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "The estate as duration - 'Being in place' and aboriginal property in areas of Cape York Peninsula in North Australia - Marcia Langton" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-13> a rico:Record ;
+    dcterms:date "2010"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Dialogue about land justice - papers from the national native title conference" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-14> a rico:Record ;
+    dcterms:date "2010"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "The shock of the new: a post colonial dilemma for Australianist anthropology - Culture crisis in anthropology " .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-15> a rico:Record ;
+    dcterms:date "2010"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Legal personality and native title corporations - The problem of perpetual succession - Dialogue about land justice - papers from the national native tilte conference 2007" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-16> a rico:Record ;
+    dcterms:date "2010"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "First Australians Book" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-2> a rico:Record ;
+    dcterms:date "2009"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Macquarie pen anthology of Australian Literature" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-3> a rico:Record ;
+    dcterms:date "2009"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Vogue Australia - endnote" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-4> a rico:Record ;
+    dcterms:date "2009"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "National Potrait Gallery - unique screenprint commissioned with fund provided by Marilyn Darling" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-5> a rico:Record ;
+    dcterms:date "2009"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Perspectives" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-6> a rico:Record ;
+    dcterms:date "2009"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Perspectives - Inidigenous Education and the Ladder to Prosperity" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-7> a rico:Record ;
+    dcterms:date "2009"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "reflections and voices - exploring the music of Yothu Yindi with Mandawuy Yunupi_u" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-8> a rico:Record ;
+    dcterms:date "2010"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Native title, poverty and economic development - The mabo lecture - By Marcia Langton - Native title conference " .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-1/record-9> a rico:Record ;
+    dcterms:date "2010"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 1" ] ;
+    rico:name "Griffith Review 28 - Still the Lucky Country? - Marcia Langton, Kathy Marks - inside the boom" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2> a rico:RecordSet ;
+    dcterms:title "Marcia Langton's Annual Publications, Speeches, Papers 2008" ;
+    rico:generalDescription "Includes articles, reviews, and speeches from 2008." ;
+    rico:hasDirectPart <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-17>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-18>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-19>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-20>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-21>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-22>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-23>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-24>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-25>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-26>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-27>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-28> ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15" ] ;
+    rico:name "Folder 2" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-17> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "ABV 48 - The annual journal of the NGV - Brook Andrew: ethical portraits and ghostscapes - by Marcia Langton" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-18> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "Real change for people The Australian " .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-19> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "The keating redfern speech, The Australian " .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-20> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "Griffith review - Re-imagining australia - trapped in the Aboriginal reality show" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-21> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "Griffith review - the end of 'big men' politics" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-22> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "New agenda for prosperity  - Economic and social outlook conference - After the apolgoy Plenary - Povderty in the midst of plenty: using new federal approach to overcome Indigenous disadvantage" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-23> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "Journal of Energy & Natural resources Law" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-24> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "Poverty in the Midst of Plenty: Aboriginal People, the 'resource course' and Australia's Mining Boom" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-25> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "Project outline for the above 3 - journal entry" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-26> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "Dear Mr Rudd - article" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-27> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "Brook Andrew Theme Park - Tinsel Dreams" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-2/record-28> a rico:Record ;
+    dcterms:date "2008"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 2" ] ;
+    rico:name "First Australians Chapters - 1. they made a solitude - 2. the dawm is attained" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3> a rico:RecordSet ;
+    dcterms:title "Marcia Langton's Annual Publications, Speeches, Papers 2006-2007" ;
+    rico:generalDescription "Includes articles, reviews, and speeches from 2006-2007." ;
+    rico:hasDirectPart <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-29>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-30>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-31>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-32>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-33>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-34>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-35>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-36>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-37>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-38>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-39> ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15" ] ;
+    rico:name "Folder 3" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-29> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "Publications for dest reoprt " .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-30> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "Australian Literature Review - Intiamate places and terrifying spaces" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-31> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "Meanjin - Blak Times" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-32> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "Paddy Bedford - Goowoomji's World" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-33> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "Indigenous higher education advisory council  - conference report of the second annual IHEC " .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-34> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "Treaty talks - ESORA - book" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-35> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "the social archaeology of Australian Indigenous Society - Earth, wind, fire, water: the social and spiritual construction of water in aboriginal societies" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-36> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "Settling with Indigenous People - Chapter 3 - Keeping the fires burning: Grievance and Aspiration in the Ng_i Tahu Settlement" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-37> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "The Australian Journal of Anthropology - The 'Spirit' of the Thing: The boundaries of Aboriginal Economic Relations at Australian Common Law" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-38> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "Informantion Technology and Indigenous People - Case study XX: Agreeements Treaties and negotiated Settlements Database" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-3/record-39> a rico:Record ;
+    dcterms:date "2007"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 3" ] ;
+    rico:name "Ricky Maynard - Potrait of a Distant Land - we are here: Memory, Presence and Landscape in Tasmania" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4> a rico:RecordSet ;
+    dcterms:title "Marcia Langton's Annual Publications, Speeches, Papers 2004-2005" ;
+    rico:generalDescription "Includes articles, reviews, and speeches from 2004-2005." ;
+    rico:hasDirectPart <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-40>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-41>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-42>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-43>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-44>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-45>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-46>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-47>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-48>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-49>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-50>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-51>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-52>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-53>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-54>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-55>,
+        <https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-56> ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15" ] ;
+    rico:name "Folder 4" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-40> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "From subject to citizens A hundred years of Citizenship in Australia - The nations of Australia" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-41> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Brook Andrew Kalar midday - The scape of Dreams" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-42> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Acceleated education - addressing education gaps and the 'whole of life' crisis facing Australian Indigenous Youth" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-43> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Sacred - Paper presented at the sacred symposium at the adelaid festival of arts" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-44> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "The others - essay for terra alterius" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-45> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Holy Holy Holy - the 'word of god' and 'works of the devil'" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-46> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Draft: the role of education systems in the maintenance of traditial Aboriginal biodiversity related knowledge in Australia and Aisa" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-47> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Honour among nations: treaties and agreements with Indigenous Peoples Session " .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-48> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Honour among nations: treaties and agreements with Indigenous Peoples edited by ML" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-49> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Modern agreement making and indigenous people in australia:issues and trends" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-50> a rico:Record ;
+    dcterms:date "2004"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Draft: Modern agreement making and indigenous people in australia:issues and trends - a discussion paper prepared for AIATSIS" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-51> a rico:Record ;
+    dcterms:date "2005"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Blak times - out from the shadows" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-52> a rico:Record ;
+    dcterms:date "2005"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Brook Andrew Hope & Peace - High Excellent Technical Flavour" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-53> a rico:Record ;
+    dcterms:date "2005"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Email from Keith Munro - Destiny Deacon essay - 'The valley of the dolls'" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-54> a rico:Record ;
+    dcterms:date "2006"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Destiny Deacon Vally of the dolls - Black Humour in the art of desitiny Deacon" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-55> a rico:Record ;
+    dcterms:date "2005"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Treaty Book - Foreword to \"treaty\" by ML" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-15/folder-4/record-56> a rico:Record ;
+    dcterms:date "2005"^^xsd:gYear ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G15 > Box 15 > Folder 4" ] ;
+    rico:name "Australian Indigenous Knowledge and Libraries - introduction" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-19> a rico:RecordSet ;
+    dcterms:title "Marcia Langton's Archive and Books" ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G22" ] ;
+    rico:name "Box 19" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-2> a rico:RecordSet ;
+    dcterms:title "Marcia Lanton's Archive - Folders, Aurora, Land and Sea, Water, Law" ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G22" ] ;
+    rico:name "Box 2" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-4> a rico:RecordSet ;
+    dcterms:title "Marcia's Archive, Folders, ATNS, ATNS Linkage - Course materials, NT Law + Practice" ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G22" ] ;
+    rico:name "Box 4" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-8> a rico:RecordSet ;
+    dcterms:title "Marcia Langton's Archive,  Projects, Research and  Reports" ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G22" ] ;
+    rico:name "Box 8" .
+
+<https://data.idnau.org/pid/resource/isu-archive/box-9> a rico:RecordSet ;
+    dcterms:title "Marcia Langton's Archive, Bookcase, Shelf" ;
+    rico:hasOrHadLocation [ a rico:Place ;
+            dcterms:date "2025-09-17"^^xsd:date ;
+            dcterms:description "205 Grattan St > Room G22" ] ;
+    rico:name "Box 9" .

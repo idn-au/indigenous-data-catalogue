@@ -1,0 +1,21 @@
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/3a7f2a96-4171-406e-9113-bee3254d6350>
+    a schema:CreativeWork ;
+    odrl:hasPolicy
+        <https://data.idnau.org/pid/MPF1242> ,
+        <https://data.idnau.org/pid/MPF1289> ,
+        <https://data.idnau.org/pid/MPF1309> ;
+    schema:additionalType <http://id.loc.gov/vocabulary/marcgt/boo> ;
+    schema:creator <https://orcid.org/0000-0002-1398-7524> ;
+    schema:dateCreated "2015"^^xsd:gYear ;
+    schema:dateModified "2026-01-22"^^xsd:date ;
+    schema:description "The engagement between the minerals industry and Indigenous Australians has been characterised by remarkable change in the last two decades. Instead of constant conflict in every encounter, there is now a widespread approach of sophisticated face-to-face engagement that fosters discussion rather than argument. This has resulted in the adoption of good practices in negotiation and agreement-making between parties. This relationship has been  positively transformed by more than 20 years of reform in the  rights of Indigenous Australians  and innovative engagement on  the part of the minerals industry. The hard-won transformation from one of acrimonious conflict to mutually beneficial agreementmaking has produced substantial Indigenous employment and enterprise outcomes. A number of agreements have been developed in the minerals industry without contesting native title. Agreements cover issues such as access to land and resources, infrastructure, environmental management, tourism and cultural heritage, facilitating business and service delivery, accelerating positive outcomes in employment, skills, training, income levels, education standards, health and other social and economic indicators. These negotiated settlements can provide resolution to issues not envisaged by the Native Title Act 1993 (Cth) (NTA), such as wealth creation, sustainable development post project and transitioning from welfare dependency to economic participation. The positive approach by minerals companies toward their relationships with Indigenous communities has fostered respect for Aboriginal culture and history and delivered tangible socioeconomic impacts. This has driven increased economic participation for Indigenous people, and growing procurement of goods and services from Indigenous businesses and joint ventures. For example, up to 150 Aboriginal businesses have been established in the mining supply chain in the Pilbara with combined turnover in excess of hundreds of millions of dollars." ;
+    schema:identifier "9780992533328"^^id:isbn ;
+    schema:keywords "Employment of Aborigines" ;
+    schema:name "From Conflict to Cooperation: Transformations and Challenges in the Engagement Between the Australian Minerals Industry and Australian Indigenous Peoples" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+.

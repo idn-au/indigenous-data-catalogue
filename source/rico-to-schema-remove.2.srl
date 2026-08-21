@@ -1,0 +1,15 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology/>
+PREFIX schema: <https://schema.org/>
+
+DELETE {
+    ?x schema:name ?y .
+    ?x schema:nameX ?z .
+} INSERT {
+    ?x schema:name ?z .
+} WHERE {
+    ?x
+        schema:name ?y ;
+        schema:nameX ?z ;
+    .
+}

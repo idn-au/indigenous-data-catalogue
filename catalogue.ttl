@@ -1,0 +1,32 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/isu-catalogue>
+    a schema:DataCatalog ;
+    schema:codeRepository "https://github.com/idn-au/isu-catalogue" ;
+    schema:creator <https://linked.data.gov.au/org/isu> ;
+    schema:dateCreated "2025-01-14"^^xsd:date ;
+    schema:dateModified "2025-11-21"^^xsd:date ;
+    schema:description "The Indigenous Studies Unit's catalogue of publications and artifacts" ;
+    schema:hasPart
+        <https://data.idnau.org/pid/167f973a-1bf4-4528-82af-b737c8f173f9> ,
+        <https://data.idnau.org/pid/2975ec4e-518f-4a09-8e6d-38bad64728a3> ,
+        <https://data.idnau.org/pid/3a7f2a96-4171-406e-9113-bee3254d6350> ,
+        <https://data.idnau.org/pid/762463a4-f8b1-4eec-a335-3689c8d86e9e> ,
+        <https://data.idnau.org/pid/MPF1226> ,
+        <https://data.idnau.org/pid/MPF1242> ,
+        <https://data.idnau.org/pid/MPF1289> ,
+        <https://data.idnau.org/pid/MPF1309> ,
+        <https://data.idnau.org/pid/a7df33f3-277f-47bc-b38b-e91a664c0110> ,
+        <https://data.idnau.org/pid/e99c6a9d-f290-432d-8f20-0716bca105a7> ,
+        <https://data.idnau.org/pid/resource/isu-archive> ,
+        <https://doi.org/10.1002/ajs4.200> ,
+        <https://doi.org/10.1080/13241583.2022.2049053> ,
+        <https://doi.org/10.1111/eip.13184> ,
+        <https://doi.org/10.1111/jpc.15701> ,
+        <https://doi.org/10.3138/9781442624986-020> ;
+    schema:name "Indigenous Studies Unit Catalogue" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+    schema:status astatus:experimental ;
+.

@@ -1,0 +1,19 @@
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://doi.org/10.1111/jpc.15701>
+    a schema:CreativeWork ;
+    odrl:hasPolicy
+        <https://data.idnau.org/pid/MPF1242> ,
+        <https://data.idnau.org/pid/MPF1289> ,
+        <https://data.idnau.org/pid/MPF1309> ;
+    schema:additionalType <http://id.loc.gov/vocabulary/marcgt/art> ;
+    schema:creator "Stanley, F., Langton, M., Ward, J., McAullay, D. & Eades, S." ;
+    schema:dateCreated "2021"^^xsd:gYear ;
+    schema:dateModified "2026-01-22"^^xsd:date ;
+    schema:description "Until the recent death in Dubbo of an Aboriginal man, there have been no deaths from Covid 19 in Australia. The extraordinary success of Aboriginal and Torres Strait Islander populations in controlling the effects of this pandemic has been a global role model. Until early 2021, in spite of their high risk status, dispersed population and fear of health services due to racism, Indigenous outcomes were better than those for non-Indigenous. Aboriginal health leaders at every level brought in worlds best practices and applied them in all urban, rural and remote locations. Instead of the many hundreds of cases, hospitalisation and deaths expected, there were only 150 cases nationwide with15% hospitalised but no one in ICU and no deaths. This result is a complete reversal of the gap and was due to the outstanding Indigenous leadership, that governments at all levels listened to Aboriginal wisdom and that control was handed to those who knew what to do. This result is not only evidence for why a Voice enshrined in the Constitution would work, it heralds a new way of working with Aboriginal people in Australia. This viewpoint makes the case for a different model to engage and empower First Nations to really close the gap - themselves." ;
+    schema:keywords "Aboriginal health" ;
+    schema:name "Australian First Nations response to the pandemic: A dramatic reversal of the 'gap'." ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+.

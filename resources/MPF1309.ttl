@@ -1,0 +1,17 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/MPF1309>
+    a schema:CreativeWork ;
+    schema:additionalType <http://purl.org/spar/fabio/PolicyDocument> ;
+    schema:creator
+        <https://data.idnau.org/pid/org/028b1502-96aa-421d-af0a-9ac2d8c1f5f2> ,
+        <https://data.idnau.org/pid/org/1b668e93-9160-48af-a060-5a91363f8e24> ;
+    schema:dateCreated "2024"^^xsd:gYear ;
+    schema:dateModified "2024"^^xsd:gYear ;
+    schema:description "The objective of this policy is to articulate a framework for developing and managing Collections."@en ;
+    schema:identifier "MPF1309" ;
+    schema:name "Collections Policy" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+    schema:url "https://policy.unimelb.edu.au/MPF1309/"^^xsd:anyURI ;
+.

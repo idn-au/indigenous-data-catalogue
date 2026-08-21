@@ -1,0 +1,29 @@
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/167f973a-1bf4-4528-82af-b737c8f173f9>
+    a schema:CreativeWork ;
+    odrl:hasPolicy
+        <https://data.idnau.org/pid/MPF1242> ,
+        <https://data.idnau.org/pid/MPF1289> ,
+        <https://data.idnau.org/pid/MPF1309> ;
+    schema:additionalType <http://id.loc.gov/vocabulary/marcgt/boo> ;
+    schema:creator
+        <https://orcid.org/0000-0002-0346-2820> ,
+        <https://orcid.org/0000-0002-1398-7524> ;
+    schema:dateCreated "2019"^^xsd:gYear ;
+    schema:dateModified "2026-05-25"^^xsd:date ;
+    schema:description "Since 2002, Alcohol Management Plans (AMPs) have been used in many Indigenous communities as a framework to reduce alcohol-related harms. (Smith et al., 2013). This report outlines the findings of an ethnographic research project which gathered and analysed the AMP in the remote Indigenous community of Pormpuraaw on the western coast of Cape York Peninsula in far north Queensland. The qualitative and quantitative evidence examined in this project shows a significant reduction in alcohol-related harms following the introduction of the AMP. It offers nuanced understandings of how AMPs are understood, investigates their effectiveness in responding to alcohol-related harms and examines community engagement in their design, implementation and evaluation. This research increases knowledge about local residents’ experiences and understandings of AMPs.This can inform an appropriate policy framework that effectively responds to the harms associated with alcohol misuse." ;
+    schema:distribution
+        [
+            a schema:DataDownload ;
+            schema:contentUrl "https://fare.org.au/wp-content/uploads/The-Alcohol-Management-Plan-at-Pormpuraaw.pdf"^^xsd:anyURI ;
+        ] ;
+    schema:identifier "9780648426776"^^id:isbn ;
+    schema:keywords "Aboriginal health" ;
+    schema:name "The Alcohol Management Plan at Pormpuraaw, Queensland, Australia: An ethnographic community-based study" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+    schema:spatialCoverage <https://sws.geonames.org/8310768/> ;
+.

@@ -1,0 +1,19 @@
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://doi.org/10.1111/eip.13184>
+    a schema:CreativeWork ;
+    odrl:hasPolicy
+        <https://data.idnau.org/pid/MPF1242> ,
+        <https://data.idnau.org/pid/MPF1289> ,
+        <https://data.idnau.org/pid/MPF1309> ;
+    schema:additionalType <http://id.loc.gov/vocabulary/marcgt/art> ;
+    schema:creator "Liddle, J., Langton, M., Rose, J. W. W., & Rice, S." ;
+    schema:dateCreated "2021"^^xsd:gYear ;
+    schema:dateModified "2026-01-22"^^xsd:date ;
+    schema:description "Decades of reports and policy have drawn attention to the significant social and occupational impairment of many young Aboriginal men in Central Australia. However, the role of mental ill-health as a contributing factor to this impairment, and culturally appropriate intervention targets have received insufficient attention in the psychiatry literature. Despite having the worst health outcomes of any population in Australia, Aboriginal men chronically underuse primary health care services. It's proposed that interventions ensuring cultural continuity through Identity-strengthening with a particular focus on positive Aboriginal masculinities will address a critical mental health gap for young men. In Central Australian and broader Indigenous populations, tangible and measurable kinship, language, religious and economic (KLRE) activities are catalytic vehicles for restoring traditional knowledge that suffer ongoing pressures as a result of colonization and assimilationist Government policy. By transforming KLRE knowledge content from ethnographic archives, these culturally rich repositories may be utilized to create education and engagement materials that will support young Aboriginal men's efforts to obtain and maintain positive mental health. This proposal focuses on building resilience through the acquisition of KLRE knowledge which young Aboriginal men can utilize as resources for enhancing positive identity and mental health outcomes." ;
+    schema:keywords "Aboriginal health; Aboriginal men" ;
+    schema:name "New thinking about old ways: Cultural continuity for improved mental health of young Central Australian Aboriginal men." ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+.

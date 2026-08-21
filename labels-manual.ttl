@@ -1,0 +1,115 @@
+PREFIX schema: <https://schema.org/>
+
+
+<https://orcid.org/0000-0002-4797-9776>
+    schema:name "Aaron Corn"
+.
+
+<https://orcid.org/0000-0002-1398-7524>
+    schema:name "Marcia Langton"
+.
+
+<http://purl.org/spar/fabio/BookChapter>
+    schema:name "Book Chapter" ;
+.
+
+<http://id.loc.gov/vocabulary/marcgt/boo>
+    schema:name "book" ;
+.
+
+<https://orcid.org/0000-0002-0346-2820>
+    schema:name "Kristen Smith" ;
+.
+
+<https://linked.data.gov.au/org/uom>
+    schema:name "University of Melbourne" ;
+.
+
+<http://id.loc.gov/vocabulary/marcgt/art>
+    schema:name "article" ;
+.
+
+<https://data.idnau.org/pid/org/7fb4c3c8-2317-4cfd-b5b8-b1c6a8c6e321> 
+    schema:name "Aboriginal & Torres Strait Islander Cultural Heritage Oversight Committee" ;
+    schema:description "advises the Provost and Vice President, Strategy and Culture on the implementation of the University's Aboriginal and Torres Strait Islander Cultural Heritage Policy, which outlines the principles by which the University will manage Aboriginal and Torres Strait Islander Ancestral Remains and cultural heritage, including with respect to the built and landscape environment." ;
+.
+
+<https://linked.data.gov.au/def/policy/3f74d52e-2aec-4a8c-a643-34d43c2cbac7>
+    schema:name "Repatriation of historic human remains"@en ;
+    schema:description "The process of returning human remains to their communities of origin. This process can help create healing and reconciliation for the descendants of those remains."@en ;
+.
+
+<https://terms.codata.org/rdmt/indigenous-data>
+    schema:name "Indigenous data"@en ;
+    schema:description "Data that pertains to (is created or gathered by, or is about) Indigenous peoples."@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=2>
+    schema:name "Aboriginal archaeology"@en ;
+    schema:description "Aboriginal archaeology"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=553>
+    schema:name "Culture" ;
+    schema:description "Culture" ;
+.
+
+<http://id.loc.gov/vocabulary/identifiers/isbn>
+    schema:name "International standard book number" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/Place>
+    schema:name "Place" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/Record>
+    schema:name "Record" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/RecordResource>
+    schema:name "Record Resource" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/RecordSet>
+    schema:name "Record Set" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/generalDescription>
+    schema:name "general description" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/hasDirectPart>
+    schema:name "has direct part" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/hasOrHadLocation>
+    schema:name "has or had location" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/name>
+    schema:name "name" ;
+.
+
+<https://schema.org/color>
+    schema:name "colour" ;
+.
+
+<https://schema.org/spatialCoverage>
+    schema:name "spatial coverage" ;
+.
+
+<https://schema.org/temporalCoverage>
+    schema:name "temporal coverage" ;
+.
+
+<https://schema.org/status>
+    schema:name "status" ;
+.
+
+<https://sws.geonames.org/8310768/>
+    schema:name "Pormpuraaw" ;
+.
+
+<http://www.w3.org/ns/dcat#theme>
+    schema:name "theme" ;
+.

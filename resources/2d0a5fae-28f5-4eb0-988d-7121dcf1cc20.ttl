@@ -1,0 +1,19 @@
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://doi.org/10.1002/ajs4.200>
+    a schema:CreativeWork ;
+    odrl:hasPolicy
+        <https://data.idnau.org/pid/MPF1242> ,
+        <https://data.idnau.org/pid/MPF1289> ,
+        <https://data.idnau.org/pid/MPF1309> ;
+    schema:additionalType <http://id.loc.gov/vocabulary/marcgt/art> ;
+    schema:creator "Chamberlain, C., Gray, P., Bennet, D., Elliott, A., Jackomos, M., Krakouer, J., ... Langton, M." ;
+    schema:dateCreated "2022"^^xsd:gYear ;
+    schema:dateModified "2026-01-22"^^xsd:date ;
+    schema:description "Reducing the rate of over-representation of Aboriginal and Torres Strait Islander children in out-of-home care (OOHC) is a key Closing the Gap target committed to by all Australian governments. Current strategies are failing. The “gap” is widening, with the rate of Aboriginal and Torres Strait Islander children in OOHC at 30 June 2020 being 11 times that of non-Indigenous children. Approximately, one in five Aboriginal and Torres Strait Islander children entering OOHC each year are younger than one year. These figures represent compounding intergenerational trauma and institutional harm to Aboriginal and Torres Strait Islander families and communities. This article outlines systemic failures to address the needs of Aboriginal and Torres Strait Islander parents during pregnancy and following birth, causing cumulative harm and trauma to families, communities and cultures. Major reform to child and family notification and service systems, and significant investment to address this crisis, is urgently needed. The Family Matters Building Blocks and five elements of the Aboriginal and Torres Strait Islander Child Placement Principle (Prevention, Participation, Partnership, Placement and Connection) provide a transformative foundation to address historical, institutional, well-being and socioeconomic drivers of current catastrophic trajectories. " ;
+    schema:keywords "Aboriginal children" ;
+    schema:name "Supporting Aboriginal and Torres Strait Islander Families to Stay Together from the Start (SAFeST Start): Urgent call to action to address crisis in infant removals." ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+.

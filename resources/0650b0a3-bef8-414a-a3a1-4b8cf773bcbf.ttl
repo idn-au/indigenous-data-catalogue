@@ -1,0 +1,64 @@
+PREFIX : <https://data.idnau.org/pid/>
+PREFIX dataroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX orcid: <https://orcid.org/>
+PREFIX poltype: <https://data.idnau.org/pid/vocab/policy-types/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX ror: <https://ror.org/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:0650b0a3-bef8-414a-a3a1-4b8cf773bcbf
+    a schema:CreativeWork, schema:ResearchProject ;
+    prov:qualifiedAttribution
+        [a prov:Attribution ;
+        schema:roleName dataroles:projectLead ;
+        schema:agent <https://orcid.org/0000-0002-0346-2820> ; 
+        schema:name "Kristen Smith"
+        ] ,
+        [a prov:Attribution ;
+        schema:roleName dataroles:projectParticipant ;
+        schema:agent <https://orcid.org/0000-0002-7702-5607> ; 
+        schema:name "Levi Murray"
+        ] , 
+        [a prov:Attribution ;
+        schema:roleName dataroles:projectParticipant ;
+        schema:agent <https://orcid.org/0000-0003-2751-2359> ; 
+        schema:name "Samantha Muller"
+        ] , 
+        [a prov:Attribution ;
+        schema:roleName dataroles:projectParticipant ;
+        schema:agent <https://data.idnau.org/pid/person/742a7776-b08b-4917-8378-5d59da79ad04> ; 
+        schema:name "Yalmay Yunupingu" ;
+        schema:alternateName "Yalmay Yunupingu Marika" ;
+        ] ;
+    schema:startDate "2023"^^xsd:gYear ;
+    schema:endDate "2024"^^xsd:gYear ;
+    schema:funder 
+        [ a schema:FundingAgency ;
+            schema:agent <https://ror.org/03ca35056> ;
+            schema:name "Atlantic Philanthropies" ; 
+            schema:url "http://www.atlanticphilanthropies.org/"^^xsd:anyURI
+        ] ;
+    schema:funding 
+        [ a schema:FundingScheme ;
+            schema:name "Atlantic Philanthropies Incentive Grant Program"@en ;
+            schema:url "https://www.unimelb.edu.au/indigenous/research/atlantic-philanthropies-incentive-grant-program"^^xsd:anyURI
+        ] ,
+        [ a schema:Grant ;
+            schema:name "Northeast Arnhem Land Atlantic Philanthropies Grant"@en ;
+            schema:url "https://www.unimelb.edu.au/indigenous/research/atlantic-philanthropies-incentive-grant-program"^^xsd:anyURI ;
+        ] ,
+        [ a schema:MonetaryAmount ;
+            schema:value "78750"^^xsd:decimal ;
+            schema:currency "AUD"
+        ] ;
+    schema:dateCreated "2026-07-02"^^xsd:date ;
+    schema:dateModified "2026-07-02"^^xsd:date ;
+    schema:description "This project responds to concerns raised by Yalmay Yunupingu and other staff within the Yirrkala School Language Production Centre related to the unauthorised use of their materials and knowledge and other related Intellectual Property issues.  Issues related to the appropriation of Indigenous knowledges and Yolŋu resources developed by Yolŋu educators and partners have emerged over recent years, with Yolŋu knowledge holders concerned about the lack of Yolŋu governance determining how this knowledge is used, distributed and shared." ;
+    schema:keywords 
+        <https://terms.codata.org/rdmt/indigenous-data-sovereignty> ,
+        <https://terms.codata.org/rdmt/indigenous-data> ;
+    schema:name "Supporting Indigenous Knowledge, Research and Data Governance and Cultural Preservation in Northeast Arnhem Land" ;
+    schema:url "https://www.unimelb.edu.au/indigenous/research/atlantic-philanthropies-incentive-grant-program"^^xsd:anyURI
+.

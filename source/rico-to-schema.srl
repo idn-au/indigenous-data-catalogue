@@ -1,0 +1,83 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology/>
+PREFIX schema: <https://schema.org/>
+
+RULE {
+    ?x schema:nameX ?m
+} WHERE {
+    ?x rico:name ?y .
+
+    ?x dcterms:title ?z .
+
+    BIND (CONCAT(?y, ": ", ?z) AS ?m)
+}
+
+RULE {
+    ?x schema:name ?y
+} WHERE {
+    ?x rico:name ?y .
+}
+
+RULE {
+    ?x schema:name ?y
+} WHERE {
+    ?x dcterms:title ?y
+}
+
+RULE {
+    ?x schema:description ?y
+} WHERE {
+    ?x dcterms:description ?y
+}
+
+RULE {
+    ?x schema:description ?y
+} WHERE {
+    ?x rico:generalDescription ?y
+}
+
+RULE {
+    ?x schema:location ?y
+} WHERE {
+    ?x rico:hasOrHadLocation ?y
+}
+
+RULE {
+    ?x schema:validFrom ?y
+} WHERE {
+    ?x
+        rdf:type rico:Place ;
+        dcterms:date ?y ;
+    .
+}
+
+RULE {
+    ?x schema:temporalCoverage ?y
+} WHERE {
+    ?x dcterms:date ?y .
+
+    ?x rdf:type rico:RecordResource .
+}
+
+RULE {
+    ?x schema:temporalCoverage ?y
+} WHERE {
+    ?x dcterms:date ?y .
+
+    ?x rdf:type rico:RecordSet .
+}
+
+RULE {
+    ?x schema:temporalCoverage ?y
+} WHERE {
+    ?x dcterms:date ?y .
+
+    ?x rdf:type rico:Record .
+}
+
+RULE {
+    ?x schema:hasPart ?y
+} WHERE {
+    ?x rico:hasDirectPart ?y
+}

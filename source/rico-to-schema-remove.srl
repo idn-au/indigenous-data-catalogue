@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology/>
+PREFIX schema: <https://schema.org/>
+
+DELETE {
+    ?x ?p ?y
+} WHERE {
+    VALUES ?p {
+        rico:name
+        dcterms:title
+        dcterms:description
+        dcterms:date
+        rico:hasOrHadLocation
+        rico:hasDirectPart
+        rico:generalDescription
+    }
+    ?x ?p ?y
+}
