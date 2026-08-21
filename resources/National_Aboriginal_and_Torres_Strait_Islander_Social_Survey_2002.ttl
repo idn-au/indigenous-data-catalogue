@@ -1,0 +1,94 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/59659ef3-df5b-4da4-b8c8-c19dfb498953>
+    a schema:CreativeWork ;
+    dcterms:type <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
+    prov:qualifiedAttribution 
+        [
+            a prov:Attribution ;
+            prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
+            schema:agent <https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9> ;
+        ] ,
+        [
+            a prov:Attribution ;
+            prov:hadRole
+                <https://def.isotc211.org/common/RoleCode/author> ,
+                <https://def.isotc211.org/common/RoleCode/custodian> ,
+                <https://def.isotc211.org/common/RoleCode/pointOfContact> ,
+                <https://def.isotc211.org/common/RoleCode/publisher> ,
+                <https://linked.data.gov.au/def/data-roles/datasteward> ;
+            schema:agent <https://linked.data.gov.au/org/abs> ;
+        ] ;
+    schema:copyrightNotice """ABS Copyright
+© Commonwealth of Australia
+The Commonwealth owns the copyright in all material produced by the Australian Bureau of Statistics (ABS).
+Apart from any use as permitted under the Copyright Act 1968, and those explicitly granted below, all other rights are reserved.
+""" ;
+    schema:dateCreated "2002"^^xsd:gYear ;
+    schema:dateIssued "2004-06-23"^^xsd:date ;
+    schema:dateModified "2003"^^xsd:gYear ;
+    schema:description """The 2002 National Aboriginal and Torres Strait Islander Social Survey (NATSISS) is a multi-dimensional social survey of Australia's Indigenous population designed to enable analysis of the interrelationship of social circumstances and outcomes, including the exploration of multiple disadvantage, that may be experienced by Aboriginal and Torres Strait Islander Australians.
+
+The survey aims to:
+provide broad information across key areas of social concern for Indigenous Australians aged 15 years or over, including information not previously available at the national, state/territory and broad regional levels allow for inter-relationships between different areas of social concern to be explored and provide insight into the extent to which people face multiple social disadvantage provide comparisons with results for the non-Indigenous population from the 2002 General Social Survey and other surveys measure selected changes over the eight years between this survey and the first National Aboriginal and Torres Strait Islander Survey conducted in 1994.
+
+The 2002 NATSISS is a large and rich source of social data on Indigenous people aged 15 years or over. Some basic information was also collected about the numbers of children under 15 years of age living in the same households as the survey respondents. Analysis of the household circumstances in which these children were living will be reported in future Australian Bureau of Statistics (ABS) releases.
+
+This summary of findings, which focuses on geographic differentials, changes since 1994 and comparisons with the non-Indigenous population, represents only some of the insights that can be obtained from the survey. Readers interested in undertaking further analysis of the data are referred to the National Aboriginal and Torres Strait Islander Social Survey: Data Reference Package, 2002 (cat. no. 4714.0.55.002) available on the ABS web site <www.abs.gov.au> or on request from the contact officer listed at the front of this publication.""" ;
+    schema:distribution
+        [
+            a
+                dcat:Distribution ,
+                schema:DataDownload ;
+            dcat:accessURL "https://www.abs.gov.au/ausstats/abs@.nsf/Previousproducts/4714.0Main%20Features12002?opendocument&tabname=Summary&prodno=4714.0&issue=2002&num=&view="^^xsd:anyURI ;
+            schema:description """
+Presents summary results from the 2002 National Aboriginal and Torres Strait Islander Social Survey (formerly Indigenous Social Survey), on a wide range of topics including family and culture, health, education, employment, income, financial stress, housing, transport and mobility, as well as law and justice. The report provides an overview through commentary and summary tables for different population groups and themes. More detailed information is presented in cross-classified tables. The publication provides a range of information at the national level with some comparisons with the non-Indigenous population based on the 2002 General Social Survey. Some time-series information, as well as information at a state/territory level, is also provided.""" ;
+            schema:keywords
+                <https://data.idnau.org/pid/vocab/cat-roles/home> ,
+                <https://data.idnau.org/pid/vocab/cat-roles/original> ;
+            schema:name "4714.0 - National Aboriginal and Torres Strait Islander Social Survey, 2002  " ;
+        ] ;
+    schema:keywords
+        <https://data.idnau.org/pid/vocab/idn-th/indigenous-demographics> ,
+        <https://linked.data.gov.au/def/policy/706dab90-492e-4638-b77b-81356b057723> ,
+        <https://terms.codata.org/rdmt/indigenous-data> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=10> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1096> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=11> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=15> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=181> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=2178> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=28> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=553> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=9> ;
+    schema:license <http://purl.org/NET/rdflicense/allrightsreserved> ;
+    schema:name "National Aboriginal and Torres Strait Islander Social Survey, 2002" ;
+    schema:temporalCoverage
+        [
+            a dcterms:PeriodOfTime ;
+            schema:coverageEndTime "2003"^^xsd:gYear ;
+            schema:coverageStartTime "2002"^^xsd:gYear ;
+        ] ;
+    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/open> ;
+.
+
+<https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9>
+    a schema:Person ;
+    schema:email "ncatsis@abs.gov.au"^^xsd:anyURI ;
+    schema:name "Australian Bureau of Statistics, National Information and Referral Service" ;
+    schema:telephone "1300 135 070" ;
+.
+
+<https://linked.data.gov.au/org/abs>
+    a schema:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:name "Australian Bureau of Statistics" ;
+    schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
+.

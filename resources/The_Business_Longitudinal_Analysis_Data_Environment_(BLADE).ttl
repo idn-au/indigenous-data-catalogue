@@ -1,0 +1,126 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/d96e77e5-74ba-4647-a35b-593205340aaa>
+    a schema:CreativeWork ;
+    prov:qualifiedAttribution 
+        [
+            a prov:Attribution ;
+            prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
+            schema:agent <https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9> ;
+        ] ,
+        [
+            a prov:Attribution ;
+            prov:hadRole
+                <https://def.isotc211.org/common/RoleCode/author> ,
+                <https://def.isotc211.org/common/RoleCode/originator> ,
+                <https://def.isotc211.org/common/RoleCode/owner> ,
+                <https://def.isotc211.org/common/RoleCode/pointOfContact> ,
+                <https://def.isotc211.org/common/RoleCode/publisher> ;
+            schema:agent <https://linked.data.gov.au/org/abs> ;
+        ] ;
+    schema:copyrightNotice """ABS Copyright
+© Commonwealth of Australia
+The Commonwealth owns the copyright in all material produced by the Australian Bureau of Statistics (ABS).
+Apart from any use as permitted under the Copyright Act 1968, and those explicitly granted, all other rights are reserved.
+""" ;
+    schema:dateCreated "2001"^^xsd:gYear ;
+    schema:dateIssued "2026"^^xsd:gYear ;
+    schema:dateModified "2026"^^xsd:gYear ;
+    schema:description """The Business Longitudinal Analysis Data Environment (BLADE) is an economic data tool combining tax, trade and intellectual property data with information from ABS surveys to provide a better understanding of the Australian economy and businesses performance over time.
+Authorised researchers use BLADE to understand how businesses fare over time and the factors that drive performance, innovation, job creation, competitiveness, and productivity, and provide new insights into the development and evaluation of government policies, programs and services.
+The current BLADE asset contains data on all active businesses from 2001-02 to current, sourced from:
+•	ABS Business Register
+•	Australian Taxation Office: Business Activity Statements (BAS), Business Income Tax (BIT) filings, Pay as You Go (PAYG) summaries, Single Touch Payroll (STP), JobKeeper Payment Scheme, JobMaker Hiring Credit Scheme and Capital Gains Tax (CGT)
+•	ABS surveys: Business Characteristics Survey (BCS) Innovation Module (IM) and Digital Activity Module (DAM), Management Capabilities Module (MCM), Economic Activity Survey (EAS), Business Expenditure on Research and Development (BERD), Private Non-Profit Expenditure on Research and Development (PNPERD), Survey of Research and Experimental Development, Government (GOVERD), Energy Water Environment Survey (EWES), Employee Earning and Hours (EEH), Private New Capital Expenditure and Expected Expenditure (CAPEX), Business Conditions and Sentiments (SBCS), Survey of International Trade in Services (SITS), Restraint Clauses Short Survey of Employment Conditions (SSEC), Agricultural Commodities and Job Vacancy Survey (JVS)
+•	Intellectual Property Australia: Intellectual Property Longitudinal Research Data (IPLORD)
+•	Department of Home Affairs: Merchandise Trade data
+•	Australian Securities and Investments Commission (ASIC): Insolvency data
+•	Department of Employment and Workplace Relations (DEWR): Workplace Agreements Database (WAD)
+•	Department of Industry, Science and Resources: Research & Development Tax Incentive (RDTI) Program and Emerging Industries
+""" ;
+    schema:distribution
+        [
+            a
+                dcat:Distribution ,
+                schema:DataDownload ;
+            dcat:accessURL "https://www.abs.gov.au/about/data-services/data-integration/integrated-data/business-longitudinal-analysis-data-environment-blade"^^xsd:anyURI ;
+            schema:description """Business Longitudinal Analysis Data Environment (BLADE) data is used to study how businesses fare over time and the factors that drive performance, innovation, job creation, competitiveness and productivity. As the ABS is an Accredited Integrating Authority, additional data sources can be integrated to BLADE for approved projects and subject to agreement from data custodians.
+BLADE information is protected by the Census and Statistics Act 1905, which requires the ABS to maintain the confidentiality of information collected under the Act. This legal requirement to protect confidentiality also applies for analysts authorised by the ABS to access BLADE microdata.
+Data in BLADE
+Data is provided in accordance with the requirements for approved projects. BLADE contains data items from the following resources:
+BLADE Standard:
+•	Indicative data items (e.g. State, ANZSIC): 2001-02 to present
+•	Agricultural Indicative data items: 2010-11 to 2020-21
+•	Business Activity Statement (BAS): 2001-02 to present
+•	Pay As You Go (PAYG): 2001-02 to latest available
+•	Business Income Tax (BIT): 2001-02 to latest available
+•	Single Touch Payroll (STP): 2001-02 to present
+•	Business Locations: 2001-02 to latest available
+•	ASIC Insolvency data: 2000-01 to present
+•	Business Birthdate: 1992-93 to latest available
+•	Intellectual Property Longitudinal Research Data (IPLORD): 2001-02 to latest available
+•	ABS Business Characteristics Survey (BCS): 2005-06 to 2019-20
+•	ABS Business Characteristics Survey: Management Capabilities Module (MCM): 2015-16
+•	ABS Business Characteristics Survey (BCS): Innovation Module (IM): 2020-21 and 2022-23
+•	ABS Business Characteristics Survey (BCS): Digital Activity Module (DAM): 2021-22
+•	ABS Economic Activity Survey (EAS): 2006-07 to latest available
+•	ABS Business Expenditure on Research and Development (BERD): 2004-05 to 2011-12, 2013-14, 2015-16, 2017-18, 2019-20 and 2021-22
+•	ABS Private Non-Profit Expenditure on Research and Development (PNPERD): 2008-09, 2011-12, 2012-13, 2014-15, 2016-17, 2018-19, 2020-21 and 2022-23
+•	ABS Research and Experimental Development, Government (GOVERD): 2008-09, 2011-12, 2012-13,  2014-15, 2016-17, 2018-19, 2020-21 and 2022-23
+•	ABS Energy Water and Environment Survey (EWES): 2008-09, 2011-12, 2017-18
+•	ABS Employee Earning and Hours (EEH): 2011-12, 2013-14, 2017-18, 2020-21 to 2024-25
+•	ABS Private New Capital Expenditure and Expected Expenditure (CAPEX): 1996-97 to present
+•	ABS Business Conditions and Sentiments (SBCS): 2020-21
+•	ABS Survey of International Trade in Services (SITS): 2014-15 to latest available
+•	ABS Restraint Clauses Short Survey of Employment Conditions (SSEC): 2023-24
+•	ABS Job Vacancy Survey: 2011-12 to 2024-25
+Additional requestable BLADE data include:
+•	ABS Agricultural Commodities: 2010-11, 2015-16 and 2020-21
+•	Merchandise Exports: 2003-04 to latest available
+•	Merchandise Imports: 2003-04 to latest available
+•	Workplace Agreements Data: 2001-02 to 2022-23
+•	JobKeeper Payment Scheme: 2019-20 to 2020-21
+•	JobMaker Hiring Credit Scheme: 2020-21 to 2022-23
+•	Survey Weights for BCS, BCS - MCM, BCS - IM, BCS - DAM, BERD, EAS, CAPEX, SSEC
+•	Capital Gains Tax (CGT): 2000-01 to 2022-23
+•	Research & Development Tax Incentive (RDTI) Program: 2013-14 to 2020-21
+•	Emerging Industries: 2024-25
+""" ;
+            schema:keywords <https://data.idnau.org/pid/vocab/cat-roles/original> ;
+            schema:name "Business Longitudinal Analysis Data Environment (BLADE)" ;
+        ] ;
+    schema:keywords
+        <https://vocabularyserver.com/apais/xml.php?skosTema=11> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=181> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=189> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=25> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=26> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=762> ;
+    schema:license <http://purl.org/NET/rdflicense/allrightsreserved> ;
+    schema:name "The Business Longitudinal Analysis Data Environment (BLADE)" ;
+    schema:temporalCoverage
+        [
+            a dcterms:PeriodOfTime ;
+            schema:coverageEndTime "2026"^^xsd:gYear ;
+            schema:coverageStartTime "2001"^^xsd:gYear ;
+        ] ;
+    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/restricted> ;
+.
+
+<https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9>
+    a schema:Person ;
+    schema:email "client.services@abs.gov.au"^^xsd:anyURI ;
+    schema:name "Australian Bureau of Statistics" ;
+    schema:telephone "1300 135 070" ;
+.
+
+<https://linked.data.gov.au/org/abs>
+    a schema:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:name "Australian Bureau of Statistics" ;
+    schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
+.

@@ -1,0 +1,27 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/external-catalogue>
+    a schema:DataCatalog ;
+    schema:codeRepository "https://github.com/idn-au/external-indigenous-catalogue/" ;
+    schema:contributor <https://kurrawong.ai> ;
+    schema:creator <https://linked.data.gov.au/org/idn> ;
+    schema:dateCreated "2026-05-19"^^xsd:gYear ;
+    schema:dateModified "2026-05-19"^^xsd:date ;
+    schema:description "Catalogue of references to Indigenous datasets not managed within the IDN." ;
+    schema:hasPart
+        <https://data.idnau.org/pid/resource/319ac706-fb32-4021-9759-634cfce12819> ,
+        <https://data.idnau.org/pid/resource/4393d4c1-96c0-4363-a87e-8a6c96c5cde8> ,
+        <https://data.idnau.org/pid/resource/59659ef3-df5b-4da4-b8c8-c19dfb498953> ,
+        <https://data.idnau.org/pid/resource/6c1c09c4-067a-4991-85e2-ba8c3f550f95> ,
+        <https://data.idnau.org/pid/resource/b51ee7b0-d2d9-49f3-9d72-bb6cc9fb8330> ,
+        <https://data.idnau.org/pid/resource/cbf9b05f-dcb7-4ce7-9123-a73283d52e84> ,
+        <https://data.idnau.org/pid/resource/d96e77e5-74ba-4647-a35b-593205340aaa> ;
+    schema:keywords
+        "Aboriginal" ,
+        "Australia" ,
+        "Indigenous" ,
+        "Indigenous Data Network" ;
+    schema:name "External Indigenous Catalogue" ;
+    schema:publisher <https://linked.data.gov.au/org/idn> ;
+.

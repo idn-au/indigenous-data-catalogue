@@ -1,0 +1,101 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/4393d4c1-96c0-4363-a87e-8a6c96c5cde8>
+    a schema:CreativeWork ;
+    dcterms:type <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
+    prov:qualifiedAttribution 
+        [
+            a prov:Attribution ;
+            prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
+            schema:agent <https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9> ;
+        ] ,
+        [
+            a prov:Attribution ;
+            prov:hadRole
+                <https://def.isotc211.org/common/RoleCode/author> ,
+                <https://def.isotc211.org/common/RoleCode/custodian> ,
+                <https://def.isotc211.org/common/RoleCode/originator> ,
+                <https://def.isotc211.org/common/RoleCode/owner> ,
+                <https://def.isotc211.org/common/RoleCode/pointOfContact> ,
+                <https://def.isotc211.org/common/RoleCode/publisher> ,
+                <https://def.isotc211.org/common/RoleCode/rightsHolder> ,
+                <https://linked.data.gov.au/def/data-roles/datasteward> ;
+            schema:agent <https://linked.data.gov.au/org/abs> ;
+        ] ;
+    schema:copyrightNotice """ABS Copyright
+© Commonwealth of Australia
+The Commonwealth owns the copyright in all material produced by the Australian Bureau of Statistics (ABS).
+Apart from any use as permitted under the Copyright Act 1968, and those explicitly granted below, all other rights are reserved.
+""" ;
+    schema:dateCreated "2014-09"^^xsd:monthYear ;
+    schema:dateIssued "2016-04-28"^^xsd:date ;
+    schema:dateModified "2015-06"^^xsd:monthYear ;
+    schema:description """The NATSISS was first collected in 2002 as a follow on from the 1994 National Aboriginal and Torres Strait Islander Survey. The NATSISS collects detailed information on the social and cultural experiences of Aboriginal and Torres Strait Islander peoples. The last NATSISS in 2014-15 collected information on a range of topics, including:
+
+    language and culture
+    social networks and wellbeing
+    health
+    education
+    work
+    crime and justice
+    housing
+    stressors.
+
+
+
+ """ ;
+    schema:distribution
+        [
+            a
+                dcat:Distribution ,
+                schema:DataDownload ;
+            dcat:accessURL "https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/4714.0Main+Features100022014-15?OpenDocument"^^xsd:anyURI ;
+            schema:description """The last NATSISS in 2014-15 collected information on a range of topics, including:
+    language and culture
+    social networks and wellbeing
+    health
+    education
+    work
+    crime and justice
+    housing
+    stressors.
+
+""" ;
+            schema:keywords <https://data.idnau.org/pid/vocab/cat-roles/original> ;
+            schema:name "4714.0 - National Aboriginal and Torres Strait Islander Social Survey, 2014-15  " ;
+        ] ;
+    schema:keywords
+        <https://data.idnau.org/pid/vocab/idn-th/indigenous-demographics> ,
+        <https://terms.codata.org/rdmt/indigenous-data> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=10> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=11> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ;
+    schema:license <http://purl.org/NET/rdflicense/allrightsreserved> ;
+    schema:name "National Aboriginal and Torres Strait Islander Social Survey (NATSISS) 2014-15" ;
+    schema:temporalCoverage
+        [
+            a dcterms:PeriodOfTime ;
+            schema:coverageEndTime "2015"^^xsd:gYear ;
+            schema:coverageStartTime "2014"^^xsd:gYear ;
+        ] ;
+    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/open> ;
+.
+
+<https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9>
+    a schema:Person ;
+    schema:email "api.data@abs.gov.au"^^xsd:anyURI ;
+    schema:name "Australian Bureau of Statistics" ;
+    schema:telephone "1300 135 070" ;
+.
+
+<https://linked.data.gov.au/org/abs>
+    a schema:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:name "Australian Bureau of Statistics" ;
+    schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
+.

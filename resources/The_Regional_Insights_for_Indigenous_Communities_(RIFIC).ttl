@@ -1,0 +1,102 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/319ac706-fb32-4021-9759-634cfce12819>
+    a schema:CreativeWork ;
+    dcterms:type <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
+    prov:qualifiedAttribution 
+        [
+            a prov:Attribution ;
+            schema:agent <https://data.idnau.org/pid/organization/5b819e8a-927f-49ef-b885-2bb072b067ef> ;
+        ] ,
+        [
+            a prov:Attribution ;
+            prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
+            schema:agent <https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9> ;
+        ] ;
+    schema:copyrightNotice "© Australian Institute of Health and Welfare 2026" ;
+    schema:dateCreated "2025"^^xsd:gYear ;
+    schema:dateIssued "2025"^^xsd:gYear ;
+    schema:dateModified "2025"^^xsd:gYear ;
+    schema:description """The Regional Insights for Indigenous Communities (RIFIC) website brings together a range of regional statistics about the health and wellbeing of Aboriginal and Torres Strait Islander people and their communities. The aim of the website is to provide access to data at a local level, to help communities set their priorities and participate in joint planning with government and service providers. The Indigenous communities and Other locations referenced, are derived from the Australian Government Indigenous Programs & Policy Locations and Australian Bureau of Statistics’ State Suburbs data sets. Refer to the Communities and locations page for more information.
+Information about data is supplied through three main dashboards:
+The Regional overview dashboard allows you to search for a community (or other location) and view statistics about a region that community is in. You can use the dashboard to compare regions and select different topics.
+The Closing the Gap dashboard allows you to search for a community (or other location) and access regional level statistics on and related to the Closing the Gap targets. You can use the dashboard to compare regions and look at trends over time, where possible.
+The Life stages dashboard allows you to search for a community (or other location) and access regional level statistics on and related to the relevant life stage. You can use the dashboard to compare regions and look at trends over time, where possible.
+The health of both mothers and babies can have important ongoing implications. Explore the characteristics and health of mothers and their babies through interactive data visualisations, and in-depth information and trends on the antenatal period, labour and birth, and outcomes for babies at birth.""" ;
+    schema:distribution 
+        [
+            a
+                dcat:Distribution ,
+                schema:DataDownload ;
+            dcat:accessURL "https://www.rific.gov.au/closing-the-gap?app=rific&code=ctg&release=release3&latitude=-24&longitude=134&region=Target1_AUS"^^xsd:anyURI ;
+            schema:description "The Closing the Gap dashboard allows you to search for a community (or other location) and access regional level statistics on and related to the Closing the Gap targets. You can use the dashboard to compare regions and look at trends over time, where possible." ;
+            schema:keywords <https://data.idnau.org/pid/vocab/cat-roles/non-original> ;
+            schema:name "Glosing the Gap" ;
+        ] ,
+        [
+            a
+                dcat:Distribution ,
+                schema:DataDownload ;
+            dcat:accessURL "https://www.rific.gov.au/regional-overview?app=rific&code=overview&release=release2&latitude=-24&longitude=134&region=PC_AUS"^^xsd:anyURI ;
+            schema:description "The Regional overview dashboard allows you to search for a community (or other location) and view statistics about a region that community is in. You can use the dashboard to compare regions and select different topics." ;
+            schema:keywords
+                <https://data.idnau.org/pid/vocab/cat-roles/home> ,
+                <https://data.idnau.org/pid/vocab/cat-roles/non-original> ;
+            schema:name "Regional Oversight" ;
+        ] ,
+        [
+            a
+                dcat:Distribution ,
+                schema:DataDownload ;
+            dcat:accessURL "https://www.rific.gov.au/life-stages/mothers-and-babies?app=rific&code=lsmb&release=r2&latitude=-24&longitude=134&region=MH_AUS"^^xsd:anyURI ;
+            schema:description """The Life stages dashboard allows you to search for a community (or other location) and access regional level statistics on and related to the relevant life stage. You can use the dashboard to compare regions and look at trends over time, where possible.
+The health of both mothers and babies can have important ongoing implications. Explore the characteristics and health of mothers and their babies through interactive data visualisations, and in-depth information and trends on the antenatal period, labour and birth, and outcomes for babies at birth.
+
+""" ;
+            schema:name "Mothers and Babies : Life Stages" ;
+        ] ;
+    schema:keywords
+        <https://linked.data.gov.au/def/policy/706dab90-492e-4638-b77b-81356b057723> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=10> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=11> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=15> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=25> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=26> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=6> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name " The Regional Insights for Indigenous Communities (RIFIC)" ;
+    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/open> ;
+.
+
+<https://data.idnau.org/pid/organization/5b819e8a-927f-49ef-b885-2bb072b067ef>
+    a schema:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:description """The Australian Institute of Health and Welfare (AIHW) is an independent statutory Australian Government agency with more than 35 years of experience working with health and welfare data.
+Role
+Their role is to provide meaningful information and statistics for the benefit of the Australian people by:
+•	developing, maintaining and promoting statistical information standards for the health, community services and housing assistance sectors
+•	collecting and managing data on health and welfare issues, including from state, territory and federal government agencies
+•	analysing and releasing a range of health and welfare products (data and reports) to key policy areas, to support better policy and service delivery decisions
+•	enhancing data resources with the addition of new health and welfare data assets to the AIHW’s data holdings to fill data gaps in the health and welfare sectors
+•	modernising the presentation and availability of national health and welfare products to meet the needs of diverse audiences such as state, territory and federal government agencies, universities, research centres, and non-government organisations.
+vision
+Their vision is to provide stronger evidence (data and information) for better decisions and improved health and welfare for all Australians.
+""" ;
+    schema:identifier "16 515 245 497"^^<http://id.loc.gov/vocabulary/identifiers/ausbn> ;
+    schema:name "Australian Institute of Health and Welfare (AIHW)" ;
+    schema:url "https://www.aihw.gov.au/"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9>
+    a schema:Person ;
+    schema:email "murrayl@unimelb.edu.au"^^xsd:anyURI ;
+    schema:name "Australian Institute of Health and Welfare" ;
+    schema:telephone "02 6244 1000" ;
+.
