@@ -1,0 +1,76 @@
+name: Remove superseded ATNS named graphs
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: Type "drop-old-atns-graphs" to confirm the targeted cleanup
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    env:
+      FUSEKI_URL: ${{ secrets.FUSEKI_URL }}
+      FUSEKI_USERNAME: ${{ secrets.FUSEKI_USERNAME }}
+      FUSEKI_PASSWORD: ${{ secrets.FUSEKI_PASSWORD }}
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Validate confirmation and fixed scope
+        env:
+          CONFIRMATION: ${{ inputs.confirmation }}
+        run: |
+          set -euo pipefail
+          test "$CONFIRMATION" = "drop-old-atns-graphs"
+          test "$(grep -c '^DROP SILENT GRAPH' maintenance/drop-superseded-atns-graphs.sparql)" -eq 26
+          test "$(grep -c '^        (<' maintenance/check-atns-iri-migration.rq)" -eq 26
+
+      - name: Verify all replacement graphs exist
+        run: |
+          set -euo pipefail
+          curl \
+            --fail \
+            --show-error \
+            --silent \
+            --user "$FUSEKI_USERNAME:$FUSEKI_PASSWORD" \
+            --header "Accept: application/sparql-results+json" \
+            --data-urlencode "query@maintenance/check-atns-iri-migration.rq" \
+            "$FUSEKI_URL" > before.json
+          old_count="$(jq '[.results.bindings[] | select(.oldPresent.value == "true")] | length' before.json)"
+          new_count="$(jq '[.results.bindings[] | select(.newPresent.value == "true")] | length' before.json)"
+          echo "Preflight: $old_count superseded graphs and $new_count replacement graphs exist."
+          test "$new_count" -eq 26
+
+      - name: Drop only the enumerated superseded graphs
+        run: |
+          set -euo pipefail
+          curl \
+            --fail \
+            --show-error \
+            --silent \
+            --user "$FUSEKI_USERNAME:$FUSEKI_PASSWORD" \
+            --data-urlencode "update@maintenance/drop-superseded-atns-graphs.sparql" \
+            "$FUSEKI_URL"
+
+      - name: Verify cleanup and replacement graphs
+        run: |
+          set -euo pipefail
+          curl \
+            --fail \
+            --show-error \
+            --silent \
+            --user "$FUSEKI_USERNAME:$FUSEKI_PASSWORD" \
+            --header "Accept: application/sparql-results+json" \
+            --data-urlencode "query@maintenance/check-atns-iri-migration.rq" \
+            "$FUSEKI_URL" > after.json
+          old_count="$(jq '[.results.bindings[] | select(.oldPresent.value == "true")] | length' after.json)"
+          new_count="$(jq '[.results.bindings[] | select(.newPresent.value == "true")] | length' after.json)"
+          echo "Verification: $old_count superseded graphs and $new_count replacement graphs exist."
+          test "$old_count" -eq 0
+          test "$new_count" -eq 26

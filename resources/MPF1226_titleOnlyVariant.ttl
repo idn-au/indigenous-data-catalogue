@@ -1,0 +1,50 @@
+PREFIX cat-obj-types: <https://data.idnau.org/pid/vocab/cat-obj-types/>
+PREFIX drole: <https://linked.data.gov.au/def/data-roles/>
+PREFIX orgrol: <https://data.idnau.org/pid/orgRole/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Below a new Semantic background entry for fetchable labels. the rdfs:comment here is verbatim from schema.org. We could elaborate on this to explain the usage for 'title', 'post' etc if needed. Should we keep the original schema.org comment and add a second comment or similar property for that?
+
+schema:OrganizationRole
+    a rdfs:Class ;
+    rdfs:comment "A subclass of Role used to describe roles within organizations."@en ;
+    rdfs:subClassOf schema:Role ;
+    schema:name "Organization Role"@en ;
+.
+
+# a real creative work with a made up prov:agent, deliberately chosen to illustrate potential collisions
+
+<https://data.idnau.org/pid/MPF1226>
+    a schema:CreativeWork ;
+    prov:qualifiedAttribution
+        [
+            a prov:Attribution ;
+            prov:hadRole drole:custodian ;
+            schema:agent orgrol:bc9c0054-7929-4b61-9c72-b4b9613b7ede ;
+        ] ;
+    schema:additionalType cat-obj-types:Policy ;
+    schema:description "The objective of this policy is to articulate how the University accepts, cares for and manages human remains and burial artefacts."@en ;
+    schema:identifier "MPF1226" ;
+    schema:keywords "Demo" ;
+    schema:name "Human Remains and Burial Artefacts Policy"@en ;
+    schema:url "https://policy.unimelb.edu.au/MPF1226/"^^xsd:anyURI ;
+.
+
+# Proposed new IRI pattern "/pid/orgRole/" (see prefixes). The schema:roleName won't be unique (names never are) - to help avoid collisions, schema:description can optionally elaborate on role context (such as "Research"). In practice, description fields are used this way in any case.
+
+orgrol:bc9c0054-7929-4b61-9c72-b4b9613b7ede
+    a
+        prov:Agent ,
+        schema:OrganizationRole ;
+    schema:description "Associate Dean (Arts) - Research"@en ;
+    schema:memberOf <https://linked.data.gov.au/org/uom> ;
+    schema:roleName "Associate Dean (Arts)"@en ;
+.
+
+<https://linked.data.gov.au/org/uom>
+    a schema:Organization ;
+    schema:name "The University of Melbourne"@en ;
+.

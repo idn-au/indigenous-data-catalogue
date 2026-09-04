@@ -1,0 +1,51 @@
+# this creativeWork for testing CARE scoring is created by an Indigenous person, published by an indigenous organisation, about indigenous things and themes and is in English.
+
+PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
+PREFIX dataind: <https://data.idnau.org/pid/vocab/indigeneity/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX iso6392: <http://id.loc.gov/vocabulary/iso639-2/>
+PREFIX orgind: <https://data.idnau.org/pid/vocab/org-indigeneity/>
+PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/762463a4-f8b1-4eec-a335-3689c8d86e9e>
+    a schema:CreativeWork ;
+    dcterms:type dataind:about-indigenous-people ;
+    schema:additionalType schema:Book ;
+    schema:creator <https://orcid.org/0000-0002-1398-7524> ;
+    schema:dateCreated "2023"^^xsd:gYear ;
+    schema:description "The authors show how Indigenous law has enabled people to survive and thrive in Australia for more than 2000 generations. Nurturing people and places, law is the foundation of all Indigenous societies in Australia, giving them the tools to respond and adapt to major environmental and social changes." ;
+    schema:identifier "9781760762827"^^id:isbn ;
+    schema:inLanguage iso6392:eng ;
+    schema:keywords
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1251> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=13> ,
+        "Demo" ;
+    schema:name "Law: The Way of the Ancestors" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+.
+
+<https://linked.data.gov.au/org/isu>
+    a schema:Organization ;
+    dcterms:type orgind:run-by-indigenous-persons ;
+    schema:name "Indigenous Studies Unit" ;
+    schema:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-1398-7524>
+    a schema:Person ;
+    dcterms:type pis:indigenous ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            prov:hadRole aarr:memberOf ;
+            schema:agent <https://linked.data.gov.au/org/uom> ;
+        ] ;
+    schema:email "m.langton@unimelb.edu.au"^^xsd:anyURI ;
+    schema:memberOf <https://linked.data.gov.au/org/uom> ;
+    schema:name "Marcia Langton" ;
+.

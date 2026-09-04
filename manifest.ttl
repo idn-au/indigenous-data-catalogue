@@ -1,0 +1,109 @@
+PREFIX atns: <https://linked.data.gov.au/def/atns/model/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX mrr: <https://prez.dev/ManifestResourceRoles/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX prez: <https://prez.dev/>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX schema: <https://schema.org/>
+
+[]
+    a prez:Manifest ;
+    prof:hasResource
+        [
+            prof:hasArtifact "catalogue.ttl" ;
+            prof:hasRole mrr:CatalogueData ;
+            schema:description "The definition of, and metadata for, the container which here is a sdo:DataCatalog object" ;
+            schema:name "Catalogue Definition" ;
+        ] ,
+        [
+            prof:hasArtifact
+                "resources/0811114042000269281.ttl" ,
+                "resources/24750158.2024.2411643.ttl" ,
+                "resources/762463a4-f8b1-4eec-a335-3689c8d86e9e.ttl" ,
+                "resources/MPF1226_titleOnlyVariant.ttl" ,
+                "resources/b494af84-a16e-4cc1-b1f1-aad2486c4656.ttl" ,
+                "resources/bja.2025.17.ttl" ,
+                "resources/iipj.2023.14.1.10987.ttl" ,
+                "resources/isbn0864090293.ttl" ,
+                "resources/storeroom1189.ttl" ,
+                "resources/watch?v=tEdweyPh-N8.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType schema:CreativeWork ;
+            schema:description "Creative work resource data in RDF (Turtle) files" ;
+            schema:name "Creative Work Resource Data" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/multipleIRIspatial.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType dcat:Dataset ;
+            schema:description "Dataset resource data in an RDF (Turtle) file" ;
+            schema:name "Dataset Resource Data" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/policy-telstra-ngaanyatjarra-ilua.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType odrl:Agreement ;
+            schema:description "Demonstration ODRL Agreement interpretation linked from an ATNS agreement record" ;
+            schema:name "ODRL Agreement Resource Data" ;
+        ] ,
+        [
+            prof:hasArtifact
+                "resources/atns-24.ttl" ,
+                "resources/atns-27.ttl" ,
+                "resources/atns-30.ttl" ,
+                "resources/atns-37.ttl" ,
+                "resources/atns-1624.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType atns:AgreementRecord ;
+            schema:description "ATNS Agreement-category entity resource data in RDF (Turtle) files" ;
+            schema:name "ATNS Agreement Record Resource Data" ;
+        ] ,
+        [
+            prof:hasArtifact
+                "resources/atns-384.ttl" ,
+                "resources/atns-617.ttl" ,
+                "resources/atns-618.ttl" ,
+                "resources/atns-753.ttl" ,
+                "resources/atns-760.ttl" ,
+                "resources/atns-1845.ttl" ,
+                "resources/atns-3160.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType atns:Entity ;
+            schema:description "Other ATNS entity resource data in RDF (Turtle) files" ;
+            schema:name "ATNS Entity Resource Data" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/*atns-ref-*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType atns:Reference ;
+            schema:description "ATNS reference resource data in RDF (Turtle) files" ;
+            schema:name "ATNS Reference Resource Data" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/*atns-rel-*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType atns:EntityRelationship ;
+            schema:description "ATNS entity relationship resource data in RDF (Turtle) files" ;
+            schema:name "ATNS Entity Relationship Resource Data" ;
+            # dcterms:conformsTo <https://data.idnau.org/pid/cp> ;
+        ] ,
+        [
+            prof:hasArtifact "https://github.com/RDFLib/prez/blob/main/prez/reference_data/profiles/ogc_records_profile.ttl" ;
+            prof:hasRole mrr:CatalogueAndResourceModel ;
+            schema:description "The default Prez profile for Records API" ;
+            schema:name "Profile Definition" ;
+        ] ,
+        [
+            prof:hasArtifact "labels.ttl" ;
+            prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
+            schema:description "An RDF file containing labels for catalogue's content, auto-extracted from KurrawongAI's Semantic Background" ;
+            schema:name "Labels" ;
+        ] ,
+        [
+            prof:hasArtifact "labels-manual.ttl" ;
+            prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
+            schema:description "An RDF file containing labels for catalogue's content, manually created" ;
+            schema:name "Manual Labels" ;
+        ] ;
+.

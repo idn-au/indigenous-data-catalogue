@@ -1,0 +1,36 @@
+PREFIX atns: <https://linked.data.gov.au/def/atns/model/>
+PREFIX atns-cat: <https://data.idnau.org/pid/atns-cat/>
+PREFIX atns-country: <https://linked.data.gov.au/def/atns/country/>
+PREFIX atns-sub: <https://linked.data.gov.au/def/atns/sub/>
+PREFIX atns-subcat: <https://linked.data.gov.au/def/atns/subcat/>
+PREFIX atns-cat: <https://data.idnau.org/pid/atns-cat/>
+PREFIX cat-obj-types: <https://data.idnau.org/pid/vocab/cat-obj-types/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX idn-policy: <https://data.idnau.org/pid/policy/>
+PREFIX idn-resource: <https://data.idnau.org/pid/resource/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+idn-resource:dd9b004b-1c22-5b53-8381-bd93760ee922
+    a
+        atns:Entity ,
+        schema:CreativeWork ;
+    dcterms:relation idn-policy:telstra-ngaanyatjarra-ilua ;
+    schema:additionalType cat-obj-types:Agreement ;
+    atns:category atns-cat:13e77fec-44fd-554f-a075-ec60788eb1b1 ;
+    atns:country atns-country:244f6961-729f-5b21-8fc9-baff9dd9af7e ;
+    atns:deleted "false"^^xsd:boolean ;
+    atns:eid "A003262"^^xsd:token ;
+    atns:sourceEntityId "27" ;
+    atns:subcategory atns-subcat:09f0a068-ce65-5c11-8dec-f081d1a81ec2 ;
+    schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
+    schema:description "Public ATNS summary describes an Indigenous Land Use Agreement concerning native title and Telstra Corporation Limited interests in the agreement area."@en ;
+    schema:isPartOf idn-resource:d23405b4-fc04-47e2-9e7a-9c5735ae3780 ;
+    schema:keywords
+        atns-sub:9335b2f1-4915-55cc-9736-2ded7c4a2008 ,
+        atns-sub:ffe61b3b-8b29-5264-89ac-758a03928ea5 ,
+        "Demo" ;
+    schema:location "Shire of Laverton and Shire of Ngaanyatjarra, West, Western Australia, Australia"@en ;
+    schema:name "Telstra Ngaanyatjarra Indigenous Land Use Agreement (ILUA)"@en ;
+    schema:startDate "2006-08-11"^^xsd:date ;
+.

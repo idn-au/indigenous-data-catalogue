@@ -1,0 +1,47 @@
+# this creative work (book) for testing CARE scoring; it's contents is written in both an indigenous langauge and English, indicated in schema:inLanguage, and is about Indigenous langauges, indicated in dcat:theme, schema:keywords etc. It is created by an Indigenous person.
+
+PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
+PREFIX austlang: <https://data.idnau.org/pid/austlang/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX iso6392: <http://id.loc.gov/vocabulary/iso639-2/>
+PREFIX orgind: <https://data.idnau.org/pid/vocab/org-indigeneity/>
+PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://catalogue.nla.gov.au/catalog/2003311>
+    a schema:CreativeWork ;
+    schema:additionalType schema:Book ;
+    schema:creator <http://viaf.org/viaf/3517148390832810830006> ;
+    schema:dateCreated "1985"^^xsd:gYear ;
+    schema:description "Introduction to Yolngu (Aboriginal) culture, language ; sign language ; moities and skins ; kin terms ; map of outstations, list of speakers, phonology, grammar, dialogues." ;
+    schema:identifier "0864090293"^^id:isbn ;
+    schema:inLanguage
+        iso6392:eng ,
+        austlang:N141 ;
+    schema:keywords
+        austlang:N141 ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1246> ,
+        "Yolngu languages, Gumatj language, Aboriginal Australians -- Northern Territory -- Arnhem Land -- Languages" ,
+        "Demo" ;
+    schema:name "Yolngu-matha : an introduction to Gumatj and related languages in N.E. Arnhem Land" ;
+    schema:publisher <https://www.austlit.edu.au/austlit/page/A128141> ;
+.
+
+<http://viaf.org/viaf/3517148390832810830006>
+    a schema:Person ;
+    dcterms:type pis:indigenous ;
+    schema:description "Raymattja Marika AM, (c.1959 - 11 May 2008) also known as Gunutjpitt Gunuwanga, was a Yolngu leader, scholar, educator, translator, linguist and cultural advocate for Aboriginal Australians. She was a Director of Reconciliation Australia and a member of the Australian Institute of Aboriginal and Torres Strait Islander Studies. She was also a director of the Yothu Yindi Foundation and a participant in the 2020 Summit, which was held in April 2008. Marika advocated understanding and reconciliation between Indigenous Australian and Western cultures." ;
+    schema:identifier "http://viaf.org/viaf/3517148390832810830006"^^id:viaf ;
+    schema:name "Raymattja Marika" ;
+.
+
+<https://www.austlit.edu.au/austlit/page/A128141>
+    a schema:Organization ;
+    dcterms:type orgind:indigenous-persons-organisation ;
+    schema:alternateName "Yirrkala Community School Literature Production Centre" ;
+    schema:description "The Literature Production Centre (LPC) has been part of the Yirrkala school since the 70's, and supports the Yolŋu Indigenous Languages and Culture program including, Yolŋu Matha, Galtha Rom and Garma Maths, as well as supporting Yolŋu teachers to deliver the school's bilingual program. " ;
+    schema:name "Yirrkala Literature Production Centre" ;
+    schema:url "https://www.austlit.edu.au/austlit/page/A128141"^^xsd:anyURI ;
+.

@@ -1,0 +1,35 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/demo-catalogue>
+    a schema:DataCatalog ;
+    schema:status astatus:experimental ;
+    schema:codeRepository "https://github.com/idn-au/demo-catalogue" ;
+    schema:creator <https://linked.data.gov.au/org/isu> ;
+    schema:dateCreated "2025-09-23"^^xsd:date ;
+    schema:dateModified "2026-08-14"^^xsd:date ;
+    schema:description "A catalogue for demonstrating metadata techniques for the Indigenous Data Network" ;
+    schema:hasPart
+        <https://doi.org/10.1080/24750158.2024.2411643> ,
+        <https://data.idnau.org/pid/resource/f73b42cf-d39b-406c-a8c5-10a01ae0594e> ,
+        <https://data.idnau.org/pid/resource/34524ede-2abc-50f1-af30-8493753c928e> ,
+        <https://data.idnau.org/pid/resource/3c2b10f8-eb83-5de4-b54d-28f7ed058109> ,
+        <https://data.idnau.org/pid/resource/7c1def57-546e-5389-bde5-24d566944930> ,
+        <https://data.idnau.org/pid/resource/c8122728-6e9f-597c-b4d9-68b8858e66c7> ,
+        <https://data.idnau.org/pid/resource/dd9b004b-1c22-5b53-8381-bd93760ee922> ,
+        <https://data.idnau.org/pid/policy/telstra-ngaanyatjarra-ilua> ,
+        <https://data.idnau.org/pid/resource/0cca8502-926a-5770-88a4-de3ae0d9c4e9> ,
+        <https://data.idnau.org/pid/resource/180b6fcc-dcc6-5592-a390-5179366066fd> ,
+        <https://data.idnau.org/pid/resource/97dd3be9-f4ca-586a-971a-594015bbfcc4> ,
+        <https://data.idnau.org/pid/resource/ca68a358-3931-5011-adfd-0a695adc4812> ,
+        <https://data.idnau.org/pid/762463a4-f8b1-4eec-a335-3689c8d86e9e> ,
+        <https://data.idnau.org/pid/resource/b494af84-a16e-4cc1-b1f1-aad2486c4656> ,
+        <https://doi.org/10.1192/bja.2025.17> ,
+        <https://doi.org/10.18584/iipj.2023.14.1.10987> ,
+        <https://catalogue.nla.gov.au/catalog/2003311> ,
+        <https://www.youtube.com/watch?v=tEdweyPh-N8> ,
+        <https://data.idnau.org/pid/MPF1226> ;
+    schema:name "IDN Demonstration Catalogue" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+.

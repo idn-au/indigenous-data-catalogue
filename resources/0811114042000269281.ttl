@@ -1,0 +1,49 @@
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/f73b42cf-d39b-406c-a8c5-10a01ae0594e>
+    a schema:CreativeWork ;
+    schema:additionalType schema:ScholarlyArticle ;
+    schema:citation <https://data.idnau.org/pid/resource/7c1def57-546e-5389-bde5-24d566944930> ;
+    schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
+    schema:creator
+        <https://orcid.org/0000-0002-0263-140X> ,
+        <https://orcid.org/0000-0002-1377-0069> ,
+        <https://orcid.org/0000-0003-4129-8539> ;
+    schema:datePublished "2004"^^xsd:gYear ;
+    schema:description "Examines the rationale and practice of transferring public housing stock from state housing authorities to community housing associations in Victoria, New South Wales and Tasmania, within the policy and funding context of the 2003–2008 Commonwealth State Housing Agreement."@en ;
+    schema:identifier "https://doi.org/10.1080/0811114042000269281"^^id:doi ;
+    schema:isPartOf
+        [
+            a schema:Periodical ;
+            schema:issueNumber "3" ;
+            schema:name "Urban Policy and Research" ;
+            schema:volumeNumber "22" ;
+            schema:identifier "https://portal.issn.org/resource/ISSN/1476-7244"^^id:issn ;
+        ] ;
+    schema:keywords 
+        "Demo" ,
+        <https://linked.data.gov.au/def/policy/1eff6a04-cc6d-4fee-a86e-f00e5665dc95> ;
+    schema:name "‘Changing the Mix’: Contestation Surrounding the Public Housing Stock Transfer Process in Victoria, New South Wales and Tasmania"@en ;
+    schema:pagination "249–263" ;
+    schema:url "https://www.tandfonline.com/doi/abs/10.1080/0811114042000269281"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-0263-140X>
+    a schema:Person ;
+    schema:email "g.marston@uq.edu.au"^^xsd:anyURI ;
+    schema:name "Greg Marston" ;
+.
+
+<https://orcid.org/0000-0002-1377-0069>
+    a schema:Person ;
+    schema:name "Keith Jacobs" ;
+    schema:url "Keith.Jacobs@utas.edu.au"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0003-4129-8539>
+    a schema:Person ;
+    schema:email "michael.darcy55@gmail.com"^^xsd:anyURI ;
+    schema:name "Michael Darcy" ;
+.

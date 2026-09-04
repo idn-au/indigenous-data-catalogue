@@ -1,0 +1,82 @@
+# this VideoObject for testing CARE scoring is created by an Indigenous Person and performed in an Indigneous lanaguage and is NOT about Indigenous things or people, themes etc. The Publisher is a non-indigenous organization, and the Contributor is an Indigenous organisation.
+
+PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
+PREFIX austlang: <https://data.idnau.org/pid/austlang/>
+PREFIX dbpedia: <https://dbpedia.org/page/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX drole: <https://linked.data.gov.au/def/data-roles/>
+PREFIX nitv: <https://www.sbs.com.au/nitv>
+PREFIX orgind: <https://data.idnau.org/pid/vocab/org-indigeneity/>
+PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sbs: <https://www.sbs.com.au>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://www.youtube.com/watch?v=tEdweyPh-N8>
+    a
+        schema:CreativeWork ;
+    schema:additionalType schema:VideoObject ;
+    dcterms:contributor nitv: ;
+    prov:qualifiedAttribution
+        [
+            a prov:Attribution ;
+            prov:hadRole drole:subjectAgent ;
+            schema:agent dbpedia:Mitch_Tambo ;
+        ] ;
+    schema:comment """
+  Cataloguing note: this resource is included as a boundary case to demonstrate
+  recognition of Indigenous authority without implying expectations about subject matter.
+
+  The resource was developed for testing CARE scoring - it is a creative work created by an 
+  Indigenous Person who is also the subject agent; performed in an Indigneous lanaguage and 
+  is NOT about Indigenous things or people, themes etc. The Publisher (SBS) is a non-indigenous 
+  organization, and the Contributor (NITV) is an Indigenous organisation.
+  """@en ;
+    schema:creator dbpedia:Mitch_Tambo ;
+    schema:dateCreated "2020"^^xsd:gYear ;
+    schema:description "The Indigenous singer a proud Gamilaraay and Birri Gubba man, delivers a rendition of John Farnham’s classic at the NITV sunrise ceremony as part of 26 January Survival Day, Invasion Day and Australia Day events" ;
+    schema:inLanguage austlang:D23 ;
+    schema:keywords
+        <https://linked.data.gov.au/def/policy/2a8a5ffc-04f1-4dd6-9ffa-71fd82333c7f> ,
+        "Empowerment, Social change, Social justice, Civil rights" ,
+        "Demo" ;
+    schema:name "Mitch Tambo performs John Farnham's You're the Voice in Gamilaraay language" ;
+    schema:publisher sbs: ;
+.
+
+dbpedia:Mitch_Tambo
+    a schema:Person ;
+    dcterms:type pis:indigenous ;
+    schema:email "management@mitchtambo.com"^^xsd:anyURI ;
+    schema:name "Mitch Tambo" ;
+.
+
+sbs:
+    a schema:Organization ;
+    dcterms:type orgind:non-indigenous ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            prov:hadRole aarr:part ;
+            schema:agent nitv: ;
+        ] ;
+    schema:alternateName "Special Broadcasting Service" ;
+    schema:name "SBS" ;
+    schema:url "https://www.sbs.com.au"^^xsd:anyURI ;
+.
+
+nitv:
+    a schema:Organization ;
+    dcterms:type orgind:indigenous ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            prov:hadRole aarr:partOf ;
+            schema:agent sbs: ;
+        ] ;
+    schema:alternateName "National Indigenous Television" ;
+    schema:name "NITV" ;
+    schema:url "https://www.sbs.com.au/nitv"^^xsd:anyURI ;
+.
