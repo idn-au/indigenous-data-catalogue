@@ -1,0 +1,12 @@
+.idea/
+.mypy.ini
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+datasets/raw
+datasets/temp-features
+fuseki

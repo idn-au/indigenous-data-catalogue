@@ -1,0 +1,401 @@
+PREFIX : <https://data.idnau.org/pid/vocab/cat-obj-types/>
+PREFIX cs: <https://data.idnau.org/pid/vocab/cat-obj-types>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:semantic-web-resources
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Resources that accord with Semantic Web principles"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        schema:DataModel ,
+        schema:DataValidationRules ,
+        schema:DefinedTermSet ;
+    skos:prefLabel "Semantic Web resources"@en ;
+    skos:scopeNote "Use this collection to contain ontologies, vocabularies and semantic spatial reference datasets" ;
+.
+
+:DataValidationRules
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Supplies instructions about how to verify conformance of data to the profile"@en ;
+    skos:historyNote "Definition taken from the Validation concept in the Profiles Vocabulary - Resource Roles vocabulary" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Data Validation Rules"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ShapesGraph
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A set of SHACL shapes used to validate RDF data."@en ;
+    skos:inScheme cs: ;
+    skos:broader :DataValidationRules ;
+    skos:prefLabel "Shapes Graph"@en ;
+    skos:scopeNote "2026-03: This term is proposed to schema.org but not yet accepted, nevertheless it can be used within this vocabulary" ;
+.
+
+:Agreement
+    a skos:Concept ;
+    skos:historyNote "2026: Derived from an ATNS database controlled-list value."@en ;
+    rdfs:isDefinedBy cs: ;
+    prov:wasDerivedFrom <https://data.idnau.org/pid/vocab/atns-cat/13e77fec-44fd-554f-a075-ec60788eb1b1> ;
+    skos:definition "An agreement setting out the objectives of, and elements to be included in a final agreement."@en ;
+    skos:scopeNote "Does not create binding legal relations but paves the way for negotiation, and thereby functions as the basis of a final agreement. To indicate a legally binding agreement, use the Open Digital Rights Language (ODRL) Ontology"@en ;
+    skos:inScheme cs: ;
+    skos:relatedMatch 
+        <http://www.w3.org/ns/odrl/2/Agreement> ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Agreement"@en ;
+.
+:Correspondence
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    schema:citation "https://www.austehc.unimelb.edu.au/HDMS/hdms.htm"^^xsd:anyURI ;
+    skos:narrowMatch <http://id.loc.gov/vocabulary/marcgt/let> ;
+    skos:definition "Correspondence."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Correspondence"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Draft-or-manuscript
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    schema:citation "https://www.austehc.unimelb.edu.au/HDMS/hdms.htm"^^xsd:anyURI ;
+    skos:closeMatch 
+        <http://purl.org/coar/resource_type/c_0040> ,
+        <http://id.loc.gov/vocabulary/marcgt/man> ;
+    skos:definition "A draft or manuscript."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Draft or manuscript"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Ephemera
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    schema:citation "https://www.austehc.unimelb.edu.au/HDMS/hdms.htm"^^xsd:anyURI ;
+    skos:broadMatch 
+        <http://purl.org/dc/dcmitype/PhysicalObject> ,
+        <http://id.loc.gov/vocabulary/marcgt/rea> ;
+    skos:definition "Ephemeral material."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ephemera"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Journal
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    schema:citation "https://www.austehc.unimelb.edu.au/HDMS/hdms.htm"^^xsd:anyURI ;
+    skos:definition "Periodical publication that contains scholarly articles or disseminates information on developments in a particular subject field."@en ;
+    skos:exactMatch 
+        <http://purl.org/coar/resource_type/c_0640> ,
+        <http://id.loc.gov/vocabulary/marcgt/jou> ;
+    skos:related schema:ScholarlyArticle ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Journal"@en ;
+    skos:altLabel "Periodical"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Memorandum
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    schema:citation "https://www.austehc.unimelb.edu.au/HDMS/hdms.htm"^^xsd:anyURI ;
+    skos:broadMatch <http://purl.org/dc/dcmitype/Text> ;
+    skos:definition "A formal note distributed internally to one or more persons in a company, agency, organization, or institution, with a header indicating the date it was sent and stating to whom it is addressed (To:), from whom it is sent (From:), and the subject of the text (Re:)."@en ;
+    skos:exactMatch <http://purl.org/coar/resource_type/c_18wz> ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Memorandum"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Policy
+    a skos:Concept ;
+    skos:historyNote "Imported from the APO Resource Type taxonomy in late 2026"@en ;
+    rdfs:isDefinedBy <https://apo.org.au> ;
+    prov:wasDerivedFrom <https://apo.org.au/taxonomy/term/19934> ;
+    skos:definition "A strategic directive and high-level description of how something should be done."@en ;
+    skos:inScheme cs: ;
+    skos:closeMatch 
+        <http://purl.org/spar/fabio/Policy> ,
+        <https://data.idnau.org/pid/vocab/policy-types/policy> ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Policy"@en ;
+.
+
+:SpatialDataset
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A specialised form of digital dataset containing spatial objects - features."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Spatial Dataset"@en ;
+    skos:broader schema:Dataset ;
+    skos:historyNote "2026-03: This term is proposed to schema.org but not yet accepted, nevertheless it can be used within this vocabulary" ;
+.
+
+schema:Book
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A book."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Book"@en ;
+    skos:related schema:Chapter ;
+    skos:closeMatch <http://purl.org/spar/fabio/Book> ;
+    skos:topConceptOf cs: ;
+.
+
+schema:Chapter
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "One of the sections into which a book is divided. A chapter usually has a section number or a name."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chapter"@en ;
+    skos:related schema:Book ;
+    skos:closeMatch <http://purl.org/spar/fabio/BookChapter> ;
+    skos:topConceptOf cs: ;
+.
+
+schema:Dataset
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A body of structured information describing some topic(s) of interest."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dataset"@en ;
+    skos:closeMatch <http://purl.org/spar/fabio/Dataset> ;
+    skos:topConceptOf cs: ;
+.
+
+schema:DigitalDocument
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "An electronic file or document."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Digital Document"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:Map
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A map."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Map"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:Movie
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A movie."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Movie"@en ;
+    skos:topConceptOf cs: ;
+    skos:related schema:VideoObject ;
+    skos:historyNote "2026-09 Superseded by schema:VideoObject"@en ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/superseded> ;
+.
+
+schema:Painting
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A painting."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Painting"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:Photograph
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A photograph."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Photograph"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:Report
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:subClassOf schema:Article ;
+    skos:definition "A Report generated by governmental or non-governmental organization."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Report"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:ResearchProject
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A Research project."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Research Project"@en ;
+    skos:topConceptOf cs: ;
+.
+schema:ScholarlyArticle
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A scholarly article."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Scholarly article"@en ;
+    skos:broader schema:Article ;
+    skos:related schema:Thesis ;
+.
+
+schema:Sculpture
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A piece of sculpture."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sculpture"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:SoftwareApplication
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A software application."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Software Application"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:SoftwareSourceCode
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Software Source Code"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:Thesis
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A thesis or dissertation document submitted in support of candidature for an academic degree or professional qualification."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Thesis"@en ;
+    skos:topConceptOf cs: ;
+    skos:related schema:ScholarlyArticle ;
+    schema:isPartOf <https://bib.schema.org> ;
+    schema:source "http://www.productontology.org/id/Thesis"^^xsd:anyURI ;
+.
+
+schema:VideoObject
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A video file."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Video Object"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:VisualArtwork
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A work of art that is primarily visual in character."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Visual Artwork"@en ;
+    skos:topConceptOf cs: ;
+.
+
+schema:WebSite
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Web Site"@en ;
+    skos:closeMatch <http://purl.org/spar/fabio/WebSite> ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/idn>
+    a schema:Organization ;
+    schema:name "Indigenous Data Network" ;
+    schema:url "https://www.idnau.org"^^xsd:anyURI ;
+.
+
+schema:Article
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all.\\n\\nSee also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Article"@en ;
+    skos:closeMatch <http://purl.org/spar/fabio/Article> ;
+    skos:topConceptOf cs: ;
+.
+
+schema:DataModel
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A conceptual blueprint that defines how data is structured"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Data Model"@en ;
+    skos:scopeNote "2026-03: This term is proposed to schema.org but not yet accepted, nevertheless it can be used within this vocabulary" ;
+    skos:topConceptOf cs: ;
+.
+
+schema:DefinedTermSet
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:definition "A set of defined terms, for example a set of categories or a classification scheme, a glossary, dictionary or enumeration."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Defined Term Set"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "The types of things in a catalogue"@en ;
+    skos:hasTopConcept
+        :Agreement ,
+        :Correspondence ,
+        :DataValidationRules ,
+        :Draft-or-manuscript ,
+        :Ephemera ,
+        :Journal ,
+        :Memorandum ,
+        :Policy ,
+        schema:Article ,
+        schema:Book ,
+        schema:Chapter ,
+        schema:DataModel ,
+        schema:Dataset ,
+        schema:DefinedTermSet ,
+        schema:DigitalDocument ,
+        schema:Map ,
+        schema:Painting ,        
+        schema:Photograph ,
+        schema:Report ,
+        schema:ResearchProject ,
+        schema:Sculpture ,
+        schema:SoftwareApplication ,
+        schema:SoftwareSourceCode ,
+        schema:Thesis ,
+        schema:VideoObject ,
+        schema:VisualArtwork ,
+        schema:WebSite ;
+    skos:historyNote """2026-09: Added concepts, some to support historical and archival projects: Correspondence , Draft-or-manuscript , Ephemera , Journal , Memorandum
+
+2026-08: Added VideoObject; ScholarlyArticle
+
+2026-05: Added ShapesGraph & SpatialDataset
+
+2026-03: This vocabulary was established in 2026 to assist the IDN with managing multiple catalogues with multiple types of things in them."""@en ;
+    skos:prefLabel "Catalogued Object Types"@en ;
+    schema:additionalType <https://schema.org/DefinedTermSet> ;
+    schema:copyrightNotice "(c) Indigenous Data Network, 2026" ;
+    schema:creator <https://linked.data.gov.au/org/idn> ;
+    schema:dateCreated "2026-03-10"^^xsd:date ;
+    schema:dateModified "2026-09-02"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/idn> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.
