@@ -1,0 +1,385 @@
+PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX idncp: <https://data.idnau.org/pid/cp/>
+PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://orcid.org/0000-0002-0346-2820>
+    a sdo:Person ;
+    sdo:honorificTitle "Principal Research Fellow" ;
+    dcterms:type pis:nonIndigenous ;
+    sdo:identifier "https://orcid.org/0000-0002-0346-2820"^^id:orcid ;
+    dcat:qualifiedRelation [
+    a dcat:Relationship ;
+       dcat:hadRole aarr:memberOf ;
+       sdo:agent <https://data.idnau.org/pid/org/isu>
+        ] ;
+    sdo:name "Kristen Smith" ;
+.
+
+<https://orcid.org/0009-0004-9228-3892>
+    a sdo:Person ;
+    sdo:honorificTitle "Professor" ;
+    sdo:identifier "https://orcid.org/0009-0004-9228-3892"^^id:orcid ;
+    dcat:qualifiedRelation [
+    a dcat:Relationship ;
+       dcat:hadRole aarr:memberOf ;
+       sdo:agent <https://data.idnau.org/pid/org/caepr>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
+    sdo:name "John Taylor" ;
+.
+
+<https://orcid.org/0000-0002-4214-2205>
+    a sdo:Person ;
+    sdo:honorificTitle "Dr" ;
+    sdo:identifier "https://orcid.org/0000-0002-4214-2205"^^id:orcid ;
+    dcat:qualifiedRelation [
+    a dcat:Relationship ;
+        dcat:hadRole aarr:memberOf ;
+        sdo:agent <https://data.idnau.org/pid/org/fses>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
+    sdo:name "Bruce Doran" ;
+.
+
+<https://orcid.org/0000-0002-0879-0313>
+    a sdo:Person ;
+    sdo:honorificTitle "PhD Scholar" ;
+    sdo:identifier "https://orcid.org/0000-0002-0879-0313"^^id:orcid ;
+    dcat:qualifiedRelation [
+    a dcat:Relationship ;
+        dcat:hadRole aarr:memberOf ;
+        sdo:agent <https://data.idnau.org/pid/org/caepr>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
+    sdo:name "Mandy Yap" ;
+.
+
+<https://data.idnau.org/pid/person/34d5d6aa-a5b7-4e3a-91f8-117ffeb474d1>
+    a sdo:Person ;
+    sdo:honorificTitle "PhD Scholar" ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/fses>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
+    sdo:url "https://www.researchgate.net/profile/Sandra-Potter"^^xsd:anyURI ;
+    sdo:email "sandra.potter@anu.edu.au"^^xsd:anyURI ;
+    sdo:name "Sandra Potter" ;
+.
+
+<https://data.idnau.org/pid/person/e758f983-540b-4e36-aebd-f00a55132a15>
+    a sdo:Person ;
+    sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/fses>
+        ] ;
+    sdo:name "Mia Sangdren" ;
+.
+
+<https://data.idnau.org/pid/person/32541463-d9dc-4977-a20f-79caabdbbb1b>
+    a sdo:Person ;
+    dcterms:type pis:indigenous ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/yawuru>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/yawuru> ;
+    sdo:name "Eunice Yu" ;
+.
+
+<https://orcid.org/0000-0002-7923-6379>
+    a sdo:Person ;
+    sdo:honorificTitle "Dr" ;
+    sdo:identifier "https://orcid.org/0000-0002-7923-6379"^^id:orcid ;
+    sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/caepr>
+        ] ;
+    sdo:name "Kathryn Thorburn" ;
+.
+
+<https://data.idnau.org/pid/person/26ec685f-409d-4698-9aa6-3e8b70f0de40>
+    a sdo:Person ;
+    sdo:honorificTitle "Professor (Emeritus)" ;
+    dcterms:type pis:indigenous ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/ncis>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/ncis> ;
+    sdo:name "Mick Dodson" ;
+.
+
+<https://orcid.org/0000-0003-4471-0998>
+    a sdo:Person ;
+    sdo:honorificTitle "Senior Fellow" ;
+    sdo:identifier "https://orcid.org/0000-0003-4471-0998"^^id:orcid ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/caepr>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
+    sdo:name "Patrick Sullivan" ;
+.
+
+<https://orcid.org/0000-0002-3128-4638>
+    a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0002-3128-4638"^^id:orcid ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/caepr>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
+    sdo:name "Janet Hunt" ;
+.
+
+<https://data.idnau.org/pid/person/cab5236f-d970-472b-86ca-6d64d746b382>
+    a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0003-2925-2861"^^id:orcid ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/anu>
+        ] ;
+    sdo:memberOf <https://linked.data.gov.au/org/anu> ;
+    sdo:name "Julie Lahn" ;
+.
+
+<https://data.idnau.org/pid/person/06a6f668-3b50-42cd-962e-f687060539fd>
+    a sdo:Person ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/yawuru>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/yawuru> ;
+    sdo:name "Dean Mathews" ;
+.
+
+<https://orcid.org/0000-0001-7121-9710>
+    a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0001-7121-9710"^^id:orcid ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/coap>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/coap> ;
+    sdo:name "Ian Chambers" ;
+.
+
+<https://orcid.org/0000-0003-1489-2866>
+    a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0003-1489-2866"^^id:orcid ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/cdu>
+        ] ;
+    sdo:memberOf <https://linked.data.gov.au/org/cdu> ;
+    sdo:name "Jeremy Russell‐Smith" ;
+.
+
+<https://orcid.org/0000-0001-6348-8734>
+    a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0001-6348-8734"^^id:orcid ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/coap>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/coap> ;
+    sdo:name "Robert Costanza" ;
+.
+
+<https://orcid.org/0000-0002-9046-8226>
+    a sdo:Person ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/cass>
+        ] ;
+    sdo:identifier "https://orcid.org/0000-0002-9046-8226"^^id:orcid ; 
+    sdo:memberOf <https://data.idnau.org/pid/org/cass> ;
+    sdo:name "Sean Kerins" ;
+.
+
+<https://data.idnau.org/pid/person/8d860850-d344-4345-803f-63bf953f5970>
+    a sdo:Person ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/yawuru>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/yawuru> ;
+    sdo:name "Howard Pedersen" ;
+.
+
+<https://data.idnau.org/pid/person/abe4bbc4-171b-4ad2-be4b-3fa6c741cb98>
+    a sdo:Person ;
+    sdo:memberOf <https://data.idnau.org/pid/org/kimberleyinstitute> ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/kimberleyinstitute>
+        ] ;
+    sdo:name "Paul Lane" ;
+.
+
+<https://orcid.org/0000-0002-7675-9916>
+    a sdo:Person ;
+    sdo:honorificTitle "Dr" ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/cdu>
+        ] ;
+    sdo:memberOf <https://linked.data.gov.au/org/cdu> ;
+    sdo:identifier "https://orcid.org/0000-0002-7675-9916"^^id:orcid ;
+    sdo:name "Kamaljit K Sangha" ;
+    sdo:url "https://www.cdu.edu.au/research-and-innovation/higher-degree-research/find-supervisor/environment/dr-kamaljit-k-sangha"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/person/2661a8c6-5f2b-443b-9396-91abeb661805>
+    a sdo:Person ;
+    sdo:memberOf <https://data.idnau.org/pid/org/alfant> ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/alfant>
+        ] ;
+    sdo:name "Jennifer Ansell" ;
+.
+
+<https://data.idnau.org/pid/person/4d3e7bf1-8c6f-46e5-b37b-c935bdcd4a29>
+    a sdo:Person ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/knp>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/knp> ;
+    sdo:name "Peter Christopherson" ;
+.
+
+<https://data.idnau.org/pid/person/7028f9cd-099c-43be-8183-73ed90666564>
+    a sdo:Person ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/nailsa>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/nailsa> ;
+    sdo:name "Melissa George" ;
+.
+
+<https://data.idnau.org/pid/person/c38257f6-e2f7-4b25-a0f8-61fc35333971>
+    a sdo:Person ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/nailsa>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/nailsa> ;
+    sdo:name "Glenn James" ;
+.
+
+<https://data.idnau.org/pid/person/4bcdb364-2bc6-4352-90eb-272c962849c5>
+    a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0003-0521-4094"^^id:orcid ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/cribb>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/cribb> ;
+    sdo:name "Julian Cribb" ;
+.
+
+<https://data.idnau.org/pid/person/35f3968d-5b48-472d-9c11-f25816e14156>
+    a sdo:Person ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/anu>
+        ] ;
+    sdo:memberOf <https://linked.data.gov.au/org/anu> ;
+    sdo:name "Komei Hosokawa" ;
+.
+
+<https://data.idnau.org/pid/person/303733f1-8467-4f6c-a076-1dde806b77c8>
+    a sdo:Person ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/anu>
+        ] ;
+    sdo:memberOf <https://linked.data.gov.au/org/anu> ;
+    sdo:name "Tom Dutton" ;
+    sdo:url "https://en.wikipedia.org/wiki/Tom_Dutton_(linguist)"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/person/92dc96f8-d130-4fe0-acb5-e20449d701a5>
+    a sdo:Person ;
+    sdo:honorificTitle "Professor (Emeritus)" ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/coap>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/coap> ;
+    sdo:name "Darrell Tryon" ;
+.
+
+<https://data.idnau.org/pid/person/9ae5ce5c-ac22-43eb-a7a5-7edb8e54ddfe>
+    a sdo:Person ;
+    sdo:identifier "https://orcid.org/0000-0002-4765-4445"^^id:orcid ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/cass>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/cass> ;
+    sdo:name "Nicholas Biddle" ;
+.
+
+<https://data.idnau.org/pid/person/6b196829-bdf7-44d0-9372-e81b787e8030>
+    a sdo:Person ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/knp>
+        ] ;
+    sdo:memberOf <https://data.idnau.org/pid/org/knp> ;
+    sdo:name "Barbara Glowczewski" ;
+    sdo:identifier "https://orcid.org/0000-0002-9629-2516"^^id:orcid ;
+.
+
+<https://data.idnau.org/pid/person/af428829-0c5c-4bb9-9cd8-47c24e10577c> a sdo:Person;
+    sdo:name "Gordon Briscoe" ;
+    dcterms:type pis:indigenous ;
+    sdo:identifier "https://en.wikipedia.org/wiki/Gordon_Briscoe"^^xsd:token ;
+    dcat:qualifiedRelation [
+        a dcat:Relationship ;
+            dcat:hadRole aarr:memberOf ;
+            sdo:agent <https://data.idnau.org/pid/org/anu>
+        ] ;
+    sdo:memberOf <https://linked.data.gov.au/org/anu> ;
+
+.

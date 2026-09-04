@@ -1,0 +1,45 @@
+name: Upload data to triplestore
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  # Detects changes in specific directories
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      data: ${{ steps.filter.outputs.data }}
+    steps:
+    - uses: actions/checkout@v4
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          data:
+            - 'data/raw/**'
+  # Deploy if files have changed, or if workflow was triggered by another repo/manually
+  upload:
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ needs.changes.outputs.data == 'true' || github.event_name != 'push' }}
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          # cache: poetry
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+      - name: Install dependencies
+        run: poetry install --without dev --no-interaction --no-root
+      - name: Upload data
+        env:
+          TRIPLESTORE_URL: ${{ secrets.TRIPLESTORE_URL }}
+          TRIPLESTORE_USERNAME: ${{ secrets.TRIPLESTORE_USERNAME }}
+          TRIPLESTORE_PASSWORD: ${{ secrets.TRIPLESTORE_PASSWORD }}
+        run: poetry run python scripts/upload.py
