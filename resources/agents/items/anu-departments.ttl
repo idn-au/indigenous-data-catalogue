@@ -4,6 +4,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/anu>
     a schema:Organization ;
+    schema:name "Australian National University" ;
     schema:subOrganization
         agent:028fe8af-7f9c-4848-b568-7d8856ba4b77 ,
         agent:098a873c-b054-4292-853f-24b0b2acc9fc ,
@@ -116,7 +117,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         agent:f68d48d6-c5e1-400f-98e0-be283d780507 ,
         agent:f8c464bd-4f94-4cbd-b08e-d23a14222d8a ,
         agent:fe658912-af63-4775-8d69-a48f4ba11688 ;
-    schema:name "Australian National University" ;
     schema:url "https://anu.edu.au"^^xsd:anyURI ;
 .
 

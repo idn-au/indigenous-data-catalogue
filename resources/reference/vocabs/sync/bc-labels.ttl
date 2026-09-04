@@ -314,7 +314,7 @@ cs:
         :provenance ,
         :research-use ;
     skos:prefLabel "Biocultural Labels"@en ;
-    schema:additionalType <https://schema.org/DefinedTermSet> ;
+    schema:additionalType schema:DefinedTermSet ;
     schema:citation "https://localcontexts.org/labels/biocultural-labels/"^^xsd:anyURI ;
     schema:creator idn: ;
     schema:dateCreated "2022-06-22"^^xsd:date ;

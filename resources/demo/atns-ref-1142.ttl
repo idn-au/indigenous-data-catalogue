@@ -8,7 +8,7 @@ idn-resource:0cca8502-926a-5770-88a4-de3ae0d9c4e9
     a
         atns:Reference ,
         schema:CreativeWork ;
-    atns:deleted "false"^^xsd:boolean ;
+    atns:deleted false ;
     atns:referenceType atns-ref:5f376307-9421-5ed8-aad9-7d12cb7b7fb6 ;
     atns:sourceReferenceId "1142"^^xsd:token ;
     schema:author "ABC Radio National"@en ;

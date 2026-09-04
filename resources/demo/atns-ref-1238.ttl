@@ -8,7 +8,7 @@ idn-resource:97dd3be9-f4ca-586a-971a-594015bbfcc4
     a
         atns:Reference ,
         schema:CreativeWork ;
-    atns:deleted "false"^^xsd:boolean ;
+    atns:deleted false ;
     atns:referenceType atns-ref:5f376307-9421-5ed8-aad9-7d12cb7b7fb6 ;
     atns:sourceReferenceId "1238"^^xsd:token ;
     schema:author "Senate Community Affairs Legislation Committee"@en ;

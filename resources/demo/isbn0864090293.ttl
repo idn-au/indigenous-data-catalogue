@@ -1,6 +1,5 @@
 # this creative work (book) for testing CARE scoring; it's contents is written in both an indigenous langauge and English, indicated in schema:inLanguage, and is about Indigenous langauges, indicated in dcat:theme, schema:keywords etc. It is created by an Indigenous person.
 
-PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
 PREFIX austlang: <https://data.idnau.org/pid/austlang/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
@@ -23,8 +22,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:keywords
         austlang:N141 ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=1246> ,
-        "Yolngu languages, Gumatj language, Aboriginal Australians -- Northern Territory -- Arnhem Land -- Languages" ,
-        "Demo" ;
+        "Demo" ,
+        "Yolngu languages, Gumatj language, Aboriginal Australians -- Northern Territory -- Arnhem Land -- Languages" ;
     schema:name "Yolngu-matha : an introduction to Gumatj and related languages in N.E. Arnhem Land" ;
     schema:publisher <https://www.austlit.edu.au/austlit/page/A128141> ;
 .

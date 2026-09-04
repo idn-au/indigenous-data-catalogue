@@ -1,6 +1,5 @@
 PREFIX aiatsistop: <https://aiatsis.gov.au/thesaurus/topical/>
 PREFIX catrole: <https://data.idnau.org/pid/vocab/cat-roles/>
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX idn-th: <https://data.idnau.org/pid/vocab/idn-th/>
 PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
@@ -35,18 +34,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution
         [
             a schema:DataDownload ;
-            schema:url "https://storeroom.its.unimelb.edu.au/umc/art?record=ecatalogue.1189"^^xsd:anyURI ;
             schema:dateCreated "1960-01-01"^^xsd:date ;
             schema:dateModified "1960-01-01"^^xsd:date ;
             schema:description "University of Melbourne Art Collection of more than 18,000 works including significant collections of Australian colonial and contemporary art and including major holdings of paintings, prints and drawings, ceramics, and sculpture including Aboriginal and Torres Strait Islander Art." ;
             schema:keywords catrole:non-home ;
             schema:name "University of Melbourne Art Collection" ;
+            schema:url "https://storeroom.its.unimelb.edu.au/umc/art?record=ecatalogue.1189"^^xsd:anyURI ;
         ] ;
     schema:identifier "1960.1678.000.A.000.B" ;
     schema:keywords
         aiatsistop:XX36665 ,
-        "Indigenous objects - tools / implements" ,
-        "Demo" ;
+        "Demo" ,
+        "Indigenous objects - tools / implements" ;
     schema:material "wood" ;
     schema:name "Pair of fire sticks" ;
     schema:publisher uom: ;

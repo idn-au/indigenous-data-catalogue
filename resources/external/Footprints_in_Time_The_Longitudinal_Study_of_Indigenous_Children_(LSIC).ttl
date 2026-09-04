@@ -45,7 +45,8 @@ to LongitudinalStudies@dss.gov.au and ada@anu.edu.au. """ ;
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
-            prov:hadRole
+            schema:agent <https://data.idnau.org/pid/organization/61dc125d-7311-4bae-add2-428a68fbfa8f> ;
+            schema:roleName
                 <https://def.isotc211.org/common/RoleCode/author> ,
                 <https://def.isotc211.org/common/RoleCode/custodian> ,
                 <https://def.isotc211.org/common/RoleCode/distributor> ,
@@ -55,12 +56,11 @@ to LongitudinalStudies@dss.gov.au and ada@anu.edu.au. """ ;
                 <https://def.isotc211.org/common/RoleCode/pointOfContact> ,
                 <https://def.isotc211.org/common/RoleCode/publisher> ,
                 <https://def.isotc211.org/common/RoleCode/rightsHolder> ;
-            schema:agent <https://data.idnau.org/pid/organization/61dc125d-7311-4bae-add2-428a68fbfa8f> ;
         ] ,
         [
             a prov:Attribution ;
-            prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
             schema:agent <https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9> ;
+            schema:roleName <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
         ] ;
     schema:additionalType schema:Dataset ;
     schema:copyrightNotice "The Commonwealth of Australia as represented by the Department of Social Services (the department) owns copyright" ;

@@ -5,7 +5,6 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
-PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -19,8 +18,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:keywords
         <https://linked.data.gov.au/def/policy/42c2bcf0-0dce-4bf7-9fb6-2ebea19c100c> ,
         <https://linked.data.gov.au/def/policy/5c4d7647-75ac-4884-8c43-3a9738d79602> ,
-        "post-traumatic stress disorder, child maltreatment" ,
-        "Demo" ;
+        "Demo" ,
+        "post-traumatic stress disorder, child maltreatment" ;
     schema:name "Interventions from pregnancy to two years after birth for parents experiencing complex post-traumatic stress disorder and/or with childhood experience of maltreatment: a Cochrane Review." ;
     schema:publisher <https://ror.org/03jsdjx34> ;
 .
@@ -31,8 +30,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            prov:hadRole aarr:memberOf ;
             schema:agent <https://linked.data.gov.au/org/uom> ;
+            schema:roleName aarr:memberOf ;
         ] ;
     schema:email "cacham@unimelb.edu.au"^^xsd:anyURI ;
     schema:name "Catherine Chamberlain" ;

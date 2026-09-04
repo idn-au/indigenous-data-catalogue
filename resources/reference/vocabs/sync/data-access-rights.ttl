@@ -144,7 +144,7 @@ cs:
             prov:entity cs: ;
             schema:roleName <https://linked.data.gov.au/def/vocdermods/none> ;
         ] ;
-    schema:additionalType <https://schema.org/DefinedTermSet> ;
+    schema:additionalType schema:DefinedTermSet ;
     schema:citation "http://vocabularies.coar-repositories.org/documentation/access_rights/"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/gsq> ;
     schema:dateCreated "2019-04-03"^^xsd:date ;

@@ -4,8 +4,8 @@ from pathlib import Path
 
 from dotenv import dotenv_values
 from httpx import Client
-from prezmanifest.syncer import sync
-from prezmanifest.validator import validate
+from kgm.syncer import sync
+from kgm.validator import validate
 from rich.console import Console
 from rich.table import Table
 

@@ -8,7 +8,7 @@ idn-resource:ca68a358-3931-5011-adfd-0a695adc4812
     a
         atns:Reference ,
         schema:CreativeWork ;
-    atns:deleted "false"^^xsd:boolean ;
+    atns:deleted false ;
     atns:referenceType atns-ref:5f376307-9421-5ed8-aad9-7d12cb7b7fb6 ;
     atns:sourceReferenceId "1126"^^xsd:token ;
     schema:author "Queensland Government"@en ;

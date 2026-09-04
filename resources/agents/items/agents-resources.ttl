@@ -1,29 +1,19 @@
 PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
-PREFIX idncp: <https://data.idnau.org/pid/cp/>
 PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
-PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-
-<https://ror.org/00rqy9422>
+<http://linked.data.gov.au/org/csiro>
     a sdo:Organization ;
-sdo:name "University of Queensland" ;
-sdo:identifier "https://ror.org/00rqy9422"^^id:ror ;
-.
-
-<https://data.idnau.org/pid/org/29c3e9cb-5ea5-456e-b4fa-a90828207ffc>
-    a sdo:Organization ;
-   dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://ror.org/00rqy9422>
-    ] ;
-    sdo:name "University of Queensland Library" ;
+    sdo:alternateName "CSIRO" ;
+    sdo:identifier
+        "41687119230"^^id:ausbn ,
+        "https://ror.org/03qn8fb07"^^id:ror ;
+    sdo:name "Commonwealth Scientific and Industrial Research Organisation" ;
+    sdo:url "https://www.csiro.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/28-221-722-606>
@@ -32,13 +22,30 @@ sdo:identifier "https://ror.org/00rqy9422"^^id:ror ;
     sdo:name "Yothu Yindi" ;
 .
 
+<https://data.idnau.org/pid/org/29c3e9cb-5ea5-456e-b4fa-a90828207ffc>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://ror.org/00rqy9422> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:name "University of Queensland Library" ;
+.
+
+<https://data.idnau.org/pid/org/44-122-865-623>
+    a sdo:Organization ;
+    sdo:identifier "44122865623"^^id:ausbn ;
+    sdo:name "The Kimberley Institute" ;
+.
+
 <https://data.idnau.org/pid/org/61-249-878-937>
     a sdo:Organization ;
-    sdo:identifier 
-    "61249878937"^^id:ausbn ,
-    "https://ror.org/00892tw58"^^id:ror ;
-    sdo:url "https://www.adelaide.edu.au"^^xsd:anyURI ;
+    sdo:identifier
+        "61249878937"^^id:ausbn ,
+        "https://ror.org/00892tw58"^^id:ror ;
     sdo:name "University of Adelaide" ;
+    sdo:url "https://www.adelaide.edu.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/73-190-237-854>
@@ -66,129 +73,130 @@ sdo:identifier "https://ror.org/00rqy9422"^^id:ror ;
     sdo:name "SVA Consulting" ;
 .
 
-<https://data.idnau.org/pid/org/99-154-937-005>
-    a sdo:Organization ;
-    sdo:identifier 
-       "99154937005"^^id:ausbn ,
-       "https://ror.org/0351xae06"^^id:ror ;
-    sdo:name "Torrens University Australia" ;
-.
-
 <https://data.idnau.org/pid/org/aiatsis>
     a sdo:Organization ;
-    sdo:identifier "62020533641"^^id:ausbn ;
-    sdo:name "Australian Institute of Aboriginal and Torres Strait Islander Studies" ;
     sdo:alternateName "AIATSIS" ;
-    sdo:identifier "https://ror.org/011rpdz66"^^id:ror ;
+    sdo:identifier
+        "62020533641"^^id:ausbn ,
+        "https://ror.org/011rpdz66"^^id:ror ;
+    sdo:name "Australian Institute of Aboriginal and Torres Strait Islander Studies" ;
 .
 
 <https://data.idnau.org/pid/org/anu-archives>
     a sdo:Organization ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu>
-    ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:name "ANU Archives" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
 
 <https://data.idnau.org/pid/org/anu-collections>
     a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:name "ANU Collections" ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu>
-    ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
 
 <https://data.idnau.org/pid/org/anu-library>
     a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:name "ANU Library" ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu>
-    ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
 
 <https://data.idnau.org/pid/org/anu-nceph>
     a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:name "National Centre for Epidemiology and Population Health" ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu>
-    ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
 
 <https://data.idnau.org/pid/org/anu-rsd>
     a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:name "Research Service Division" ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu>
-    ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
 
 <https://data.idnau.org/pid/org/atsida>
     a sdo:Organization ;
-    sdo:name "Aboriginal and Torres Strait Islander Data Archive" ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/ada> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:alternateName "ATSIDA.1" ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/ada>
-    ] ;
+    sdo:name "Aboriginal and Torres Strait Islander Data Archive" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/ada> ;
 .
 
 <https://data.idnau.org/pid/org/jumbunna>
     a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/uts> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:name "Jumbunna" ;
-    sdo:url "https://www.uts.edu.au/research/centres/jumbunna-institute-indigenous-education-and-research"^^xsd:anyURI ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/uts>
-    ] ;
-
     sdo:parentOrganization <https://linked.data.gov.au/org/uts> ;
+    sdo:url "https://www.uts.edu.au/research/centres/jumbunna-institute-indigenous-education-and-research"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/mayi-kuwayu-study>
     a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu-fnp> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:name "Mayi Kuwayu" ;
-    sdo:url "https://mkstudy.com.au"^^xsd:anyURI ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu-fnp>
-    ] ;
     sdo:parentOrganization <https://data.idnau.org/pid/org/anu-fnp> ;
+    sdo:url "https://mkstudy.com.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/ncig>
     a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:name "National Centre for Indigenous Genomics" ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu>
-    ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
 
 <https://data.idnau.org/pid/org/phidu>
     a sdo:Organization ;
-    sdo:parentOrganization <https://data.idnau.org/pid/org/99-154-937-005> ;
     sdo:name "Public Health Information Development Unit" ;
+    sdo:parentOrganization <https://data.idnau.org/pid/org/99-154-937-005> ;
 .
 
 <https://data.idnau.org/pid/org/qld-dsdsatsip>
@@ -210,80 +218,83 @@ sdo:identifier "https://ror.org/00rqy9422"^^id:ror ;
 <https://orcid.org/0000-0002-1398-7524>
     a sdo:Person ;
     dcterms:type pis:indigenous ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:memberOf ;
-        sdo:agent <https://linked.data.gov.au/org/um>
-    ] ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/um> ;
+            sdo:roleName aarr:memberOf ;
+        ] ;
     sdo:memberOf <https://linked.data.gov.au/org/um> ;
     sdo:name "Marcia Langton" ;
 .
 
 <https://orcid.org/0000-0002-2151-2190>
     a sdo:Person ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:memberOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu>
-    ] ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:memberOf ;
+        ] ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
     sdo:name "Janet McDougall" ;
 .
 
 <https://orcid.org/0000-0002-5477-0874>
     a sdo:Person ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:memberOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu>
-    ] ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:memberOf ;
+        ] ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
     sdo:name "Len Smith" ;
 .
 
 <https://orcid.org/0000-0003-1983-6687>
     a sdo:Person ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:memberOf ;
-        sdo:agent <https://linked.data.gov.au/org/um>
-    ] ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/um> ;
+            sdo:roleName aarr:memberOf ;
+        ] ;
     sdo:memberOf <https://linked.data.gov.au/org/um> ;
     sdo:name "Sandra Silcot" ;
 .
 
+<https://data.idnau.org/pid/org/99-154-937-005>
+    a sdo:Organization ;
+    sdo:identifier
+        "99154937005"^^id:ausbn ,
+        "https://ror.org/0351xae06"^^id:ror ;
+    sdo:name "Torrens University Australia" ;
+.
+
 <https://data.idnau.org/pid/org/anu-fnp>
     a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:name "ANU First Nations Portfolio" ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/anu>
-    ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+.
+
+<https://ror.org/00rqy9422>
+    a sdo:Organization ;
+    sdo:identifier "https://ror.org/00rqy9422"^^id:ror ;
+    sdo:name "University of Queensland" ;
 .
 
 <https://linked.data.gov.au/org/uts>
     a sdo:Organization ;
-    sdo:identifier 
-      "77257686961"^^id:ausbn ,
-      "https://ror.org/03f0f6041"^^id:ror ;
-    sdo:url "https://www.uts.edu.au"^^xsd:anyURI ;
+    sdo:identifier
+        "77257686961"^^id:ausbn ,
+        "https://ror.org/03f0f6041"^^id:ror ;
     sdo:name "University of Technology Sydney" ;
-.
-
-<https://data.idnau.org/pid/org/44-122-865-623>
-    a sdo:Organization ;
-    sdo:identifier "44122865623"^^id:ausbn ;
-    sdo:name "The Kimberley Institute" ;
-.
-
-<http://linked.data.gov.au/org/csiro>
-    a sdo:Organization ;
-    sdo:identifier 
-        "41687119230"^^id:ausbn ,
-        "https://ror.org/03qn8fb07"^^id:ror ;
-    sdo:name "Commonwealth Scientific and Industrial Research Organisation" ;
-    sdo:url "https://www.csiro.au"^^xsd:anyURI ;
-    sdo:alternateName "CSIRO" ;
+    sdo:url "https://www.uts.edu.au"^^xsd:anyURI ;
 .

@@ -3,184 +3,36 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX idncp: <https://data.idnau.org/pid/cp/>
-PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://data.idnau.org/pid/org/7fb4c3c8-2317-4cfd-b5b8-b1c6a8c6e321> 
+<https://data.idnau.org/pid/org/7fb4c3c8-2317-4cfd-b5b8-b1c6a8c6e321>
     a sdo:Organization ;
-    sdo:name "Aboriginal & Torres Strait Islander Cultural Heritage Oversight Committee" ;
+    dcterms:type <file:///Users/jamie/dev/idn/indigenous-data-catalogue/resources/agents/items/undefined//data.idnau.org/pid/vocab/org-indigeneity/indigeneity-unknown> ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/uom> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
     sdo:description "advises the Provost and Vice President, Strategy and Culture on the implementation of the University's Aboriginal and Torres Strait Islander Cultural Heritage Policy, which outlines the principles by which the University will manage Aboriginal and Torres Strait Islander Ancestral Remains and cultural heritage, including with respect to the built and landscape environment." ;
-    dcterms:type <undefined//data.idnau.org/pid/vocab/org-indigeneity/indigeneity-unknown>;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-         dcat:hadRole aarr:partOf ;
-    sdo:agent <https://linked.data.gov.au/org/uom> ] ;
+    sdo:name "Aboriginal & Torres Strait Islander Cultural Heritage Oversight Committee" ;
     sdo:url "https://www.unimelb.edu.au/indigenous/governance/consultative-and-advisory-bodies"^^xsd:anyURI ;
 .
 
-<https://data.idnau.org/pid/org/caepr>
+<https://data.idnau.org/pid/org/aihw>
     a sdo:Organization ;
-    sdo:alternateName "CAEPR" ;
-    sdo:name "ANU Centre for Aboriginal Economic Policy Research" ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-        dcat:hadRole aarr:partOf ;
-        sdo:agent <https://linked.data.gov.au/org/cass>
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://ror.org/02swcnz29> ;
+            sdo:roleName aarr:partOf ;
         ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
-    sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/org/cass>
-    a sdo:Organization ;
-    sdo:alternateName "CASS" ;
-    sdo:name "ANU College of Arts & Social Science" ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/anu>
-        ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
-    sdo:url "https://cass.anu.edu.au"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/org/cos>
-    a sdo:Organization ;
-    sdo:alternateName "CoS" ;
-    sdo:name "ANU College of Science" ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/anu>
-        ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
-    sdo:url "https://science.anu.edu.au"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/org/fses>
-    a sdo:Organization ;
-    sdo:alternateName "FSES" ;
-    sdo:name "Fenner School of Environment & Science" ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/cos>
-        ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/cos> ;
-    sdo:url "https://fennerschool.anu.edu.au"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/org/ncis>
-    a sdo:Organization ;
-    sdo:alternateName "NCIS" ;
-    sdo:name "ANU National Centre for Indigenous Studies" ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/anu>
-        ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
-    sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
-.
-
-<https://linked.data.gov.au/org/anu>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:description "ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education." ;
-    sdo:identifier 
-        "O-000827"^^idncp:agorId ,
-        "https://ror.org/019wvm592"^^id:ror ;
-    sdo:name "Australian National University" ;
-    sdo:alternateName "ANU" ;
-    sdo:url "https://www.anu.edu.au"^^xsd:anyURI ;
-.
-
-<https://linked.data.gov.au/org/und>
-    a sdo:Organization ;
-    sdo:alternateName "Notre Dame" ;
-    sdo:name "University of Notre Dame" ;
-    sdo:url "https://www.notredame.edu.au"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/02stey378"^^id:ror ;
-.
-
-<https://data.idnau.org/pid/org/nulungu>
-    a sdo:Organization ;
-    sdo:name "Nulungu Research Institute" ;
-    dcat:qualifiedRelation [
-    a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/und>
-        ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/und> ;
-    sdo:url "https://www.notredame.edu.au/research/nulungu/home"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/org/kimberleyinstitute>
-    a sdo:Organization ;
-    sdo:name "Kimberley Institute" ;
-.
-
-<https://data.idnau.org/pid/org/yawuru>
-    a sdo:Organization ;
-    sdo:name "Yawuru" ;
-    sdo:url "http://www.yawuru.org.au"^^xsd:anyURI ;
-    sdo:spatial <https://data.idnau.org/pid/ilm/feature/K1> ;
-.
-
-<https://data.idnau.org/pid/org/dod>
-    a sdo:Organization ;
-    sdo:name "Department of Defence" ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/au>
-        ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
-    sdo:url "https://www.defence.gov.au"^^xsd:anyURI ;
-    sdo:identifier 
-        "68706814312"^^id:ausbn ,
-        "https://ror.org/051wnqr14"^^id:ror ;
-.
-
-<https://data.idnau.org/pid/org/awm>
-    a sdo:Organization ;
-    sdo:name "Australian War Memorial" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/au>
-        ] ;
-    sdo:url "https://www.awm.gov.au"^^xsd:anyURI ;
-    sdo:identifier "64909221257"^^id:ausbn ;
-.
-
-<https://data.idnau.org/pid/org/dva>
-    a sdo:Organization ;
-    sdo:name "Department of Veterans' Affairs" ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/au>
-        ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
-    sdo:url "https://www.dva.gov.au"^^xsd:anyURI ;
-    sdo:identifier "23964290824"^^id:ausbn ;    
-.
-
-<https://data.idnau.org/pid/org/coap>
-    a sdo:Organization ;
-    sdo:alternateName "COAP" ;
-    sdo:name "ANU College of Asia and the Pacific" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/anu>
-        ] ;
-    sdo:url "https://asiapacific.anu.edu.au"^^xsd:anyURI ;
+    sdo:identifier
+        "16515245497"^^id:ausbn ,
+        "https://ror.org/01972fe66"^^id:ror ;
+    sdo:name "Australian Institute of Health and Welfare" ;
+    sdo:url "https://www.aihw.gov.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/alfant>
@@ -189,128 +41,290 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:url "https://www.alfant.com.au"^^xsd:anyURI ;
 .
 
-<https://data.idnau.org/pid/org/knp>
+<https://data.idnau.org/pid/org/apsc>
     a sdo:Organization ;
-    sdo:name "Kakadu Native Plants Pty Ltd" ;
-    sdo:identifier "37125747140"^^id:ausbn ;
-.
-
-<https://data.idnau.org/pid/org/nailsa>
-    a sdo:Organization ;
-    sdo:name "North Australia Indigenous Land & Sea Alliance Ltd" ;
-    sdo:identifier "80149061174"^^id:ausbn ;
-    sdo:url "https://nailsma.org.au"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/org/cribb>
-    a sdo:Organization ;
-    sdo:name "Julian Cribb & Associates" ;
-    sdo:identifier "68082652471"^^id:ausbn ;
-    sdo:url "https://www.juliancribb.net"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/org/cnrs>
-    a sdo:Organization ;
-    sdo:name "French National Centre for Scientific Research" ;
-    sdo:alternateName "Centre National de la Recherche Scientifique"@fr ;
-    sdo:url "https://www.cnrs.fr/en/cnrs"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/02feahw73"^^id:ror ;
-.
-
-<https://linked.data.gov.au/org/cdu>
-    a sdo:Organization ;
-    sdo:name "Charles Darwin University" ;
-    sdo:url "https://www.cdu.edu.au"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/048zcaj52"^^id:ror ;
-.
-
-<https://ror.org/0059y1582>
-    a sdo:Organization ;
-    sdo:name "World Wide Web Consortium" ;
-    sdo:alternateName "W3C" ;
-    sdo:url "https://www.w3.org/"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/0059y1582"^^id:ror ;
-.
-
-<https://ror.org/011rpdz66>
-    a sdo:Organization ;
-    sdo:name "Australian Institute of Aboriginal and Torres Strait Islander Studies" ;
-    sdo:alternateName "AIATSIS" ;
-    sdo:url "https://www.w3.org/"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/011rpdz66"^^id:ror ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/au> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:identifier "99470863260"^^id:ausbn ;
+    sdo:name "Australian Public Service Commission" ;
+    sdo:url "https://www.apsc.gov.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/ardc>
     a sdo:Organization ;
-    sdo:name "Australian Research Data Commons" ;
     sdo:alternateName "ARDC" ;
-    sdo:url "https://ardc.edu.au"^^xsd:anyURI ;
     sdo:identifier "https://ror.org/038sjwq14"^^id:ror ;
+    sdo:name "Australian Research Data Commons" ;
+    sdo:url "https://ardc.edu.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/atsichs>
     a sdo:Organization ;
-    sdo:name "Aboriginal and Torres Strait Islander Community Health Service Brisbane" ;
     sdo:alternateName "ATSICHS Brisbane" ;
-    sdo:url "https://atsichsbrisbane.org.au"^^xsd:anyURI ;
     sdo:identifier "22009943435"^^id:ausbn ;
+    sdo:name "Aboriginal and Torres Strait Islander Community Health Service Brisbane" ;
+    sdo:url "https://atsichsbrisbane.org.au"^^xsd:anyURI ;
 .
 
-<https://data.idnau.org/pid/org/apsc>
+<https://data.idnau.org/pid/org/awm>
     a sdo:Organization ;
-    sdo:name "Australian Public Service Commission" ;
-    sdo:url "https://www.apsc.gov.au"^^xsd:anyURI ;
-    sdo:identifier "99470863260"^^id:ausbn ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/au>
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/au> ;
+            sdo:roleName aarr:partOf ;
         ] ;
+    sdo:identifier "64909221257"^^id:ausbn ;
+    sdo:name "Australian War Memorial" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    sdo:url "https://www.awm.gov.au"^^xsd:anyURI ;
 .
 
-<https://data.idnau.org/pid/org/aihw>
+<https://data.idnau.org/pid/org/caepr>
     a sdo:Organization ;
-    sdo:name "Australian Institute of Health and Welfare" ;
-    sdo:url "https://www.aihw.gov.au"^^xsd:anyURI ;
-    sdo:identifier 
-        "16515245497"^^id:ausbn , 
-        "https://ror.org/01972fe66"^^id:ror ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://ror.org/02swcnz29>
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/cass> ;
+            sdo:roleName aarr:partOf ;
         ] ;
+    sdo:alternateName "CAEPR" ;
+    sdo:name "ANU Centre for Aboriginal Economic Policy Research" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
+    sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
 .
 
-<https://ror.org/02swcnz29>
+<https://data.idnau.org/pid/org/cass>
     a sdo:Organization ;
-    sdo:name "Department of Health, Disability and Ageing" ;
-    sdo:url "https://www.health.gov.au/"^^xsd:anyURI ;
-    sdo:identifier 
-        "83605426759"^^id:ausbn , 
-        "https://ror.org/02swcnz29"^^id:ror ;
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/au>
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
         ] ;
+    sdo:alternateName "CASS" ;
+    sdo:name "ANU College of Arts & Social Science" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    sdo:url "https://cass.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/cnrs>
+    a sdo:Organization ;
+    sdo:alternateName "Centre National de la Recherche Scientifique"@fr ;
+    sdo:identifier "https://ror.org/02feahw73"^^id:ror ;
+    sdo:name "French National Centre for Scientific Research" ;
+    sdo:url "https://www.cnrs.fr/en/cnrs"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/coap>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:alternateName "COAP" ;
+    sdo:name "ANU College of Asia and the Pacific" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    sdo:url "https://asiapacific.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/cos>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:alternateName "CoS" ;
+    sdo:name "ANU College of Science" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    sdo:url "https://science.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/cribb>
+    a sdo:Organization ;
+    sdo:identifier "68082652471"^^id:ausbn ;
+    sdo:name "Julian Cribb & Associates" ;
+    sdo:url "https://www.juliancribb.net"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/dod>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/au> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:identifier
+        "68706814312"^^id:ausbn ,
+        "https://ror.org/051wnqr14"^^id:ror ;
+    sdo:name "Department of Defence" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    sdo:url "https://www.defence.gov.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/dva>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/au> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:identifier "23964290824"^^id:ausbn ;
+    sdo:name "Department of Veterans' Affairs" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    sdo:url "https://www.dva.gov.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/fses>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/cos> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:alternateName "FSES" ;
+    sdo:name "Fenner School of Environment & Science" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/cos> ;
+    sdo:url "https://fennerschool.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/kimberleyinstitute>
+    a sdo:Organization ;
+    sdo:name "Kimberley Institute" ;
+.
+
+<https://data.idnau.org/pid/org/knp>
+    a sdo:Organization ;
+    sdo:identifier "37125747140"^^id:ausbn ;
+    sdo:name "Kakadu Native Plants Pty Ltd" ;
 .
 
 <https://data.idnau.org/pid/org/naaja>
     a sdo:Organization ;
+    sdo:identifier "63118017842"^^id:ausbn ;
     sdo:name "North Australian Aboriginal Justice Agency" ;
     sdo:url "https://www.naaja.org.au"^^xsd:anyURI ;
-    sdo:identifier "63118017842"^^id:ausbn ; 
+.
+
+<https://data.idnau.org/pid/org/nailsa>
+    a sdo:Organization ;
+    sdo:identifier "80149061174"^^id:ausbn ;
+    sdo:name "North Australia Indigenous Land & Sea Alliance Ltd" ;
+    sdo:url "https://nailsma.org.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/ncis>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:alternateName "NCIS" ;
+    sdo:name "ANU National Centre for Indigenous Studies" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/niaa>
     a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/au> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:identifier "30429895164"^^id:ausbn ;
     sdo:name "National Indigenous Australians Agency" ;
     sdo:url "https://www.niaa.gov.au"^^xsd:anyURI ;
-    sdo:identifier "30429895164"^^id:ausbn ; 
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/au>
+.
+
+<https://data.idnau.org/pid/org/nulungu>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/und> ;
+            sdo:roleName aarr:partOf ;
         ] ;
+    sdo:name "Nulungu Research Institute" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/und> ;
+    sdo:url "https://www.notredame.edu.au/research/nulungu/home"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/yawuru>
+    a sdo:Organization ;
+    sdo:name "Yawuru" ;
+    sdo:spatial <https://data.idnau.org/pid/ilm/feature/K1> ;
+    sdo:url "http://www.yawuru.org.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/cdu>
+    a sdo:Organization ;
+    sdo:identifier "https://ror.org/048zcaj52"^^id:ror ;
+    sdo:name "Charles Darwin University" ;
+    sdo:url "https://www.cdu.edu.au"^^xsd:anyURI ;
+.
+
+<https://ror.org/0059y1582>
+    a sdo:Organization ;
+    sdo:alternateName "W3C" ;
+    sdo:identifier "https://ror.org/0059y1582"^^id:ror ;
+    sdo:name "World Wide Web Consortium" ;
+    sdo:url "https://www.w3.org/"^^xsd:anyURI ;
+.
+
+<https://ror.org/011rpdz66>
+    a sdo:Organization ;
+    sdo:alternateName "AIATSIS" ;
+    sdo:identifier "https://ror.org/011rpdz66"^^id:ror ;
+    sdo:name "Australian Institute of Aboriginal and Torres Strait Islander Studies" ;
+    sdo:url "https://www.w3.org/"^^xsd:anyURI ;
+.
+
+<https://ror.org/02swcnz29>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://linked.data.gov.au/org/au> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:identifier
+        "83605426759"^^id:ausbn ,
+        "https://ror.org/02swcnz29"^^id:ror ;
+    sdo:name "Department of Health, Disability and Ageing" ;
+    sdo:url "https://www.health.gov.au/"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/und>
+    a sdo:Organization ;
+    sdo:alternateName "Notre Dame" ;
+    sdo:identifier "https://ror.org/02stey378"^^id:ror ;
+    sdo:name "University of Notre Dame" ;
+    sdo:url "https://www.notredame.edu.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/anu>
+    a sdo:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    sdo:alternateName "ANU" ;
+    sdo:description "ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education." ;
+    sdo:identifier
+        "https://ror.org/019wvm592"^^id:ror ,
+        "O-000827"^^idncp:agorId ;
+    sdo:name "Australian National University" ;
+    sdo:url "https://www.anu.edu.au"^^xsd:anyURI ;
 .

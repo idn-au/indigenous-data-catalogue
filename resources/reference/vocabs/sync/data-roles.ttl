@@ -471,7 +471,7 @@ cs:
             prov:entity cs: ;
             schema:roleName <https://linked.data.gov.au/def/vocdermods/none> ;
         ] ;
-    schema:additionalType <https://schema.org/DefinedTermSet> ;
+    schema:additionalType schema:DefinedTermSet ;
     schema:citation "https://def.isotc211.org/codeset/RoleCode"^^xsd:anyURI ;
     schema:copyrightNotice "(c) Australian Government Linked Data Working Group, 2024" ;
     schema:creator idn: ;

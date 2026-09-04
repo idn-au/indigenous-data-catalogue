@@ -19,10 +19,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "Australia's distinctive colonial administrative history has resulted in the generation and capture of large quantities of personal data about Indigenous Peoples in Australia, which is currently controlled and processed by government agencies and departments without coherent regulation. From an Indigenous standpoint, these data constitute stranded assets. Established legal frameworks for pursuing recovery of other classes of asset alienated by governments from Indigenous Peoples in Australia, including land, natural resources, and unpaid wages, have not yet been extended to the recovery of Indigenous data assets. This legacy scenario has created a disproportionate administrative burden for Indigenous organisations by sustaining their dependency on government for necessary data, while simultaneously suppressing the value of their own contemporary community-owned data assets. In this article, we outline leading international legal, economic, and scientific frameworks by which an equitable arrangement for the governance of Indigenous data might be restored to Indigenous Peoples in Australia." ;
     schema:identifier "https://doi.org/10.18584/iipj.2023.14.1.10987"^^id:doi ;
     schema:keywords
-        <https://terms.codata.org/rdmt/indigenous-data> ,
         dataIndig:about-indigenous-things ,
-        "Indigenous data governance, Indigenous data sovereignty, Indigenous property rights, Indigenous Australia, Indigenous land rights, native title, data science, data policy, scientific data, personal data, data rights, intellectual property rights" ,
-        "Demo" ;
+        <https://terms.codata.org/rdmt/indigenous-data> ,
+        "Demo" ,
+        "Indigenous data governance, Indigenous data sovereignty, Indigenous property rights, Indigenous Australia, Indigenous land rights, native title, data science, data policy, scientific data, personal data, data rights, intellectual property rights" ;
     schema:name "Indigenous Data Governance in Australia: Towards a National Framework" ;
     schema:publisher <https://pkp.sfu.ca> ;
 .
@@ -33,8 +33,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            prov:hadRole aarr:memberOf ;
             schema:agent <https://linked.data.gov.au/org/uom> ;
+            schema:roleName aarr:memberOf ;
         ] ;
     schema:email "kristens@unimelb.edu.au" ;
     schema:name "Kristen Smith" ;

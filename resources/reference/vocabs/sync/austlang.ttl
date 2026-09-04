@@ -34325,7 +34325,7 @@ cs:
         :Y99 ;
     skos:historyNote "Extracted from the AustLang datasets on data.gov.au, 2024-03-27" ;
     skos:prefLabel "AustLang"@en ;
-    schema:additionalType <https://schema.org/DefinedTermSet> ;
+    schema:additionalType schema:DefinedTermSet ;
     schema:citation "https://collection.aiatsis.gov.au/austlang"^^xsd:anyURI ;
     schema:contributor <https://linked.data.gov.au/org/idn> ;
     schema:creator <https://linked.data.gov.au/org/aiatsis> ;

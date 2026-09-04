@@ -220,7 +220,7 @@ cs:
             prov:entity cs: ;
             schema:hadRole <https://linked.data.gov.au/def/vocdermods/none> ;
         ] ;
-    schema:additionalType <https://schema.org/DefinedTermSet> ;
+    schema:additionalType schema:DefinedTermSet ;
     schema:citation "https://doi.org/10.5334/dsj-2020-043"^^xsd:anyURI ;
     schema:copyrightNotice "(c) Indigenous Data Network, 2022" ;
     schema:creator <https://linked.data.gov.au/org/idn> ;

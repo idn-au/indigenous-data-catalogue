@@ -14,8 +14,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ,
         [
             a prov:Attribution ;
-            prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
             schema:agent <https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9> ;
+            schema:roleName <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
         ] ;
     schema:additionalType schema:Dataset ;
     schema:copyrightNotice "© Australian Institute of Health and Welfare 2026" ;

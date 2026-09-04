@@ -20,6 +20,42 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ,
         [
             a prov:Attribution ;
+            schema:agent orcid:0000-0003-3784-0540 ;
+            schema:name "Amy Morgan" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0001-7538-4844 ;
+            schema:name "Sally A Brinkman" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0001-6231-5305 ;
+            schema:name "Anita D'Aprano" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0003-2440-3667 ;
+            schema:name "Melissa O'Donnell" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0002-7550-8007 ;
+            schema:name "Jacynta Krakouer" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
+            schema:agent orcid:0000-0003-3446-0227 ;
+            schema:name "Catherine Chamberlain" ;
+            schema:roleName dataroles:projectParticipant ;
+        ] ,
+        [
+            a prov:Attribution ;
             schema:agent orcid:0000-0002-7497-1681 ;
             schema:name "Amalia Karahalios" ;
             schema:roleName dataroles:projectParticipant ;
@@ -64,42 +100,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a prov:Attribution ;
             schema:agent orcid:0000-0002-0346-2820 ;
             schema:name "Kristen Smith" ;
-            schema:roleName dataroles:projectParticipant ;
-        ] ,
-        [
-            a prov:Attribution ;
-            schema:agent orcid:0000-0003-3784-0540 ;
-            schema:name "Amy Morgan" ;
-            schema:roleName dataroles:projectParticipant ;
-        ] ,
-        [
-            a prov:Attribution ;
-            schema:agent orcid:0000-0001-7538-4844 ;
-            schema:name "Sally A Brinkman" ;
-            schema:roleName dataroles:projectParticipant ;
-        ] ,
-        [
-            a prov:Attribution ;
-            schema:agent orcid:0000-0001-6231-5305 ;
-            schema:name "Anita D'Aprano" ;
-            schema:roleName dataroles:projectParticipant ;
-        ] ,
-        [
-            a prov:Attribution ;
-            schema:agent orcid:0000-0003-2440-3667 ;
-            schema:name "Melissa O'Donnell" ;
-            schema:roleName dataroles:projectParticipant ;
-        ] ,
-        [
-            a prov:Attribution ;
-            schema:agent orcid:0000-0002-7550-8007 ;
-            schema:name "Jacynta Krakouer" ;
-            schema:roleName dataroles:projectParticipant ;
-        ] ,
-        [
-            a prov:Attribution ;
-            schema:agent orcid:0000-0003-3446-0227 ;
-            schema:name "Catherine Chamberlain" ;
             schema:roleName dataroles:projectParticipant ;
         ] ;
     schema:dateCreated "2026-07-01"^^xsd:date ;

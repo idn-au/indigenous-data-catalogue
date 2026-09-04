@@ -8,7 +8,6 @@ PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX iso6392: <http://id.loc.gov/vocabulary/iso639-2/>
 PREFIX orgind: <https://data.idnau.org/pid/vocab/org-indigeneity/>
 PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
-PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -42,8 +41,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            prov:hadRole aarr:memberOf ;
             schema:agent <https://linked.data.gov.au/org/uom> ;
+            schema:roleName aarr:memberOf ;
         ] ;
     schema:email "m.langton@unimelb.edu.au"^^xsd:anyURI ;
     schema:memberOf <https://linked.data.gov.au/org/uom> ;

@@ -22,10 +22,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:isDefinedBy cs: ;
     skos:definition "The organisation comprises indigenous persons that meet the Office of the Registrar of Indigenous Corporations (ORIC) indigeneity requirement." ;
     skos:historyNote "Office of the Registrar of Indigenous Coporations, Policy Statement 11." ;
-    schema:citation "https://www.oric.gov.au/for-corporations/corporate-governance/indigeneity-requirement"^^xsd:anyURI ;
     skos:inScheme cs: ;
-    skos:topConceptOf cs: ;
     skos:prefLabel "Indigenous Persons Organisation"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.oric.gov.au/for-corporations/corporate-governance/indigeneity-requirement"^^xsd:anyURI ;
 .
 
 :non-indigenous
@@ -79,7 +79,7 @@ cs:
             prov:entity cs: ;
             schema:roleName <https://linked.data.gov.au/def/vocdermods/none> ;
         ] ;
-    schema:additionalType <https://schema.org/DefinedTermSet> ;
+    schema:additionalType schema:DefinedTermSet ;
     schema:copyrightNotice "(c) Indigenous Data Network, 2022" ;
     schema:creator <https://linked.data.gov.au/org/idn> ;
     schema:dateCreated "2022-09-24"^^xsd:date ;

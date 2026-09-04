@@ -11,14 +11,16 @@ jobs:
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v4
+      - name: Copy TDB script
+        run: cp scripts/spatial_tdb.sh /home/ubuntu/fuseki/
       - name: Copy spatial data
         run: |
           rm /home/ubuntu/fuseki/rdf/*
-          cp datasets/features/* /home/ubuntu/fuseki/rdf/
+          cp resources/reference/datasets/features/* /home/ubuntu/fuseki/rdf/
       - name: Stop Fuseki
         working-directory: /home/ubuntu/fuseki
         run: docker compose -f fuseki-compose.yaml stop
-      - name: Run TBD load & index
+      - name: Run TBD script
         working-directory: /home/ubuntu/fuseki
         run: sh spatial_tdb.sh
       - name: Start Fuseki

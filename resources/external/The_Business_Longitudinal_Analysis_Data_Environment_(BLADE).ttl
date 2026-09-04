@@ -9,18 +9,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
-            prov:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
             schema:agent <https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9> ;
+            schema:roleName <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
         ] ,
         [
             a prov:Attribution ;
-            prov:hadRole
+            schema:agent <https://linked.data.gov.au/org/abs> ;
+            schema:roleName
                 <https://def.isotc211.org/common/RoleCode/author> ,
                 <https://def.isotc211.org/common/RoleCode/originator> ,
                 <https://def.isotc211.org/common/RoleCode/owner> ,
                 <https://def.isotc211.org/common/RoleCode/pointOfContact> ,
                 <https://def.isotc211.org/common/RoleCode/publisher> ;
-            schema:agent <https://linked.data.gov.au/org/abs> ;
         ] ;
     schema:additionalType schema:Dataset ;
     schema:copyrightNotice """ABS Copyright

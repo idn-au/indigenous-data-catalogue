@@ -1,4 +1,3 @@
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -17,8 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:member
         <https://data.idnau.org/pid/capad2020/ipa> ,
         <https://data.idnau.org/pid/capad2020/npa> ;
-    schema:additionalType 
-        <https://data.idnau.org/pid/vocab/cat-obj-types/SpatialDataset> ;
+    schema:additionalType <https://data.idnau.org/pid/vocab/cat-obj-types/SpatialDataset> ;
     schema:citation "https://data.gov.au/dataset/ds-environment-9984a9fd-3dd0-4e38-bfbd-7e788fa851a1/details?q=capad%202020"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/idn> ;
     schema:dateCreated "2023-05-15"^^xsd:date ;
@@ -39,18 +37,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
+            schema:agent <https://linked.data.gov.au/org/dcceew> ;
             schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/originator> ;
-            schema:agent <https://linked.data.gov.au/org/dcceew> ;
         ] ,
         [
             a prov:Attribution ;
-            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/idn> ;
+            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
         ] ,
         [
             a prov:Attribution ;
-            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/custodian> ;
             schema:agent <https://linked.data.gov.au/org/dcceew> ;
+            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/custodian> ;
         ] ;
     schema:description "Indigenous Protected Area features from the CAPAD2020 Dataset"@en ;
     schema:name "Indigenous Protected Areas"@en ;
@@ -66,18 +64,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
+            schema:agent <https://linked.data.gov.au/org/dcceew> ;
             schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/originator> ;
-            schema:agent <https://linked.data.gov.au/org/dcceew> ;
         ] ,
         [
             a prov:Attribution ;
-            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/idn> ;
+            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
         ] ,
         [
             a prov:Attribution ;
-            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/custodian> ;
             schema:agent <https://linked.data.gov.au/org/dcceew> ;
+            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/custodian> ;
         ] ;
     schema:description "National Park Aboriginal features from the CAPAD2020 Dataset"@en ;
     schema:name "National Park Aboriginal Areas"@en ;

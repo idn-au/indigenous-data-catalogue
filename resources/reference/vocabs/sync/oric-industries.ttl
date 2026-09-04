@@ -218,7 +218,7 @@ cs:
         :wholesaleAndRetailTradeShops ;
     skos:historyNote "Extracted for Indigenous Data Network 2024" ;
     skos:prefLabel "ORIC Industry Vocabulary" ;
-    schema:additionalType <https://schema.org/DefinedTermSet> ;
+    schema:additionalType schema:DefinedTermSet ;
     schema:citation "https://www.oric.gov.au"^^xsd:anyURI ;
     schema:copyrightNotice "(c) Indigenous Data Network, 2022" ;
     schema:creator <https://linked.data.gov.au/org/idn> ;

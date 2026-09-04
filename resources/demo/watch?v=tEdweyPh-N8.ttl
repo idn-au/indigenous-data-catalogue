@@ -15,16 +15,15 @@ PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://www.youtube.com/watch?v=tEdweyPh-N8>
-    a
-        schema:CreativeWork ;
-    schema:additionalType schema:VideoObject ;
+    a schema:CreativeWork ;
     dcterms:contributor nitv: ;
     prov:qualifiedAttribution
         [
             a prov:Attribution ;
-            prov:hadRole drole:subjectAgent ;
             schema:agent dbpedia:Mitch_Tambo ;
+            schema:roleName drole:subjectAgent ;
         ] ;
+    schema:additionalType schema:VideoObject ;
     schema:comment """
   Cataloguing note: this resource is included as a boundary case to demonstrate
   recognition of Indigenous authority without implying expectations about subject matter.
@@ -40,8 +39,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:inLanguage austlang:D23 ;
     schema:keywords
         <https://linked.data.gov.au/def/policy/2a8a5ffc-04f1-4dd6-9ffa-71fd82333c7f> ,
-        "Empowerment, Social change, Social justice, Civil rights" ,
-        "Demo" ;
+        "Demo" ,
+        "Empowerment, Social change, Social justice, Civil rights" ;
     schema:name "Mitch Tambo performs John Farnham's You're the Voice in Gamilaraay language" ;
     schema:publisher sbs: ;
 .
@@ -59,8 +58,8 @@ sbs:
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            prov:hadRole aarr:part ;
             schema:agent nitv: ;
+            schema:roleName aarr:part ;
         ] ;
     schema:alternateName "Special Broadcasting Service" ;
     schema:name "SBS" ;
@@ -73,8 +72,8 @@ nitv:
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            prov:hadRole aarr:partOf ;
             schema:agent sbs: ;
+            schema:roleName aarr:partOf ;
         ] ;
     schema:alternateName "National Indigenous Television" ;
     schema:name "NITV" ;

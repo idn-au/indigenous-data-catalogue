@@ -8,13 +8,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 ex:dataset-coastal-biodiversity
     a schema:Dataset ;
+    dcat:landingPage <https://example.org/data/coastal-biodiversity> ;
     schema:contactPoints
         [
             a vcard:Individual ;
             vcard:fn "Dr. J. Smith" ;
             vcard:hasEmail <mailto:j.smith@example.org> ;
         ] ;
-    dcat:landingPage <https://example.org/data/coastal-biodiversity> ;
     schema:creator <https://ror.org/03yrm5c26> ;
     schema:dateCreated "2025-10-08"^^xsd:date ;
     schema:dateIssued "2022-07-15"^^xsd:date ;
@@ -22,10 +22,10 @@ ex:dataset-coastal-biodiversity
     schema:description "Survey data collected from two distinct Victorian coastal regions between 2019 and 2022."@en ;
     schema:keywords
         <http://vocab.australia.gov.au/def/anzsrc-for/0602> ,
+        "Demo" ,
         "Victoria" ,
         "biodiversity" ,
-        "coastal ecosystem" ,
-        "Demo" ;
+        "coastal ecosystem" ;
     schema:name "Coastal biodiversity surveys of Port Phillip Bay and Western Port"@en ;
     schema:publisher <https://ror.org/03yrm5c26> ;
     schema:spatialCoverage

@@ -22,8 +22,8 @@ schema:OrganizationRole
     prov:qualifiedAttribution
         [
             a prov:Attribution ;
-            prov:hadRole drole:custodian ;
             schema:agent orgrol:bc9c0054-7929-4b61-9c72-b4b9613b7ede ;
+            schema:roleName drole:custodian ;
         ] ;
     schema:additionalType cat-obj-types:Policy ;
     schema:description "The objective of this policy is to articulate how the University accepts, cares for and manages human remains and burial artefacts."@en ;

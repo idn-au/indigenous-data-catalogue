@@ -6,79 +6,84 @@ PREFIX idncp: <https://data.idnau.org/pid/cp/>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/org/anu>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:description "ANU is a world-leading university in Australia's capital. Excellence is embedded in our approach to research and education." ;
-    sdo:identifier 
-       "O-000827"^^idncp:agorId ,
-       "https://ror.org/019wvm592"^^id:ror ;
-    sdo:name "Australian National University" ;
-    sdo:alternateName "ANU" ;
-    sdo:url "https://www.anu.edu.au"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/org/cass>
-    a sdo:Organization ;
-    sdo:name "ANU College of Arts & Social Science" ;
-    sdo:alternateName "CASS" ;
-    dcat:qualifiedRelation [
-            a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://data.idnau.org/pid/org/anu> ;
-        ] ;
-    sdo:url "https://cass.anu.edu.au"^^xsd:anyURI ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
-.
-
-<https://data.idnau.org/pid/org/cos>
-    a sdo:Organization ;
-    sdo:name "ANU College of Science" ;
-    sdo:alternateName "CoS" ;
-    sdo:url "https://science.anu.edu.au"^^xsd:anyURI ;
-    dcat:qualifiedRelation [
-            a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://data.idnau.org/pid/org/anu> ;
-        ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
-.
-
-<https://data.idnau.org/pid/org/ncis>
-    a sdo:Organization ;
-    sdo:name "ANU National Centre for Indigenous Studies" ;
-    sdo:alternateName "NCIS" ;
-    sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
-    dcat:qualifiedRelation [
-            a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
-            sdo:agent <https://data.idnau.org/pid/org/anu> ;
-        ] ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
-.
-
 <https://data.idnau.org/pid/org/caepr>
     a sdo:Organization ;
-    sdo:name "ANU Centre for Aboriginal Economic Policy Research" ;
-    sdo:alternateName "CAEPR" ;
-    sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
-    dcat:qualifiedRelation [
+    dcat:qualifiedRelation
+        [
             a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/cass> ;
+            sdo:roleName aarr:partOf ;
         ] ;
+    sdo:alternateName "CAEPR" ;
+    sdo:name "ANU Centre for Aboriginal Economic Policy Research" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
+    sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/fses>
     a sdo:Organization ;
-    sdo:name "Fenner School of Environment & Science" ;
-    sdo:alternateName "FSES" ;
-    sdo:url "https://fennerschool.anu.edu.au"^^xsd:anyURI ;
-    dcat:qualifiedRelation [
+    dcat:qualifiedRelation
+        [
             a dcat:Relationship ;
-            dcat:hadRole aarr:partOf ;
             sdo:agent <https://data.idnau.org/pid/org/cos> ;
+            sdo:roleName aarr:partOf ;
         ] ;
+    sdo:alternateName "FSES" ;
+    sdo:name "Fenner School of Environment & Science" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/cos> ;
+    sdo:url "https://fennerschool.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/ncis>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://data.idnau.org/pid/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:alternateName "NCIS" ;
+    sdo:name "ANU National Centre for Indigenous Studies" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
+    sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/cass>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://data.idnau.org/pid/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:alternateName "CASS" ;
+    sdo:name "ANU College of Arts & Social Science" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    sdo:url "https://cass.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/cos>
+    a sdo:Organization ;
+    dcat:qualifiedRelation
+        [
+            a dcat:Relationship ;
+            sdo:agent <https://data.idnau.org/pid/org/anu> ;
+            sdo:roleName aarr:partOf ;
+        ] ;
+    sdo:alternateName "CoS" ;
+    sdo:name "ANU College of Science" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    sdo:url "https://science.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/anu>
+    a sdo:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    sdo:alternateName "ANU" ;
+    sdo:description "ANU is a world-leading university in Australia's capital. Excellence is embedded in our approach to research and education." ;
+    sdo:identifier
+        "https://ror.org/019wvm592"^^id:ror ,
+        "O-000827"^^idncp:agorId ;
+    sdo:name "Australian National University" ;
+    sdo:url "https://www.anu.edu.au"^^xsd:anyURI ;
 .

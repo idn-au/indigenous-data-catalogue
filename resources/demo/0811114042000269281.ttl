@@ -17,14 +17,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:isPartOf
         [
             a schema:Periodical ;
+            schema:identifier "https://portal.issn.org/resource/ISSN/1476-7244"^^id:issn ;
             schema:issueNumber "3" ;
             schema:name "Urban Policy and Research" ;
             schema:volumeNumber "22" ;
-            schema:identifier "https://portal.issn.org/resource/ISSN/1476-7244"^^id:issn ;
         ] ;
-    schema:keywords 
-        "Demo" ,
-        <https://linked.data.gov.au/def/policy/1eff6a04-cc6d-4fee-a86e-f00e5665dc95> ;
+    schema:keywords
+        <https://linked.data.gov.au/def/policy/1eff6a04-cc6d-4fee-a86e-f00e5665dc95> ,
+        "Demo" ;
     schema:name "‘Changing the Mix’: Contestation Surrounding the Public Housing Stock Transfer Process in Victoria, New South Wales and Tasmania"@en ;
     schema:pagination "249–263" ;
     schema:url "https://www.tandfonline.com/doi/abs/10.1080/0811114042000269281"^^xsd:anyURI ;

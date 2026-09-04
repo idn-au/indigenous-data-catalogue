@@ -7,13 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
-            prov:hadRole <https://linked.data.gov.au/def/data-roles/author> ;
             schema:agent <https://data.idnau.org/pid/org/43581c86-892a-48dc-be9f-874477c0b6d2> ;
+            schema:roleName <https://linked.data.gov.au/def/data-roles/author> ;
         ] ,
         [
             a prov:Attribution ;
-            prov:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
             schema:agent <https://data.idnau.org/pid/org/636c32e3-b7c8-4d63-a192-9337f0793aac> ;
+            schema:roleName <https://linked.data.gov.au/def/data-roles/custodian> ;
         ] ;
     schema:additionalType schema:Dataset ;
     schema:dateCreated "2024-11-19"^^xsd:date ;

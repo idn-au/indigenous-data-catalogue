@@ -20,8 +20,8 @@ odrl:Policy
 :CollectionsCareDuty
     a odrl:Duty ;
     rdfs:isDefinedBy ont: ;
-    schema:name "Collections Care Duty" ;
     schema:description "You are entering a space where Collections Care Notices are in use. Be prepared to follow the protocols for access, use, handling, and viewing associated with certain items or collections. These are in place for the care of the collections and the communities to whom they belong. For more information about Collections Care Notices, see localcontexts.org." ;
+    schema:name "Collections Care Duty" ;
 .
 
 :templateText

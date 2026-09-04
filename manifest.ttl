@@ -1,5 +1,8 @@
+PREFIX atns: <https://linked.data.gov.au/def/atns/model/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX mrr: <https://prez.dev/ManifestResourceRoles/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
 PREFIX prez: <https://prez.dev/>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX rico: <https://www.ica.org/standards/RiC/ontology/>
@@ -145,7 +148,7 @@ PREFIX schema: <https://schema.org/>
             schema:name "ATNS Entity Relationship Resource Data" ;
             # dcterms:conformsTo <https://data.idnau.org/pid/cp> ;
         ] ,
-        # manifest stuff
+        # manifest
         [
             prof:hasArtifact "https://raw.githubusercontent.com/RDFLib/prez/refs/heads/main/prez/reference_data/profiles/ogc_records_profile.ttl" ;
             prof:hasRole mrr:CatalogueAndResourceModel ;

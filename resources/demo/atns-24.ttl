@@ -3,7 +3,6 @@ PREFIX atns-cat: <https://data.idnau.org/pid/atns-cat/>
 PREFIX atns-country: <https://linked.data.gov.au/def/atns/country/>
 PREFIX atns-sub: <https://linked.data.gov.au/def/atns/sub/>
 PREFIX atns-subcat: <https://linked.data.gov.au/def/atns/subcat/>
-PREFIX atns-cat: <https://data.idnau.org/pid/atns-cat/>
 PREFIX cat-obj-types: <https://data.idnau.org/pid/vocab/cat-obj-types/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX idn-resource: <https://data.idnau.org/pid/resource/>
@@ -15,13 +14,13 @@ idn-resource:34524ede-2abc-50f1-af30-8493753c928e
         atns:Entity ,
         schema:CreativeWork ;
     dcterms:references idn-resource:ca68a358-3931-5011-adfd-0a695adc4812 ;
-    schema:additionalType cat-obj-types:Agreement ;
     atns:category atns-cat:13e77fec-44fd-554f-a075-ec60788eb1b1 ;
     atns:country atns-country:244f6961-729f-5b21-8fc9-baff9dd9af7e ;
     atns:deleted false ;
     atns:eid "A003259"^^xsd:token ;
     atns:sourceEntityId 24 ;
     atns:subcategory atns-subcat:6ffe90c2-95c9-51b5-a083-8c7d83b975ef ;
+    schema:additionalType cat-obj-types:Agreement ;
     schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
     schema:description "Public ATNS summary describes a 2002 health agreement between Queensland, Commonwealth, ATSIC and Queensland Aboriginal and Islander Health Forum parties."@en ;
     schema:isPartOf idn-resource:d23405b4-fc04-47e2-9e7a-9c5735ae3780 ;

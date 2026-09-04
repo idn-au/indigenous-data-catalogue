@@ -8,12 +8,7 @@ from utils import serialize_longtrig
 
 REG = Namespace("http://purl.org/linked-data/registry#")
 
-DIRECTORY = Path(__file__).parent / "vocabs/sync"
-# DIRECTORY = Path(__file__).parent / "datasets/metadata"
-# DIRECTORY = Path(__file__).parent / "datasets/features"
-# DIRECTORY = Path(__file__).parent.parent / "isu-catalogue/resources"
-# DIRECTORY = Path(__file__).parent.parent / "kp-catalogue/resources"
-# DIRECTORY = Path(__file__).parent.parent / "external-catalogue/datasets"
+DIRECTORY = Path(__file__).parent.parent / "resources"
 
 TRIG = False # for parsing TriG files
 
@@ -135,10 +130,10 @@ predicate_mappings: list[Mapping] = [
         "key": [DCAT.downloadURL],
         "to": SDO.contentUrl,
     },
-    # {
-    #     "key": [DCAT.hadRole, PROV.hadRole],
-    #     "to": SDO.roleCode, # roleCode not in schema.org
-    # },
+    {
+        "key": [DCAT.hadRole, PROV.hadRole],
+        "to": SDO.roleName,
+    },
 
     # TODO: unmapped predicates (generated from script) - non geo, sdo & skos
     # dcat:accessURL
@@ -285,7 +280,7 @@ def main():
             leftovers.add(str(p["p"]))
 
     print("Leftover predicates to map:")
-    for p in leftovers:
+    for p in sorted(leftovers):
         print(p)
 
 
