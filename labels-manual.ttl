@@ -1,0 +1,487 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://id.loc.gov/vocabulary/identifiers/isbn>
+    schema:name "International standard book number" ;
+.
+
+<http://id.loc.gov/vocabulary/iso639-2/eng>
+    schema:name "English"@en ;
+.
+
+<http://id.loc.gov/vocabulary/marcgt/art>
+    schema:name "article" ;
+.
+
+<http://id.loc.gov/vocabulary/marcgt/boo>
+    schema:description "Resource comprising a collection of leaves of paper, parchment, wood, stiffened textile, ivory, metal tablets, or other flat materials, that are blank, written on, or printed, and are strung or bound together in a volume. Includes e-books or electronic resources structured like a book."@en ;
+    schema:name "book" ;
+.
+
+<http://purl.org/spar/fabio/BookChapter>
+    schema:name "Book Chapter" ;
+.
+
+<http://viaf.org/viaf/3517148390832810830006>
+    schema:description "Australian aboriginal leader" ;
+    schema:name "RaymattjaMarika-Munungirritj"@en-AU ;
+.
+
+dcat:theme
+    schema:name "theme" ;
+.
+
+<https://data.idnau.org/pid/austlang/D23>
+    schema:description "Gamilaraay / Gamilaroi / Kamilaroi language D23"@en ;
+    schema:name "Gamilaraay / Gamilaroi / Kamilaroi"@aus ;
+.
+
+<https://data.idnau.org/pid/austlang/N141>
+    schema:description "Gumatj language N141"@en ;
+    schema:name "Gumatj"@aus ;
+.
+
+<https://data.idnau.org/pid/org/7fb4c3c8-2317-4cfd-b5b8-b1c6a8c6e321>
+    schema:description "advises the Provost and Vice President, Strategy and Culture on the implementation of the University's Aboriginal and Torres Strait Islander Cultural Heritage Policy, which outlines the principles by which the University will manage Aboriginal and Torres Strait Islander Ancestral Remains and cultural heritage, including with respect to the built and landscape environment." ;
+    schema:name "Aboriginal & Torres Strait Islander Cultural Heritage Oversight Committee" ;
+.
+
+<https://data.idnau.org/pid/vocab/aarr/affiliateOf>
+    schema:description "The same as Affiliate but for inverse agent relations"@en ;
+    schema:name "Affiliate Of"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/aarr/memberOf>
+    schema:description "The same as Member but for inverse agent relations"@en ;
+    schema:name "Member Of"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-cat/13e77fec-44fd-554f-a075-ec60788eb1b1>
+    schema:description "The ATNS entity category 'Agreement'."@en ;
+    schema:name "Agreement"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-cat/1dad59ae-4020-598a-b5df-d9e0eae7f9c6>
+    schema:description "The ATNS entity category 'Organisation'."@en ;
+    schema:name "Organisation"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-country/244f6961-729f-5b21-8fc9-baff9dd9af7e>
+    schema:description "The ATNS country value 'Australia'."@en ;
+    schema:name "Australia"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-ref/5f376307-9421-5ed8-aad9-7d12cb7b7fb6>
+    schema:description "An ATNS reference classified as a resource."@en ;
+    schema:name "Resource"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-rel/5e471add-777af47-0ac36ed39889a7b>
+    schema:description "The ATNS relationship type 'Later known as'."@en ;
+    schema:name "Later known as"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-rel/a00a860d-f0b0cea-6aacab6d119903c>
+    schema:description "The ATNS relationship type 'Signatory'."@en ;
+    schema:name "Signatory"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-rel/b720e661-d4f1afa-9a26c26936c3b49>
+    schema:description "The ATNS relationship type 'Related'."@en ;
+    schema:name "Related"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/5996de0c-8cc6-5f14-8901-d839af36a4d4>
+    schema:name "Collaboration / Partnership"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/6a8815da-e29d-506f-85fd-c64c8807fea2>
+    schema:name "Education"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/9335b2f1-4915-55cc-9736-2ded7c4a2008>
+    schema:name "Access"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/c74e76ef-701f-5784-8223-5fcd87a7641c>
+    schema:name "Native Title"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/d15dd1de-4696-50c8-9f10-2e95eea88e6f>
+    schema:name "Health and Community Services"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/ffe61b3b-8b29-5264-89ac-758a03928ea5>
+    schema:name "Housing, Construction and Infrastructure"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-subcat/09f0a068-ce65-5c11-8dec-f081d1a81ec2>
+    schema:name "Indigenous Land Use Agreement (ILUA) (Native Title Act)"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-subcat/6ffe90c2-95c9-51b5-a083-8c7d83b975ef>
+    schema:name "Framework Agreement"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-subcat/f0427812-61d1-5004-b577-ac236a9c5c18>
+    schema:name "Funding Agreement"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/idn-th/indigenous-demographics>
+    schema:description "Demographics of indigenous peoples" ;
+    schema:name "Indigenous demographics"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>
+    schema:description "Data that is about indigenous people" ;
+    schema:name "About Indigenous People"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things>
+    schema:description "Data that is about indigenous things; land, resources, knowledge etc." ;
+    schema:name "About Indigenous Things"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people>
+    schema:name "By Indigenous People"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/org-indigeneity/indigenous-persons-organisation>
+    schema:description "The organisation comprises of indigenous persons" ;
+    schema:name "Indigenous Persons Organisation"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous>
+    schema:description "The organisation is not an indigenous organisation" ;
+    schema:name "Non-Indigenous"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons>
+    schema:description "The organisation is run (managed) by indigenous people" ;
+    schema:name "Run By Indigenous Persons"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/persons-indigenous-status/indigenous>
+    schema:description "The individual is an Indigenous individual" ;
+    schema:name "Indigenous"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/persons-indigenous-status/indigenousStatusUnknown>
+    schema:description "The individual's Indigenous status is unknown" ;
+    schema:name "Indigenous status Unknown"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/persons-indigenous-status/nonIndigenous>
+    schema:description "The individual is not an Indigenous individual" ;
+    schema:name "Non-Indigenous"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/policy-types/data-governance>
+    schema:description "The process of setting and enforcing policies for managing and using data as a strategic asset. This is achieved through the definition of roles and responsibilities for the governance of data acquired, used and released."@en ;
+    schema:name "data governance"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/AgreementRecord>
+    schema:description "A preserved record classified as an Agreement in the ATNS Entities table."@en ;
+    schema:name "ATNS Agreement Record"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/Entity>
+    schema:description "A preserved record from the ATNS Entities table, classified with an ATNS category concept."@en ;
+    schema:name "ATNS Entity Record"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/EntityRelationship>
+    schema:description "A preserved source row connecting two ATNS entities and, where supplied, an ATNS relationship type."@en ;
+    schema:name "ATNS Entity Relationship"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/Reference>
+    schema:description "A bibliographic, web or documentary reference preserved from the ATNS Refs table."@en ;
+    schema:name "ATNS Reference"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/category>
+    schema:name "ATNS Entity Category"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/country>
+    schema:name "ATNS Country Classification"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/deleted>
+    schema:name "Deleted Status Flag"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/eid>
+    schema:name "ATNS Entity Identifier"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/objectEntity>
+    schema:name "Object Entity"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/referenceType>
+    schema:name "ATNS Reference Type"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/relationshipType>
+    schema:name "Relationship Type"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/sourceEntityId>
+    schema:name "Source Entity Identifier"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/sourceReferenceId>
+    schema:name "Source Reference Identifier"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/sourceRelationshipId>
+    schema:name "Source Entity Relationship Identifier"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/subcategory>
+    schema:name "ATNS Entity Subcategory"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/subjectEntity>
+    schema:name "Subject Entity"@en ;
+.
+
+<https://linked.data.gov.au/def/data-access-rights/open>
+    schema:description "Open access refers to a resource that is immediately and permanently online, and free for all on the Web, without financial and technical barriers."@en ;
+    schema:name "Open access"@en ;
+.
+
+<https://linked.data.gov.au/def/data-access-rights/restricted>
+    schema:description "Restricted access refers to a resource that is stored in a system but is not freely accessible. Access is limited to specific personnel or user groups."@en ;
+    schema:name "Restricted access"@en ;
+.
+
+<https://linked.data.gov.au/def/policy/3f74d52e-2aec-4a8c-a643-34d43c2cbac7>
+    schema:description "The process of returning human remains to their communities of origin. This process can help create healing and reconciliation for the descendants of those remains."@en ;
+    schema:name "Repatriation of historic human remains"@en ;
+.
+
+<https://linked.data.gov.au/org/anu>
+    schema:name "Australian National University" ;
+.
+
+<https://linked.data.gov.au/org/isu>
+    a schema:Organization ;
+    schema:name "Indigenous Studies Unit" ;
+    schema:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/uom>
+    a schema:Organization ;
+    schema:description "The University of Melbourne is a public research university located in Melbourne, Australia. Founded in 1853, it is Australia's second oldest university and the oldest in Victoria." ;
+    schema:name
+        "The University of Melbourne" ,
+        "University of Melbourne" ;
+    schema:url "https://www.unimelb.edu.au/"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-0346-2820>
+    schema:name "Kristen Smith" ;
+.
+
+<https://orcid.org/0000-0002-1398-7524>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
+    schema:name "Marcia Langton" ;
+.
+
+<https://orcid.org/0000-0002-4797-9776>
+    schema:name "Aaron Corn" ;
+.
+
+<https://orcid.org/0000-0002-5477-0874>
+    a schema:Person ;
+    schema:email "leonard.smith@anu.edu.au"^^xsd:anyURI ;
+    schema:name "Len Smith" ;
+.
+
+schema:color
+    schema:name "colour" ;
+.
+
+schema:spatialCoverage
+    schema:name "spatial coverage" ;
+.
+
+schema:status
+    schema:name "status" ;
+.
+
+schema:temporalCoverage
+    schema:name "temporal coverage" ;
+.
+
+<https://sws.geonames.org/8310768/>
+    schema:name "Pormpuraaw" ;
+.
+
+<https://terms.codata.org/rdmt/indigenous-data>
+    schema:description "Data that pertains to (is created or gathered by, or is about) Indigenous peoples."@en ;
+    schema:name "Indigenous data"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=10>
+    schema:name "Aboriginal education"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1004>
+    schema:name "Health" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1029>
+    schema:name "History" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1096>
+    schema:name "Indigenous peoples"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=12>
+    schema:name "Aboriginal health"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1246>
+    schema:description "Languages" ;
+    schema:name "Languages" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1251>
+    schema:description "Law" ;
+    schema:name "Law" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=13>
+    schema:description "Aboriginal history"@en ;
+    schema:name "Aboriginal history"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=14>
+    schema:name "Aboriginal land rights"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1483>
+    schema:name "Native title"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=15>
+    schema:name "Aboriginal languages"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=16>
+    schema:name "Aboriginal literature"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=17>
+    schema:name "Aboriginal men"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=18>
+    schema:name "Aboriginal music"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=181>
+    schema:name "Australia" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=2>
+    schema:description "Aboriginal archaeology"@en ;
+    schema:name "Aboriginal archaeology"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=21>
+    schema:name "Aboriginal reconciliation"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=24>
+    schema:name "Aboriginal title"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=25>
+    schema:name "Aboriginal women"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=26>
+    schema:name "Aboriginal youth"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=27>
+    schema:name "Aborigines"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=3>
+    schema:name "Aboriginal art"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=4>
+    schema:name "Aboriginal artists"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=5>
+    schema:name "Aboriginal arts"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=553>
+    schema:description "Culture" ;
+    schema:name "Culture" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=6>
+    schema:name "Aboriginal children"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=7>
+    schema:name "Aboriginal communities"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=8>
+    schema:name "Aboriginal culture"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=9>
+    schema:name "Aboriginal customary law"@en ;
+.
+
+<https://www.geonames.org/8605117>
+    schema:name "Milingimbi Island" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/Place>
+    schema:name "Place" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/Record>
+    schema:name "Record" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/RecordResource>
+    schema:name "Record Resource" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/RecordSet>
+    schema:name "Record Set" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/generalDescription>
+    schema:name "general description" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/hasDirectPart>
+    schema:name "has direct part" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/hasOrHadLocation>
+    schema:name "has or had location" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/name>
+    schema:name "name" ;
+.

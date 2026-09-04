@@ -1,0 +1,12 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/agentsdb>
+    a schema:CreativeWork ;
+    schema:creator <https://linked.data.gov.au/org/idn> ;
+    schema:dateCreated "2023-05-03"^^xsd:Date ;
+    schema:dateModified "2026-09-04"^^xsd:Date ;
+    schema:description "A database of Agents - Organisations & People - with roles relating to Indigenous data." ;
+    schema:name "IDN Agents Database" ;
+    schema:url "https://agentsdb.idnau.org"^^xsd:anyURI ;
+.
