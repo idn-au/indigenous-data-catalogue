@@ -6,7 +6,7 @@ from rdflib.namespace import DCAT, GEO, RDF, RDFS
 
 from utils import serialize_longtrig
 
-DIRECTORY = Path(__file__).parent / "datasets"
+DIRECTORY = Path(__file__).parent.parent / "resources/reference/datasets"
 FILE_SIZE_LIMIT = 80  # MiB
 
 

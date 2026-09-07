@@ -7,6 +7,7 @@ PREFIX prez: <https://prez.dev/>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX rico: <https://www.ica.org/standards/RiC/ontology/>
 PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 []
     a prez:Manifest ;
@@ -23,7 +24,8 @@ PREFIX schema: <https://schema.org/>
             prof:hasRole mrr:ResourceData ;
             schema:description "skos:ConceptScheme objects in RDF (Turtle) files in the vocabs/sync/ folder for syncing" ;
             schema:name "Reference Vocabularies" ;
-            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
+            schema:additionalType skos:ConceptScheme ;
+#            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
         ] ,
         [
             prof:hasArtifact "resources/reference/datasets/metadata/*.ttl" ;
@@ -38,115 +40,123 @@ PREFIX schema: <https://schema.org/>
             prof:hasRole mrr:ResourceData ;
             schema:description "owl:Ontology objects in RDF (Turtle) files in the ontologies/ folder for syncing" ;
             schema:name "Reference Ontologies" ;
-            dcterms:conformsTo <https://linked.data.gov.au/def/ontpub/validator> ;
+#            dcterms:conformsTo <https://linked.data.gov.au/def/ontpub/validator> ;
         ] ,
         # isu
         [
-            prof:hasArtifact "resources/isu/*.ttl" ;
+            prof:hasArtifact "resources/isu/sync/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:description "sdo:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
-            schema:name "Resource Data" ;
+            schema:name "ISU Resource Data" ;
             # dcterms:conformsTo <https://data.idnau.org/pid/cp/validator> ;
         ] ,
         [
-            prof:hasArtifact "resources/isu/isu-archive.ttl" ;
+            prof:hasArtifact "resources/isu/sync/isu-archive.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:description "sdo:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
-            schema:name "Resource Data" ;
+            schema:name "ISU Archive Data" ;
             schema:additionalType
-                schema:CreativeWork ,
-                rico:RecordResource ;
+                schema:CreativeWork ;
+#                rico:RecordResource ;
             # dcterms:conformsTo <https://data.idnau.org/pid/cp/validator> ;
         ] ,
         # kp
         [
-            prof:hasArtifact "resources/keeping-place/*.ttl" ;
+            prof:hasArtifact "resources/keeping-place/sync/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:description "sdo:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
-            schema:name "Resource Data" ;
+            schema:name "Keeping Place Resource Data" ;
             # dcterms:conformsTo <https://data.idnau.org/pid/cp/validator> ;
             # dcterms:conformsTo "bcp.ttl" ;
         ] ,
         # external
         [
-            prof:hasArtifact "resources/*.ttl" ;
+            prof:hasArtifact "resources/external/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:description "schema:CreativeWork objects in RDF (Turtle) files in the resources/ folder for syncing" ;
-            schema:name "Syncable Resource Data" ;
+            schema:name "External Resource Data" ;
             # dcterms:conformsTo <https://data.idnau.org/pid/cp/validator> ;
         ] ,
         # demo
         [
             prof:hasArtifact
-                "resources/demo/0811114042000269281.ttl" ,
-                "resources/demo/24750158.2024.2411643.ttl" ,
-                "resources/demo/762463a4-f8b1-4eec-a335-3689c8d86e9e.ttl" ,
-                "resources/demo/MPF1226_titleOnlyVariant.ttl" ,
-                "resources/demo/b494af84-a16e-4cc1-b1f1-aad2486c4656.ttl" ,
-                "resources/demo/bja.2025.17.ttl" ,
-                "resources/demo/iipj.2023.14.1.10987.ttl" ,
-                "resources/demo/isbn0864090293.ttl" ,
-                "resources/demo/storeroom1189.ttl" ,
-                "resources/demo/watch?v=tEdweyPh-N8.ttl" ;
+                "resources/demo/sync/0811114042000269281.ttl" ,
+                "resources/demo/sync/24750158.2024.2411643.ttl" ,
+                "resources/demo/sync/762463a4-f8b1-4eec-a335-3689c8d86e9e.ttl" ,
+                "resources/demo/sync/MPF1226_titleOnlyVariant.ttl" ,
+                "resources/demo/sync/b494af84-a16e-4cc1-b1f1-aad2486c4656.ttl" ,
+                "resources/demo/sync/bja.2025.17.ttl" ,
+                "resources/demo/sync/iipj.2023.14.1.10987.ttl" ,
+                "resources/demo/sync/isbn0864090293.ttl" ,
+                "resources/demo/sync/storeroom1189.ttl" ,
+                "resources/demo/sync/watch?v=tEdweyPh-N8.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType schema:CreativeWork ;
             schema:description "Creative work resource data in RDF (Turtle) files" ;
-            schema:name "Creative Work Resource Data" ;
+            schema:name "Demo Creative Work Resource Data" ;
         ] ,
         [
-            prof:hasArtifact "resources/demo/multipleIRIspatial.ttl" ;
+            prof:hasArtifact "resources/demo/sync/multipleIRIspatial.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:additionalType dcat:Dataset ;
+            schema:additionalType schema:Dataset ;
             schema:description "Dataset resource data in an RDF (Turtle) file" ;
-            schema:name "Dataset Resource Data" ;
+            schema:name "Demo Dataset Resource Data" ;
         ] ,
         [
-            prof:hasArtifact "resources/demo/policy-telstra-ngaanyatjarra-ilua.ttl" ;
+            prof:hasArtifact "resources/demo/sync/policy-telstra-ngaanyatjarra-ilua.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:additionalType odrl:Agreement ;
+            schema:additionalType schema:CreativeWork ;
             schema:description "Demonstration ODRL Agreement interpretation linked from an ATNS agreement record" ;
-            schema:name "ODRL Agreement Resource Data" ;
+            schema:name "Demo ODRL Agreement Resource Data" ;
         ] ,
         [
             prof:hasArtifact
-                "resources/demo/atns-24.ttl" ,
-                "resources/demo/atns-27.ttl" ,
-                "resources/demo/atns-30.ttl" ,
-                "resources/demo/atns-37.ttl" ,
-                "resources/demo/atns-1624.ttl" ;
+                "resources/demo/sync/atns-24.ttl" ,
+                "resources/demo/sync/atns-27.ttl" ,
+                "resources/demo/sync/atns-30.ttl" ,
+                "resources/demo/sync/atns-37.ttl" ,
+                "resources/demo/sync/atns-1624.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:additionalType atns:AgreementRecord ;
+            schema:additionalType schema:CreativeWork ;
             schema:description "ATNS Agreement-category entity resource data in RDF (Turtle) files" ;
-            schema:name "ATNS Agreement Record Resource Data" ;
+            schema:name "Demo ATNS Agreement Record Resource Data" ;
         ] ,
         [
             prof:hasArtifact
-                "resources/demo/atns-384.ttl" ,
-                "resources/demo/atns-617.ttl" ,
-                "resources/demo/atns-618.ttl" ,
-                "resources/demo/atns-753.ttl" ,
-                "resources/demo/atns-760.ttl" ,
-                "resources/demo/atns-1845.ttl" ,
-                "resources/demo/atns-3160.ttl" ;
+                "resources/demo/sync/atns-384.ttl" ,
+                "resources/demo/sync/atns-617.ttl" ,
+                "resources/demo/sync/atns-618.ttl" ,
+                "resources/demo/sync/atns-753.ttl" ,
+                "resources/demo/sync/atns-760.ttl" ,
+                "resources/demo/sync/atns-1845.ttl" ,
+                "resources/demo/sync/atns-3160.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType atns:Entity ;
             schema:description "Other ATNS entity resource data in RDF (Turtle) files" ;
-            schema:name "ATNS Entity Resource Data" ;
+            schema:name "Demo ATNS Entity Resource Data" ;
         ] ,
         [
-            prof:hasArtifact "resources/demo/*atns-ref-*.ttl" ;
+            prof:hasArtifact "resources/demo/sync/*atns-ref-*.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:additionalType atns:Reference ;
+            schema:additionalType schema:CreativeWork ;
             schema:description "ATNS reference resource data in RDF (Turtle) files" ;
-            schema:name "ATNS Reference Resource Data" ;
+            schema:name "Demo ATNS Reference Resource Data" ;
         ] ,
         [
-            prof:hasArtifact "resources/demo/*atns-rel-*.ttl" ;
+            prof:hasArtifact "resources/demo/sync/*atns-rel-*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType atns:EntityRelationship ;
             schema:description "ATNS entity relationship resource data in RDF (Turtle) files" ;
-            schema:name "ATNS Entity Relationship Resource Data" ;
-            # dcterms:conformsTo <https://data.idnau.org/pid/cp> ;
+            schema:name "Demo ATNS Entity Relationship Resource Data" ;
+            # dcterms:conformsTo <https://data.idnau.org/pid/cp/validator> ;
+        ] ,
+        # agentsdb
+        [
+            prof:hasArtifact "resources/agents/sync/agentsdb.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:description "Database of IDN people & organisations" ;
+            schema:name "Agents Database Resource Data" ;
+            # dcterms:conformsTo <https://data.idnau.org/pid/cp/validator> ;
         ] ,
         # manifest
         [

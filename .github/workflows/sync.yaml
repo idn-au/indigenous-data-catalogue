@@ -1,0 +1,94 @@
+name: Sync data on push to main
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/sync.yaml'
+      - 'resources/**'
+      - 'manifest.ttl'
+      - 'catalogue.ttl'
+      - 'labels.ttl'
+      - 'labels-manual.ttl'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      labels: ${{ steps.filter.outputs.labels }}
+      agents: ${{ steps.filter.outputs.agents }}
+      features: ${{ steps.filter.outputs.features }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dorny/paths-filter@v4
+        id: filter
+        with:
+          filters: |
+            labels:
+              - 'labels.ttl'
+              - 'labels-manual.ttl'
+              - 'scripts/sync_labels.py'
+            agents:
+              - 'resources/agents/sync/items/*.ttl'
+              - 'scripts/sync_agents.py'
+            features:
+              - 'resources/reference/datasets/features/*.trig'
+              - 'scripts/spatial_tdb.sh'
+  sync:
+    needs: changes
+    runs-on: ubuntu-latest
+    env:
+      FUSEKI_URL: ${{ secrets.FUSEKI_URL }}
+      FUSEKI_USERNAME: ${{ secrets.FUSEKI_USERNAME }}
+      FUSEKI_PASSWORD: ${{ secrets.FUSEKI_PASSWORD }}
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Install KGM
+        run: uv tool install kgm
+      - name: Validate manifest
+        run: kgm validate manifest.ttl
+      - name: Sync manifest
+        run: kgm sync -u $FUSEKI_USERNAME -p $FUSEKI_PASSWORD manifest.ttl $FUSEKI_URL True False True False
+      - name: Install dependencies
+        if: ${{ needs.changes.outputs.labels == 'true' || needs.changes.outputs.agents == 'true' || github.event_name != 'push' }}
+        run: uv sync
+      - name: Sync labels
+        if: ${{ needs.changes.outputs.labels == 'true' || github.event_name != 'push' }}
+        run: uv run python scripts/sync_labels.py
+      - name: Sync agents
+        if: ${{ needs.changes.outputs.agents == 'true' || github.event_name != 'push' }}
+        run: uv run python scripts/sync_agents.py
+      - name: Clear spatial dataset graphs
+        if: ${{ needs.changes.outputs.features == 'true' || github.event_name != 'push' }}
+        run: uv run python scripts/clear_spatial.py
+  tdb_load:
+    needs: [changes, sync]
+    if: ${{ needs.changes.outputs.features == 'true' || github.event_name != 'push' }}
+    runs-on: self-hosted
+    env:
+      ADMIN_PASSWORD: ${{ secrets.FUSEKI_PASSWORD }}
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v7
+      - name: Copy load script
+        run: cp scripts/spatial_tdb.sh /home/ubuntu/fuseki/
+      - name: Copy spatial data
+        run: |
+          rm /home/ubuntu/fuseki/rdf/*
+          cp resources/reference/datasets/features/* /home/ubuntu/fuseki/rdf/
+      - name: Stop Fuseki
+        working-directory: /home/ubuntu/fuseki
+        run: docker compose -f fuseki-compose.yaml stop
+      - name: Load spatial data and reindex
+        working-directory: /home/ubuntu/fuseki
+        run: sh spatial_tdb.sh
+      - name: Start Fuseki
+        working-directory: /home/ubuntu/fuseki
+        run: docker compose -f fuseki-compose.yaml up -d
+  # TODO - trigger reload prez API workflow

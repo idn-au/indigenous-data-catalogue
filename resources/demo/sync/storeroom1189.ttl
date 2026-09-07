@@ -15,8 +15,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     odrl:hasPolicy
         [
             a
-                odrl:Policy ,
-                schema:CreativeWork ;
+                odrl:Policy ;
+#                schema:CreativeWork ;
             schema:additionalType poltype:policy ;
             schema:dateCreated "2021-01-01"^^xsd:date ;
             schema:dateModified "2021-01-01"^^xsd:date ;

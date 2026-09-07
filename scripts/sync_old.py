@@ -1,3 +1,5 @@
+# this script is no longer used
+
 from collections import OrderedDict
 import os
 from pathlib import Path

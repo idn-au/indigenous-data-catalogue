@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Install uv
         uses: astral-sh/setup-uv@v5
-      - name: Install prezmanifest
-        run: uv tool install prezmanifest
+      - name: Install kgm
+        run: uv tool install kgm
       - name: Validate manifest
-        run: pm validate manifest.ttl
+        run: kgm validate manifest.ttl

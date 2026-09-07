@@ -130,7 +130,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a
-        owl:Ontology ,
+#        owl:Ontology ,
         skos:ConceptScheme ;
     skos:definition "Data access rights control how users and systems access a data resource."@en ;
     skos:hasTopConcept
