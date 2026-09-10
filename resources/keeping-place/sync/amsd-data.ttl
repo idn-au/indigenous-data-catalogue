@@ -14,18 +14,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         [
             a schema:DataDownload ;
             schema:name "Message Stick Database website" ;
+            schema:description "" ;
             schema:url "https://amsd.clld.org"^^xsd:anyURI ;
         ] ,
         [
             a schema:DataDownload ;
             schema:license <http://www.apache.org/licenses/LICENSE-2.0> ;
             schema:name "GitHub repository storage of the data" ;
+            schema:description "" ;
             schema:url "https://github.com/clld/amsd-data"^^xsd:anyURI ;
         ] ,
         [
             a schema:DataDownload ;
             schema:dateCreated "2024-05-15"^^xsd:date ;
             schema:name "UoM archived copy of the version control repository" ;
+            schema:description "" ;
             schema:url "https://mediaflux.researchsoftware.unimelb.edu.au/projects/proj-5050_isu-1128.4.708/keeping-place/source-data-of-the-australian-message-stick-database"^^xsd:anyURI ;
         ] ;
     schema:keywords "Keeping Place" ;
