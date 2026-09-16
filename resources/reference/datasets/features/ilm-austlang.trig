@@ -2,7 +2,7 @@ PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 
-<ttps://data.idnau.org/pid/ilm> {
+<https://data.idnau.org/pid/ilm> {
 <https://data.idnau.org/pid/ilm/austlang>
     rdfs:member
         <https://data.idnau.org/pid/ilm/feature/A1> ,
