@@ -1,13 +1,18 @@
 import re
 from pathlib import Path
 
-from rdflib import Dataset, Graph
+from rdflib import Dataset, Graph, Namespace, URIRef
 from rdflib.namespace import DCAT, GEO, RDF, RDFS
 
 from utils import serialize_longtrig
 
 DIRECTORY = Path(__file__).parent.parent / "resources/reference/datasets"
 FILE_SIZE_LIMIT = 80  # MiB
+ODRL = Namespace("http://www.w3.org/ns/odrl/2/")
+ASSET_FEATURE_COLLECTIONS = {
+    URIRef("https://data.idnau.org/pid/atns/entity-areas"),
+    URIRef("https://data.idnau.org/pid/nntt/ilua"),
+}
 
 
 def split_nq_to_trig():
@@ -137,6 +142,11 @@ def split_fcs():
             }}"""
 
             results = g.query(features_query)
+
+            if fc in ASSET_FEATURE_COLLECTIONS:
+                for feature in list(results.graph.subjects(RDF.type, GEO.Feature)):
+                    results.graph.add((feature, RDF.type, ODRL.Asset))
+
             turtle_str = results.graph.serialize(format="longturtle")
             size = len(turtle_str.encode("utf-8")) / 1024 / 1024
             print(f"size: {size} MiB")
@@ -173,7 +183,10 @@ def split_fcs():
 
                     features = gg.subjects(RDF.type, GEO.Feature)
 
-                    fc_str = f"""<https://data.idnau.org/pid/agil/point-locations>
+                    # Preserve the feature collection currently being split.
+                    # A previously hard-coded AGIL IRI incorrectly assigned
+                    # every chunk from every dataset to AGIL point locations.
+                    fc_str = f"""<{str(fc)}>
                         rdfs:member
                             {" ,\n".join([f"<{str(f)}>" for f in features]) + " ;"}
                     ."""

@@ -17,7 +17,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "https://www.atns.net.au"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/idn> ;
     schema:dateCreated "2023-05-08"^^xsd:date ;
-    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:dateModified "2026-09-16"^^xsd:date ;
     schema:description "Spatial features of the Agreements, Treaties and Negotiated Settlements (ATNS) database" ;
     schema:keywords
  #       <https://data.idnau.org/pid/vocab/atns-subcat/61baccc9-0196-5528-a334-1ebd2c143b73> ,
@@ -37,6 +37,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a geo:Geometry ;
             geo:asWKT "POLYGON ((140.999265 -37.5050183, 153.6388317 -37.5050183, 153.6388317 -28.1570205, 140.999265 -28.1570205, 140.999265 -37.5050183))"^^geo:wktLiteral ;
         ] ;
+    schema:dateModified "2026-09-16"^^xsd:date ;
     schema:description "Bounding Box areas for all of the Entities - Agreements, Treaties etc., in the ATNS database"@en ;
     schema:name "ATNS Entity Areas"@en ;
 .

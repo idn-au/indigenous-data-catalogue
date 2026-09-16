@@ -39,7 +39,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:copyrightNotice "National Native Title Tribunal, (c) Commonwealth of Australia" ;
     schema:creator <https://linked.data.gov.au/org/nntt> ;
     schema:dateCreated "2023-02-09"^^xsd:date ;
-    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:dateModified "2026-09-16"^^xsd:date ;
     schema:description """The following native title information is available as spatial data:
 
 * Boundaries of native title claimant applications as per the Register of Native Title Claims.
@@ -152,7 +152,7 @@ This information should not be relied upon in relation to any matters associated
     schema:citation "https://nntt.maps.arcgis.com/home/item.html?id=2698667a86e54550b732174a71c3bc57&sublayer=6"^^xsd:anyURI ;
     schema:copyrightNotice "National Native Title Tribunal, (c) Commonwealth of Australia" ;
     schema:dateCreated "1994"^^xsd:gYear ;
-    schema:dateModified "2020-10-09"^^xsd:date ;
+    schema:dateModified "2026-09-16"^^xsd:date ;
     schema:description "An indigenous land use agreement (ILUA) is a voluntary, legally binding agreement about the use and management of land or waters, made between one or more native title groups and non-native title interest holders in the ILUA area (such as grantee parties, pastoralists or governments). The Register of Indigenous Land Use Agreements is kept by the Native Title Registrar in accordance with s 199A of the NTA and includes a description of the ILUA area, the parties' names, the term of the ILUA and other information as the Registrar considers is appropriate (s 199B of the NTA). Registration confers a contractual effect on the ILUA and binds all persons holding native title regardless as to whether they are already parties to the ILUA (s 24EA of the NTA). Note: This dataset contains records of ILUAs that have been publicly notified and/or registered."@en ;
     schema:identifier "determinations"^^xsd:token ;
     schema:keywords
