@@ -54374,54 +54374,6 @@ The ILUA confirms that any future infrastructure falls within the definition of 
 
 The parties agree that the right to negotiate provisions of the Native Title Act 1993 (Cth) do not apply, as the alternative consultation provisions are to be followed instead."""@en .
 
-idn-resource:3ce79474-9ce6-5242-914f-727da1134a86 a atns:Entity,
-        schema:CreativeWork ;
-    dcterms:references idn-resource:35b202a5-5472-57d0-bd1f-07b7bc1f7906 ;
-    atns:category atns-cat:13e77fec-44fd-554f-a075-ec60788eb1b1 ;
-    atns:country atns-country:244f6961-729f-5b21-8fc9-baff9dd9af7e ;
-    atns:deleted false ;
-    atns:eid "A000161"^^xsd:token ;
-    atns:sourceEntityId "526"^^xsd:token ;
-    atns:subcategory atns-subcat:89615198-37f5-5e14-91e6-a2ba2eb0af09,
-        atns-subcat:f6be2b14-a012-5d67-a3b9-eec5a957c048 ;
-    schema:additionalType cat-obj-types:Agreement ;
-    schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
-    schema:description "A national park lease agreement made between the Commonwealth Government of Australia and Uluru - Kata Tjuta Aboriginal Land Trust."@en ;
-    schema:isPartOf idn-resource:d23405b4-fc04-47e2-9e7a-9c5735ae3780 ;
-    schema:keywords atns-sub:17d993e0-d19e-5349-a48e-4de57b1dba59,
-        atns-sub:5996de0c-8cc6-5f14-8901-d839af36a4d4,
-        atns-sub:7cc37d9a-fe3c-5fec-b115-d1bb8d72db9c,
-        atns-sub:9073e633-80a9-5ba7-8892-f556bd0a0612,
-        atns-sub:e52a2091-dcda-569c-aafb-6497428c615c,
-        atns-sub:f630e08a-ea9c-57e3-ab87-066e4b9ad57e,
-        "Demo" ;
-    schema:location "Northern Territory, Australia"@en ;
-    schema:mainEntityOfPage <https://database.atns.net.au/agreement.asp?EntityID=526> ;
-    schema:name "Uluru - Kata Tjuta National Park Memorandum of Lease"@en ;
-    schema:startDate "1994-01-01"^^xsd:date ;
-    schema:text """Pursuant to the terms of the lease agreement, the traditional Aboriginal owners of the Park grant a lease of the Park to the Director of National Parks and Wildlife (DNPW). The terms of the agreement include several reservations such as a reservation of right of entry and inspection; of Aboriginal rights to use and occupy in accordance with tradition; to hunt or gather food; and to use any part of the Park for ceremonial and religious purposes. The Land Trust also reserves the right to request the Director of National Parks and Wildlife to sublet any reasonable part of the Park to a relevant Aboriginal Association.
-
-The term of the agreement is for a period of 90 years. The annual rent is to be $150 000 payable in advance. In addition, the land trust is to receive 25% of entrance fees and 25% of any charges, fees or penalties imposed by the Director in respect of commercial activities within the Park, in excess of $30 000. Provisions are made for rent review on the fifth anniversary of the commencement date and at five yearly intervals thereafter.
-
-Lessee's Obligations
-The DNPW agrees to pay all reasonable costs of and incidental to the preparation, registration and execution of the lease. It also agrees to pay all taxes and rates which may become due. Subject to the Plan of Management, the DNPW agrees to:
--promote and protect the interests of relevant Aboriginals;
--protect areas and things of significance to relevant Aboriginals;
--encourage the maintenance of the Aboriginal tradition;
--take all practicable steps to promote Aboriginal administration, management and control of the Park;
--establish and implement a training programme for Aboriginals in administration, management and control of the Park;
--engage as many Aboriginals as is practicable to provide services in the Park;
--utilise the traditional skills of Aboriginals in the management of the Park;
--promote among non-Aboriginal staff members and visitors to the Park, a knowledge and understanding and respect for the traditions, languages, culture, customs and skills of the traditional owners;
--encourage Aboriginal business and commercial enterprises within the Park;
--consult and liaise with the Land Council;
--provide equipment for the maintenance of roads;
--implement a licensing and induction scheme for tour operators in the Park in consultation with the Land Council and Aboriginal Association;
--permit officers of the Land Council to move freely in the park for the purpose performing statutory functions on behalf of the Land Council.
-
-General Provisions
-A range of further provisions sets out matters relating to funding, staffing and quiet enjoyment. The Land Council may request the DNPW to restrict access to areas of the Park for the purposes of Aboriginal use of those areas. The Land Council and the DPNW is to meet from time to time to formulate written policy in respect of environmental evaluation of proposed developments in the Park. Further terms cover matters relating to Park Management, Indemnification, and Termination. The parties are to negotiate regarding renewal of the lease five years prior to expiry. Provision is made for variation to the lease as well as for arbitration in the event of a dispute arising between the parties."""@en .
-
 idn-resource:3cefccd9-82bc-5cab-b2df-ccd23ce335b3 a atns:Entity,
         schema:Organization ;
     atns:category atns-cat:1dad59ae-4020-598a-b5df-d9e0eae7f9c6 ;
@@ -116217,50 +116169,6 @@ idn-resource:8404831a-b583-56ce-98dc-d6af97405eb2 a atns:Entity,
     schema:startDate "2009-11-04"^^xsd:date ;
     schema:text "The Masig Community Hall Indigenous Land Use Agreement (ILUA) was agreed between the Torres Strait Island Regional Council and the Masigalgal (Torres Strait Islanders) Corporation. The purpose of the ILUA is to allow for the construction of a community hall by the Council on the island of Masig."@en ;
     schema:url "http://www.nntt.gov.au/Indigenous-Land-Use-Agreements/Search-Registered-ILUAs/ILUA%20Register/2009/QI2009.036/ILUARegisterExport.pdf"^^xsd:anyURI .
-
-idn-resource:84071417-f9c3-55f5-8d7b-60e459a12a53 a atns:Entity,
-        schema:CreativeWork ;
-    dcterms:references idn-resource:7b928a0d-47c5-537a-9136-066ae7f542f4 ;
-    atns:category atns-cat:13e77fec-44fd-554f-a075-ec60788eb1b1 ;
-    atns:country atns-country:244f6961-729f-5b21-8fc9-baff9dd9af7e ;
-    atns:deleted false ;
-    atns:eid "A002318"^^xsd:token ;
-    atns:sourceEntityId "2735"^^xsd:token ;
-    atns:subcategory atns-subcat:09f0a068-ce65-5c11-8dec-f081d1a81ec2 ;
-    schema:additionalType cat-obj-types:Agreement ;
-    schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
-    schema:description "The Lake Lewis Indigenous Land Use Agreement (the ILUA) allows for hyper-saline water and salt from the Palm Valley gas field to be disposed of in Lake Lewis. The ILUA was made between the Central Land Council (CLC) and Magellan Petroleum, who operate the Palm Valley gas field and hold Petroleum Lease PL3 in the Amadeus Basin."@en ;
-    schema:isPartOf idn-resource:d23405b4-fc04-47e2-9e7a-9c5735ae3780 ;
-    schema:keywords atns-sub:8afa6040-57f6-5faf-a4f9-863bd8f4f470,
-        atns-sub:97be12ad-fd1c-5136-9323-0929eb90b556,
-        atns-sub:9c404ff9-19e6-5e64-a8bd-2e3b39773146,
-        atns-sub:9e5e8f61-69be-5e2a-a9cd-58fb000349bd,
-        atns-sub:c74e76ef-701f-5784-8223-5fcd87a7641c,
-        atns-sub:dc50c698-80b0-5ef4-bd95-928f2be8da05,
-        "Demo" ;
-    schema:location "Lake Lewis, Northern Territory, Australia"@en ;
-    schema:mainEntityOfPage <https://database.atns.net.au/agreement.asp?EntityID=2735> ;
-    schema:name "Lake Lewis Indigenous Land Use Agreement (ILUA)"@en ;
-    schema:startDate "2005-06-14"^^xsd:date ;
-    schema:text """The ILUA allows the following ‘future acts’ in the ILUA area:
-- permission to dispose hyper-saline water and salt into Lake Lewis;
-- rights of access to the area;
-- permission to undertake earthworks to facilitate disposal;
-- disposal of hyper-saline water and salt into Lake Lewis and procedures to minimise the environmental impacts of this disposal;
-- rehabilitation of any part of the ILUA area;
-- environmental monitoring of the effects of disposal;
-- impacts on native title rights and interests including sacred sites; and
-- compensation for future acts.
-
-The CLC’s consent to the future acts above is conditional upon the following conditions:
-(a) ongoing reasonable and competent monitoring of the effects of the disposal into the Lake being conducted; and
-(b) the results of such monitoring being provided regularly to the CLC; and
-(c) the results of such monitoring indicating and continuing to indicate that there is no measurable environmental effect arising from the activity which is detrimental to plants or animals in and around the Lake, or to the ecology of the Lake as a whole; and
-(d) permission being sought from the native title holders through the CLC if there is any further work that is required to be undertaken in respect to the activity. This includes any work in connection with the dumping of hyper-saline water and salt or in connection with the haul road, causeways and other earth works required for transportation of the hyper-saline water and salt.
-
-The parties agree that the right to negotiate provisions of the Native Title Act 1993 (Cth) do not apply to the future acts listed above, as the alternative consultation provisions are to be followed instead.
-
-The ILUA operates from the 10 November 2004 until the end of Petroleum Lease PL3, or as long as Magellan needs to dispose of hyper-saline water and salt as a consequence of operating the Palm Valley gas field."""@en .
 
 idn-resource:840b1722-5e9a-53ed-83ed-c45e453a084e a atns:Entity ;
     atns:category atns-cat:2d179b15-6fdb-5df4-ada6-b9214e6ed5e4 ;
@@ -226223,9 +226131,6 @@ idn-resource:fff865de-b8fc-5e3a-b8b1-8d29e9f7cc13 a atns:Entity ;
 <https://database.atns.net.au/agreement.asp?EntityID=2732> a schema:WebPage ;
     schema:name "Legacy ATNS page for Terra Firma Quarries Indigenous Land Use Agreement (ILUA)"@en .
 
-<https://database.atns.net.au/agreement.asp?EntityID=2735> a schema:WebPage ;
-    schema:name "Legacy ATNS page for Lake Lewis Indigenous Land Use Agreement (ILUA)"@en .
-
 <https://database.atns.net.au/agreement.asp?EntityID=2738> a schema:WebPage ;
     schema:name "Legacy ATNS page for Antakirinja Area Minerals Exploration Indigenous Land Use Agreement (ILUA) (No 2)"@en .
 
@@ -228793,9 +228698,6 @@ idn-resource:fff865de-b8fc-5e3a-b8b1-8d29e9f7cc13 a atns:Entity ;
 
 <https://database.atns.net.au/agreement.asp?EntityID=5259> a schema:WebPage ;
     schema:name "Legacy ATNS page for Gangalidda and Garawa Peoples Cliffdale Pastoral Lease Indigenous Land Use Agreement (ILUA)"@en .
-
-<https://database.atns.net.au/agreement.asp?EntityID=526> a schema:WebPage ;
-    schema:name "Legacy ATNS page for Uluru - Kata Tjuta National Park Memorandum of Lease"@en .
 
 <https://database.atns.net.au/agreement.asp?EntityID=5264> a schema:WebPage ;
     schema:name "Legacy ATNS page for Gangalidda and Garawa Peoples Escott Pastoral Lease Indigenous Land Use Agreement (ILUA)"@en .
