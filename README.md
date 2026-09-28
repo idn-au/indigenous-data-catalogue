@@ -1,14 +1,13 @@
 # The Indigenous Data Catalogue
 The IDN's catalogue of Indigenous data.
 
-This catalogue will be online at:
+The catalogue is online at:
 
 - https://data.idnau.org/catalogs/pid:indigenous-data-catalogue
 
 All the resources in this catalogue are listed in the _Catalogue Resources_ section below. These resources are automatically validated and (re)loaded into the catalogue online using the [KGM](https://pypi.org/project/kgm/) tool.
 
 ## Updating resources
-
 When a resource is updated, the `dateModified` date or `version` should be updated in the resource and the catalogue as the KGM tool relies on this to determine when to update data.
 
 If a new resource is added to the catalogue, ensure its IRI is added to `schema:hasPart` in [`catalogue.ttl`](./catalogue.ttl).
@@ -20,6 +19,8 @@ Metadata for spatial datasets & feature collections are located in [`resources/r
 
 A script is provided ([`scripts/split_features.py`](./scripts/split_features.py)) to split N-quads files from raw data (stored in the IDN cloud's object storage) into Turtle & TriG files to store in git.
 
+## Running the catalogue locally
+A couple scripts are provided ([`scripts/init.sh`](./scripts/init.sh) & [`scripts/load.sh`](./scripts/load.sh)) to help set up a local dev environment for running Prez & loading data. See the [wiki page](https://github.com/idn-au/.github/wiki/Prez#running-prez-locally) for more details.
 
 ## Catalogue Resources
 Resource | Role | Description
