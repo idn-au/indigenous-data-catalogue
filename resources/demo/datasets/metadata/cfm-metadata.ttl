@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.26193/L0WEID> a schema:Dataset ;
+    rdfs:member <https://data.idnau.org/pid/cfm/entity-areas> ;
+    prov:qualifiedAttribution [ schema:agent [ a schema:Person ;
+                    schema:name "Bill Pascoe" ] ],
+        [ a prov:Attribution ] ;
+    schema:additionalType <https://data.idnau.org/pid/vocab/cat-obj-types/SpatialDataset> ;
+    schema:dateCreated "2014-03-14"^^xsd:date ;
+    schema:dateIssued "2025-05-20"^^xsd:date ;
+    schema:dateModified "2024-12-31"^^xsd:date ;
+    schema:description "Information about frontier massacres in Australia between 1788, when British colonisation began to 1930, with the first in 1794 and last in 1928. Only colonial frontier massacres for which sufficient evidence could be found are included. The map includes information about frontier massacres of Aboriginal and Torres Strait Islander people, and non-Aboriginal people such as colonists and others in Australia in the same period. This information includes geospatial data for mapping massacres, conservative estimates on numbers killed, a brief narrative on each massacre, sources used, offline copies of the introductory and interpretative information from the project website, a screenshot of the web map, and a full printable list of all the massacres with their details. Please see the 'Introduction' document for a full description, including the criteria for inclusion of a massacre in this project." ;
+    schema:distribution [ a schema:DataDownload ;
+            schema:contentUrl "https://doi.org/10.26193/L0WEID"^^xsd:anyURI ] ;
+    schema:keywords <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things>,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people>,
+        <https://terms.codata.org/rdmt/indigenous-data>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1029>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=13>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=181>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=29>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by-nc4.0> ;
+    schema:name "Colonial Frontier Massacres in Australia, 1788-1930" ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((96 -45, 96 -9, 168 -9, 168 -45, 96 -45))"^^geo:wktLiteral ;
+        ] ;
+    schema:temporalCoverage [ a dcterms:PeriodOfTime ;
+            schema:coverageEndTime "1930-01-01"^^xsd:date ;
+            schema:coverageStartTime "1788-01-26"^^xsd:date ] ;
+    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/open> .
+
+<https://data.idnau.org/pid/cfm/entity-areas>
+    a geo:FeatureCollection ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((96 -45, 96 -9, 168 -9, 168 -45, 96 -45))"^^geo:wktLiteral ;
+        ] ;
+    schema:description "Bounding Box areas for all of the Entities - CFM database"@en ;
+    schema:name "CFM Entity Areas"@en ;
+.

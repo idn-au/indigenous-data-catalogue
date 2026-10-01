@@ -22,6 +22,7 @@ uv run python scripts/clear_spatial.py
 
 rm docker/rdf/*
 cp resources/reference/datasets/features/* docker/rdf/
+cp resources/demo/datasets/features/* docker/rdf/
 cd docker/
 docker compose --env-file ../.env -f fuseki-compose.yaml stop -t 30 fuseki
 sh spatial_tdb.sh

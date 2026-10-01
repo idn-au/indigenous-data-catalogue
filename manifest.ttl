@@ -95,6 +95,15 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
             schema:description "Creative work resource data in RDF (Turtle) files" ;
             schema:name "Demo Creative Work Resource Data" ;
         ] ,
+        # cfm
+        [
+            prof:hasArtifact
+                "resources/demo/datasets/metadata/cfm-metadata.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType schema:Dataset ;
+            schema:description "Dataset resource data in RDF (Turtle) files" ;
+            schema:name "Demo Dataset CFM Data" ;
+        ] ,
         [
             prof:hasArtifact "resources/demo/sync/multipleIRIspatial.ttl" ;
             prof:hasRole mrr:ResourceData ;
