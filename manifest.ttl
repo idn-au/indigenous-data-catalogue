@@ -110,43 +110,24 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
             schema:name "Demo ODRL Agreement Resource Data" ;
         ] ,
         [
-            prof:hasArtifact
-                "resources/demo/sync/atns-24.ttl" ,
-                "resources/demo/sync/atns-27.ttl" ,
-                "resources/demo/sync/atns-30.ttl" ,
-                "resources/demo/sync/atns-37.ttl" ,
-                "resources/demo/sync/atns-1624.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-            schema:additionalType schema:CreativeWork ;
-            schema:description "ATNS Agreement-category entity resource data in RDF (Turtle) files" ;
-            schema:name "Demo ATNS Agreement Record Resource Data" ;
-        ] ,
-        [
-            prof:hasArtifact
-                "resources/demo/sync/atns-384.ttl" ,
-                "resources/demo/sync/atns-617.ttl" ,
-                "resources/demo/sync/atns-618.ttl" ,
-                "resources/demo/sync/atns-753.ttl" ,
-                "resources/demo/sync/atns-760.ttl" ,
-                "resources/demo/sync/atns-1845.ttl" ,
-                "resources/demo/sync/atns-3160.ttl" ;
+            prof:hasArtifact "resources/demo/sync/atns-entities.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType atns:Entity ;
-            schema:description "Other ATNS entity resource data in RDF (Turtle) files" ;
+            schema:description "Complete usable public ATNS entity data generated for demonstration" ;
             schema:name "Demo ATNS Entity Resource Data" ;
         ] ,
         [
-            prof:hasArtifact "resources/demo/sync/*atns-ref-*.ttl" ;
+            prof:hasArtifact "resources/demo/sync/atns-references.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType schema:CreativeWork ;
-            schema:description "ATNS reference resource data in RDF (Turtle) files" ;
+            schema:description "Complete usable public ATNS reference data generated for demonstration" ;
             schema:name "Demo ATNS Reference Resource Data" ;
         ] ,
         [
-            prof:hasArtifact "resources/demo/sync/*atns-rel-*.ttl" ;
+            prof:hasArtifact "resources/demo/sync/atns-relationships.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType atns:EntityRelationship ;
-            schema:description "ATNS entity relationship resource data in RDF (Turtle) files" ;
+            schema:description "Complete usable public ATNS entity relationship data generated for demonstration" ;
             schema:name "Demo ATNS Entity Relationship Resource Data" ;
             # dcterms:conformsTo <https://data.idnau.org/pid/cp/validator> ;
         ] ,
