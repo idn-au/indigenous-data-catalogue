@@ -6,6 +6,7 @@ PREFIX idn: <https://linked.data.gov.au/org/idn>
 PREFIX lcn: <https://data.idnau.org/pid/vocab/lc-notices/>
 PREFIX lcont: <https://data.idnau.org/pid/lc-ont#>
 PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX odrl-action: <https://linked.data.gov.au/def/odrl-action/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -120,7 +121,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             odrl:duty
                 [
                     a odrl:Duty ;
-                    odrl:action lcont:followProtocol ;
+                    odrl:action odrl-action:follow-protocol ;
                     schema:description "See template text."@en ;
                 ] ;
         ] ;
@@ -156,7 +157,7 @@ Please treat information and photographs marked with this label with special car
             odrl:duty
                 [
                     a odrl:Duty ;
-                    odrl:action lcont:followProtocol ;
+                    odrl:action odrl-action:follow-protocol ;
                     schema:description "Indicates that material has special sensitivities."@en ;
                 ] ;
         ] ;
@@ -294,7 +295,7 @@ Please treat information and photographs marked with this label with special car
             odrl:duty
                 [
                     a odrl:Duty ;
-                    odrl:action lcont:followProtocol ;
+                    odrl:action odrl-action:follow-protocol ;
                     schema:description "Indicates that material has not been verified by the community."@en ;
                 ] ;
         ] ;
@@ -431,7 +432,7 @@ Please treat information and photographs marked with this label with special car
             odrl:duty
                 [
                     a odrl:Duty ;
-                    odrl:action lcont:followProtocol ;
+                    odrl:action odrl-action:follow-protocol ;
                     schema:description "Indicates satisfaction with the way traditional knowledge materials are being represented."@en ;
                 ] ;
         ] ;

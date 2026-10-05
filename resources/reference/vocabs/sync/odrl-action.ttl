@@ -29,6 +29,7 @@ odrl-action:fulfil-commitments
         odrl:transfer ,
         odrl-action:cooperate ,
         odrl-action:consult ,
+        odrl-action:follow-protocol ,
         odrl-action:manage-asset ,
         odrl-action:provide-resources ,
         odrl-action:protect-heritage ,
@@ -63,6 +64,15 @@ odrl-action:consult
     rdfs:isDefinedBy odrl-action: ;
     skos:prefLabel "consult"@en ;
     skos:broadMatch schema:CommunicateAction ;
+.
+
+odrl-action:follow-protocol
+    a odrl:Action, skos:Concept ;
+    skos:broader odrl-action:fulfil-commitments ;
+    skos:definition "Follow the protocols identified by a policy for accessing, using, handling, viewing, sharing or otherwise interacting with an asset."@en ;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy odrl-action: ;
+    skos:prefLabel "follow protocol"@en ;
 .
 
 odrl-action:manage-asset
@@ -108,7 +118,7 @@ odrl-action:report-performance
 cs:
     a skos:ConceptScheme ;
     schema:dateCreated "2026-09-15"^^xsd:date ;
-    schema:dateModified "2026-10-03"^^xsd:date ;
+    schema:dateModified "2026-10-05"^^xsd:date ;
     schema:creator <https://kurrawong.ai> ;
     schema:publisher <https://linked.data.gov.au/org/idn> ;
     skos:definition

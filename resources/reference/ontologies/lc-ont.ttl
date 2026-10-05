@@ -1,6 +1,7 @@
-PREFIX : <https://data.idnau.org/pid/lc-ont/>
+PREFIX : <https://data.idnau.org/pid/lc-ont#>
 PREFIX kai: <https://kurrawong.ai>
 PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX odrl-action: <https://linked.data.gov.au/def/odrl-action/>
 PREFIX ont: <https://data.idnau.org/pid/lc-ont>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -19,21 +20,45 @@ odrl:Policy
 
 :CollectionsCareDuty
     a odrl:Duty ;
+    odrl:action odrl-action:follow-protocol ;
     rdfs:isDefinedBy ont: ;
-    schema:description "You are entering a space where Collections Care Notices are in use. Be prepared to follow the protocols for access, use, handling, and viewing associated with certain items or collections. These are in place for the care of the collections and the communities to whom they belong. For more information about Collections Care Notices, see localcontexts.org." ;
     schema:name "Collections Care Duty" ;
+    schema:description "You are entering a space where Collections Care Notices are in use. Be prepared to follow the protocols for access, use, handling, and viewing associated with certain items or collections. These are in place for the care of the collections and the communities to whom they belong. For more information about Collections Care Notices, see localcontexts.org." ;
 .
 
 :templateText
     a owl:DatatypeProperty ;
     rdfs:domain
-        :BCLabel ,
-        :CCNotice ,
-        :TKLabel ;
+        [
+            a owl:Class ;
+            owl:unionOf
+                (
+                    :BCLabel
+                    :LCNotice
+                    :TKLabel
+                ) ;
+        ] ;
     rdfs:isDefinedBy ont: ;
     rdfs:range rdf:langString ;
-    schema:description "A prescriptive text string associated with a Label that provides boilerplate wording intended to be reused or customised by end-users. Distinct from skos:example, which is illustrative only." ;
+    schema:description "A prescriptive text string associated with a Label or Notice that provides boilerplate wording intended to be reused or customised by end-users. Distinct from skos:example, which is illustrative only." ;
     schema:name "Template Text" ;
+.
+
+:relatedNotice
+    a owl:ObjectProperty ;
+    rdfs:domain
+        [
+            a owl:Class ;
+            owl:unionOf
+                (
+                    :BCLabel
+                    :TKLabel
+                ) ;
+        ] ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:range :LCNotice ;
+    schema:description "Relates a Traditional Knowledge or Biocultural Label to a relevant Local Contexts Notice." ;
+    schema:name "Related Notice" ;
 .
 
 odrl:Duty
@@ -54,9 +79,17 @@ odrl:Duty
 :CCNotice
     a owl:Class ;
     rdfs:isDefinedBy ont: ;
-    rdfs:subClassOf skos:Concept ;
+    rdfs:subClassOf :LCNotice ;
     schema:description "A SKOS Concept representing a Collection Care Notice from the Local Contexts framework." ;
     schema:name "Collections Care Notices" ;
+.
+
+:LCNotice
+    a owl:Class ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:subClassOf skos:Concept ;
+    schema:description "A SKOS Concept representing a Notice from the Local Contexts framework." ;
+    schema:name "Local Contexts Notice" ;
 .
 
 :TKLabel
@@ -90,11 +123,11 @@ ont:
     schema:creator kai: ;
     schema:dateCreated "2025-09-23"^^xsd:date ;
     schema:dateIssued "2026-03-31"^^xsd:date ;
-    schema:dateModified "2026-08-21"^^xsd:date ;
-    schema:description "Defines TKLabel and BCLabel classes as subclasses of skos:Concept, and lc:templateText for associating reusable boilerplate text with Local Contexts labels." ;
+    schema:dateModified "2026-10-05"^^xsd:date ;
+    schema:description "Defines Local Contexts Label and Notice classes, and lc:templateText for associating reusable boilerplate text with Local Contexts labels and notices." ;
     schema:keywords "Reference" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-    schema:name "Local Contexts Label Extension Vocabulary" ;
+    schema:name "Local Contexts Extension Vocabulary" ;
     schema:publisher <https://linked.data.gov.au/org/idn> ;
     schema:version "0.2" ;
 .
