@@ -1,4 +1,5 @@
 PREFIX : <https://data.idnau.org/pid/lc-ont#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX kai: <https://kurrawong.ai>
 PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
 PREFIX odrl-action: <https://linked.data.gov.au/def/odrl-action/>
@@ -92,6 +93,15 @@ odrl:Duty
     schema:name "Local Contexts Notice" ;
 .
 
+:QualifiedLocalContext
+    a owl:Class ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:subClassOf dcat:Relationship ;
+    schema:description "A qualified relationship between a catalogued resource and a Local Contexts Label or Notice, used when information about the application of that Label or Notice must be recorded on the relationship itself." ;
+    schema:name "Qualified Local Context" ;
+    skos:scopeNote "Use the direct odrl:hasPolicy or schema:potentialAction relationship when no relationship-level qualification is required." ;
+.
+
 :TKLabel
     a owl:Class ;
     rdfs:isDefinedBy ont: ;
@@ -124,7 +134,7 @@ ont:
     schema:dateCreated "2025-09-23"^^xsd:date ;
     schema:dateIssued "2026-03-31"^^xsd:date ;
     schema:dateModified "2026-10-05"^^xsd:date ;
-    schema:description "Defines Local Contexts Label and Notice classes, and lc:templateText for associating reusable boilerplate text with Local Contexts labels and notices." ;
+    schema:description "Defines Local Contexts Label and Notice classes, an optional qualified relationship class, and properties for associating reusable boilerplate text and related Notices with Local Contexts resources." ;
     schema:keywords "Reference" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Local Contexts Extension Vocabulary" ;
