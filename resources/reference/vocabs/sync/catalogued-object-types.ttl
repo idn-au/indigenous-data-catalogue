@@ -37,7 +37,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :ShapesGraph ,
         :SpatialDataset ,
         schema:DataModel ,
-        schema:DataValidationRules ,
+        :DataValidationRules ,
         schema:DefinedTermSet ;
     skos:prefLabel "Semantic Web resources"@en ;
     skos:scopeNote "Use this collection to contain ontologies, vocabularies and semantic spatial reference datasets" ;
