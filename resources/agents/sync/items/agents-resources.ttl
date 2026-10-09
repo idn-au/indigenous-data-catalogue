@@ -12,6 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:identifier
         "41687119230"^^id:ausbn ,
         "https://ror.org/03qn8fb07"^^id:ror ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Commonwealth Scientific and Industrial Research Organisation" ;
     sdo:url "https://www.csiro.au"^^xsd:anyURI ;
 .
@@ -19,6 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/28-221-722-606>
     a sdo:Organization ;
     sdo:identifier "28221722606"^^id:ausbn ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Yothu Yindi" ;
 .
 
@@ -30,12 +32,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://ror.org/00rqy9422> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "University of Queensland Library" ;
 .
 
 <https://data.idnau.org/pid/org/44-122-865-623>
     a sdo:Organization ;
     sdo:identifier "44122865623"^^id:ausbn ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "The Kimberley Institute" ;
 .
 
@@ -44,6 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:identifier
         "61249878937"^^id:ausbn ,
         "https://ror.org/00892tw58"^^id:ror ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "University of Adelaide" ;
     sdo:url "https://www.adelaide.edu.au"^^xsd:anyURI ;
 .
@@ -51,6 +56,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/73-190-237-854>
     a sdo:Organization ;
     sdo:identifier "73190237854"^^id:ausbn ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "State Library of Victoria" ;
     sdo:url "https://www.slv.vic.gov.au"^^xsd:anyURI ;
 .
@@ -58,18 +64,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/75-818-456-675>
     a sdo:Organization ;
     sdo:identifier "75818456675"^^id:ausbn ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "The State of Queensland" ;
 .
 
 <https://data.idnau.org/pid/org/78-094-372-050>
     a sdo:Organization ;
     sdo:identifier "78094372050"^^id:ausbn ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Productivity Commission" ;
 .
 
 <https://data.idnau.org/pid/org/94-100-487-572>
     a sdo:Organization ;
     sdo:identifier "94100487572"^^id:ausbn ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "SVA Consulting" ;
 .
 
@@ -79,6 +88,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:identifier
         "62020533641"^^id:ausbn ,
         "https://ror.org/011rpdz66"^^id:ror ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Australian Institute of Aboriginal and Torres Strait Islander Studies" ;
 .
 
@@ -90,6 +100,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "ANU Archives" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
@@ -102,6 +113,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "ANU Collections" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
@@ -114,6 +126,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "ANU Library" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
@@ -126,6 +139,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "National Centre for Epidemiology and Population Health" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
@@ -138,6 +152,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Research Service Division" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
@@ -151,6 +166,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:roleName aarr:partOf ;
         ] ;
     sdo:alternateName "ATSIDA.1" ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Aboriginal and Torres Strait Islander Data Archive" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/ada> ;
 .
@@ -163,6 +179,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/uts> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Jumbunna" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/uts> ;
     sdo:url "https://www.uts.edu.au/research/centres/jumbunna-institute-indigenous-education-and-research"^^xsd:anyURI ;
@@ -176,6 +193,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu-fnp> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Mayi Kuwayu" ;
     sdo:parentOrganization <https://data.idnau.org/pid/org/anu-fnp> ;
     sdo:url "https://mkstudy.com.au"^^xsd:anyURI ;
@@ -189,29 +207,34 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "National Centre for Indigenous Genomics" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
 
 <https://data.idnau.org/pid/org/phidu>
     a sdo:Organization ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Public Health Information Development Unit" ;
     sdo:parentOrganization <https://data.idnau.org/pid/org/99-154-937-005> ;
 .
 
 <https://data.idnau.org/pid/org/qld-dsdsatsip>
     a sdo:Organization ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Qld Department of Seniors, Disability Services and Aboriginal and Torres Strait Islander Partnerships" ;
 .
 
 <https://data.idnau.org/pid/person/barwick>
     a sdo:Person ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Diane Barwick" ;
 .
 
 <https://data.idnau.org/pid/person/briscoe>
     a sdo:Person ;
     dcterms:type pis:indigenous ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Gordon Briscoe" ;
 .
 
@@ -224,6 +247,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/um> ;
             sdo:roleName aarr:memberOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:memberOf <https://linked.data.gov.au/org/um> ;
     sdo:name "Marcia Langton" ;
 .
@@ -236,6 +260,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu> ;
             sdo:roleName aarr:memberOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
     sdo:name "Janet McDougall" ;
 .
@@ -248,6 +273,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu> ;
             sdo:roleName aarr:memberOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:memberOf <https://linked.data.gov.au/org/anu> ;
     sdo:name "Len Smith" ;
 .
@@ -260,6 +286,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/um> ;
             sdo:roleName aarr:memberOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:memberOf <https://linked.data.gov.au/org/um> ;
     sdo:name "Sandra Silcot" ;
 .
@@ -269,6 +296,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:identifier
         "99154937005"^^id:ausbn ,
         "https://ror.org/0351xae06"^^id:ror ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Torrens University Australia" ;
 .
 
@@ -280,6 +308,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:agent <https://linked.data.gov.au/org/anu> ;
             sdo:roleName aarr:partOf ;
         ] ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "ANU First Nations Portfolio" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
 .
@@ -287,6 +316,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://ror.org/00rqy9422>
     a sdo:Organization ;
     sdo:identifier "https://ror.org/00rqy9422"^^id:ror ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "University of Queensland" ;
 .
 
@@ -295,6 +325,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:identifier
         "77257686961"^^id:ausbn ,
         "https://ror.org/03f0f6041"^^id:ror ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "University of Technology Sydney" ;
     sdo:url "https://www.uts.edu.au"^^xsd:anyURI ;
 .
