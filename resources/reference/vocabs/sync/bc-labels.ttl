@@ -5,6 +5,7 @@ PREFIX idn: <https://linked.data.gov.au/org/idn>
 PREFIX lcn: <https://data.idnau.org/pid/vocab/lc-notices/>
 PREFIX lcont: <https://data.idnau.org/pid/lc-ont#>
 PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX odrl-action: <https://linked.data.gov.au/def/odrl-action/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -32,7 +33,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             odrl:duty
                 [
                     a odrl:Duty ;
-                    odrl:action lcont:followProtocol ;
+                    odrl:action odrl-action:follow-protocol ;
                     schema:description "Indicates that material is subject to conditions for circulation relating to clan membership and/or is according to protocols for clan relationships."@en ;
                 ] ;
         ] ;
@@ -62,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             odrl:duty
                 [
                     a odrl:Duty ;
-                    odrl:action lcont:followProtocol ;
+                    odrl:action odrl-action:follow-protocol ;
                     schema:description "Indicate that consent associated with data has not been verified by the community."@en ;
                 ] ;
         ] ;
@@ -92,7 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             odrl:duty
                 [
                     a odrl:Duty ;
-                    odrl:action lcont:followProtocol ;
+                    odrl:action odrl-action:follow-protocol ;
                     schema:description "Indicates the right to permit the use of information, biological collections, data, and digital sequence information (DSI) that derives from associated lands, waters and territories."@en ;
                 ] ;
         ] ;
@@ -122,7 +123,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             odrl:duty
                 [
                     a odrl:Duty ;
-                    odrl:action lcont:followProtocol ;
+                    odrl:action odrl-action:follow-protocol ;
                     schema:description "Indicates that multiple communities have responsibility, custodianship and/or ownership over the geographic regions where species or biological entity originates/is found."@en ;
                 ] ;
         ] ;
@@ -252,7 +253,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             odrl:duty
                 [
                     a odrl:Duty ;
-                    odrl:action lcont:followProtocol ;
+                    odrl:action odrl-action:follow-protocol ;
                     schema:description "Indicates that Indigenous peoples have the right to make decisions about the future use of information, biological collections, data, and digital sequence information (DSI) that derives from associated lands, waters and territories."@en ;
                 ] ;
         ] ;

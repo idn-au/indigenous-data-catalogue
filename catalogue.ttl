@@ -7,7 +7,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:codeRepository "https://github.com/idn-au/indigenous-data-catalogue" ;
     schema:creator <https://linked.data.gov.au/org/idn> ;
     schema:dateCreated "2026-08-21"^^xsd:date ;
-    schema:dateModified "2026-09-04"^^xsd:date ;
+    schema:dateModified "2026-10-08"^^xsd:date ;
     schema:description "The Indigenous Data Network's catalogue of Indigenous data." ;
     schema:hasPart
         <https://catalogue.nla.gov.au/catalog/2003311> ,
