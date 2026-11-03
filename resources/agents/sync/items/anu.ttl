@@ -15,6 +15,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:roleName aarr:partOf ;
         ] ;
     sdo:alternateName "CAEPR" ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "ANU Centre for Aboriginal Economic Policy Research" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
     sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
@@ -29,6 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:roleName aarr:partOf ;
         ] ;
     sdo:alternateName "FSES" ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Fenner School of Environment & Science" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/cos> ;
     sdo:url "https://fennerschool.anu.edu.au"^^xsd:anyURI ;
@@ -43,6 +45,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:roleName aarr:partOf ;
         ] ;
     sdo:alternateName "NCIS" ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "ANU National Centre for Indigenous Studies" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
     sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
@@ -57,6 +60,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:roleName aarr:partOf ;
         ] ;
     sdo:alternateName "CASS" ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "ANU College of Arts & Social Science" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
     sdo:url "https://cass.anu.edu.au"^^xsd:anyURI ;
@@ -71,6 +75,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sdo:roleName aarr:partOf ;
         ] ;
     sdo:alternateName "CoS" ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "ANU College of Science" ;
     sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
     sdo:url "https://science.anu.edu.au"^^xsd:anyURI ;
@@ -84,6 +89,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:identifier
         "https://ror.org/019wvm592"^^id:ror ,
         "O-000827"^^idncp:agorId ;
+    sdo:isPartOf <https://data.idnau.org/pid/agentsdb> ;
     sdo:name "Australian National University" ;
     sdo:url "https://www.anu.edu.au"^^xsd:anyURI ;
 .
