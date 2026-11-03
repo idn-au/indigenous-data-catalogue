@@ -49,15 +49,12 @@ jobs:
         uses: actions/checkout@v7
       - name: Install uv
         uses: astral-sh/setup-uv@v5
-      - name: Install KGM
-        run: uv tool install kgm
+      - name: Install locked dependencies
+        run: uv sync --locked
       - name: Validate manifest
-        run: kgm validate manifest.ttl
+        run: uv run kgm validate manifest.ttl
       - name: Sync manifest
-        run: kgm sync -u $FUSEKI_USERNAME -p $FUSEKI_PASSWORD manifest.ttl $FUSEKI_URL True False True False
-      - name: Install dependencies
-        if: ${{ needs.changes.outputs.labels == 'true' || needs.changes.outputs.agents == 'true' || github.event_name != 'push' }}
-        run: uv sync
+        run: uv run kgm sync -u $FUSEKI_USERNAME -p $FUSEKI_PASSWORD manifest.ttl $FUSEKI_URL True False True False
       - name: Sync labels
         if: ${{ needs.changes.outputs.labels == 'true' || github.event_name != 'push' }}
         run: uv run python scripts/sync_labels.py
