@@ -115,12 +115,18 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
                 "resources/demo/sync/atns-27.ttl" ,
                 "resources/demo/sync/atns-30.ttl" ,
                 "resources/demo/sync/atns-37.ttl" ,
-                "resources/demo/sync/atns-1624.ttl" ,
-                "resources/demo/sync/yamatji-nation-ilua.ttl" ;
+                "resources/demo/sync/atns-1624.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType schema:CreativeWork ;
-            schema:description "ATNS Agreement-category entity resource data, including the reviewed Yamatji Nation ODRL demonstration, in RDF (Turtle) files" ;
+            schema:description "ATNS Agreement-category entity resource data in RDF (Turtle) files" ;
             schema:name "Demo ATNS Agreement Record Resource Data" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/demo/sync/yamatji-nation-ilua.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType odrl:Agreement ;
+            schema:description "Reviewed Yamatji Nation CreativeWork and ODRL Agreement demonstration in RDF (Turtle)" ;
+            schema:name "Demo Yamatji Nation ODRL Agreement Resource Data" ;
         ] ,
         [
             prof:hasArtifact
