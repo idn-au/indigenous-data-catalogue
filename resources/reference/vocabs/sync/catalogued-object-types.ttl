@@ -35,7 +35,7 @@ sh:ShapesGraph
     skos:definition "Resources that accord with Semantic Web principles"@en ;
     skos:inScheme cs: ;
     skos:member
-        :ShapesGraph ,
+        sh:ShapesGraph ,
         :SpatialDataset ,
         schema:DataModel ,
         :DataValidationRules ,
