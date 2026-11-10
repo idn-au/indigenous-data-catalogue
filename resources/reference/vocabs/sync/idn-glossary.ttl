@@ -87,7 +87,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :37258c00-fea6-4837-8b3c-db9efa85a4e3
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "A tool that checks if metadata conforms to the rules of a profile or standard."@en ;
+    skos:definition "A tool that checks if metadata conforms to the rules of a standard."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Validator"@en ;
     skos:topConceptOf cs: ;
