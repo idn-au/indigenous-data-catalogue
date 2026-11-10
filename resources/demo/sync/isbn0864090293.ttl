@@ -14,16 +14,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:additionalType schema:Book ;
     schema:creator <http://viaf.org/viaf/3517148390832810830006> ;
     schema:dateCreated "1985"^^xsd:gYear ;
+    schema:dateModified "2026-11-10"^^xsd:date ;
     schema:description "Introduction to Yolngu (Aboriginal) culture, language ; sign language ; moities and skins ; kin terms ; map of outstations, list of speakers, phonology, grammar, dialogues." ;
     schema:identifier "0864090293"^^id:isbn ;
     schema:inLanguage
         iso6392:eng ,
         austlang:N141 ;
     schema:keywords
+        austlang:N117.1 ,
         austlang:N141 ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=1246> ,
-        "Demo" ,
-        "Yolngu languages, Gumatj language, Aboriginal Australians -- Northern Territory -- Arnhem Land -- Languages" ;
+        <https://vocabularyserver.com/apais/xml.php?skosTema=15> ,
+        "Demo" ;
     schema:name "Yolngu-matha : an introduction to Gumatj and related languages in N.E. Arnhem Land" ;
     schema:publisher <https://www.austlit.edu.au/austlit/page/A128141> ;
 .

@@ -13,11 +13,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:additionalType schema:ScholarlyArticle ;
     schema:creator <https://orcid.org/0000-0001-5640-3202> ;
     schema:dateCreated "2024"^^xsd:gYear ;
+    schema:dateModified "2026-11-10"^^xsd:date ;
     schema:description "Biosecurity research focuses on invasive species. The dissemination of biosecurity research is hampered by three major issues. First, biosecurity research is not always published and can be difficult to access. Second, biosecurity participants ask questions in different ways..." ;
     schema:keywords
         <https://linked.data.gov.au/def/policy/fefc1657-d98d-4f81-bc7f-3150cd3f6652> ,
-        "Biosecurity, grey literature, open access, corpus linguistics, graph databases, controlled vocabularies" ,
-        "Demo" ;
+        "Biosecurity" ,
+        "Demo" ,
+        "controlled vocabularies" ,
+        "corpus linguistics" ,
+        "graph databases" ,
+        "grey literature" ,
+        "open access" ;
     schema:name "Outbreak! Containing, Translating and Transmitting Biosecurity Grey Literature" ;
     schema:publisher <https://ror.org/04bd6je18> ;
 .

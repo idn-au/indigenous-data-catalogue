@@ -14,12 +14,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:ScholarlyArticle ;
     schema:creator <https://orcid.org/0000-0003-3446-0227> ;
     schema:dateCreated "2025"^^xsd:gYear ;
+    schema:dateModified "2026-11-10"^^xsd:date ;
     schema:description "Includes evidence from 1925 participants in 15 randomised controlled trials that investigated the effect of 17 interventions. All included studies were published after 2005. Interventions included seven parenting interventions, eight psychological interventions and two service system approaches. The studies were funded by major research councils, government departments and philanthropic/charitable organisations. All evidence was of low or very low certainty." ;
     schema:keywords
         <https://linked.data.gov.au/def/policy/42c2bcf0-0dce-4bf7-9fb6-2ebea19c100c> ,
         <https://linked.data.gov.au/def/policy/5c4d7647-75ac-4884-8c43-3a9738d79602> ,
         "Demo" ,
-        "post-traumatic stress disorder, child maltreatment" ;
+        "child maltreatment" ,
+        "post-traumatic stress disorder" ;
     schema:name "Interventions from pregnancy to two years after birth for parents experiencing complex post-traumatic stress disorder and/or with childhood experience of maltreatment: a Cochrane Review." ;
     schema:publisher <https://ror.org/03jsdjx34> ;
 .

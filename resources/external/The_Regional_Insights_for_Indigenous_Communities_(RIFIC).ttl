@@ -21,7 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:copyrightNotice "© Australian Institute of Health and Welfare 2026" ;
     schema:dateCreated "2025"^^xsd:gYear ;
     schema:dateIssued "2025"^^xsd:gYear ;
-    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:dateModified "2026-11-10"^^xsd:date ;
     schema:description """The Regional Insights for Indigenous Communities (RIFIC) website brings together a range of regional statistics about the health and wellbeing of Aboriginal and Torres Strait Islander people and their communities. The aim of the website is to provide access to data at a local level, to help communities set their priorities and participate in joint planning with government and service providers. The Indigenous communities and Other locations referenced, are derived from the Australian Government Indigenous Programs & Policy Locations and Australian Bureau of Statistics’ State Suburbs data sets. Refer to the Communities and locations page for more information.
 Information about data is supplied through three main dashboards:
 The Regional overview dashboard allows you to search for a community (or other location) and view statistics about a region that community is in. You can use the dashboard to compare regions and select different topics.

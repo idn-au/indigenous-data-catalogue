@@ -31,7 +31,7 @@ Apart from any use as permitted under the Copyright Act 1968, and those explicit
 """ ;
     schema:dateCreated "2008-09"^^xsd:monthYear ;
     schema:dateIssued "2009-10-30"^^xsd:date ;
-    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:dateModified "2026-11-10"^^xsd:date ;
     schema:description "The National Aboriginal and Torres Strait Islander Social Survey (NATSISS) was conducted from August 2008 to April 2009 with a sample of Aboriginal and Torres Strait Islander people living in private dwellings across Australia. The 2008 NATSISS is a multidimensional social survey which provides broad information across key areas of social concern for Indigenous Australians, nationally, by state and territory and remoteness area. " ;
     schema:distribution
         [
@@ -57,11 +57,6 @@ Topics summarised in this release include language and culture, social networks 
         <https://vocabularyserver.com/apais/xml.php?skosTema=11> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=15> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=181> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=2178> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=27> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ,
         "External" ;
     schema:license <http://purl.org/NET/rdflicense/allrightsreserved> ;
     schema:name "4714.0 - National Aboriginal and Torres Strait Islander Social Survey, 2008" ;

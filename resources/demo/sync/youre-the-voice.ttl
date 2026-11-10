@@ -35,12 +35,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   """@en ;
     schema:creator dbpedia:Mitch_Tambo ;
     schema:dateCreated "2020"^^xsd:gYear ;
+    schema:dateModified "2026-11-10"^^xsd:date ;
     schema:description "The Indigenous singer a proud Gamilaraay and Birri Gubba man, delivers a rendition of John Farnham’s classic at the NITV sunrise ceremony as part of 26 January Survival Day, Invasion Day and Australia Day events" ;
     schema:inLanguage austlang:D23 ;
     schema:keywords
         <https://linked.data.gov.au/def/policy/2a8a5ffc-04f1-4dd6-9ffa-71fd82333c7f> ,
+        "Civil rights" ,
         "Demo" ,
-        "Empowerment, Social change, Social justice, Civil rights" ;
+        "Empowerment" ,
+        "Social change" ,
+        "Social justice" ;
     schema:name "Mitch Tambo performs John Farnham's You're the Voice in Gamilaraay language" ;
     schema:publisher sbs: ;
 .

@@ -8,7 +8,9 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX vann: <http://purl.org/vocab/vann/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 schema:OrganizationRole
@@ -23,8 +25,29 @@ schema:OrganizationRole
     schema:name "The Unified Astronomy Thesaurus" ;
 .
 
+<http://example.com/shacl-extension#allPredicateValues>
+    schema:name "All Predicate Values" ;
+.
+
 <http://id.loc.gov/vocabulary/identifiers>
     schema:name "Library of Congress Identifiers Vocabulary" ;
+.
+
+<http://id.loc.gov/vocabulary/identifiers/isbn>
+    schema:name "International standard book number" ;
+.
+
+<http://id.loc.gov/vocabulary/iso639-2/eng>
+    schema:name "English"@en ;
+.
+
+<http://id.loc.gov/vocabulary/marcgt/art>
+    schema:name "article" ;
+.
+
+<http://id.loc.gov/vocabulary/marcgt/boo>
+    schema:description "Resource comprising a collection of leaves of paper, parchment, wood, stiffened textile, ivory, metal tablets, or other flat materials, that are blank, written on, or printed, and are strung or bound together in a volume. Includes e-books or electronic resources structured like a book."@en ;
+    schema:name "book" ;
 .
 
 <http://id.worldcat.org/fast/1033935>
@@ -87,6 +110,10 @@ schema:OrganizationRole
     schema:name "hasParticipant" ;
 .
 
+dcterms:PeriodOfTime
+    schema:name "Period of Time" ;
+.
+
 dcterms:accessRights
     schema:description "Information about who access the resource or an indication of its security status."@en ;
     schema:name "Access Rights"@en ;
@@ -102,6 +129,10 @@ dcterms:conformsTo
     schema:name "Conforms To" ;
 .
 
+dcterms:contributor
+    schema:name "Contributor" ;
+.
+
 dcterms:created
     schema:description "Date of creation of the resource."@en ;
     schema:name "Date Created"@en ;
@@ -112,6 +143,10 @@ dcterms:creator
     schema:name "Creator"@en ;
 .
 
+dcterms:date
+    schema:name "Date" ;
+.
+
 dcterms:description
     schema:description "An account of the resource."@en ;
     schema:name "Description"@en ;
@@ -120,6 +155,14 @@ dcterms:description
 dcterms:hasPart
     schema:description "A related resource that is included either physically or logically in the described resource."@en ;
     schema:name "Has Part"@en ;
+.
+
+dcterms:identifier
+    schema:name "Identifier" ;
+.
+
+dcterms:isReferencedBy
+    schema:name "Is Referenced By" ;
 .
 
 dcterms:issued
@@ -150,6 +193,14 @@ dcterms:provenance
 dcterms:publisher
     schema:description "An entity responsible for making the resource available."@en ;
     schema:name "Publisher"@en ;
+.
+
+dcterms:references
+    schema:name "References" ;
+.
+
+dcterms:relation
+    schema:name "Relation" ;
 .
 
 dcterms:replaces
@@ -192,9 +243,29 @@ dcterms:type
     schema:name "status"@en ;
 .
 
+<http://purl.org/spar/fabio/Article>
+    schema:name "article" ;
+.
+
+<http://purl.org/spar/fabio/Book>
+    schema:name "book" ;
+.
+
+<http://purl.org/spar/fabio/BookChapter>
+    schema:name "Book Chapter" ;
+.
+
 <http://purl.org/spar/fabio/DataFile>
     schema:description "A realisation of a fabio:Dataset (a frbr:Work) containing a defined collection of data with specific content and possibly with a specific version number, that can be embodied as a fabio:Digital Manifestation (a frbr:Manifestation with a specific format) and be represented by a specific fabio:ComputerFile (a frbr:Item) on someone's hard drive."@en ;
     schema:name "data file"@en ;
+.
+
+<http://purl.org/spar/fabio/Dataset>
+    schema:name "dataset" ;
+.
+
+<http://purl.org/spar/fabio/Policy>
+    schema:name "policy" ;
 .
 
 <http://purl.org/spar/fabio/PolicyDocument>
@@ -202,9 +273,58 @@ dcterms:type
     schema:name "policy document"@en ;
 .
 
+<http://purl.org/spar/fabio/WebSite>
+    schema:name "web site" ;
+.
+
+vann:preferredNamespacePrefix
+    schema:name "Preferred Namespace Prefix" ;
+.
+
+vann:preferredNamespaceUri
+    schema:name "Preferred Namespace Uri" ;
+.
+
+<http://viaf.org/viaf/3517148390832810830006>
+    schema:description "Australian aboriginal leader" ;
+    schema:name "RaymattjaMarika-Munungirritj"@en-AU ;
+.
+
+geo:FeatureCollection
+    schema:name "Feature Collection" ;
+.
+
+geo:Geometry
+    schema:name "Geometry" ;
+.
+
+geo:asWKT
+    schema:name "as WKT" ;
+.
+
+geo:hasBoundingBox
+    schema:name "has bounding box" ;
+.
+
 geo:sfWithin
     schema:description "States that the subject SpatialObject is spatially within the object SpatialObject. DE-9IM: T*F**F***" ;
     schema:name "within" ;
+.
+
+rdf:first
+    schema:name "first" ;
+.
+
+rdf:langString
+    schema:name "Lang String" ;
+.
+
+()
+    schema:name "nil" ;
+.
+
+rdf:rest
+    schema:name "rest" ;
 .
 
 rdf:type
@@ -236,8 +356,28 @@ rdfs:subClassOf
     schema:name "subclass of" ;
 .
 
+owl:Class
+    schema:name "Class" ;
+.
+
+owl:DatatypeProperty
+    schema:name "Datatype Property" ;
+.
+
+owl:ObjectProperty
+    schema:name "Object Property" ;
+.
+
 owl:Ontology
     schema:name "Ontology" ;
+.
+
+owl:deprecated
+    schema:name "deprecated" ;
+.
+
+owl:unionOf
+    schema:name "union of" ;
 .
 
 owl:versionIRI
@@ -278,14 +418,26 @@ skos:broader
     schema:name "has broader" ;
 .
 
+skos:closeMatch
+    schema:name "has close match" ;
+.
+
 skos:definition
     schema:description "A statement or formal explanation of the meaning of a concept." ;
     schema:name "definition" ;
 .
 
+skos:editorialNote
+    schema:name "editorial note" ;
+.
+
 skos:exactMatch
     schema:description "skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch" ;
     schema:name "has exact match" ;
+.
+
+skos:example
+    schema:name "example" ;
 .
 
 skos:hasTopConcept
@@ -306,6 +458,10 @@ skos:inScheme
 skos:member
     schema:description "Relates a collection to one of its members." ;
     schema:name "has member" ;
+.
+
+skos:narrowMatch
+    schema:name "has narrower match" ;
 .
 
 skos:narrower
@@ -330,6 +486,10 @@ skos:related
     schema:name "has related" ;
 .
 
+skos:relatedMatch
+    schema:name "has related match" ;
+.
+
 skos:scopeNote
     schema:description "A note that helps to clarify the meaning and/or the use of a concept." ;
     schema:name "scope note" ;
@@ -343,6 +503,10 @@ skos:topConceptOf
 dcat:Catalog
     schema:description "A curated collection of metadata about resources (e.g., datasets and data services in the context of a data catalog)."@en ;
     schema:name "Catalog"@en ;
+.
+
+dcat:Dataset
+    schema:name "Dataset" ;
 .
 
 dcat:Distribution
@@ -360,6 +524,14 @@ dcat:Resource
     schema:name "Catalogued resource"@en ;
 .
 
+dcat:accessURL
+    schema:name "access address" ;
+.
+
+dcat:contactPoint
+    schema:name "contact point" ;
+.
+
 dcat:downloadURL
     schema:description "The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType."@en ;
     schema:name "download URL"@en ;
@@ -374,6 +546,10 @@ dcat:keyword
     schema:name "keyword" ;
 .
 
+dcat:landingPage
+    schema:name "landing page" ;
+.
+
 dcat:qualifiedRelation
     schema:description "Link to a description of a relationship with another resource."@en ;
     schema:name "qualified relation"@en ;
@@ -381,7 +557,13 @@ dcat:qualifiedRelation
 
 dcat:theme
     schema:description "A main category of the resource. A resource can have multiple themes."@en ;
-    schema:name "theme"@en ;
+    schema:name
+        "theme" ,
+        "theme"@en ;
+.
+
+prof:Profile
+    schema:name "Profile" ;
 .
 
 prof:hasArtifact
@@ -1492,6 +1674,42 @@ prov:wasDerivedFrom
     schema:name "was derived from" ;
 .
 
+sh:
+    schema:name "W3C Shapes Constraint Language (SHACL) Vocabulary"@en ;
+.
+
+sh:NodeShape
+    schema:name "Node shape"@en ;
+.
+
+sh:class
+    schema:name "class"@en ;
+.
+
+sh:inversePath
+    schema:name "inverse path"@en ;
+.
+
+sh:maxCount
+    schema:name "max count"@en ;
+.
+
+sh:path
+    schema:name "path"@en ;
+.
+
+sh:property
+    schema:name "property"@en ;
+.
+
+sh:targetClass
+    schema:name "target class"@en ;
+.
+
+sh:union
+    schema:name "union"@en ;
+.
+
 <https://data.idnau.org/pid/adb/abn>
     schema:name "Australian Business Number" ;
 .
@@ -1500,12 +1718,162 @@ prov:wasDerivedFrom
     schema:name "ORCID" ;
 .
 
+<https://data.idnau.org/pid/austlang/D23>
+    schema:description "Gamilaraay / Gamilaroi / Kamilaroi language D23"@en ;
+    schema:name "Gamilaraay / Gamilaroi / Kamilaroi"@aus ;
+.
+
+<https://data.idnau.org/pid/austlang/N141>
+    schema:description "Gumatj language N141"@en ;
+    schema:name "Gumatj"@aus ;
+.
+
+<https://data.idnau.org/pid/org/7fb4c3c8-2317-4cfd-b5b8-b1c6a8c6e321>
+    schema:description "advises the Provost and Vice President, Strategy and Culture on the implementation of the University's Aboriginal and Torres Strait Islander Cultural Heritage Policy, which outlines the principles by which the University will manage Aboriginal and Torres Strait Islander Ancestral Remains and cultural heritage, including with respect to the built and landscape environment." ;
+    schema:name "Aboriginal & Torres Strait Islander Cultural Heritage Oversight Committee" ;
+.
+
+<https://data.idnau.org/pid/vocab/aarr/affiliateOf>
+    schema:description "The same as Affiliate but for inverse agent relations"@en ;
+    schema:name "Affiliate Of"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/aarr/memberOf>
+    schema:description "The same as Member but for inverse agent relations"@en ;
+    schema:name "Member Of"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-cat/13e77fec-44fd-554f-a075-ec60788eb1b1>
+    schema:description "The ATNS entity category 'Agreement'."@en ;
+    schema:name "Agreement"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-cat/1dad59ae-4020-598a-b5df-d9e0eae7f9c6>
+    schema:description "The ATNS entity category 'Organisation'."@en ;
+    schema:name "Organisation"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-country/244f6961-729f-5b21-8fc9-baff9dd9af7e>
+    schema:description "The ATNS country value 'Australia'."@en ;
+    schema:name "Australia"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-ref/5f376307-9421-5ed8-aad9-7d12cb7b7fb6>
+    schema:description "An ATNS reference classified as a resource."@en ;
+    schema:name "Resource"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-rel/5e471add-777af47-0ac36ed39889a7b>
+    schema:description "The ATNS relationship type 'Later known as'."@en ;
+    schema:name "Later known as"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-rel/a00a860d-f0b0cea-6aacab6d119903c>
+    schema:description "The ATNS relationship type 'Signatory'."@en ;
+    schema:name "Signatory"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-rel/b720e661-d4f1afa-9a26c26936c3b49>
+    schema:description "The ATNS relationship type 'Related'."@en ;
+    schema:name "Related"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/5996de0c-8cc6-5f14-8901-d839af36a4d4>
+    schema:name "Collaboration / Partnership"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/6a8815da-e29d-506f-85fd-c64c8807fea2>
+    schema:name "Education"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/9335b2f1-4915-55cc-9736-2ded7c4a2008>
+    schema:name "Access"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/c74e76ef-701f-5784-8223-5fcd87a7641c>
+    schema:name "Native Title"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/d15dd1de-4696-50c8-9f10-2e95eea88e6f>
+    schema:name "Health and Community Services"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-sub/ffe61b3b-8b29-5264-89ac-758a03928ea5>
+    schema:name "Housing, Construction and Infrastructure"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-subcat/09f0a068-ce65-5c11-8dec-f081d1a81ec2>
+    schema:name "Indigenous Land Use Agreement (ILUA) (Native Title Act)"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-subcat/6ffe90c2-95c9-51b5-a083-8c7d83b975ef>
+    schema:name "Framework Agreement"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/atns-subcat/f0427812-61d1-5004-b577-ac236a9c5c18>
+    schema:name "Funding Agreement"@en ;
+.
+
 <https://data.idnau.org/pid/vocab/cat-roles>
     schema:name "Catalogue Roles" ;
 .
 
+<https://data.idnau.org/pid/vocab/idn-th/indigenous-demographics>
+    schema:description "Demographics of indigenous peoples" ;
+    schema:name "Indigenous demographics"@en ;
+.
+
 <https://data.idnau.org/pid/vocab/indigeneity>
     schema:name "Data Indigeneity" ;
+.
+
+<https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>
+    schema:description "Data that is about indigenous people" ;
+    schema:name "About Indigenous People"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things>
+    schema:description "Data that is about indigenous things; land, resources, knowledge etc." ;
+    schema:name "About Indigenous Things"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people>
+    schema:name "By Indigenous People"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/org-indigeneity/indigenous-persons-organisation>
+    schema:description "The organisation comprises of indigenous persons" ;
+    schema:name "Indigenous Persons Organisation"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous>
+    schema:description "The organisation is not an indigenous organisation" ;
+    schema:name "Non-Indigenous"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons>
+    schema:description "The organisation is run (managed) by indigenous people" ;
+    schema:name "Run By Indigenous Persons"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/persons-indigenous-status/indigenous>
+    schema:description "The individual is an Indigenous individual" ;
+    schema:name "Indigenous"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/persons-indigenous-status/indigenousStatusUnknown>
+    schema:description "The individual's Indigenous status is unknown" ;
+    schema:name "Indigenous status Unknown"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/persons-indigenous-status/nonIndigenous>
+    schema:description "The individual is not an Indigenous individual" ;
+    schema:name "Non-Indigenous"@en ;
+.
+
+<https://data.idnau.org/pid/vocab/policy-types/data-governance>
+    schema:description "The process of setting and enforcing policies for managing and using data as a strategic asset. This is achieved through the definition of roles and responsibilities for the governance of data acquired, used and released."@en ;
+    schema:name "data governance"@en ;
 .
 
 <https://kurrawong.ai>
@@ -1524,12 +1892,90 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     schema:name "Australian Land Use and Management Classification" ;
 .
 
+<https://linked.data.gov.au/def/atns/model/AgreementRecord>
+    schema:description "A preserved record classified as an Agreement in the ATNS Entities table."@en ;
+    schema:name "ATNS Agreement Record"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/Entity>
+    schema:description "A preserved record from the ATNS Entities table, classified with an ATNS category concept."@en ;
+    schema:name "ATNS Entity Record"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/EntityRelationship>
+    schema:description "A preserved source row connecting two ATNS entities and, where supplied, an ATNS relationship type."@en ;
+    schema:name "ATNS Entity Relationship"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/Reference>
+    schema:description "A bibliographic, web or documentary reference preserved from the ATNS Refs table."@en ;
+    schema:name "ATNS Reference"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/category>
+    schema:name "ATNS Entity Category"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/country>
+    schema:name "ATNS Country Classification"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/deleted>
+    schema:name "Deleted Status Flag"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/eid>
+    schema:name "ATNS Entity Identifier"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/objectEntity>
+    schema:name "Object Entity"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/referenceType>
+    schema:name "ATNS Reference Type"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/relationshipType>
+    schema:name "Relationship Type"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/sourceEntityId>
+    schema:name "Source Entity Identifier"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/sourceReferenceId>
+    schema:name "Source Reference Identifier"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/sourceRelationshipId>
+    schema:name "Source Entity Relationship Identifier"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/subcategory>
+    schema:name "ATNS Entity Subcategory"@en ;
+.
+
+<https://linked.data.gov.au/def/atns/model/subjectEntity>
+    schema:name "Subject Entity"@en ;
+.
+
 <https://linked.data.gov.au/def/data-access-rights>
     schema:name "Data Access Rights" ;
 .
 
 <https://linked.data.gov.au/def/data-access-rights/limited-community-access>
     schema:name "Limited community access" ;
+.
+
+<https://linked.data.gov.au/def/data-access-rights/open>
+    schema:description "Open access refers to a resource that is immediately and permanently online, and free for all on the Web, without financial and technical barriers."@en ;
+    schema:name "Open access"@en ;
+.
+
+<https://linked.data.gov.au/def/data-access-rights/restricted>
+    schema:description "Restricted access refers to a resource that is stored in a system but is not freely accessible. Access is limited to specific personnel or user groups."@en ;
+    schema:name "Restricted access"@en ;
 .
 
 <https://linked.data.gov.au/def/data-roles>
@@ -1567,9 +2013,18 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     schema:name "principal investigator"@en ;
 .
 
+<https://linked.data.gov.au/def/data-roles/rightsHolder>
+    schema:name "rights holder"@en ;
+.
+
 <https://linked.data.gov.au/def/nrm>
     schema:description "The EMSA controlled vocabularies support the data representation of field survey data collected using the Ecological Monitoring System Australia (EMSA) modules." ;
     schema:name "Ecological Monitoring System Australia (EMSA) Controlled Vocabularies" ;
+.
+
+<https://linked.data.gov.au/def/policy/3f74d52e-2aec-4a8c-a643-34d43c2cbac7>
+    schema:description "The process of returning human remains to their communities of origin. This process can help create healing and reconciliation for the descendants of those remains."@en ;
+    schema:name "Repatriation of historic human remains"@en ;
 .
 
 <https://linked.data.gov.au/def/policy/Subject>
@@ -1600,6 +2055,10 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     schema:name "stable" ;
 .
 
+<https://linked.data.gov.au/def/reg-statuses/superseded>
+    schema:name "superseded"@en ;
+.
+
 <https://linked.data.gov.au/def/vocdermods/none>
     schema:description "This vocabulary does not derive from another" ;
     schema:name "None" ;
@@ -1608,6 +2067,16 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
 <https://linked.data.gov.au/def/vocdermods/subsetting-and-extension>
     schema:description "Derivation with subsetting and extension" ;
     schema:name "Subset & Extension" ;
+.
+
+<https://linked.data.gov.au/org/anu>
+    schema:name "Australian National University" ;
+.
+
+<https://linked.data.gov.au/org/dcceew>
+    schema:name
+        "Department of Climate Change, Energy, the Environment and Water" ,
+        "Department of Climate Change, energy, the Environment and Water" ;
 .
 
 <https://linked.data.gov.au/org/idn>
@@ -1630,6 +2099,26 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
 
 <https://olis.dev/isAliasFor>
     schema:name "is alias for" ;
+.
+
+<https://orcid.org/0000-0002-0346-2820>
+    schema:name "Kristen Smith" ;
+.
+
+<https://orcid.org/0000-0002-1398-7524>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
+    schema:name "Marcia Langton" ;
+.
+
+<https://orcid.org/0000-0002-4797-9776>
+    schema:name "Aaron Corn" ;
+.
+
+<https://orcid.org/0000-0002-5477-0874>
+    a schema:Person ;
+    schema:email "leonard.smith@anu.edu.au"^^xsd:anyURI ;
+    schema:name "Len Smith" ;
 .
 
 <https://prez.dev/Manifest>
@@ -1669,6 +2158,18 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     schema:name "Creative Commons CC-BY 4.0" ;
 .
 
+<https://schema.org>
+    schema:name "schema.org Ontology" ;
+.
+
+schema:Action
+    schema:name "Action" ;
+.
+
+schema:CommunicateAction
+    schema:name "Communicate Action" ;
+.
+
 schema:CreativeWork
     schema:description "The most generic kind of creative work, including books, movies, photographs, software programs, etc." ;
     schema:name "Creative work" ;
@@ -1679,19 +2180,46 @@ schema:DataCatalog
     schema:name "Data catalog" ;
 .
 
+schema:DataDownload
+    schema:name "Data Download" ;
+.
+
 schema:Dataset
     schema:description "A body of structured information describing some topic(s) of interest" ;
     schema:name "Dataset" ;
 .
 
-schema:Person
-    schema:description "A person (alive, dead, undead, or fictional)" ;
-    schema:name "Person" ;
+schema:FundingAgency
+    schema:name "Funding Agency" ;
+.
+
+schema:FundingScheme
+    schema:name "Funding Scheme" ;
+.
+
+schema:Grant
+    schema:name "Grant" ;
+.
+
+schema:MonetaryAmount
+    schema:name "Monetary Amount" ;
+.
+
+schema:Periodical
+    schema:name "Periodical" ;
+.
+
+schema:QuantitativeValue
+    schema:name "Quantitative Value" ;
 .
 
 schema:ScholarlyArticle
     schema:description "A scholarly article" ;
     schema:name "Scholarly article" ;
+.
+
+schema:SizeSpecification
+    schema:name "Size Specification" ;
 .
 
 schema:VideoObject
@@ -1714,6 +2242,10 @@ schema:alternateName
     schema:name "alternate name" ;
 .
 
+schema:author
+    schema:name "author" ;
+.
+
 schema:citation
     schema:name "citation" ;
 .
@@ -1727,6 +2259,22 @@ schema:color
     schema:name "colour" ;
 .
 
+schema:comment
+    schema:name "comment" ;
+.
+
+schema:conditionsOfAccess
+    schema:name "conditions of access" ;
+.
+
+schema:contactPoints
+    schema:name "contact points" ;
+.
+
+schema:contentUrl
+    schema:name "content url" ;
+.
+
 schema:contributor
     schema:name "contributor" ;
 .
@@ -1735,9 +2283,25 @@ schema:copyrightNotice
     schema:name "copyright notice" ;
 .
 
+schema:coverageEndTime
+    schema:name "coverage end time" ;
+.
+
+schema:coverageStartTime
+    schema:name "coverage start time" ;
+.
+
 schema:creator
     schema:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork." ;
     schema:name "creator" ;
+.
+
+schema:creditText
+    schema:name "credit text" ;
+.
+
+schema:currency
+    schema:name "currency" ;
 .
 
 schema:dateCreated
@@ -1755,6 +2319,10 @@ schema:dateModified
     schema:name "date modified" ;
 .
 
+schema:datePublished
+    schema:name "date published" ;
+.
+
 schema:description
     schema:description "A description of the item" ;
     schema:name "description" ;
@@ -1770,6 +2338,22 @@ schema:email
     schema:name "email" ;
 .
 
+schema:endDate
+    schema:name "end date" ;
+.
+
+schema:funder
+    schema:name "funder" ;
+.
+
+schema:funding
+    schema:name "funding" ;
+.
+
+schema:hasMeasurement
+    schema:name "has measurement" ;
+.
+
 schema:hasPart
     schema:description "Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense)" ;
     schema:name "has part" ;
@@ -1778,6 +2362,22 @@ schema:hasPart
 schema:identifier
     schema:description "The identifier property represents any kind of identifier for any kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details." ;
     schema:name "identifier" ;
+.
+
+schema:inLanguage
+    schema:name "in language" ;
+.
+
+schema:isBasedOn
+    schema:name "is based on" ;
+.
+
+schema:isPartOf
+    schema:name "is part of" ;
+.
+
+schema:issueNumber
+    schema:name "issue number" ;
 .
 
 schema:keywords
@@ -1790,6 +2390,22 @@ schema:license
     schema:name "license" ;
 .
 
+schema:location
+    schema:name "location" ;
+.
+
+schema:mainEntity
+    schema:name "main entity" ;
+.
+
+schema:mainEntityOfPage
+    schema:name "main entity of page" ;
+.
+
+schema:material
+    schema:name "material" ;
+.
+
 schema:memberOf
     schema:description "An Organization (or ProgramMembership) to which this Person or Organization belongs" ;
     schema:name "member of" ;
@@ -1798,6 +2414,10 @@ schema:memberOf
 schema:name
     schema:description "The name of the item" ;
     schema:name "name" ;
+.
+
+schema:pagination
+    schema:name "pagination" ;
 .
 
 schema:parentOrganization
@@ -1815,8 +2435,20 @@ schema:roleName
     schema:name "role name" ;
 .
 
+schema:sameAs
+    schema:name "same as" ;
+.
+
+schema:size
+    schema:name "size" ;
+.
+
 schema:spatialCoverage
     schema:name "spatial coverage" ;
+.
+
+schema:startDate
+    schema:name "start date" ;
 .
 
 schema:status
@@ -1824,10 +2456,26 @@ schema:status
     schema:name "status" ;
 .
 
+schema:telephone
+    schema:name "telephone" ;
+.
+
 schema:temporal
     schema:description """The "temporal" property can be used in cases where more specific properties
 (e.g. [[temporalCoverage]], [[dateCreated]], [[dateModified]], [[datePublished]]) are not known to be appropriate.""" ;
     schema:name "temporal" ;
+.
+
+schema:temporalCoverage
+    schema:name "temporal coverage" ;
+.
+
+schema:text
+    schema:name "text" ;
+.
+
+schema:unitText
+    schema:name "unit text" ;
 .
 
 schema:url
@@ -1847,8 +2495,20 @@ schema:validFrom
     schema:name "valid from" ;
 .
 
+schema:value
+    schema:name "value" ;
+.
+
 schema:version
     schema:name "version" ;
+.
+
+schema:volumeNumber
+    schema:name "volume number" ;
+.
+
+<https://sws.geonames.org/8310768/>
+    schema:name "Pormpuraaw" ;
 .
 
 <https://terms.codata.org/rdmt>
@@ -1856,8 +2516,170 @@ schema:version
     schema:name "RDM Terminology" ;
 .
 
+<https://terms.codata.org/rdmt/indigenous-data>
+    schema:description "Data that pertains to (is created or gathered by, or is about) Indigenous peoples."@en ;
+    schema:name "Indigenous data"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=10>
+    schema:name "Aboriginal education"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1004>
+    schema:name "Health" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1029>
+    schema:name "History" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1096>
+    schema:name "Indigenous peoples"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=12>
+    schema:name "Aboriginal health"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1246>
+    schema:description "Languages" ;
+    schema:name "Languages" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1251>
+    schema:description "Law" ;
+    schema:name "Law" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=13>
+    schema:description "Aboriginal history"@en ;
+    schema:name "Aboriginal history"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=14>
+    schema:name "Aboriginal land rights"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=1483>
+    schema:name "Native title"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=15>
+    schema:name "Aboriginal languages"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=16>
+    schema:name "Aboriginal literature"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=17>
+    schema:name "Aboriginal men"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=18>
+    schema:name "Aboriginal music"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=181>
+    schema:name "Australia" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=2>
+    schema:description "Aboriginal archaeology"@en ;
+    schema:name "Aboriginal archaeology"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=21>
+    schema:name "Aboriginal reconciliation"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=24>
+    schema:name "Aboriginal title"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=25>
+    schema:name "Aboriginal women"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=26>
+    schema:name "Aboriginal youth"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=27>
+    schema:name "Aborigines"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=3>
+    schema:name "Aboriginal art"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=4>
+    schema:name "Aboriginal artists"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=5>
+    schema:name "Aboriginal arts"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=553>
+    schema:description "Culture" ;
+    schema:name "Culture" ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=6>
+    schema:name "Aboriginal children"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=7>
+    schema:name "Aboriginal communities"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=8>
+    schema:name "Aboriginal culture"@en ;
+.
+
+<https://vocabularyserver.com/apais/xml.php?skosTema=9>
+    schema:name "Aboriginal customary law"@en ;
+.
+
 <https://w3id.org/profile/vocpub>
     schema:name "VocPub Profile of SKOS" ;
+.
+
+<https://www.geonames.org/8605117>
+    schema:name "Milingimbi Island" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/Place>
+    schema:name "Place" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/Record>
+    schema:name "Record" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/RecordResource>
+    schema:name "Record Resource" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/RecordSet>
+    schema:name "Record Set" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/generalDescription>
+    schema:name "general description" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/hasDirectPart>
+    schema:name "has direct part" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/hasOrHadLocation>
+    schema:name "has or had location" ;
+.
+
+<https://www.ica.org/standards/RiC/ontology/name>
+    schema:name "name" ;
 .
 
 rdfs:Class
@@ -1865,9 +2687,21 @@ rdfs:Class
     schema:name "Class" ;
 .
 
+<https://linked.data.gov.au/org/uom>
+    a schema:Organization ;
+    schema:description "The University of Melbourne is a public research university located in Melbourne, Australia. Founded in 1853, it is Australia's second oldest university and the oldest in Victoria." ;
+    schema:name "The University of Melbourne" ;
+    schema:url "https://www.unimelb.edu.au/"^^xsd:anyURI ;
+.
+
 schema:Role
     schema:description "Represents additional information about a relationship or property. For example a Role can be used to say that a 'member' role linking some SportsTeam to a player occurred during a particular time period. Or that a Person's 'actor' role in a Movie was for some particular characterName. Such properties can be attached to a Role entity, which is then associated with the main entities using ordinary properties like 'member' or 'actor'.\\n\\nSee also [blog post](http://blog.schema.org/2014/06/introducing-role.html)" ;
     schema:name "Role" ;
+.
+
+schema:Person
+    schema:description "A person (alive, dead, undead, or fictional)" ;
+    schema:name "Person" ;
 .
 
 schema:Organization
