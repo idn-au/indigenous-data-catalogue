@@ -123,6 +123,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         ] ,
         [
             prof:hasArtifact "resources/demo/sync/yamatji-nation-ilua.ttl" ;
+            schema:mainEntity <https://data.idnau.org/pid/resource/e450e34e-9806-5ed5-ba85-37a01c121064> ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType odrl:Agreement ;
             schema:description "Reviewed Yamatji Nation CreativeWork and ODRL Agreement demonstration in RDF (Turtle)" ;

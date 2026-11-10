@@ -1,38 +1,46 @@
-@prefix atns: <https://linked.data.gov.au/def/atns/model/> .
-@prefix atns-cat: <https://data.idnau.org/pid/vocab/atns-cat/> .
-@prefix atns-country: <https://data.idnau.org/pid/vocab/atns-country/> .
-@prefix atns-ref: <https://data.idnau.org/pid/vocab/atns-ref/> .
-@prefix atns-sub: <https://data.idnau.org/pid/vocab/atns-sub/> .
-@prefix atns-subcat: <https://data.idnau.org/pid/vocab/atns-subcat/> .
-@prefix cat-obj-types: <https://data.idnau.org/pid/vocab/cat-obj-types/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix idn-resource: <https://data.idnau.org/pid/resource/> .
-@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix schema: <https://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX atns: <https://linked.data.gov.au/def/atns/model/>
+PREFIX atns-cat: <https://data.idnau.org/pid/vocab/atns-cat/>
+PREFIX atns-country: <https://data.idnau.org/pid/vocab/atns-country/>
+PREFIX atns-ref: <https://data.idnau.org/pid/vocab/atns-ref/>
+PREFIX atns-sub: <https://data.idnau.org/pid/vocab/atns-sub/>
+PREFIX atns-subcat: <https://data.idnau.org/pid/vocab/atns-subcat/>
+PREFIX cat-obj-types: <https://data.idnau.org/pid/vocab/cat-obj-types/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX idn-resource: <https://data.idnau.org/pid/resource/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-idn-resource:e450e34e-9806-5ed5-ba85-37a01c121064 a odrl:Agreement ;
+idn-resource:e450e34e-9806-5ed5-ba85-37a01c121064
+    a
+        odrl:Agreement ,
+        atns:Entity ,
+        schema:CreativeWork ;
     dcterms:conformsTo <https://www.w3.org/TR/odrl-model/> ;
-    dcterms:references idn-resource:10739f15-bf68-5181-a37a-d95828c6fd6d,
-        idn-resource:4b2aa137-ca81-5d14-ac6f-94ad796a8eca,
+    dcterms:references
+        idn-resource:10739f15-bf68-5181-a37a-d95828c6fd6d ,
+        idn-resource:4b2aa137-ca81-5d14-ac6f-94ad796a8eca ,
         idn-resource:4d545f0f-d01e-5cb8-9ac1-fe673d6bf970 ;
     skos:editorialNote "Draft IDN ODRL interpretation for review. The ODRL statements are not assertions supplied by the ATNS source owners and do not replace the executed agreement."@en ;
-    odrl:obligation idn-resource:13203572-7f9a-5e7a-a91b-d94e96cfbe45,
-        idn-resource:27dbbfb8-5dd2-5c10-ae87-5e54a52e357f,
-        idn-resource:695b0929-add2-5157-805f-983955bd8139,
+    odrl:obligation
+        idn-resource:13203572-7f9a-5e7a-a91b-d94e96cfbe45 ,
+        idn-resource:27dbbfb8-5dd2-5c10-ae87-5e54a52e357f ,
+        idn-resource:695b0929-add2-5157-805f-983955bd8139 ,
         idn-resource:b8259d84-cc39-5969-900b-44e97f5e6065 ;
     prov:wasDerivedFrom <https://www.wa.gov.au/system/files/2021-06/Yamatji%20Nation%20ILUA%20%20Execuited%20Agreement_Redacted.pdf> ;
     atns:category atns-cat:13e77fec-44fd-554f-a075-ec60788eb1b1 ;
     atns:deleted false ;
     atns:eid "A008100"^^xsd:token ;
     atns:sourceEntityId "8100"^^xsd:token ;
-    atns:subcategory atns-subcat:09f0a068-ce65-5c11-8dec-f081d1a81ec2,
+    atns:subcategory
+        atns-subcat:09f0a068-ce65-5c11-8dec-f081d1a81ec2 ,
         atns-subcat:177cef4d-1963-57e3-9b5c-508480daf336 ;
     schema:additionalType cat-obj-types:Agreement ;
     schema:alternateName "Yamatji Nation ILUA"@en ;
-    schema:citation <https://www.wa.gov.au/government/document-collections/yamatji-nation-indigenous-land-use-agreement-documents>,
+    schema:citation
+        <https://www.wa.gov.au/government/document-collections/yamatji-nation-indigenous-land-use-agreement-documents> ,
         <https://www.wa.gov.au/system/files/2021-06/Yamatji%20Nation%20ILUA%20%20Execuited%20Agreement_Redacted.pdf> ;
     schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
     schema:dateModified "2026-11-03"^^xsd:date ;
@@ -80,22 +88,23 @@ The ILUA was agreed, under the provisions of the Native Title Act 1993 (Cth), be
 
 The Native Title Representative Body for this area is the Yamatji Marlpa Aboriginal Corporation."""@en ;
     schema:isPartOf idn-resource:d23405b4-fc04-47e2-9e7a-9c5735ae3780 ;
-    schema:keywords atns-sub:06f9cf03-2d66-5dfe-807c-b7632b2ea564,
-        atns-sub:17d993e0-d19e-5349-a48e-4de57b1dba59,
-        atns-sub:1ec05be0-16ac-52de-bf3b-54bec0211332,
-        atns-sub:51637aba-8d5a-5309-abd9-b42fbe3ec733,
-        atns-sub:51ca8813-b7bb-5a37-819e-afae35771fff,
-        atns-sub:5996de0c-8cc6-5f14-8901-d839af36a4d4,
-        atns-sub:710c226b-1fba-5eba-86c9-5087f506ac80,
-        atns-sub:7cc37d9a-fe3c-5fec-b115-d1bb8d72db9c,
-        atns-sub:8afa6040-57f6-5faf-a4f9-863bd8f4f470,
-        atns-sub:9335b2f1-4915-55cc-9736-2ded7c4a2008,
-        atns-sub:9468ab8c-2b3a-54c2-b5e8-88e552bdd046,
-        atns-sub:9c404ff9-19e6-5e64-a8bd-2e3b39773146,
-        atns-sub:c74e76ef-701f-5784-8223-5fcd87a7641c,
-        atns-sub:dc50c698-80b0-5ef4-bd95-928f2be8da05,
-        atns-sub:e52a2091-dcda-569c-aafb-6497428c615c,
-        atns-sub:f630e08a-ea9c-57e3-ab87-066e4b9ad57e,
+    schema:keywords
+        atns-sub:06f9cf03-2d66-5dfe-807c-b7632b2ea564 ,
+        atns-sub:17d993e0-d19e-5349-a48e-4de57b1dba59 ,
+        atns-sub:1ec05be0-16ac-52de-bf3b-54bec0211332 ,
+        atns-sub:51637aba-8d5a-5309-abd9-b42fbe3ec733 ,
+        atns-sub:51ca8813-b7bb-5a37-819e-afae35771fff ,
+        atns-sub:5996de0c-8cc6-5f14-8901-d839af36a4d4 ,
+        atns-sub:710c226b-1fba-5eba-86c9-5087f506ac80 ,
+        atns-sub:7cc37d9a-fe3c-5fec-b115-d1bb8d72db9c ,
+        atns-sub:8afa6040-57f6-5faf-a4f9-863bd8f4f470 ,
+        atns-sub:9335b2f1-4915-55cc-9736-2ded7c4a2008 ,
+        atns-sub:9468ab8c-2b3a-54c2-b5e8-88e552bdd046 ,
+        atns-sub:9c404ff9-19e6-5e64-a8bd-2e3b39773146 ,
+        atns-sub:c74e76ef-701f-5784-8223-5fcd87a7641c ,
+        atns-sub:dc50c698-80b0-5ef4-bd95-928f2be8da05 ,
+        atns-sub:e52a2091-dcda-569c-aafb-6497428c615c ,
+        atns-sub:f630e08a-ea9c-57e3-ab87-066e4b9ad57e ,
         "Demo" ;
     schema:mainEntityOfPage <https://database.atns.net.au/agreement.asp?EntityID=8100> ;
     schema:name "Yamatji Nation Indigenous Land Use Agreement (ILUA)"@en ;
@@ -166,11 +175,16 @@ See the Western Australian Government Yamatji Nation ILUA Fact Sheets below unde
 Native Title in the Agreement Area
 
 Non-exclusive native title exists over parts of the ILUA area, as determined by consent in Taylor on behalf of the Yamatji Nation Claim v State of Western Australia [2020] FCA 42. Schedule 1 of the ILUA describes the native title areas as being within Lucky Bay Reserve 35206, Kadji Kadji pastoral lease areas (Lot 8532 on DP 154221), the Ex Barnong Area, Aboriginal Land Title Areas (Reserves 28609, 28608, and part of 28607), Menai Hill, and parcels of land adjacent to Wandana Nature Reserve 36388."""@en ;
-    schema:url "http://www.nntt.gov.au/searchRegApps/NativeTitleRegisters/Pages/ILUA_details.aspx?NNTT_Fileno=WI2020/002"^^xsd:anyURI .
+    schema:url "http://www.nntt.gov.au/searchRegApps/NativeTitleRegisters/Pages/ILUA_details.aspx?NNTT_Fileno=WI2020/002"^^xsd:anyURI ;
+.
 
-<https://data.idnau.org/pid/nntt/WI2020-002> schema:name "Yamatji Nation Agreement" .
+<https://data.idnau.org/pid/nntt/WI2020-002>
+    schema:name "Yamatji Nation Agreement" ;
+.
 
-idn-resource:10739f15-bf68-5181-a37a-d95828c6fd6d a atns:Reference,
+idn-resource:10739f15-bf68-5181-a37a-d95828c6fd6d
+    a
+        atns:Reference ,
         schema:CreativeWork ;
     atns:deleted false ;
     atns:referenceType atns-ref:9cc10eb2-8fd9-5f15-9637-0a44b7e829c8 ;
@@ -180,9 +194,11 @@ idn-resource:10739f15-bf68-5181-a37a-d95828c6fd6d a atns:Reference,
     schema:contributor "Department of Premier and Cabinet"@en ;
     schema:keywords "Demo" ;
     schema:name "Yamatji Nation Indigenous Land Use Agreement Fact sheets"@en ;
-    schema:url "https://www.wa.gov.au/government/document-collections/yamatji-nation-indigenous-land-use-agreement-fact-sheets"^^xsd:anyURI .
+    schema:url "https://www.wa.gov.au/government/document-collections/yamatji-nation-indigenous-land-use-agreement-fact-sheets"^^xsd:anyURI ;
+.
 
-idn-resource:13203572-7f9a-5e7a-a91b-d94e96cfbe45 a odrl:Duty ;
+idn-resource:13203572-7f9a-5e7a-a91b-d94e96cfbe45
+    a odrl:Duty ;
     skos:editorialNote "Modelled from clause 11.3."@en ;
     odrl:action odrl:transfer ;
     odrl:assignee <https://ror.org/00wqdbc63> ;
@@ -190,13 +206,17 @@ idn-resource:13203572-7f9a-5e7a-a91b-d94e96cfbe45 a odrl:Duty ;
     odrl:target idn-resource:6fbcd0f7-6d3a-528f-90c8-dc3a68d5b2a1 ;
     schema:citation <https://www.wa.gov.au/system/files/2021-06/Yamatji%20Nation%20ILUA%20%20Execuited%20Agreement_Redacted.pdf> ;
     schema:description "Following purchase of the Corporate Headquarters property, the State is to transfer the property in fee simple to the Regional Entity."@en ;
-    schema:name "Transfer the Corporate Headquarters property"@en .
+    schema:name "Transfer the Corporate Headquarters property"@en ;
+.
 
-idn-resource:263d93ce-27f3-55b5-96c5-8e0a435f9b13 a odrl:Asset ;
+idn-resource:263d93ce-27f3-55b5-96c5-8e0a435f9b13
+    a odrl:Asset ;
     schema:description "Native title rights and interests in the Surrender Area identified by the executed agreement."@en ;
-    schema:name "Native title rights and interests in the Surrender Area"@en .
+    schema:name "Native title rights and interests in the Surrender Area"@en ;
+.
 
-idn-resource:27dbbfb8-5dd2-5c10-ae87-5e54a52e357f a odrl:Duty ;
+idn-resource:27dbbfb8-5dd2-5c10-ae87-5e54a52e357f
+    a odrl:Duty ;
     skos:editorialNote "Modelled from clause 17.4; the related State funding obligation is not separately represented in this first draft."@en ;
     odrl:action <https://linked.data.gov.au/def/odrl-action/restore-site> ;
     odrl:assignee <https://ror.org/00wqdbc63> ;
@@ -204,20 +224,26 @@ idn-resource:27dbbfb8-5dd2-5c10-ae87-5e54a52e357f a odrl:Duty ;
     odrl:target idn-resource:925fb479-54c7-5c70-8718-2bd64b45f86d ;
     schema:citation <https://www.wa.gov.au/system/files/2021-06/Yamatji%20Nation%20ILUA%20%20Execuited%20Agreement_Redacted.pdf> ;
     schema:description "The State and Regional Entity are to prepare and execute a project agreement for a joint program to identify, restore and protect water cultural sites."@en ;
-    schema:name "Restore and protect water cultural sites"@en .
+    schema:name "Restore and protect water cultural sites"@en ;
+.
 
-idn-resource:423afd30-8453-57de-9222-f2265d5dbdda a atns:Entity ;
+idn-resource:423afd30-8453-57de-9222-f2265d5dbdda
+    a atns:Entity ;
     atns:category atns-cat:2d179b15-6fdb-5df4-ada6-b9214e6ed5e4 ;
     atns:deleted false ;
     atns:eid "A008101"^^xsd:token ;
     atns:sourceEntityId "8101"^^xsd:token ;
-    atns:subcategory atns-subcat:ad36943d-86a8-5484-8603-fdbb8581fa4e,
+    atns:subcategory
+        atns-subcat:ad36943d-86a8-5484-8603-fdbb8581fa4e ,
         atns-subcat:b4d0936c-867c-53c4-b8ca-dad372cb8c0c ;
     schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
     schema:keywords "Demo" ;
-    schema:name "Kathleen Eva Pinkerton & others for and on behalf of themselves and the Widi Mob Claim Group"@en .
+    schema:name "Kathleen Eva Pinkerton & others for and on behalf of themselves and the Widi Mob Claim Group"@en ;
+.
 
-idn-resource:4b2aa137-ca81-5d14-ac6f-94ad796a8eca a atns:Reference,
+idn-resource:4b2aa137-ca81-5d14-ac6f-94ad796a8eca
+    a
+        atns:Reference ,
         schema:CreativeWork ;
     atns:deleted false ;
     atns:referenceType atns-ref:9cc10eb2-8fd9-5f15-9637-0a44b7e829c8 ;
@@ -226,9 +252,12 @@ idn-resource:4b2aa137-ca81-5d14-ac6f-94ad796a8eca a atns:Reference,
     schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
     schema:keywords "Demo" ;
     schema:name "Yamatji Nation Southern Regional Agreement"@en ;
-    schema:url "https://ymac.org.au/ynsra/"^^xsd:anyURI .
+    schema:url "https://ymac.org.au/ynsra/"^^xsd:anyURI ;
+.
 
-idn-resource:4d545f0f-d01e-5cb8-9ac1-fe673d6bf970 a atns:Reference,
+idn-resource:4d545f0f-d01e-5cb8-9ac1-fe673d6bf970
+    a
+        atns:Reference ,
         schema:CreativeWork ;
     atns:deleted false ;
     atns:referenceType atns-ref:9f593112-d62e-5afa-8a01-03fcf89debcf ;
@@ -238,9 +267,11 @@ idn-resource:4d545f0f-d01e-5cb8-9ac1-fe673d6bf970 a atns:Reference,
     schema:contributor "Department of Premier and Cabinet"@en ;
     schema:keywords "Demo" ;
     schema:name "Yamatji Nation Indigenous Land Use Agreement"@en ;
-    schema:url "https://www.wa.gov.au/government/document-collections/yamatji-nation-indigenous-land-use-agreement-documents"^^xsd:anyURI .
+    schema:url "https://www.wa.gov.au/government/document-collections/yamatji-nation-indigenous-land-use-agreement-documents"^^xsd:anyURI ;
+.
 
-idn-resource:695b0929-add2-5157-805f-983955bd8139 a odrl:Duty ;
+idn-resource:695b0929-add2-5157-805f-983955bd8139
+    a odrl:Duty ;
     skos:editorialNote "Modelled principally from clause 10 and the benefit provisions summarised in the executed agreement."@en ;
     odrl:action odrl:compensate ;
     odrl:assignee <https://ror.org/00wqdbc63> ;
@@ -248,24 +279,32 @@ idn-resource:695b0929-add2-5157-805f-983955bd8139 a odrl:Duty ;
     odrl:target idn-resource:6c3a553d-067b-5ae2-a882-e3a8fcd65622 ;
     schema:citation <https://www.wa.gov.au/system/files/2021-06/Yamatji%20Nation%20ILUA%20%20Execuited%20Agreement_Redacted.pdf> ;
     schema:description "The State is to provide the cash payments and wider benefits package for the benefit of the Yamatji Nation, subject to the agreement's conditions and payment schedule."@en ;
-    schema:name "Provide the Yamatji Nation compensation and benefits package"@en .
+    schema:name "Provide the Yamatji Nation compensation and benefits package"@en ;
+.
 
-idn-resource:6c3a553d-067b-5ae2-a882-e3a8fcd65622 a odrl:Asset ;
+idn-resource:6c3a553d-067b-5ae2-a882-e3a8fcd65622
+    a odrl:Asset ;
     schema:description "The cash payments and other benefits to be provided for the benefit of the Yamatji Nation under the executed agreement."@en ;
-    schema:name "Yamatji Nation compensation and benefits package"@en .
+    schema:name "Yamatji Nation compensation and benefits package"@en ;
+.
 
-idn-resource:6f7d83f8-aa88-5258-aef5-dca7924ced56 a atns:Entity ;
+idn-resource:6f7d83f8-aa88-5258-aef5-dca7924ced56
+    a atns:Entity ;
     atns:category atns-cat:2d179b15-6fdb-5df4-ada6-b9214e6ed5e4 ;
     atns:deleted false ;
     atns:eid "A008103"^^xsd:token ;
     atns:sourceEntityId "8103"^^xsd:token ;
-    atns:subcategory atns-subcat:ad36943d-86a8-5484-8603-fdbb8581fa4e,
+    atns:subcategory
+        atns-subcat:ad36943d-86a8-5484-8603-fdbb8581fa4e ,
         atns-subcat:b4d0936c-867c-53c4-b8ca-dad372cb8c0c ;
     schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
     schema:keywords "Demo" ;
-    schema:name "Sandy Davies & others for and on behalf of themselves and the Hutt River Claim Group"@en .
+    schema:name "Sandy Davies & others for and on behalf of themselves and the Hutt River Claim Group"@en ;
+.
 
-idn-resource:6f8b65b3-a1a2-5a1f-b38c-583534410a12 a atns:Reference,
+idn-resource:6f8b65b3-a1a2-5a1f-b38c-583534410a12
+    a
+        atns:Reference ,
         schema:CreativeWork ;
     atns:deleted false ;
     atns:referenceType atns-ref:982d5b8d-c171-56f9-9b1a-f0a0aaab8885 ;
@@ -276,16 +315,23 @@ idn-resource:6f8b65b3-a1a2-5a1f-b38c-583534410a12 a atns:Reference,
     schema:datePublished "7/02/2020" ;
     schema:keywords "Demo" ;
     schema:name "Landmark Indigenous Land Use Agreement and Yamatji Nation Claim consent determination celebrated in Geraldton"@en ;
-    schema:url "http://ymac.org.au/wp-content/uploads/2020/02/200206-Yamatji-Nation-Claim-EMBARGOED-7-Feb-Release-FINAL-with-pic-1.pdf"^^xsd:anyURI .
+    schema:url "http://ymac.org.au/wp-content/uploads/2020/02/200206-Yamatji-Nation-Claim-EMBARGOED-7-Feb-Release-FINAL-with-pic-1.pdf"^^xsd:anyURI ;
+.
 
-idn-resource:6fbcd0f7-6d3a-528f-90c8-dc3a68d5b2a1 a odrl:Asset ;
-    schema:name "Yamatji Southern Regional Corporation Corporate Headquarters property"@en .
+idn-resource:6fbcd0f7-6d3a-528f-90c8-dc3a68d5b2a1
+    a odrl:Asset ;
+    schema:name "Yamatji Southern Regional Corporation Corporate Headquarters property"@en ;
+.
 
-idn-resource:925fb479-54c7-5c70-8718-2bd64b45f86d a odrl:Asset ;
+idn-resource:925fb479-54c7-5c70-8718-2bd64b45f86d
+    a odrl:Asset ;
     schema:description "Water cultural sites to be identified, restored and protected through the project established under clause 17.4."@en ;
-    schema:name "Yamatji Nation water cultural sites"@en .
+    schema:name "Yamatji Nation water cultural sites"@en ;
+.
 
-idn-resource:930035aa-1d6e-5ba7-8d0b-d3fca5e7e765 a atns:Reference,
+idn-resource:930035aa-1d6e-5ba7-8d0b-d3fca5e7e765
+    a
+        atns:Reference ,
         schema:CreativeWork ;
     atns:deleted false ;
     atns:referenceType atns-ref:c5bfc691-2fcb-58e2-89e6-14096a4ae3e3 ;
@@ -294,9 +340,11 @@ idn-resource:930035aa-1d6e-5ba7-8d0b-d3fca5e7e765 a atns:Reference,
     schema:datePublished "2006" ;
     schema:keywords "Demo" ;
     schema:name "<i>Bennell v State of Western Australia</i> [2006] FCA 1243"@en ;
-    schema:url "http://www.austlii.edu.au/cgi-bin/sinosrch.cgi?method=title&query=bennell&meta=%2Fau&mask_path=au%2Fcases%2Fcth%2Ffederal_ct"^^xsd:anyURI .
+    schema:url "http://www.austlii.edu.au/cgi-bin/sinosrch.cgi?method=title&query=bennell&meta=%2Fau&mask_path=au%2Fcases%2Fcth%2Ffederal_ct"^^xsd:anyURI ;
+.
 
-idn-resource:b8259d84-cc39-5969-900b-44e97f5e6065 a odrl:Duty ;
+idn-resource:b8259d84-cc39-5969-900b-44e97f5e6065
+    a odrl:Duty ;
     skos:editorialNote "Modelled from clause 7.2."@en ;
     odrl:action <https://linked.data.gov.au/def/odrl-action/surrender-rights> ;
     odrl:assignee idn-resource:04ec94c0-2a3f-5d8f-b223-982b45554cbe ;
@@ -304,20 +352,26 @@ idn-resource:b8259d84-cc39-5969-900b-44e97f5e6065 a odrl:Duty ;
     odrl:target idn-resource:263d93ce-27f3-55b5-96c5-8e0a435f9b13 ;
     schema:citation <https://www.wa.gov.au/system/files/2021-06/Yamatji%20Nation%20ILUA%20%20Execuited%20Agreement_Redacted.pdf> ;
     schema:description "The Native Title Parties surrender the native title rights and interests in the Surrender Area from the Conclusive Registration Date, with the intended effect of extinguishment."@en ;
-    schema:name "Surrender native title rights in the Surrender Area"@en .
+    schema:name "Surrender native title rights in the Surrender Area"@en ;
+.
 
-idn-resource:c5742169-e285-524f-a60f-37e572d6e3a0 a atns:Entity ;
+idn-resource:c5742169-e285-524f-a60f-37e572d6e3a0
+    a atns:Entity ;
     atns:category atns-cat:2d179b15-6fdb-5df4-ada6-b9214e6ed5e4 ;
     atns:deleted false ;
     atns:eid "A008104"^^xsd:token ;
     atns:sourceEntityId "8104"^^xsd:token ;
-    atns:subcategory atns-subcat:ad36943d-86a8-5484-8603-fdbb8581fa4e,
+    atns:subcategory
+        atns-subcat:ad36943d-86a8-5484-8603-fdbb8581fa4e ,
         atns-subcat:b4d0936c-867c-53c4-b8ca-dad372cb8c0c ;
     schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
     schema:keywords "Demo" ;
-    schema:name "Stephen Kelly & others for and on behalf of themselves and the Southern Yamatji Claim Group"@en .
+    schema:name "Stephen Kelly & others for and on behalf of themselves and the Southern Yamatji Claim Group"@en ;
+.
 
-idn-resource:c67cdb70-6318-5154-8ad7-e1faa97bb2da a atns:Reference,
+idn-resource:c67cdb70-6318-5154-8ad7-e1faa97bb2da
+    a
+        atns:Reference ,
         schema:CreativeWork ;
     atns:deleted false ;
     atns:referenceType atns-ref:c5bfc691-2fcb-58e2-89e6-14096a4ae3e3 ;
@@ -327,26 +381,36 @@ idn-resource:c67cdb70-6318-5154-8ad7-e1faa97bb2da a atns:Reference,
     schema:datePublished "2001" ;
     schema:keywords "Demo" ;
     schema:name "Brown v State of Western Australia [2001] FCA 1462 (19 October 2001)"@en ;
-    schema:url "http://www.austlii.edu.au/au/cases/cth/federal_ct/2001/1462.html"^^xsd:anyURI .
+    schema:url "http://www.austlii.edu.au/au/cases/cth/federal_ct/2001/1462.html"^^xsd:anyURI ;
+.
 
-idn-resource:c87bda35-f7d3-5d09-ac77-0cb3c007563c a odrl:PartyCollection ;
-    schema:hasPart <https://data.idnau.org/pid/org/02f08bf6-163d-5ba6-98d3-6164df364316>,
+idn-resource:c87bda35-f7d3-5d09-ac77-0cb3c007563c
+    a odrl:PartyCollection ;
+    schema:hasPart
+        <https://data.idnau.org/pid/org/02f08bf6-163d-5ba6-98d3-6164df364316> ,
         <https://ror.org/00wqdbc63> ;
-    schema:name "Aboriginal Water Sites Restoration Project parties"@en .
+    schema:name "Aboriginal Water Sites Restoration Project parties"@en ;
+.
 
-idn-resource:d3e508d4-983a-5dfa-b2cf-09b5f95bffd7 a atns:Entity ;
+idn-resource:d3e508d4-983a-5dfa-b2cf-09b5f95bffd7
+    a atns:Entity ;
     atns:category atns-cat:2d179b15-6fdb-5df4-ada6-b9214e6ed5e4 ;
     atns:deleted false ;
     atns:eid "A007734"^^xsd:token ;
     atns:sourceEntityId "7734"^^xsd:token ;
-    atns:subcategory atns-subcat:5fbc56b2-1929-562c-822e-67dc1d7feb2f,
+    atns:subcategory
+        atns-subcat:5fbc56b2-1929-562c-822e-67dc1d7feb2f ,
         atns-subcat:ad36943d-86a8-5484-8603-fdbb8581fa4e ;
     schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
-    schema:keywords atns-sub:c74e76ef-701f-5784-8223-5fcd87a7641c,
+    schema:keywords
+        atns-sub:c74e76ef-701f-5784-8223-5fcd87a7641c ,
         "Demo" ;
-    schema:name "Frederick Taylor & others on behalf of Yamatji Nation Claim"@en .
+    schema:name "Frederick Taylor & others on behalf of Yamatji Nation Claim"@en ;
+.
 
-idn-resource:f559c5ad-c043-5b7f-8af2-532bb055303d a atns:Reference,
+idn-resource:f559c5ad-c043-5b7f-8af2-532bb055303d
+    a
+        atns:Reference ,
         schema:CreativeWork ;
     atns:deleted false ;
     atns:referenceType atns-ref:a6651196-f435-5c66-b9b6-9c1c872f491a ;
@@ -357,35 +421,47 @@ idn-resource:f559c5ad-c043-5b7f-8af2-532bb055303d a atns:Reference,
     schema:datePublished "21/02/2020" ;
     schema:keywords "Demo" ;
     schema:name "Historical Yamatji Native Title agreement opens door to unique economic opportunities"@en ;
-    schema:url "https://nit.com.au/historical-yamatji-native-title-agreement-opens-door-to-unique-economic-opportunities/"^^xsd:anyURI .
+    schema:url "https://nit.com.au/historical-yamatji-native-title-agreement-opens-door-to-unique-economic-opportunities/"^^xsd:anyURI ;
+.
 
-<https://data.idnau.org/pid/org/02f08bf6-163d-5ba6-98d3-6164df364316> a atns:Entity,
+<https://data.idnau.org/pid/org/02f08bf6-163d-5ba6-98d3-6164df364316>
+    a
+        atns:Entity ,
         schema:Organization ;
-    dcterms:references idn-resource:6f8b65b3-a1a2-5a1f-b38c-583534410a12,
+    dcterms:references
+        idn-resource:6f8b65b3-a1a2-5a1f-b38c-583534410a12 ,
         idn-resource:f559c5ad-c043-5b7f-8af2-532bb055303d ;
     atns:category atns-cat:1dad59ae-4020-598a-b5df-d9e0eae7f9c6 ;
     atns:deleted false ;
     atns:eid "A008105"^^xsd:token ;
     atns:sourceEntityId "8105"^^xsd:token ;
-    atns:subcategory atns-subcat:04f70685-a852-5791-aa7b-04c01938187e,
+    atns:subcategory
+        atns-subcat:04f70685-a852-5791-aa7b-04c01938187e ,
         atns-subcat:3f9e2685-7bfd-5846-9b35-84429e6dcbaf ;
     schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
     schema:keywords "Demo" ;
     schema:name "Yamatji Southern Regional Corporation"@en ;
     schema:sameAs idn-resource:02f08bf6-163d-5ba6-98d3-6164df364316 ;
-    schema:startDate "2020-01-08"^^xsd:date .
+    schema:startDate "2020-01-08"^^xsd:date ;
+.
 
-idn-resource:04ec94c0-2a3f-5d8f-b223-982b45554cbe a odrl:PartyCollection ;
+idn-resource:04ec94c0-2a3f-5d8f-b223-982b45554cbe
+    a odrl:PartyCollection ;
     skos:editorialNote "Review collection derived from the representative claim-group parties recorded by ATNS; it is not intended as a substitute for the executed agreement's complete definition of Native Title Parties."@en ;
-    schema:hasPart idn-resource:423afd30-8453-57de-9222-f2265d5dbdda,
-        idn-resource:6f7d83f8-aa88-5258-aef5-dca7924ced56,
-        idn-resource:c5742169-e285-524f-a60f-37e572d6e3a0,
+    schema:hasPart
+        idn-resource:423afd30-8453-57de-9222-f2265d5dbdda ,
+        idn-resource:6f7d83f8-aa88-5258-aef5-dca7924ced56 ,
+        idn-resource:c5742169-e285-524f-a60f-37e572d6e3a0 ,
         idn-resource:d3e508d4-983a-5dfa-b2cf-09b5f95bffd7 ;
-    schema:name "Yamatji Nation Native Title Parties"@en .
+    schema:name "Yamatji Nation Native Title Parties"@en ;
+.
 
-<https://ror.org/00wqdbc63> a atns:Entity,
+<https://ror.org/00wqdbc63>
+    a
+        atns:Entity ,
         schema:Organization ;
-    dcterms:references idn-resource:930035aa-1d6e-5ba7-8d0b-d3fca5e7e765,
+    dcterms:references
+        idn-resource:930035aa-1d6e-5ba7-8d0b-d3fca5e7e765 ,
         idn-resource:c67cdb70-6318-5154-8ad7-e1faa97bb2da ;
     atns:category atns-cat:1dad59ae-4020-598a-b5df-d9e0eae7f9c6 ;
     atns:country atns-country:244f6961-729f-5b21-8fc9-baff9dd9af7e ;
@@ -398,8 +474,10 @@ idn-resource:04ec94c0-2a3f-5d8f-b223-982b45554cbe a odrl:PartyCollection ;
     schema:location "Western Australia, Australia"@en ;
     schema:name "State of Western Australia"@en ;
     schema:sameAs idn-resource:eb6b6bc9-ee8f-53f9-aecb-c53787816cc9 ;
-    schema:url "http://www.wa.gov.au"^^xsd:anyURI .
+    schema:url "http://www.wa.gov.au"^^xsd:anyURI ;
+.
 
-<https://www.wa.gov.au/system/files/2021-06/Yamatji%20Nation%20ILUA%20%20Execuited%20Agreement_Redacted.pdf> a schema:DigitalDocument ;
-    schema:name "Yamatji Nation Indigenous Land Use Agreement — executed agreement (redacted)"@en .
-
+<https://www.wa.gov.au/system/files/2021-06/Yamatji%20Nation%20ILUA%20%20Execuited%20Agreement_Redacted.pdf>
+    a schema:DigitalDocument ;
+    schema:name "Yamatji Nation Indigenous Land Use Agreement — executed agreement (redacted)"@en ;
+.
