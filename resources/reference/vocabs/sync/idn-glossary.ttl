@@ -117,7 +117,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "W3C"@en ;
-    skos:definition "World Wide Web Consortium (W3C) is the main international standards organisation for the World Wide Web"@en ;
+    skos:definition "World Wide Web Consortium (W3C) is the an international standards organisation for World Wide Web technical resources"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "World Wide Web Consortium"@en ;
     skos:topConceptOf cs: ;

@@ -204,15 +204,15 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "httpx", specifier = ">=0.28.1" },
-    { name = "kgm", specifier = ">=2.2.3" },
-    { name = "kurra", specifier = ">=3.1.4" },
+    { name = "kgm", specifier = ">=2.2.4" },
+    { name = "kurra", specifier = ">=3.1.5" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
     { name = "rdflib", specifier = ">=7.6.0" },
 ]
 
 [[package]]
 name = "kgm"
-version = "2.2.3"
+version = "2.2.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "dateutils" },
@@ -223,14 +223,14 @@ dependencies = [
     { name = "rdflib" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fe/be/e7504ce28c42ebb89843f828032230072895ce015769f049b8cb20045e7c/kgm-2.2.3.tar.gz", hash = "sha256:45210b1369ba7af50fb738dd18969d8c57575fe8726c5401ce2d6558f4c80894", size = 122607, upload-time = "2026-11-10T03:50:34.024Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0f/97/3addddf149e9fce864298d3b6feab5c9be2b168aa718d2c06816f19e181f/kgm-2.2.4.tar.gz", hash = "sha256:b4c00712ca0b1f467d84734ba67b22d3fb56b0f37a355456a164c84f9947ef28", size = 123503, upload-time = "2026-11-10T04:45:58.257Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/48/6f/876f8a0baebe2841c7e79e4440eef4a81d655ece26ace90ac551ba150861/kgm-2.2.3-py3-none-any.whl", hash = "sha256:d54f73b19cf59834781ca8fac367306baf4076a215cedf1d7134df56d83763eb", size = 40518, upload-time = "2026-11-10T03:50:32.709Z" },
+    { url = "https://files.pythonhosted.org/packages/81/fb/8499954081560f922d24ed740db2f0dd1d657b7d8f6851d8b683b022cdda/kgm-2.2.4-py3-none-any.whl", hash = "sha256:dc88ec67e7df87369d1481c2129a563e26cfa11a5c2fec900e921cbed1ff8faa", size = 41352, upload-time = "2026-11-10T04:45:56.693Z" },
 ]
 
 [[package]]
 name = "kurra"
-version = "3.1.4"
+version = "3.1.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx2" },
@@ -241,9 +241,9 @@ dependencies = [
     { name = "sparqlib" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/07/73/e58ef075094f133344fc62761d86ac8251863cf01017051237ced258ef67/kurra-3.1.4.tar.gz", hash = "sha256:af1ecd5e7ff2174a11469ac5dfff6cc2d8c7b3f6f49bc1342489ee38a6a25e03", size = 269419, upload-time = "2026-11-10T04:07:50.432Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ec/d5/cf593cafadf92723fd2afd339d5719617273f4967112dc4dba1569635480/kurra-3.1.5.tar.gz", hash = "sha256:deb68edcea58732bab822325c55f9c28c2c472066ec37ee2587704fd338c6ae1", size = 269922, upload-time = "2026-11-10T04:54:23.981Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ad/d9/aeb6223afd643280a1c10b4d1b25ad53ff76703ca8402561bdd7a288c3c7/kurra-3.1.4-py3-none-any.whl", hash = "sha256:442f3cb2764b76eb223d2c8710bb36d02e8604b31e34c595444e3bc697e19b2d", size = 52993, upload-time = "2026-11-10T04:07:48.937Z" },
+    { url = "https://files.pythonhosted.org/packages/20/b1/0870e4720c8e33767b3f946a22e8180d2336717ac19620d4128ac32c9bfc/kurra-3.1.5-py3-none-any.whl", hash = "sha256:d7cf0d93578b1865e1f202cafae26be1b27700cad5915ea5f9512741c51fb2da", size = 53105, upload-time = "2026-11-10T04:54:22.657Z" },
 ]
 
 [[package]]
