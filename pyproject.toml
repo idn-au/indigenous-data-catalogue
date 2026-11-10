@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "jamiefeiss", email = "jamie.feiss@gmail.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.15"
 dependencies = [
     "httpx>=0.28.1",
     "kgm>=2.2.2",

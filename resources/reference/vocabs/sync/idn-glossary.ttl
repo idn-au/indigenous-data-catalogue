@@ -58,7 +58,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "URL"@en ;
-    skos:definition "A Uniform Resource Locator, commonly known as a web address, is a specific string used to reference and locate resources on the internet, such as web pages, images, or documents"@en ;
+    skos:definition "A Uniform Resource Locator, commonly known as a web address or URL, is a specific string used to reference and locate resources on the internet, such as web pages, images, or documents"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Uniform Resource Locator"@en ;
     skos:topConceptOf cs: ;
