@@ -18,8 +18,6 @@ endpoint = os.environ.get("FUSEKI_URL", "")
 def main():
     gsp.upload(endpoint, PROJECT_ROOT / "labels.ttl", BACKGROUND_GRAPH, http_client=client)
     print("labels.ttl loaded")
-    gsp.upload(endpoint, PROJECT_ROOT / "labels-manual.ttl", BACKGROUND_GRAPH, append=True, http_client=client)
-    print("labels-manual.ttl loaded")
 
 
 if __name__ == "__main__":

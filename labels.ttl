@@ -319,10 +319,6 @@ rdf:langString
     schema:name "Lang String" ;
 .
 
-()
-    schema:name "nil" ;
-.
-
 rdf:rest
     schema:name "rest" ;
 .

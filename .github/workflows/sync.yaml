@@ -10,7 +10,6 @@ on:
       - 'manifest.ttl'
       - 'catalogue.ttl'
       - 'labels.ttl'
-      - 'labels-manual.ttl'
       - 'scripts/**'
   workflow_dispatch:
 
@@ -29,7 +28,6 @@ jobs:
           filters: |
             labels:
               - 'labels.ttl'
-              - 'labels-manual.ttl'
               - 'scripts/sync_labels.py'
             agents:
               - 'resources/agents/sync/items/*.ttl'
