@@ -43,7 +43,7 @@ idn-resource:e450e34e-9806-5ed5-ba85-37a01c121064
         <https://www.wa.gov.au/government/document-collections/yamatji-nation-indigenous-land-use-agreement-documents> ,
         <https://www.wa.gov.au/system/files/2021-06/Yamatji%20Nation%20ILUA%20%20Execuited%20Agreement_Redacted.pdf> ;
     schema:conditionsOfAccess <https://linked.data.gov.au/def/data-access-rights/open> ;
-    schema:dateModified "2026-11-03"^^xsd:date ;
+    schema:dateModified "2026-11-10"^^xsd:date ;
     schema:description """The Yamatji Nation Indigenous Land Use Agreement (ILUA) contains the terms of settlement for the Yamatji Nation's loss of native title rights and interests through the State of Western Australia's historical acts.
 
 The four claim groups that make up the Yamatji Nation negotiated this ILUA alongside the native title determination, Taylor on behalf of the Yamatji Nation Claim v State of Western Australia [2020] FCA 42. The determination, made with the consent of all the parties, recognised the Yamatji Nation claim group's surviving non-exclusive native title rights and interests over culturally significant parcels of land. According to the Government of Western Australia's ILUA Fact Sheets (see reference below) the surviving native title area amounts to 0.57% of the whole determination area.
