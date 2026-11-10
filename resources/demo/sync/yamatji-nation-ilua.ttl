@@ -14,8 +14,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 idn-resource:e450e34e-9806-5ed5-ba85-37a01c121064 a odrl:Agreement,
-        atns:Entity,
-        schema:CreativeWork ;
+        atns:Entity ;
     dcterms:conformsTo <https://www.w3.org/TR/odrl-model/> ;
     dcterms:references idn-resource:10739f15-bf68-5181-a37a-d95828c6fd6d,
         idn-resource:4b2aa137-ca81-5d14-ac6f-94ad796a8eca,

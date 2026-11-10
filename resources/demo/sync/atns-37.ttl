@@ -11,8 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 idn-resource:7c1def57-546e-5389-bde5-24d566944930
     a
-        atns:Entity ,
-        schema:CreativeWork ;
+        atns:Entity ;
     dcterms:references
         idn-resource:0cca8502-926a-5770-88a4-de3ae0d9c4e9 ,
         idn-resource:180b6fcc-dcc6-5592-a390-5179366066fd ;
