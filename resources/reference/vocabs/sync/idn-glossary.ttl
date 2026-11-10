@@ -49,7 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :6ac34814-bd33-44ce-a1e9-5c71e88f8d06 ;
-    skos:definition "A resource is accessible if it is possible to get a resource by a persistent identifier, or to get information about how to get the resource."@en ;
+    skos:definition "A resource is accessible if it is possible to get it using a persistent identifier, or to get information about how to get the resource."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Accessible"@en ;
 .
