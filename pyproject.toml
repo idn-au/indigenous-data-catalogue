@@ -9,8 +9,8 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "httpx>=0.28.1",
-    "kgm>=2.1.2",
-    "kurra>=3.0.6",
+    "kgm>=2.2.2",
+    "kurra>=3.1.3",
     "python-dotenv>=1.2.3",
     "rdflib>=7.6.0",
 ]
