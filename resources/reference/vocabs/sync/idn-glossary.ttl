@@ -68,7 +68,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "RDF"@en ;
-    skos:definition "Resource Description Framework is a method to describe and exchange graph data"@en ;
+    skos:definition "Resource Description Framework is an international standard method to describe and exchange data on the Internet"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Resource Description Framework"@en ;
     skos:topConceptOf cs: ;
