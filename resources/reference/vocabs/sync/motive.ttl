@@ -1,0 +1,58 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/motive/opportunity>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/motive> ;
+    skos:definition "The motive assigned to an event is opportunity."@en ;
+    skos:inScheme <https://linked.data.gov.au/def/motive> ;
+    skos:notation "302"^^xsd:token ;
+    skos:prefLabel "Opportunity"@en ;
+    skos:topConceptOf <https://linked.data.gov.au/def/motive> ;
+.
+
+<https://linked.data.gov.au/def/motive/reprisal>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/motive> ;
+    skos:definition "The motive assigned to an event is reprisal."@en ;
+    skos:inScheme <https://linked.data.gov.au/def/motive> ;
+    skos:notation "302"^^xsd:token ;
+    skos:prefLabel "Reprisal"@en ;
+    skos:topConceptOf <https://linked.data.gov.au/def/motive> ;
+.
+
+<https://linked.data.gov.au/def/motive/unknown>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/motive> ;
+    skos:definition "The motive assigned to an event is unknown."@en ;
+    skos:inScheme <https://linked.data.gov.au/def/motive> ;
+    skos:notation "11"^^xsd:token ;
+    skos:prefLabel "Unknown"@en ;
+    skos:topConceptOf <https://linked.data.gov.au/def/motive> ;
+.
+
+<https://linked.data.gov.au/org/idn>
+    a sdo:Organization ;
+    sdo:name "Indigenous Data Network" ;
+    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/def/motive>
+    a skos:ConceptScheme ;
+    skos:changeNote "2026-11-05: Updated to be VocPub conformant" ;
+    skos:definition "Motives assigned to events in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:hasTopConcept
+        <https://linked.data.gov.au/def/motive/opportunity> ,
+        <https://linked.data.gov.au/def/motive/reprisal> ,
+        <https://linked.data.gov.au/def/motive/unknown> ;
+    skos:prefLabel "Motive" ;
+    sdo:creator <https://linked.data.gov.au/org/idn> ;
+    sdo:dateCreated "2026-08-06"^^xsd:date ;
+    sdo:dateModified "2026-11-05"^^xsd:date ;
+    sdo:publisher <https://linked.data.gov.au/org/idn> ;
+    sdo:status astatus:experimental ;
+    sdo:version "0.1.0" ;
+.

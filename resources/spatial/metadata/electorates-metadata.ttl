@@ -1,0 +1,29 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/electorates-2019>
+    a schema:Dataset ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON((96 -45, 168 -45, 168 -8, 96 -8, 96 -45))"^^geo:wktLiteral ;
+        ] ;
+    rdfs:member <https://linked.data.gov.au/dataset/electorates-2019/feature-collection> ;
+    schema:additionalType <https://data.idnau.org/pid/vocab/cat-obj-types/SpatialDataset> ;
+    schema:citation "https://www.aec.gov.au/electorates/gis/gis_datadownload.htm"^^xsd:anyURI ;
+    schema:conditionsOfAccess "Public"@en ;
+    schema:creator <https://linked.data.gov.au/org/aec> ;
+    schema:dateCreated "2026-11-05"^^xsd:date ;
+    schema:dateModified "2026-11-05"^^xsd:date ;
+    schema:description "Australian electorates - federal, state - in 2019" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "Electorates, 2019" ;
+    schema:publisher <https://linked.data.gov.au/org/aec> ;
+.
+
+<https://linked.data.gov.au/dataset/electorates-2019/feature-collection>
+    a geo:FeatureCollection ;
+    schema:name "Federal Electorates" ;
+.

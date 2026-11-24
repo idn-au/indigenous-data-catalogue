@@ -1,0 +1,128 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX cs: <https://data.idnau.org/pid/vocab/cfm/jurisdictions/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+cs:nsw
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "New South Wales, as the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NSW" ;
+    skos:prefLabel "New South Wales"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:nt
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Northern Territory, as the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NT" ;
+    skos:prefLabel "Northern Territory"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:ppd
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Port Phillip District, as the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:inScheme cs: ;
+    skos:notation "PPD" ;
+    skos:prefLabel "Port Phillip District"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:qld
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Queensland, as the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:inScheme cs: ;
+    skos:notation "QLD" ;
+    skos:prefLabel "Queensland"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:sa
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "South Australia, as the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:inScheme cs: ;
+    skos:notation "SA" ;
+    skos:prefLabel "South Australia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:src
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Swan River Colony, as the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:inScheme cs: ;
+    skos:notation "SRC" ;
+    skos:prefLabel "Swan River Colony"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:vdl
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Van Diemen's Land, as the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:inScheme cs: ;
+    skos:notation "VDL" ;
+    skos:prefLabel "Van Diemen's Land"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:vic
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Victoria, as the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:inScheme cs: ;
+    skos:notation "VIC" ;
+    skos:prefLabel "Victoria"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:wa
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Western Australia, as the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    skos:inScheme cs: ;
+    skos:notation "WA" ;
+    skos:prefLabel "Western Australia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/idn>
+    a sdo:Organization ;
+    sdo:name "Indigenous Data Network" ;
+    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:changeNote "2026-11-05: Updated to be VocPub conformant" ;
+    skos:definition "Codes for the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 source dataset."@en ;
+    skos:hasTopConcept
+        cs:nsw ,
+        cs:nt ,
+        cs:ppd ,
+        cs:qld ,
+        cs:sa ,
+        cs:src ,
+        cs:vdl ,
+        cs:vic ,
+        cs:wa ;
+    skos:prefLabel "Colonial Frontier Massacres historical jurisdictions"@en ;
+    sdo:citation <https://doi.org/10.26193/L0WEID> ;
+    sdo:creator <https://linked.data.gov.au/org/idn> ;
+    sdo:dateCreated "2026-07-30"^^xsd:date ;
+    sdo:dateModified "2026-11-05"^^xsd:date ;
+    sdo:description "Codes for the colony, state or territory at the time of an event in the Colonial Frontier Massacres in Australia, 1788–1930 source dataset."@en ;
+    sdo:isPartOf <https://data.idnau.org/pid/refdata-catalogue> ;
+    sdo:publisher <https://linked.data.gov.au/org/idn> ;
+    sdo:status astatus:experimental ;
+    sdo:version "0.2.0" ;
+.

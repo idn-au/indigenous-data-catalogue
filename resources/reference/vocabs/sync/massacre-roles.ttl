@@ -1,0 +1,123 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/vocab/massacre-roles/aboriginal>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:definition "Aboriginal or Torres Strait Islander person"@en ;
+    skos:inScheme <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:notation "424"^^xsd:token ;
+    skos:prefLabel "Aboriginal"@en ;
+    skos:topConceptOf <https://data.idnau.org/pid/vocab/massacre-roles> ;
+.
+
+<https://data.idnau.org/pid/vocab/massacre-roles/attacker>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:definition "Agent that attacks another Agent" ;
+    skos:inScheme <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:notation ""^^xsd:token ;
+    skos:prefLabel "Attacker" ;
+    skos:topConceptOf <https://data.idnau.org/pid/vocab/massacre-roles> ;
+.
+
+<https://data.idnau.org/pid/vocab/massacre-roles/colonist>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:definition "Colonist Agent role"@en ;
+    skos:inScheme <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:notation "13"^^xsd:token ;
+    skos:prefLabel "Colonist"@en ;
+    skos:topConceptOf <https://data.idnau.org/pid/vocab/massacre-roles> ;
+.
+
+<https://data.idnau.org/pid/vocab/massacre-roles/native-police>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:definition "Native Police Agent role"@en ;
+    skos:inScheme <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:prefLabel "Native Police"@en ;
+    skos:topConceptOf <https://data.idnau.org/pid/vocab/massacre-roles> ;
+.
+
+<https://data.idnau.org/pid/vocab/massacre-roles/other>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:definition "Other Massacre Agent roles"@en ;
+    skos:inScheme <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:notation "1"^^xsd:token ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <https://data.idnau.org/pid/vocab/massacre-roles> ;
+.
+
+<https://data.idnau.org/pid/vocab/massacre-roles/pastoralist>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:definition "Pastoralist"@en ;
+    skos:inScheme <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:prefLabel "Pastoralist"@en ;
+    skos:topConceptOf <https://data.idnau.org/pid/vocab/massacre-roles> ;
+.
+
+<https://data.idnau.org/pid/vocab/massacre-roles/settler>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:definition "Agent that settles in a Colony from another place"@en ;
+    skos:inScheme <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:notation ""^^xsd:token ;
+    skos:prefLabel "Settler"@en ;
+    skos:topConceptOf <https://data.idnau.org/pid/vocab/massacre-roles> ;
+.
+
+<https://data.idnau.org/pid/vocab/massacre-roles/victim>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:definition "Agent that is attacked by another Agent." ;
+    skos:inScheme <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:notation ""^^xsd:token ;
+    skos:prefLabel "Victims" ;
+    skos:topConceptOf <https://data.idnau.org/pid/vocab/massacre-roles> ;
+.
+
+<https://data.idnau.org/pid/vocab/massacre-roles/warrior>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:definition "Warrior"@en ;
+    skos:inScheme <https://data.idnau.org/pid/vocab/massacre-roles> ;
+    skos:notation ""^^xsd:token ;
+    skos:prefLabel "Warrior"@en ;
+    skos:topConceptOf <https://data.idnau.org/pid/vocab/massacre-roles> ;
+.
+
+<https://linked.data.gov.au/org/idn>
+    a sdo:Organization ;
+    sdo:name "Indigenous Data Network" ;
+    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/vocab/massacre-roles>
+    a skos:ConceptScheme ;
+    skos:changeNote "2026-11-05: Updated to be VocPub conformant" ;
+    skos:definition "Roles played by an Agent within the context of a named Massacre" ;
+    skos:hasTopConcept
+        <https://data.idnau.org/pid/vocab/massacre-roles/aboriginal> ,
+        <https://data.idnau.org/pid/vocab/massacre-roles/attacker> ,
+        <https://data.idnau.org/pid/vocab/massacre-roles/colonist> ,
+        <https://data.idnau.org/pid/vocab/massacre-roles/native-police> ,
+        <https://data.idnau.org/pid/vocab/massacre-roles/other> ,
+        <https://data.idnau.org/pid/vocab/massacre-roles/pastoralist> ,
+        <https://data.idnau.org/pid/vocab/massacre-roles/settler> ,
+        <https://data.idnau.org/pid/vocab/massacre-roles/victim> ,
+        <https://data.idnau.org/pid/vocab/massacre-roles/warrior> ;
+    skos:prefLabel "Massacre Roles" ;
+    sdo:citation <https://doi.org/10.26193/L0WEID> ;
+    sdo:creator <https://linked.data.gov.au/org/idn> ;
+    sdo:dateCreated "2026-08-05"^^xsd:date ;
+    sdo:dateModified "2026-11-05"^^xsd:date ;
+    sdo:publisher <https://linked.data.gov.au/org/idn> ;
+    sdo:status astatus:experimental ;
+    sdo:version "0.1.0" ;
+.

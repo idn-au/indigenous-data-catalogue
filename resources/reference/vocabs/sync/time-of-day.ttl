@@ -1,0 +1,127 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/time-of-day/afternoon>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/time-of-day> ;
+    skos:altLabel
+        "Mid afternoon"@en ,
+        "PM"@en ,
+        "Post meridiem"@en ,
+        "Postmeridian"@en ;
+    skos:definition "The time between noon and sunset" ;
+    skos:inScheme <https://linked.data.gov.au/def/time-of-day> ;
+    skos:prefLabel "Afternoon"@en ;
+    skos:topConceptOf <https://linked.data.gov.au/def/time-of-day> ;
+.
+
+<https://linked.data.gov.au/def/time-of-day/dawn>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/time-of-day> ;
+    skos:altLabel
+        "Aurora"@en ,
+        "Cockcrow"@en ,
+        "Dawning"@en ,
+        "Daybreak"@en ,
+        "Sunrise"@en ,
+        "Sunup"@en ;
+    skos:definition "Dawn is the time that marks the beginning of twilight before sunrise." ;
+    skos:inScheme <https://linked.data.gov.au/def/time-of-day> ;
+    skos:prefLabel "Dawn"@en ;
+    skos:topConceptOf <https://linked.data.gov.au/def/time-of-day> ;
+.
+
+<https://linked.data.gov.au/def/time-of-day/day>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/time-of-day> ;
+    skos:definition "Day time" ;
+    skos:inScheme <https://linked.data.gov.au/def/time-of-day> ;
+    skos:prefLabel "Day" ;
+    skos:topConceptOf <https://linked.data.gov.au/def/time-of-day> ;
+.
+
+<https://linked.data.gov.au/def/time-of-day/evening>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/time-of-day> ;
+    skos:definition "Evening" ;
+    skos:inScheme <https://linked.data.gov.au/def/time-of-day> ;
+    skos:prefLabel "Evening" ;
+    skos:topConceptOf <https://linked.data.gov.au/def/time-of-day> ;
+.
+
+<https://linked.data.gov.au/def/time-of-day/midday>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/time-of-day> ;
+    skos:altLabel
+        "Meridian"@en ,
+        "Midpoint"@en ,
+        "Noon"@en ,
+        "Noonday"@en ,
+        "Noontide"@en ,
+        "Noontime"@en ,
+        "Solar noon"@en ;
+    skos:definition "The time when the Sun appears to contact the local celestial meridian, at 12 noon apparent solar time." ;
+    skos:inScheme <https://linked.data.gov.au/def/time-of-day> ;
+    skos:prefLabel "Midday" ;
+    skos:topConceptOf <https://linked.data.gov.au/def/time-of-day> ;
+.
+
+<https://linked.data.gov.au/def/time-of-day/morning>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/time-of-day> ;
+    skos:altLabel
+        "AM"@en ,
+        "Ante meridiem"@en ,
+        "Antemeridian"@en ,
+        "Early morning"@en ,
+        "Forenoon"@en ,
+        "Matins"@en ,
+        "Midmorning"@en ,
+        "Morn"@en ;
+    skos:definition "The time between Dawn and Midday"@en ;
+    skos:inScheme <https://linked.data.gov.au/def/time-of-day> ;
+    skos:prefLabel "Morning"@en ;
+    skos:topConceptOf <https://linked.data.gov.au/def/time-of-day> ;
+.
+
+<https://linked.data.gov.au/def/time-of-day/night>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/time-of-day> ;
+    skos:definition "Night" ;
+    skos:inScheme <https://linked.data.gov.au/def/time-of-day> ;
+    skos:prefLabel "Night"@en ;
+    skos:topConceptOf <https://linked.data.gov.au/def/time-of-day> ;
+.
+
+<https://linked.data.gov.au/org/idn>
+    a sdo:Organization ;
+    sdo:name "Indigenous Data Network" ;
+    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/def/time-of-day>
+    a skos:ConceptScheme ;
+    skos:changeNote "2026-11-05: Updated to be VocPub conformant" ;
+    skos:definition "The time of day category" ;
+    skos:hasTopConcept
+        <https://linked.data.gov.au/def/time-of-day/afternoon> ,
+        <https://linked.data.gov.au/def/time-of-day/dawn> ,
+        <https://linked.data.gov.au/def/time-of-day/day> ,
+        <https://linked.data.gov.au/def/time-of-day/evening> ,
+        <https://linked.data.gov.au/def/time-of-day/midday> ,
+        <https://linked.data.gov.au/def/time-of-day/morning> ,
+        <https://linked.data.gov.au/def/time-of-day/night> ;
+    skos:prefLabel "Time of day" ;
+    sdo:citation
+        <https://en.wikipedia.org/wiki/Category:Parts_of_a_day> ,
+        <https://semdom.org/v4/8.4.1.2.3/> ;
+    sdo:creator <https://linked.data.gov.au/org/idn> ;
+    sdo:dateCreated "2026-08-06"^^xsd:date ;
+    sdo:dateModified "2026-11-05"^^xsd:date ;
+    sdo:publisher <https://linked.data.gov.au/org/idn> ;
+    sdo:status astatus:experimental ;
+    sdo:version "0.1.0" ;
+.

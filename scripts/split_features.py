@@ -6,17 +6,29 @@ from rdflib.namespace import DCAT, GEO, RDF, RDFS
 
 from utils import serialize_longtrig
 
-DIRECTORY = Path(__file__).parent.parent / "resources/reference/datasets"
+DIRECTORY = Path(__file__).parent.parent / "resources/spatial"
 FILE_SIZE_LIMIT = 80  # MiB
+QUADS = False
 
 
 def split_nq_to_trig():
     """Splits the dataset & feature collection metadata into a turtle file and the features to a trig file from a nquads file"""
-    for file in [f for f in DIRECTORY.glob("raw/**/*.nq")]:
+    for file in [f for f in DIRECTORY.glob(f"raw/**/*.{'nq' if QUADS else 'ttl'}")]:
         print(f"Parsing {file}")
-        g = Dataset(default_union=True).parse(file, format="application/n-quads")
+        g = Dataset(default_union=True).parse(file, format="application/n-quads" if QUADS else "text/turtle")
 
-        dataset = g.value(None, RDF.type, DCAT.Dataset)
+        # dataset = g.value(None, RDF.type, DCAT.Dataset)
+
+        r = g.query("""PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            SELECT DISTINCT ?d
+            WHERE {
+              ?d rdfs:member ?fc .
+              ?fc a geo:FeatureCollection .
+            }""")
+
+        dataset = r.bindings[0]["d"]
+
         print(f"Dataset: {dataset}")
 
         metadata_query = f"""PREFIX geo: <http://www.opengis.net/ont/geosparql#>
@@ -30,7 +42,7 @@ def split_nq_to_trig():
             ?fo2 ?fp3 ?fo3 .
         }}
         WHERE {{
-            BIND(<{str(dataset)}> AS ?d)
+            BIND(<{dataset}> AS ?d)
             ?d ?p ?o ;
                 rdfs:member ?fc .
 
@@ -72,18 +84,18 @@ def split_nq_to_trig():
             ?o2 ?p3 ?o3 .
         }}
         WHERE {{
-            BIND (<{str(dataset)}> AS ?d)
+            BIND (<{dataset}> AS ?d)
             ?d rdfs:member ?fc .
             ?fc rdfs:member ?f .
             ?f ?p ?o .
 
             OPTIONAL {{
                 ?o ?p2 ?o2 .
-                FILTER (isBLANK(?o))
+                # FILTER (isBLANK(?o))
 
                 OPTIONAL {{
                     ?o2 ?p3 ?o3 .
-                    FILTER (isBLANK(?o2))
+                    # FILTER (isBLANK(?o2))
                 }}
             }}
         }}"""
@@ -127,11 +139,11 @@ def split_fcs():
 
                 OPTIONAL {{
                     ?o ?p2 ?o2 .
-                    FILTER (isBLANK(?o))
+                    # FILTER (isBLANK(?o))
 
                     OPTIONAL {{
                         ?o2 ?p3 ?o3 .
-                        FILTER (isBLANK(?o2))
+                        # FILTER (isBLANK(?o2))
                     }}
                 }}
             }}"""
@@ -173,7 +185,7 @@ def split_fcs():
 
                     features = gg.subjects(RDF.type, GEO.Feature)
 
-                    fc_str = f"""<https://data.idnau.org/pid/agil/point-locations>
+                    fc_str = f"""<{str(g.identifier)}>
                         rdfs:member
                             {" ,\n".join([f"<{str(f)}>" for f in features]) + " ;"}
                     ."""
@@ -192,5 +204,5 @@ def split_fcs():
 
 
 if __name__ == "__main__":
-    # split_nq_to_trig()
+    split_nq_to_trig()
     split_fcs()
