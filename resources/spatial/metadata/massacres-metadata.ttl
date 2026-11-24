@@ -1,0 +1,34 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/cfm>
+    a schema:Dataset ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON((96 -45, 168 -45, 168 -8, 96 -8, 96 -45))"^^geo:wktLiteral ;
+        ] ;
+    rdfs:member <https://data.idnau.org/pid/cfm/allEvents> ;
+    schema:additionalType <https://data.idnau.org/pid/vocab/cat-obj-types/SpatialDataset> ;
+    schema:citation <https://doi.org/10.26193/L0WEID> ;
+    schema:conditionsOfAccess "Public"@en ;
+    schema:creator <https://orcid.org/0000-0002-2161-0962> ;
+    schema:dateCreated "2025-02-20"^^xsd:date ;
+    schema:dateModified "2026-11-05"^^xsd:date ;
+    schema:description "Information about frontier massacres in Australia between 1788, when British colonisation began to 1930, with the first in 1794 and last in 1928. Only colonial frontier massacres for which sufficient evidence could be found are included. The map includes information about frontier massacres of Aboriginal and Torres Strait Islander people, and non-Aboriginal people such as colonists and others in Australia in the same period. This information includes geospatial data for mapping massacres, conservative estimates on numbers killed, a brief narrative on each massacre, sources used, offline copies of the introductory and interpretative information from the project website, a screenshot of the web map, and a full printable list of all the massacres with their details. Please see the 'Introduction' document for a full description, including the criteria for inclusion of a massacre in this project. (2025-01-25)" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "Colonial Frontier Massacres in Australia, 1788–1930"@en ;
+    schema:publisher <https://linked.data.gov.au/def/ada> ;
+.
+
+<https://data.idnau.org/pid/cfm/allEvents>
+    a geo:FeatureCollection ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON((96 -45, 168 -45, 168 -8, 96 -8, 96 -45))"^^geo:wktLiteral ;
+        ] ;
+    schema:name "Colonial Frontier Massacre Events – All"@en ;
+.

@@ -7,7 +7,7 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 []    a prez:Manifest ;
-    prof:hasResource 
+    prof:hasResource
         [
             prof:hasArtifact
                 "resources/demo/sync/0811114042000269281.ttl" ,
@@ -123,10 +123,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
             schema:name "Keeping Place Resource Data" ;
         ] ,
         [
-            prof:hasArtifact "resources/reference/datasets/metadata/*.ttl" ;
+            prof:hasArtifact "resources/spatial/metadata/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType schema:Dataset ;
-            schema:description "schema:Dataset objects in RDF (Turtle) files in the datasets/metadata/ folder for syncing" ;
+            schema:description "schema:Dataset objects in RDF (Turtle) files in the resources/spatial/metadata/ folder for syncing" ;
             schema:name "Reference Spatial Datasets" ;
         ] ,
         [
