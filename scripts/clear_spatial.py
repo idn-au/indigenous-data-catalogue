@@ -8,7 +8,7 @@ from httpx import Client
 from kurra.db import gsp
 from kurra.sparql import query
 
-DATASETS_DIR = Path(__file__).parent.parent / "resources/reference/datasets/metadata"
+DATASETS_DIR = Path(__file__).parent.parent / "resources/spatial/metadata"
 
 load_dotenv()
 client = Client(auth=(os.environ.get("FUSEKI_USERNAME", ""), os.environ.get("FUSEKI_PASSWORD", "")), timeout=60)

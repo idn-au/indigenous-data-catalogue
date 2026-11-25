@@ -1883,6 +1883,52 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     schema:url "https://kurrawong.ai"^^xsd:anyURI ;
 .
 
+<https://linked.data.gov.au/dataset/asgsed3/STE/1>
+    schema:name "New South Wales" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/STE/2>
+    schema:name "Victoria" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/STE/3>
+    schema:name "Queensland" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/STE/4>
+    schema:name "South Australia" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/STE/5>
+    schema:name "Western Australia" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/STE/6>
+    schema:name "Tasmania" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/STE/7>
+    schema:name "Northern Territory" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/STE/8>
+    schema:name "Australian Capital Territory" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/STE/9>
+    schema:name "Other Territories" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/STE/Z>
+    schema:name "Outside Australia" ;
+.
+
+<https://linked.data.gov.au/def/ada>
+    a schema:Organization ;
+    schema:name "Australian Data Archive" ;
+    schema:url "https://ada.edu.au/"^^xsd:anyURI ;
+.
+
 <https://linked.data.gov.au/def/alum>
     schema:description "This is a land use nomenclature and classification scheme for Australia, ordering land use in a systematic, logical and consistent way. It has a three-tiered hierarchical structure. Primary, secondary and tertiary classes are broadly structured by the potential degree of modification and the impact on a putative 'natural state' (essentially, a native land cover)." ;
     schema:name "Australian Land Use and Management Classification" ;
@@ -2065,6 +2111,12 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     schema:name "Subset & Extension" ;
 .
 
+<https://linked.data.gov.au/org/aec>
+    a schema:Organization ;
+    schema:name "Australian Electoral Commission" ;
+    schema:url "https://www.aec.gov.au"^^xsd:anyURI ;
+.
+
 <https://linked.data.gov.au/org/anu>
     schema:name "Australian National University" ;
 .
@@ -2089,6 +2141,12 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     schema:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit"^^xsd:anyURI ;
 .
 
+<https://linked.data.gov.au/org/niaa>
+    a schema:Organization ;
+    schema:name "National Indigenous Australians Agency" ;
+    schema:url "https://www.niaa.gov.au"^^xsd:anyURI ;
+.
+
 <https://olis.dev/VirtualGraph>
     schema:name "Virtual Graph" ;
 .
@@ -2105,6 +2163,12 @@ We use knowledge graphs for data storage, as a transfer format, when serialised,
     a schema:Person ;
     schema:email ""^^xsd:anyURI ;
     schema:name "Marcia Langton" ;
+.
+
+<https://orcid.org/0000-0002-2161-0962>
+    a schema:Person ;
+    schema:email "bill.pascoe@unimelb.edu.au"^^xsd:anyURI ;
+    schema:name "Bill Pascoe" ;
 .
 
 <https://orcid.org/0000-0002-4797-9776>

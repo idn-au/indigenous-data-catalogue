@@ -1,0 +1,1837 @@
+PREFIX elec: <https://linked.data.gov.au/dataset/electorates-2019/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX unit: <http://qudt.org/vocab/unit/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/2023-referendum>
+    a schema:Dataset ;
+    rdfs:member 
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Shortland ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.38 ;
+                ] ;
+            sosa:hasSimpleResult 0.38 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Holt ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.43 ;
+                ] ;
+            sosa:hasSimpleResult 0.43 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Casey ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.42 ;
+                ] ;
+            sosa:hasSimpleResult 0.42 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Kooyong ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.6 ;
+                ] ;
+            sosa:hasSimpleResult 0.6 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Fisher ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.31 ;
+                ] ;
+            sosa:hasSimpleResult 0.31 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Boothby ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.48 ;
+                ] ;
+            sosa:hasSimpleResult 0.48 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Newcastle ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.54 ;
+                ] ;
+            sosa:hasSimpleResult 0.54 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Gellibrand ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.53 ;
+                ] ;
+            sosa:hasSimpleResult 0.53 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Moreton ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.49 ;
+                ] ;
+            sosa:hasSimpleResult 0.49 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Scullin ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.38 ;
+                ] ;
+            sosa:hasSimpleResult 0.38 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Cunningham ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.52 ;
+                ] ;
+            sosa:hasSimpleResult 0.52 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Macquarie ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.43 ;
+                ] ;
+            sosa:hasSimpleResult 0.43 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Flynn ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.16 ;
+                ] ;
+            sosa:hasSimpleResult 0.16 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Mallee ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.22 ;
+                ] ;
+            sosa:hasSimpleResult 0.22 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Ryan ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.53 ;
+                ] ;
+            sosa:hasSimpleResult 0.53 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Higgins ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.61 ;
+                ] ;
+            sosa:hasSimpleResult 0.61 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Wide%20Bay ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.25 ;
+                ] ;
+            sosa:hasSimpleResult 0.25 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Maribyrnong ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.51 ;
+                ] ;
+            sosa:hasSimpleResult 0.51 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Robertson ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.43 ;
+                ] ;
+            sosa:hasSimpleResult 0.43 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Adelaide ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.49 ;
+                ] ;
+            sosa:hasSimpleResult 0.49 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Canberra ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.71 ;
+                ] ;
+            sosa:hasSimpleResult 0.71 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Isaacs ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.51 ;
+                ] ;
+            sosa:hasSimpleResult 0.51 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Fowler ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.4 ;
+                ] ;
+            sosa:hasSimpleResult 0.4 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Berowra ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.47 ;
+                ] ;
+            sosa:hasSimpleResult 0.47 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Swan ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.43 ;
+                ] ;
+            sosa:hasSimpleResult 0.43 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Warringah ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.6 ;
+                ] ;
+            sosa:hasSimpleResult 0.6 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Lingiari ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.44 ;
+                ] ;
+            sosa:hasSimpleResult 0.44 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Mackellar ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.51 ;
+                ] ;
+            sosa:hasSimpleResult 0.51 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Brand ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.31 ;
+                ] ;
+            sosa:hasSimpleResult 0.31 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Nicholls ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.25 ;
+                ] ;
+            sosa:hasSimpleResult 0.25 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Kingston ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.36 ;
+                ] ;
+            sosa:hasSimpleResult 0.36 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Hasluck ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.35 ;
+                ] ;
+            sosa:hasSimpleResult 0.35 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Greenway ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.43 ;
+                ] ;
+            sosa:hasSimpleResult 0.43 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Grey ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.21 ;
+                ] ;
+            sosa:hasSimpleResult 0.21 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Page ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.33 ;
+                ] ;
+            sosa:hasSimpleResult 0.33 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Ballarat ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.42 ;
+                ] ;
+            sosa:hasSimpleResult 0.42 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Gorton ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.39 ;
+                ] ;
+            sosa:hasSimpleResult 0.39 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Cook ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.37 ;
+                ] ;
+            sosa:hasSimpleResult 0.37 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Fadden ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.26 ;
+                ] ;
+            sosa:hasSimpleResult 0.26 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Fairfax ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.35 ;
+                ] ;
+            sosa:hasSimpleResult 0.35 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Monash ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.34 ;
+                ] ;
+            sosa:hasSimpleResult 0.34 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Aston ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.42 ;
+                ] ;
+            sosa:hasSimpleResult 0.42 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Cooper ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.66 ;
+                ] ;
+            sosa:hasSimpleResult 0.66 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Rankin ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.35 ;
+                ] ;
+            sosa:hasSimpleResult 0.35 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Perth ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.54 ;
+                ] ;
+            sosa:hasSimpleResult 0.54 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Bowman ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.28 ;
+                ] ;
+            sosa:hasSimpleResult 0.28 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Flinders ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.43 ;
+                ] ;
+            sosa:hasSimpleResult 0.43 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Longman ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.25 ;
+                ] ;
+            sosa:hasSimpleResult 0.25 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Macarthur ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.35 ;
+                ] ;
+            sosa:hasSimpleResult 0.35 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Burt ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.33 ;
+                ] ;
+            sosa:hasSimpleResult 0.33 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Moncrieff ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.31 ;
+                ] ;
+            sosa:hasSimpleResult 0.31 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Hawke ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.36 ;
+                ] ;
+            sosa:hasSimpleResult 0.36 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:La%20Trobe ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.38 ;
+                ] ;
+            sosa:hasSimpleResult 0.38 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Wannon ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.32 ;
+                ] ;
+            sosa:hasSimpleResult 0.32 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Kingsford%20Smith ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.56 ;
+                ] ;
+            sosa:hasSimpleResult 0.56 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Lyne ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.26 ;
+                ] ;
+            sosa:hasSimpleResult 0.26 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:O%27Connor ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.24 ;
+                ] ;
+            sosa:hasSimpleResult 0.24 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Durack ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.28 ;
+                ] ;
+            sosa:hasSimpleResult 0.28 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Deakin ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.48 ;
+                ] ;
+            sosa:hasSimpleResult 0.48 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Riverina ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.25 ;
+                ] ;
+            sosa:hasSimpleResult 0.25 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Wright ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.23 ;
+                ] ;
+            sosa:hasSimpleResult 0.23 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Calare ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.29 ;
+                ] ;
+            sosa:hasSimpleResult 0.29 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Gilmore ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.39 ;
+                ] ;
+            sosa:hasSimpleResult 0.39 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Clark ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.58 ;
+                ] ;
+            sosa:hasSimpleResult 0.58 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Barker ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.22 ;
+                ] ;
+            sosa:hasSimpleResult 0.22 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Franklin ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.51 ;
+                ] ;
+            sosa:hasSimpleResult 0.51 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Tangney ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.41 ;
+                ] ;
+            sosa:hasSimpleResult 0.41 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Hunter ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.29 ;
+                ] ;
+            sosa:hasSimpleResult 0.29 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Farrer ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.25 ;
+                ] ;
+            sosa:hasSimpleResult 0.25 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Chifley ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.4 ;
+                ] ;
+            sosa:hasSimpleResult 0.4 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Sydney ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.71 ;
+                ] ;
+            sosa:hasSimpleResult 0.71 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Macnamara ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.65 ;
+                ] ;
+            sosa:hasSimpleResult 0.65 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Bradfield ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.52 ;
+                ] ;
+            sosa:hasSimpleResult 0.52 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Lyons ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.33 ;
+                ] ;
+            sosa:hasSimpleResult 0.33 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Petrie ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.33 ;
+                ] ;
+            sosa:hasSimpleResult 0.33 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Reid ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.51 ;
+                ] ;
+            sosa:hasSimpleResult 0.51 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Bean ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.56 ;
+                ] ;
+            sosa:hasSimpleResult 0.56 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Parramatta ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.45 ;
+                ] ;
+            sosa:hasSimpleResult 0.45 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Indi ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.33 ;
+                ] ;
+            sosa:hasSimpleResult 0.33 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Capricornia ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.19 ;
+                ] ;
+            sosa:hasSimpleResult 0.19 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Brisbane ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.56 ;
+                ] ;
+            sosa:hasSimpleResult 0.56 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Whitlam ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.36 ;
+                ] ;
+            sosa:hasSimpleResult 0.36 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Makin ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.32 ;
+                ] ;
+            sosa:hasSimpleResult 0.32 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Bonner ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.4 ;
+                ] ;
+            sosa:hasSimpleResult 0.4 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Bass ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.38 ;
+                ] ;
+            sosa:hasSimpleResult 0.38 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:McEwen ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.4 ;
+                ] ;
+            sosa:hasSimpleResult 0.4 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Paterson ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.3 ;
+                ] ;
+            sosa:hasSimpleResult 0.3 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Groom ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.24 ;
+                ] ;
+            sosa:hasSimpleResult 0.24 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Herbert ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.24 ;
+                ] ;
+            sosa:hasSimpleResult 0.24 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Hume ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.27 ;
+                ] ;
+            sosa:hasSimpleResult 0.27 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Hotham ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.5 ;
+                ] ;
+            sosa:hasSimpleResult 0.5 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:North%20Sydney ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.6 ;
+                ] ;
+            sosa:hasSimpleResult 0.6 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Chisholm ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.5 ;
+                ] ;
+            sosa:hasSimpleResult 0.5 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Lilley ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.47 ;
+                ] ;
+            sosa:hasSimpleResult 0.47 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Eden-Monaro ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.4 ;
+                ] ;
+            sosa:hasSimpleResult 0.4 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Dawson ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.2 ;
+                ] ;
+            sosa:hasSimpleResult 0.2 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Jagajaga ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.55 ;
+                ] ;
+            sosa:hasSimpleResult 0.55 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Bennelong ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.49 ;
+                ] ;
+            sosa:hasSimpleResult 0.49 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Richmond ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.44 ;
+                ] ;
+            sosa:hasSimpleResult 0.44 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Leichhardt ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.34 ;
+                ] ;
+            sosa:hasSimpleResult 0.34 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Curtin ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.51 ;
+                ] ;
+            sosa:hasSimpleResult 0.51 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Oxley ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.4 ;
+                ] ;
+            sosa:hasSimpleResult 0.4 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Pearce ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.31 ;
+                ] ;
+            sosa:hasSimpleResult 0.31 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Spence ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.28 ;
+                ] ;
+            sosa:hasSimpleResult 0.28 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Fremantle ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.47 ;
+                ] ;
+            sosa:hasSimpleResult 0.47 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Bendigo ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.41 ;
+                ] ;
+            sosa:hasSimpleResult 0.41 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Moore ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.38 ;
+                ] ;
+            sosa:hasSimpleResult 0.38 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Corangamite ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.48 ;
+                ] ;
+            sosa:hasSimpleResult 0.48 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Blair ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.3 ;
+                ] ;
+            sosa:hasSimpleResult 0.3 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Kennedy ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.2 ;
+                ] ;
+            sosa:hasSimpleResult 0.2 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Blaxland ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.38 ;
+                ] ;
+            sosa:hasSimpleResult 0.38 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Banks ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.39 ;
+                ] ;
+            sosa:hasSimpleResult 0.39 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Fenner ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.57 ;
+                ] ;
+            sosa:hasSimpleResult 0.57 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Werriwa ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.37 ;
+                ] ;
+            sosa:hasSimpleResult 0.37 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Cowan ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.38 ;
+                ] ;
+            sosa:hasSimpleResult 0.38 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Cowper ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.34 ;
+                ] ;
+            sosa:hasSimpleResult 0.34 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Canning ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.24 ;
+                ] ;
+            sosa:hasSimpleResult 0.24 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Hughes ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.41 ;
+                ] ;
+            sosa:hasSimpleResult 0.41 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Grayndler ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.75 ;
+                ] ;
+            sosa:hasSimpleResult 0.75 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Griffith ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.56 ;
+                ] ;
+            sosa:hasSimpleResult 0.56 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Bruce ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.42 ;
+                ] ;
+            sosa:hasSimpleResult 0.42 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Menzies ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.45 ;
+                ] ;
+            sosa:hasSimpleResult 0.45 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Hinkler ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.2 ;
+                ] ;
+            sosa:hasSimpleResult 0.2 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:McPherson ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.35 ;
+                ] ;
+            sosa:hasSimpleResult 0.35 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Melbourne ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.77 ;
+                ] ;
+            sosa:hasSimpleResult 0.77 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Braddon ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.28 ;
+                ] ;
+            sosa:hasSimpleResult 0.28 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Dunkley ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.44 ;
+                ] ;
+            sosa:hasSimpleResult 0.44 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Dickson ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.35 ;
+                ] ;
+            sosa:hasSimpleResult 0.35 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Wills ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.65 ;
+                ] ;
+            sosa:hasSimpleResult 0.65 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Gippsland ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.28 ;
+                ] ;
+            sosa:hasSimpleResult 0.28 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Forde ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.28 ;
+                ] ;
+            sosa:hasSimpleResult 0.28 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:McMahon ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.34 ;
+                ] ;
+            sosa:hasSimpleResult 0.34 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Mayo ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.4 ;
+                ] ;
+            sosa:hasSimpleResult 0.4 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Forrest ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.31 ;
+                ] ;
+            sosa:hasSimpleResult 0.31 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:New%20England ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.25 ;
+                ] ;
+            sosa:hasSimpleResult 0.25 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Sturt ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.43 ;
+                ] ;
+            sosa:hasSimpleResult 0.43 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Wentworth ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.63 ;
+                ] ;
+            sosa:hasSimpleResult 0.63 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Hindmarsh ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.38 ;
+                ] ;
+            sosa:hasSimpleResult 0.38 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Fraser ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.57 ;
+                ] ;
+            sosa:hasSimpleResult 0.57 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Solomon ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.36 ;
+                ] ;
+            sosa:hasSimpleResult 0.36 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Watson ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.42 ;
+                ] ;
+            sosa:hasSimpleResult 0.42 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Dobell ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.35 ;
+                ] ;
+            sosa:hasSimpleResult 0.35 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Mitchell ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.41 ;
+                ] ;
+            sosa:hasSimpleResult 0.41 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Lalor ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.47 ;
+                ] ;
+            sosa:hasSimpleResult 0.47 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Maranoa ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.15 ;
+                ] ;
+            sosa:hasSimpleResult 0.15 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Calwell ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.4 ;
+                ] ;
+            sosa:hasSimpleResult 0.4 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Parkes ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.21 ;
+                ] ;
+            sosa:hasSimpleResult 0.21 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Barton ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.45 ;
+                ] ;
+            sosa:hasSimpleResult 0.45 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Goldstein ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.56 ;
+                ] ;
+            sosa:hasSimpleResult 0.56 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Corio ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.46 ;
+                ] ;
+            sosa:hasSimpleResult 0.46 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ,
+        [
+            a sosa:Observation ;
+            sosa:hasFeatureOfInterest elec:Lindsay ;
+            sosa:hasResult
+                [
+                    a sosa:Result ;
+                    schema:unitCode unit:FRACTION ;
+                    schema:value 0.31 ;
+                ] ;
+            sosa:hasSimpleResult 0.31 ;
+            sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
+        ] ;
+    schema:citation "https://www.aec.gov.au/Elections/referendums/2023-downloads.htm"^^xsd:anyURI ;
+    schema:conditionsOfAccess "Public"@en ;
+    schema:creator <https://linked.data.gov.au/org/aec> ;
+    schema:dateCreated "2026-11-05"^^xsd:date ;
+    schema:dateModified "2026-11-05"^^xsd:date ;
+    schema:description "2023 Australian Referendum results: fraction of Yes votes per electorate" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "2023 Australian Referendum results" ;
+    schema:publisher <https://linked.data.gov.au/org/aec> ;
+.
+
+_:N6e4798ad794e4a0da9cde5d8c9058556
+    a sosa:ObservableProperty ;
+    schema:name "Fraction of Yes votes" ;
+.

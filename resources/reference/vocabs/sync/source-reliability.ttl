@@ -1,0 +1,59 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/cfm/source-reliability/1>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/cfm/source-reliability> ;
+    skos:definition """Great doubt re authenticity, trustworthiness, competency, or cannot be judged. 
+    History of unreliable information, or cannot be judged.""" ;
+    skos:inScheme <https://linked.data.gov.au/def/cfm/source-reliability> ;
+    skos:prefLabel "1 star" ;
+    skos:topConceptOf <https://linked.data.gov.au/def/cfm/source-reliability> ;
+.
+
+<https://linked.data.gov.au/def/cfm/source-reliability/2>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/cfm/source-reliability> ;
+    skos:definition """Usually or definitely some doubt re authenticity, trustworthiness, competency. 
+    History of occasional reliable information or reliabile information some of the time.""" ;
+    skos:inScheme <https://linked.data.gov.au/def/cfm/source-reliability> ;
+    skos:prefLabel "2 star" ;
+    skos:topConceptOf <https://linked.data.gov.au/def/cfm/source-reliability> ;
+.
+
+<https://linked.data.gov.au/def/cfm/source-reliability/3>
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/cfm/source-reliability> ;
+    skos:definition """None or little doubt re authenticity, trustworthiness, competency. 
+    History of complete reliability or reliable information majority of the time.""" ;
+    skos:inScheme <https://linked.data.gov.au/def/cfm/source-reliability> ;
+    skos:prefLabel "3 star" ;
+    skos:topConceptOf <https://linked.data.gov.au/def/cfm/source-reliability> ;
+.
+
+<https://linked.data.gov.au/org/idn>
+    a sdo:Organization ;
+    sdo:name "Indigenous Data Network" ;
+    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/def/cfm/source-reliability>
+    a skos:ConceptScheme ;
+    skos:changeNote "2026-11-05: Updated to be VocPub conformant" ;
+    skos:definition "The reliability of corroborating evidence" ;
+    skos:hasTopConcept
+        <https://linked.data.gov.au/def/cfm/source-reliability/1> ,
+        <https://linked.data.gov.au/def/cfm/source-reliability/2> ,
+        <https://linked.data.gov.au/def/cfm/source-reliability/3> ;
+    skos:prefLabel "Source reliability" ;
+    sdo:citation "https://conservationcriminology.com/wp-content/uploads/2019/09/6x6-Admiralty-System.pdf"^^xsd:anyURI ;
+    sdo:creator <https://linked.data.gov.au/org/idn> ;
+    sdo:dateCreated "2026-08-05"^^xsd:date ;
+    sdo:dateModified "2026-11-05"^^xsd:date ;
+    sdo:publisher <https://linked.data.gov.au/org/idn> ;
+    sdo:status astatus:experimental ;
+    sdo:version "0.1.0" ;
+.

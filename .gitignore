@@ -7,3 +7,5 @@ __pycache__/
 .DS_Store
 .env
 docker/
+resources/spatial/raw/
+resources/spatial/temp-features/

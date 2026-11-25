@@ -1,0 +1,473 @@
+PREFIX : <https://data.idnau.org/pid/vocab/massacre-roles/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX cs: <https://data.idnau.org/pid/vocab/massacre-roles>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:arsenic
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :poison ;
+    skos:definition "Arsenic"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Arsenic"^^xsd:token ;
+    skos:prefLabel "Arsenic"@en ;
+.
+
+:carbines
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :firearms ;
+    skos:definition "Carbines are long guns that have a barrel shortened from its original length"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Carbine(s)"^^xsd:token ;
+    skos:prefLabel "Carbines"@en ;
+.
+
+:cutlasses
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :swords ;
+    skos:definition "A cutlass is a short, broad sabre or slashing sword with a straight or slightly curved blade sharpened on the cutting edge and a hilt often featuring a solid cupped or basket-shaped guard."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Cutlass/Cutlasses"^^xsd:token ;
+    skos:prefLabel "Cutlasses"@en ;
+.
+
+:double-barrelledPurdeys
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Double rifle"@en ,
+        "Double-barreled rifle"@en ;
+    skos:broader :rifles ;
+    skos:definition " "@en ;
+    skos:inScheme cs: ;
+    skos:notation "Double-barrelled Purdey(s)"^^xsd:token ;
+    skos:prefLabel "Double-barrelled purdeys"@en ;
+.
+
+:flourLacedStrychnine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :poison ;
+    skos:definition "Poisoned flour laced with strychnine"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Poisoned Flour Laced with Strychnine"^^xsd:token ;
+    skos:prefLabel "Poisoned flour laced with strychnine"@en ;
+.
+
+:fowlingPieces
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :shotguns ;
+    skos:definition "A firearm intended for use in wing shooting of birds was known as a fowling piece."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Fowling Piece(s)"^^xsd:token ;
+    skos:prefLabel "Fowling pieces"@en ;
+.
+
+:hatchets
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :axes ;
+    skos:definition "Hatchets"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Hatchet(s)"^^xsd:token ;
+    skos:prefLabel "Hatchets"@en ;
+.
+
+:martini-HenryRifles
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :breechLoadingRifles ;
+    skos:definition "The Martini–Henry is a breech-loading single-shot rifle with a lever action"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Martini-Henry Rifle(s)"^^xsd:token ;
+    skos:prefLabel "Martini–Henry rifles"@en ;
+.
+
+:muskets
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :muzzleLoadingRifle ;
+    skos:definition "A musket is a muzzle-loaded long gun"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Musket(s)"^^xsd:token ;
+    skos:prefLabel "Muskets"@en ;
+.
+
+:nulla-nullas
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Boondi"@en ,
+        "Leangle"@en ,
+        "Waddies"@en ;
+    skos:broader :clubs ;
+    skos:definition "A nulla-nulla is an Aboriginal Australian hardwood club or hunting stick for use as a weapon or as a throwing stick for hunting animals."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Waddies/Nulla-nulla(s)"^^xsd:token ;
+    skos:prefLabel "Nulla-nullas"@en ;
+.
+
+:pistols
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :firearms ;
+    skos:definition "A pistol is a type of handgun, characterized by a barrel with an integral chamber."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Pistol(s)"^^xsd:token ;
+    skos:prefLabel "Pistols"@en ;
+.
+
+:repeatingRifles
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rifles ;
+    skos:definition "A repeating rifle is a single-barreled rifle capable of repeated discharges between each ammunition reload."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Repeating Rifle(s)"^^xsd:token ;
+    skos:prefLabel "Repeating rifles"@en ;
+.
+
+:revolvers
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :firearms ;
+    skos:definition "A revolver is a repeating handgun with at least one barrel and a revolving cylinder containing multiple chambers (each holding a single cartridge) for firing."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Revolver(s)"^^xsd:token ;
+    skos:prefLabel "Revolvers"@en ;
+.
+
+:sniders
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Snider–Enfield"@en ;
+    skos:broader :breechLoadingRifles ;
+    skos:definition "The Snider was a breech-loading rifle."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Snider(s)"^^xsd:token ;
+    skos:prefLabel "Sniders"@en ;
+.
+
+:swivelGuns
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :cannons ;
+    skos:definition "A swivel gun is a small cannon mounted on a swiveling stand or fork which allows a very wide arc of movement."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Swivel Gun(s)"^^xsd:token ;
+    skos:prefLabel "Swivel guns"@en ;
+.
+
+:tomahawks
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :axes ;
+    skos:definition "A tomahawk is a type of single-handed axe used by the many Indigenous peoples and nations of North America. It traditionally resembles a hatchet with a straight shaft."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Tomahawk(s)"^^xsd:token ;
+    skos:prefLabel "Tomahawks"@en ;
+.
+
+:winchesters
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Winchester rifles"@en ;
+    skos:broader :rifles ;
+    skos:definition "A Winchester rifle is any of a series of lever action repeating rifles manufactured by the Winchester Repeating Arms Company."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Winchester(s)"^^xsd:token ;
+    skos:prefLabel "Winchesters"@en ;
+.
+
+:bayonets
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Bayonets"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Bayonet(s)"^^xsd:token ;
+    skos:prefLabel "Bayonets"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:blades
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Blades"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Blade(s)"^^xsd:token ;
+    skos:prefLabel "Blades"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:boomerangs
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Boomerangs"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Boomerang(s)"^^xsd:token ;
+    skos:prefLabel "Boomerangs"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:horses
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Horses"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Horses"^^xsd:token ;
+    skos:prefLabel "Horses"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:incineration
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Incineration"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Incineration"^^xsd:token ;
+    skos:prefLabel "Incineration"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:knives
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Knives"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Knife/Knives"^^xsd:token ;
+    skos:prefLabel "Knives"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:machetes
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Machetes"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Machete(s)"^^xsd:token ;
+    skos:prefLabel "Machetes"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:muzzleLoadingRifle
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "muzzleloader"@en ;
+    skos:broader :rifles ;
+    skos:definition "A muzzle-loading rifle is a muzzle-loaded small arm that has a rifled barrel rather than a smoothbore, and is loaded from the muzzle of the barrel rather than the breech."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Muzzle Loading Rifle(s)"^^xsd:token ;
+    skos:prefLabel "Muzzle loading rifles"@en ;
+.
+
+:plasterofParis
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Gypsum plaster"@en ;
+    skos:definition "Plaster of Paris, is a white powder consisting of calcium sulfate hemihydrate."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Plaster of Paris"^^xsd:token ;
+    skos:prefLabel "Plaster of Paris"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rifleButts
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Buttstock"@en ,
+        "Shoulder stock"@en ;
+    skos:definition "A gunstock or often simply stock, the back portion of which is also known as a shoulder stock, a buttstock"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Rifle Butt(s)"^^xsd:token ;
+    skos:prefLabel "Rifle butts"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:shotguns
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Pepperguns"@en ,
+        "Scatterguns"@en ;
+    skos:broader :firearms ;
+    skos:definition "A shotgun is a long-barreled firearm designed to shoot a straight-walled cartridge known as a shotshell, which discharges numerous small spherical projectiles called shot, or a single solid projectile called a slug."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Shotgun(s)"^^xsd:token ;
+    skos:prefLabel "Shotguns"@en ;
+.
+
+:spears
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A spear is a polearm consisting of a shaft, usually of wood, with a pointed head."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Spear(s)"^^xsd:token ;
+    skos:prefLabel "Spears"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:stirrups
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A stirrup is a light frame or ring that holds the foot of a rider, attached to the saddle by a strap."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Stirrup(s)"^^xsd:token ;
+    skos:prefLabel "Stirrups"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:stockwhips
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A stockwhip is a type of whip made of a long, tapered length of flexible, plaited leather with a stiff handle and thong able to pivot along the handle easily."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Stockwhip(s)"^^xsd:token ;
+    skos:prefLabel "Stockwhips"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:stones
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Stones"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Stone(s)"^^xsd:token ;
+    skos:prefLabel "Stones"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:unknown
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Unknown weapon"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Unknown"^^xsd:token ;
+    skos:prefLabel "Unknown"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:breechLoadingRifles
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rifles ;
+    skos:definition " "@en ;
+    skos:inScheme cs: ;
+    skos:notation "Breech Loading Rifle(s)"^^xsd:token ;
+    skos:prefLabel "Breech loading rifles"@en ;
+.
+
+:cannons
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Cannons"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Cannon(s)"^^xsd:token ;
+    skos:prefLabel "Cannons"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:clubs
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Clubs"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Club(s)"^^xsd:token ;
+    skos:prefLabel "Clubs"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:swords
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Swords"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Sword(s)"^^xsd:token ;
+    skos:prefLabel "Swords"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/idn>
+    a sdo:Organization ;
+    sdo:name "Indigenous Data Network" ;
+    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network"^^xsd:anyURI ;
+.
+
+:axes
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Axes"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Axe(s)"^^xsd:token ;
+    skos:prefLabel "Axes"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:poison
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Poison"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Poison"^^xsd:token ;
+    skos:prefLabel "Poison"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rifles
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :firearms ;
+    skos:definition "A rifle is a long-barreled firearm designed for accurate shooting, distinguished by having a barrel cut with a helical or spiralling pattern of grooves (rifling)."@en ;
+    skos:inScheme cs: ;
+    skos:notation "Rifle(s)"^^xsd:token ;
+    skos:prefLabel "Rifles"@en ;
+.
+
+:firearms
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Firearms"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Firearm(s)"^^xsd:token ;
+    skos:prefLabel "Firearms"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:changeNote "2026-11-05: Updated to be VocPub conformant" ;
+    skos:definition "Vocabulary of weapons using in colonial frontier massacres in Australia"@en ;
+    skos:hasTopConcept
+        :axes ,
+        :bayonets ,
+        :blades ,
+        :boomerangs ,
+        :cannons ,
+        :clubs ,
+        :firearms ,
+        :horses ,
+        :incineration ,
+        :knives ,
+        :machetes ,
+        :plasterofParis ,
+        :poison ,
+        :rifleButts ,
+        :spears ,
+        :stirrups ,
+        :stockwhips ,
+        :stones ,
+        :swords ,
+        :unknown ;
+    skos:prefLabel "Weapons of the colonial fronteir massacres"@en ;
+    sdo:creator <https://linked.data.gov.au/org/idn> ;
+    sdo:dateCreated "2026-08-06"^^xsd:date ;
+    sdo:dateModified "2026-11-05"^^xsd:date ;
+    sdo:publisher <https://linked.data.gov.au/org/idn> ;
+    sdo:status astatus:experimental ;
+.

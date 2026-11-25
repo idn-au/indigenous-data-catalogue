@@ -1,0 +1,3561 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+
+<https://data.idnau.org/pid/niaa-rangers> {
+<https://data.idnau.org/pid/niaa-rangers/feature-collection>
+    rdfs:member
+        <https://data.idnau.org/pid/niaa-rangers/1> ,
+        <https://data.idnau.org/pid/niaa-rangers/10> ,
+        <https://data.idnau.org/pid/niaa-rangers/100> ,
+        <https://data.idnau.org/pid/niaa-rangers/101> ,
+        <https://data.idnau.org/pid/niaa-rangers/102> ,
+        <https://data.idnau.org/pid/niaa-rangers/103> ,
+        <https://data.idnau.org/pid/niaa-rangers/104> ,
+        <https://data.idnau.org/pid/niaa-rangers/105> ,
+        <https://data.idnau.org/pid/niaa-rangers/106> ,
+        <https://data.idnau.org/pid/niaa-rangers/107> ,
+        <https://data.idnau.org/pid/niaa-rangers/108> ,
+        <https://data.idnau.org/pid/niaa-rangers/109> ,
+        <https://data.idnau.org/pid/niaa-rangers/11> ,
+        <https://data.idnau.org/pid/niaa-rangers/110> ,
+        <https://data.idnau.org/pid/niaa-rangers/111> ,
+        <https://data.idnau.org/pid/niaa-rangers/112> ,
+        <https://data.idnau.org/pid/niaa-rangers/113> ,
+        <https://data.idnau.org/pid/niaa-rangers/114> ,
+        <https://data.idnau.org/pid/niaa-rangers/115> ,
+        <https://data.idnau.org/pid/niaa-rangers/116> ,
+        <https://data.idnau.org/pid/niaa-rangers/117> ,
+        <https://data.idnau.org/pid/niaa-rangers/118> ,
+        <https://data.idnau.org/pid/niaa-rangers/119> ,
+        <https://data.idnau.org/pid/niaa-rangers/12> ,
+        <https://data.idnau.org/pid/niaa-rangers/120> ,
+        <https://data.idnau.org/pid/niaa-rangers/121> ,
+        <https://data.idnau.org/pid/niaa-rangers/122> ,
+        <https://data.idnau.org/pid/niaa-rangers/123> ,
+        <https://data.idnau.org/pid/niaa-rangers/124> ,
+        <https://data.idnau.org/pid/niaa-rangers/125> ,
+        <https://data.idnau.org/pid/niaa-rangers/126> ,
+        <https://data.idnau.org/pid/niaa-rangers/127> ,
+        <https://data.idnau.org/pid/niaa-rangers/128> ,
+        <https://data.idnau.org/pid/niaa-rangers/129> ,
+        <https://data.idnau.org/pid/niaa-rangers/13> ,
+        <https://data.idnau.org/pid/niaa-rangers/130> ,
+        <https://data.idnau.org/pid/niaa-rangers/131> ,
+        <https://data.idnau.org/pid/niaa-rangers/132> ,
+        <https://data.idnau.org/pid/niaa-rangers/133> ,
+        <https://data.idnau.org/pid/niaa-rangers/134> ,
+        <https://data.idnau.org/pid/niaa-rangers/135> ,
+        <https://data.idnau.org/pid/niaa-rangers/136> ,
+        <https://data.idnau.org/pid/niaa-rangers/137> ,
+        <https://data.idnau.org/pid/niaa-rangers/138> ,
+        <https://data.idnau.org/pid/niaa-rangers/139> ,
+        <https://data.idnau.org/pid/niaa-rangers/14> ,
+        <https://data.idnau.org/pid/niaa-rangers/140> ,
+        <https://data.idnau.org/pid/niaa-rangers/141> ,
+        <https://data.idnau.org/pid/niaa-rangers/142> ,
+        <https://data.idnau.org/pid/niaa-rangers/143> ,
+        <https://data.idnau.org/pid/niaa-rangers/144> ,
+        <https://data.idnau.org/pid/niaa-rangers/145> ,
+        <https://data.idnau.org/pid/niaa-rangers/146> ,
+        <https://data.idnau.org/pid/niaa-rangers/147> ,
+        <https://data.idnau.org/pid/niaa-rangers/148> ,
+        <https://data.idnau.org/pid/niaa-rangers/149> ,
+        <https://data.idnau.org/pid/niaa-rangers/15> ,
+        <https://data.idnau.org/pid/niaa-rangers/150> ,
+        <https://data.idnau.org/pid/niaa-rangers/151> ,
+        <https://data.idnau.org/pid/niaa-rangers/152> ,
+        <https://data.idnau.org/pid/niaa-rangers/153> ,
+        <https://data.idnau.org/pid/niaa-rangers/154> ,
+        <https://data.idnau.org/pid/niaa-rangers/155> ,
+        <https://data.idnau.org/pid/niaa-rangers/156> ,
+        <https://data.idnau.org/pid/niaa-rangers/157> ,
+        <https://data.idnau.org/pid/niaa-rangers/158> ,
+        <https://data.idnau.org/pid/niaa-rangers/159> ,
+        <https://data.idnau.org/pid/niaa-rangers/16> ,
+        <https://data.idnau.org/pid/niaa-rangers/160> ,
+        <https://data.idnau.org/pid/niaa-rangers/161> ,
+        <https://data.idnau.org/pid/niaa-rangers/162> ,
+        <https://data.idnau.org/pid/niaa-rangers/163> ,
+        <https://data.idnau.org/pid/niaa-rangers/164> ,
+        <https://data.idnau.org/pid/niaa-rangers/165> ,
+        <https://data.idnau.org/pid/niaa-rangers/166> ,
+        <https://data.idnau.org/pid/niaa-rangers/167> ,
+        <https://data.idnau.org/pid/niaa-rangers/168> ,
+        <https://data.idnau.org/pid/niaa-rangers/169> ,
+        <https://data.idnau.org/pid/niaa-rangers/17> ,
+        <https://data.idnau.org/pid/niaa-rangers/170> ,
+        <https://data.idnau.org/pid/niaa-rangers/171> ,
+        <https://data.idnau.org/pid/niaa-rangers/172> ,
+        <https://data.idnau.org/pid/niaa-rangers/173> ,
+        <https://data.idnau.org/pid/niaa-rangers/174> ,
+        <https://data.idnau.org/pid/niaa-rangers/175> ,
+        <https://data.idnau.org/pid/niaa-rangers/176> ,
+        <https://data.idnau.org/pid/niaa-rangers/177> ,
+        <https://data.idnau.org/pid/niaa-rangers/178> ,
+        <https://data.idnau.org/pid/niaa-rangers/179> ,
+        <https://data.idnau.org/pid/niaa-rangers/18> ,
+        <https://data.idnau.org/pid/niaa-rangers/180> ,
+        <https://data.idnau.org/pid/niaa-rangers/181> ,
+        <https://data.idnau.org/pid/niaa-rangers/182> ,
+        <https://data.idnau.org/pid/niaa-rangers/183> ,
+        <https://data.idnau.org/pid/niaa-rangers/184> ,
+        <https://data.idnau.org/pid/niaa-rangers/185> ,
+        <https://data.idnau.org/pid/niaa-rangers/186> ,
+        <https://data.idnau.org/pid/niaa-rangers/187> ,
+        <https://data.idnau.org/pid/niaa-rangers/188> ,
+        <https://data.idnau.org/pid/niaa-rangers/189> ,
+        <https://data.idnau.org/pid/niaa-rangers/19> ,
+        <https://data.idnau.org/pid/niaa-rangers/190> ,
+        <https://data.idnau.org/pid/niaa-rangers/191> ,
+        <https://data.idnau.org/pid/niaa-rangers/192> ,
+        <https://data.idnau.org/pid/niaa-rangers/193> ,
+        <https://data.idnau.org/pid/niaa-rangers/194> ,
+        <https://data.idnau.org/pid/niaa-rangers/195> ,
+        <https://data.idnau.org/pid/niaa-rangers/196> ,
+        <https://data.idnau.org/pid/niaa-rangers/197> ,
+        <https://data.idnau.org/pid/niaa-rangers/198> ,
+        <https://data.idnau.org/pid/niaa-rangers/199> ,
+        <https://data.idnau.org/pid/niaa-rangers/2> ,
+        <https://data.idnau.org/pid/niaa-rangers/20> ,
+        <https://data.idnau.org/pid/niaa-rangers/200> ,
+        <https://data.idnau.org/pid/niaa-rangers/201> ,
+        <https://data.idnau.org/pid/niaa-rangers/202> ,
+        <https://data.idnau.org/pid/niaa-rangers/203> ,
+        <https://data.idnau.org/pid/niaa-rangers/204> ,
+        <https://data.idnau.org/pid/niaa-rangers/205> ,
+        <https://data.idnau.org/pid/niaa-rangers/206> ,
+        <https://data.idnau.org/pid/niaa-rangers/207> ,
+        <https://data.idnau.org/pid/niaa-rangers/208> ,
+        <https://data.idnau.org/pid/niaa-rangers/209> ,
+        <https://data.idnau.org/pid/niaa-rangers/21> ,
+        <https://data.idnau.org/pid/niaa-rangers/210> ,
+        <https://data.idnau.org/pid/niaa-rangers/211> ,
+        <https://data.idnau.org/pid/niaa-rangers/212> ,
+        <https://data.idnau.org/pid/niaa-rangers/213> ,
+        <https://data.idnau.org/pid/niaa-rangers/214> ,
+        <https://data.idnau.org/pid/niaa-rangers/215> ,
+        <https://data.idnau.org/pid/niaa-rangers/216> ,
+        <https://data.idnau.org/pid/niaa-rangers/217> ,
+        <https://data.idnau.org/pid/niaa-rangers/218> ,
+        <https://data.idnau.org/pid/niaa-rangers/219> ,
+        <https://data.idnau.org/pid/niaa-rangers/22> ,
+        <https://data.idnau.org/pid/niaa-rangers/220> ,
+        <https://data.idnau.org/pid/niaa-rangers/221> ,
+        <https://data.idnau.org/pid/niaa-rangers/222> ,
+        <https://data.idnau.org/pid/niaa-rangers/223> ,
+        <https://data.idnau.org/pid/niaa-rangers/224> ,
+        <https://data.idnau.org/pid/niaa-rangers/225> ,
+        <https://data.idnau.org/pid/niaa-rangers/226> ,
+        <https://data.idnau.org/pid/niaa-rangers/227> ,
+        <https://data.idnau.org/pid/niaa-rangers/228> ,
+        <https://data.idnau.org/pid/niaa-rangers/229> ,
+        <https://data.idnau.org/pid/niaa-rangers/23> ,
+        <https://data.idnau.org/pid/niaa-rangers/230> ,
+        <https://data.idnau.org/pid/niaa-rangers/231> ,
+        <https://data.idnau.org/pid/niaa-rangers/232> ,
+        <https://data.idnau.org/pid/niaa-rangers/233> ,
+        <https://data.idnau.org/pid/niaa-rangers/234> ,
+        <https://data.idnau.org/pid/niaa-rangers/235> ,
+        <https://data.idnau.org/pid/niaa-rangers/236> ,
+        <https://data.idnau.org/pid/niaa-rangers/237> ,
+        <https://data.idnau.org/pid/niaa-rangers/238> ,
+        <https://data.idnau.org/pid/niaa-rangers/239> ,
+        <https://data.idnau.org/pid/niaa-rangers/24> ,
+        <https://data.idnau.org/pid/niaa-rangers/240> ,
+        <https://data.idnau.org/pid/niaa-rangers/241> ,
+        <https://data.idnau.org/pid/niaa-rangers/242> ,
+        <https://data.idnau.org/pid/niaa-rangers/243> ,
+        <https://data.idnau.org/pid/niaa-rangers/244> ,
+        <https://data.idnau.org/pid/niaa-rangers/245> ,
+        <https://data.idnau.org/pid/niaa-rangers/246> ,
+        <https://data.idnau.org/pid/niaa-rangers/247> ,
+        <https://data.idnau.org/pid/niaa-rangers/248> ,
+        <https://data.idnau.org/pid/niaa-rangers/249> ,
+        <https://data.idnau.org/pid/niaa-rangers/25> ,
+        <https://data.idnau.org/pid/niaa-rangers/250> ,
+        <https://data.idnau.org/pid/niaa-rangers/251> ,
+        <https://data.idnau.org/pid/niaa-rangers/252> ,
+        <https://data.idnau.org/pid/niaa-rangers/253> ,
+        <https://data.idnau.org/pid/niaa-rangers/254> ,
+        <https://data.idnau.org/pid/niaa-rangers/255> ,
+        <https://data.idnau.org/pid/niaa-rangers/256> ,
+        <https://data.idnau.org/pid/niaa-rangers/257> ,
+        <https://data.idnau.org/pid/niaa-rangers/258> ,
+        <https://data.idnau.org/pid/niaa-rangers/259> ,
+        <https://data.idnau.org/pid/niaa-rangers/26> ,
+        <https://data.idnau.org/pid/niaa-rangers/260> ,
+        <https://data.idnau.org/pid/niaa-rangers/261> ,
+        <https://data.idnau.org/pid/niaa-rangers/262> ,
+        <https://data.idnau.org/pid/niaa-rangers/263> ,
+        <https://data.idnau.org/pid/niaa-rangers/264> ,
+        <https://data.idnau.org/pid/niaa-rangers/265> ,
+        <https://data.idnau.org/pid/niaa-rangers/266> ,
+        <https://data.idnau.org/pid/niaa-rangers/267> ,
+        <https://data.idnau.org/pid/niaa-rangers/268> ,
+        <https://data.idnau.org/pid/niaa-rangers/269> ,
+        <https://data.idnau.org/pid/niaa-rangers/27> ,
+        <https://data.idnau.org/pid/niaa-rangers/270> ,
+        <https://data.idnau.org/pid/niaa-rangers/271> ,
+        <https://data.idnau.org/pid/niaa-rangers/272> ,
+        <https://data.idnau.org/pid/niaa-rangers/273> ,
+        <https://data.idnau.org/pid/niaa-rangers/274> ,
+        <https://data.idnau.org/pid/niaa-rangers/275> ,
+        <https://data.idnau.org/pid/niaa-rangers/276> ,
+        <https://data.idnau.org/pid/niaa-rangers/277> ,
+        <https://data.idnau.org/pid/niaa-rangers/278> ,
+        <https://data.idnau.org/pid/niaa-rangers/279> ,
+        <https://data.idnau.org/pid/niaa-rangers/28> ,
+        <https://data.idnau.org/pid/niaa-rangers/280> ,
+        <https://data.idnau.org/pid/niaa-rangers/281> ,
+        <https://data.idnau.org/pid/niaa-rangers/282> ,
+        <https://data.idnau.org/pid/niaa-rangers/283> ,
+        <https://data.idnau.org/pid/niaa-rangers/284> ,
+        <https://data.idnau.org/pid/niaa-rangers/285> ,
+        <https://data.idnau.org/pid/niaa-rangers/286> ,
+        <https://data.idnau.org/pid/niaa-rangers/287> ,
+        <https://data.idnau.org/pid/niaa-rangers/288> ,
+        <https://data.idnau.org/pid/niaa-rangers/289> ,
+        <https://data.idnau.org/pid/niaa-rangers/29> ,
+        <https://data.idnau.org/pid/niaa-rangers/290> ,
+        <https://data.idnau.org/pid/niaa-rangers/291> ,
+        <https://data.idnau.org/pid/niaa-rangers/292> ,
+        <https://data.idnau.org/pid/niaa-rangers/293> ,
+        <https://data.idnau.org/pid/niaa-rangers/294> ,
+        <https://data.idnau.org/pid/niaa-rangers/295> ,
+        <https://data.idnau.org/pid/niaa-rangers/296> ,
+        <https://data.idnau.org/pid/niaa-rangers/297> ,
+        <https://data.idnau.org/pid/niaa-rangers/298> ,
+        <https://data.idnau.org/pid/niaa-rangers/299> ,
+        <https://data.idnau.org/pid/niaa-rangers/3> ,
+        <https://data.idnau.org/pid/niaa-rangers/30> ,
+        <https://data.idnau.org/pid/niaa-rangers/300> ,
+        <https://data.idnau.org/pid/niaa-rangers/301> ,
+        <https://data.idnau.org/pid/niaa-rangers/302> ,
+        <https://data.idnau.org/pid/niaa-rangers/303> ,
+        <https://data.idnau.org/pid/niaa-rangers/304> ,
+        <https://data.idnau.org/pid/niaa-rangers/305> ,
+        <https://data.idnau.org/pid/niaa-rangers/306> ,
+        <https://data.idnau.org/pid/niaa-rangers/307> ,
+        <https://data.idnau.org/pid/niaa-rangers/308> ,
+        <https://data.idnau.org/pid/niaa-rangers/309> ,
+        <https://data.idnau.org/pid/niaa-rangers/31> ,
+        <https://data.idnau.org/pid/niaa-rangers/310> ,
+        <https://data.idnau.org/pid/niaa-rangers/311> ,
+        <https://data.idnau.org/pid/niaa-rangers/312> ,
+        <https://data.idnau.org/pid/niaa-rangers/313> ,
+        <https://data.idnau.org/pid/niaa-rangers/314> ,
+        <https://data.idnau.org/pid/niaa-rangers/315> ,
+        <https://data.idnau.org/pid/niaa-rangers/316> ,
+        <https://data.idnau.org/pid/niaa-rangers/317> ,
+        <https://data.idnau.org/pid/niaa-rangers/318> ,
+        <https://data.idnau.org/pid/niaa-rangers/32> ,
+        <https://data.idnau.org/pid/niaa-rangers/33> ,
+        <https://data.idnau.org/pid/niaa-rangers/34> ,
+        <https://data.idnau.org/pid/niaa-rangers/35> ,
+        <https://data.idnau.org/pid/niaa-rangers/36> ,
+        <https://data.idnau.org/pid/niaa-rangers/37> ,
+        <https://data.idnau.org/pid/niaa-rangers/38> ,
+        <https://data.idnau.org/pid/niaa-rangers/39> ,
+        <https://data.idnau.org/pid/niaa-rangers/4> ,
+        <https://data.idnau.org/pid/niaa-rangers/40> ,
+        <https://data.idnau.org/pid/niaa-rangers/41> ,
+        <https://data.idnau.org/pid/niaa-rangers/42> ,
+        <https://data.idnau.org/pid/niaa-rangers/43> ,
+        <https://data.idnau.org/pid/niaa-rangers/44> ,
+        <https://data.idnau.org/pid/niaa-rangers/45> ,
+        <https://data.idnau.org/pid/niaa-rangers/46> ,
+        <https://data.idnau.org/pid/niaa-rangers/47> ,
+        <https://data.idnau.org/pid/niaa-rangers/48> ,
+        <https://data.idnau.org/pid/niaa-rangers/49> ,
+        <https://data.idnau.org/pid/niaa-rangers/5> ,
+        <https://data.idnau.org/pid/niaa-rangers/50> ,
+        <https://data.idnau.org/pid/niaa-rangers/51> ,
+        <https://data.idnau.org/pid/niaa-rangers/52> ,
+        <https://data.idnau.org/pid/niaa-rangers/53> ,
+        <https://data.idnau.org/pid/niaa-rangers/54> ,
+        <https://data.idnau.org/pid/niaa-rangers/55> ,
+        <https://data.idnau.org/pid/niaa-rangers/56> ,
+        <https://data.idnau.org/pid/niaa-rangers/57> ,
+        <https://data.idnau.org/pid/niaa-rangers/58> ,
+        <https://data.idnau.org/pid/niaa-rangers/59> ,
+        <https://data.idnau.org/pid/niaa-rangers/6> ,
+        <https://data.idnau.org/pid/niaa-rangers/60> ,
+        <https://data.idnau.org/pid/niaa-rangers/61> ,
+        <https://data.idnau.org/pid/niaa-rangers/62> ,
+        <https://data.idnau.org/pid/niaa-rangers/63> ,
+        <https://data.idnau.org/pid/niaa-rangers/64> ,
+        <https://data.idnau.org/pid/niaa-rangers/65> ,
+        <https://data.idnau.org/pid/niaa-rangers/66> ,
+        <https://data.idnau.org/pid/niaa-rangers/67> ,
+        <https://data.idnau.org/pid/niaa-rangers/68> ,
+        <https://data.idnau.org/pid/niaa-rangers/69> ,
+        <https://data.idnau.org/pid/niaa-rangers/7> ,
+        <https://data.idnau.org/pid/niaa-rangers/70> ,
+        <https://data.idnau.org/pid/niaa-rangers/71> ,
+        <https://data.idnau.org/pid/niaa-rangers/72> ,
+        <https://data.idnau.org/pid/niaa-rangers/73> ,
+        <https://data.idnau.org/pid/niaa-rangers/74> ,
+        <https://data.idnau.org/pid/niaa-rangers/75> ,
+        <https://data.idnau.org/pid/niaa-rangers/76> ,
+        <https://data.idnau.org/pid/niaa-rangers/77> ,
+        <https://data.idnau.org/pid/niaa-rangers/78> ,
+        <https://data.idnau.org/pid/niaa-rangers/79> ,
+        <https://data.idnau.org/pid/niaa-rangers/8> ,
+        <https://data.idnau.org/pid/niaa-rangers/80> ,
+        <https://data.idnau.org/pid/niaa-rangers/81> ,
+        <https://data.idnau.org/pid/niaa-rangers/82> ,
+        <https://data.idnau.org/pid/niaa-rangers/83> ,
+        <https://data.idnau.org/pid/niaa-rangers/84> ,
+        <https://data.idnau.org/pid/niaa-rangers/85> ,
+        <https://data.idnau.org/pid/niaa-rangers/86> ,
+        <https://data.idnau.org/pid/niaa-rangers/87> ,
+        <https://data.idnau.org/pid/niaa-rangers/88> ,
+        <https://data.idnau.org/pid/niaa-rangers/89> ,
+        <https://data.idnau.org/pid/niaa-rangers/9> ,
+        <https://data.idnau.org/pid/niaa-rangers/90> ,
+        <https://data.idnau.org/pid/niaa-rangers/91> ,
+        <https://data.idnau.org/pid/niaa-rangers/92> ,
+        <https://data.idnau.org/pid/niaa-rangers/93> ,
+        <https://data.idnau.org/pid/niaa-rangers/94> ,
+        <https://data.idnau.org/pid/niaa-rangers/95> ,
+        <https://data.idnau.org/pid/niaa-rangers/96> ,
+        <https://data.idnau.org/pid/niaa-rangers/97> ,
+        <https://data.idnau.org/pid/niaa-rangers/98> ,
+        <https://data.idnau.org/pid/niaa-rangers/99> ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/1>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/1/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/60100803> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/6> ;
+    schema:description "Aboriginal Land Council of Tasmania,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "truwana Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/10>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/10/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401001> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Border Ranges Contractors Pty Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Githabul Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/100>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/100/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Malu Kiai Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/101>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/101/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mura Badhugal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/102>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/102/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mabuygiw Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/103>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/103/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700203> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mura Buway Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/104>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/104/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700404> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Masigalgal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/105>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/105/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700402> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Porumalgal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/106>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/106/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mua Lagalgau Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/107>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/107/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700503> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Ugaram Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/108>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/108/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Meriam Gesep Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/109>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/109/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Simakal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/11>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/11/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30601804> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Bunya Peoples' Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Bunya Mountains Murri Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/110>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/110/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Walalakoo Aboriginal Corporation RNTBC,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Nyikina Mangala Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/111>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/111/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Warddeken Land Management Limited,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Warddeken Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/112>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/112/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Warnbi Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Warnbi Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/113>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/113/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400203> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Wellesley Islands Land and Sea Social Economic Development Pty Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Wellesley Islands Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/114>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/114/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Werenbun Association Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Werenbun Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/115>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/115/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400702> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Wilinggin Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Wunggurr Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/116>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/116/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20201301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "Winda-Mara Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Budj Bim Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/117>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/117/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401604> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Worimi Local Aboriginal Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Worimi Green Team Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/118>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/118/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/90200102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/9> ;
+    schema:description "Wreck Bay Aboriginal Community Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Bhewerre Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/119>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/119/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Wunambal Gaambera Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Uunguu Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/12>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/12/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Carpentaria Land Council Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Gangalidda Garawa (Burketown) Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/120>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/120/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40300204> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Yalata Anangu Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Yalata Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/121>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/121/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50100207> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yamatji Marlpa Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Nyangumarta Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/122>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/122/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yanunijarra Aboriginal Corporation RNTBC,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Yanunijarra Ngurrara Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/123>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/123/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yawoorroong Miriuwang Gajerrong Yirrgeb Noong Dawang Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Yawoorroong Miriuwung Gajerrong Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/124>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/124/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Yintjingga Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Lama Lama Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/125>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/125/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Yuku-Baja-Muliku Landowner and Reserves Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Yuku-Baja-Muliku Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/126>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/126/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Thursday Island Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/127>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/127/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Abm Elgoring Ambung Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Abm Elgoring Ambung Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/128>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/128/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200103> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Anangu Pitjantjatjaraku Incorporated,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Keeping Tjukurpa Healthy Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/129>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/129/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200106> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Anangu Pitjantjatjaraku Incorporated,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Iwantja Minymaku Warkaku Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/13>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/13/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Carpentaria Land Council Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Kurtijar, Gkuthaarn, and Kukatj (Normanton) Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/130>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/130/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Anangu Pitjantjatjaraku Incorporated,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Manta Atunymankupai Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/131>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/131/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Angkamuthi Tribal Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Angkamuthi Land and Sea Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/132>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/132/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600704> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Arafura Swamp Rangers Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Arafura Swamp Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/133>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/133/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20200304> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "Barapa Limited,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Kurrak Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/134>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/134/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500204> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Barkindji Maraura Elders Environment Team Ltd,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Baaka Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/135>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/135/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10400401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Baryulgil Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Berinbah Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/136>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/136/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10600201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Batemans Bay Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Walbunja Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/137>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/137/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10600101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Bega Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Bega Eden Merrimans Country Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/138>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/138/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30600601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Bigambul Native Title Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Bigambul Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/139>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/139/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Binalup Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Yorkas Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/14>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/14/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70900301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Anmatyerr Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/140>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/140/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/31001001> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Blue Jeep Investments PTY LTD,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Gia Ngaro Twin Creeks Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/141>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/141/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10501901> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Brungle/Tumut Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Bugang Bila Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/142>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/142/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30601804> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Bunya Peoples' Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Bunya Peoples' Women's Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/143>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/143/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30500501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Butchulla Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "K'gari Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/144>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/144/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30500501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Butchulla Native Title Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Butchulla Country Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/145>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/145/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Buurabalayji Thalanyji Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Buurabalayji Thalanyji  Indigenous Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/146>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/146/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70901301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Walungurru Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/147>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/147/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70700504> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Utopia Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/148>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/148/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70900301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Muru-Warinyi Ankkul Women Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/149>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/149/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Choorechillum (Ngadjon Jii PBC) Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Noongyanbudda Ngadjon Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/15>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/15/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70900701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Tjuwanpa Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/150>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/150/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Chuulangun Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Chuulangun Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/151>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/151/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800604> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Dambimangari Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Dambimangari Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/152>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/152/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10402302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Darkinjung Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Darkinjung Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/153>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/153/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20200302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "Dja Dja Wurrung Clans Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Dja Dja Wurrung Dhelkunya Dja Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/154>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/154/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Dugalunji Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Mulligan River Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/155>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/155/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20201701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "Eastern Maar Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Eastern Maar Country Guardians" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/156>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/156/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Ewamian Limited,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Ewamian Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/157>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/157/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40300103> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Far West Coast Investments PTY LTD,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Far West Coast Tjutjuna Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/158>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/158/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10201202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Fire Lore PTY LTD,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Mindle Wabadima Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/159>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/159/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20201001> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "First People of the Millewa-Mallee Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "FPMMAC Womens Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/16>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/16/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70900801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Kaltukatjara Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/160>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/160/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10701701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Gandangara Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Gandangara Heathcote Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/161>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/161/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900210> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Gimuy Walubara Yidinji Elders Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Gimuy Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/162>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/162/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/31001402> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Girringun Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Yunbenun Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/163>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/163/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Gnaala Karla Booja Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Gnaala Karla Booja Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/164>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/164/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Goldfields Aboriginal Community Services Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Goldfields Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/165>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/165/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30601001> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Goorathuntha Traditional Owners Limited,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Goorathuntha (Bidjara) Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/166>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/166/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20200702> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "Gunaikurnai Land & Waters Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Gunaikurnai Wurruk and Katungal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/167>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/167/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30600801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Gunggari Native Title Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Gunggari Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/168>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/168/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10200401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Guyra Local Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Banbai Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/169>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/169/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Hopevale Congress Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Hope Vale Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/17>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/17/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70901701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Warlpiri Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/170>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/170/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10400102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Jali Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Jali Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/171>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/171/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Jawoyn Association Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Jawoyn Combined Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/172>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/172/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10600301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description """Jerrinja Local Aboriginal Land Council\r
+,Indigenous Ranger Program,Round 1 Expansion""" ;
+    schema:name "Jerrinja Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/173>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/173/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30100702> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Kalwun Development Corporation Limited,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Jellurgal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/174>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/174/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Jaru Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/175>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/175/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800604> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Mayala Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/176>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/176/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800604> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Nimanburr Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/177>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/177/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30500904> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Koinmerburra Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Koinmerburra Land and Sea Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/178>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/178/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Kokatha Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Kokatha Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/179>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/179/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400402> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Kooma Traditional Owners Association INC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Jamba Dhandan Duringala Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/18>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/18/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70901101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Anangu Luritjiku Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/180>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/180/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Kowanyama Aboriginal Shire Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Kowanyama Land & Sea Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/181>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/181/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Lockhart River Aboriginal Shire Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Lockhart River Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/182>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/182/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Madjandji Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Madjandji Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/183>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/183/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Mantjiljarra Yulparirra PTY LTD,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Wiluna Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/184>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/184/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/60100802> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/6> ;
+    schema:description "Melaythenner Teeackana Warrana (Heart of Country) Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Neeray Melaythenner, Neeray Parlerwar Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/185>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/185/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10700802> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Metropolitan Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Metro LALC (Yenore) Rangers  " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/186>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/186/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500309> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Mimal Land Management Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Mimal Women's Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/187>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/187/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10501501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Mingaan Wiradjuri Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Murun-gi-y-ali-nya Ngiyanhigin-gu Ngurambang Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/188>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/188/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Mithaka Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Mithaka Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/189>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/189/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500405> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Namultja Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Namultja Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/19>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/19/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70700504> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Muru-warinyi Ankkul Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/190>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/190/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Nari Nari Tribal Council Ltd,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Nari Nari Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/191>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/191/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40102302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Narungga Nation Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Narungga Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/192>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/192/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300402> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Ngaanyatjarra Council Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Irrunytju (Wingellina) Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/193>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/193/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30100705> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Ngarang-Wal Gold Coast Aboriginal Association Incorporated,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Ngarang-Wal Federal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/194>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/194/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40101201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Ngarrindjeri Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Yarluwar-Ruwe Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/195>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/195/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600112> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Ngurra Kayanta Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Ngurra Kayanta Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/196>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/196/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70901102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Ngurratjuta/Pmara Ntjarra Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Ngurratjuta Kungka Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/197>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/197/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Noongar Land Enterprise Group Incorporated,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Noongar Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/198>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/198/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500805> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Wardaman Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/199>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/199/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Nukunu Wapma Thura Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Nukunu Wanypatha Yarta Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/2>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/2/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40101302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Aboriginal Lands Trust of South Australia,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Raukkan Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/20>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/20/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "North Tanami Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/200>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/200/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600111> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Nyamal Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Mangkurla Parkarra Mangkurla Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/201>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/201/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30100207> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Nyanda Life Limited,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Maiwar Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/202>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/202/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Pitta Pitta Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Pitta Pitta Country Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/203>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/203/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30101402> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Quandamooka Yoolooburrabee Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Quandamooka Yoolooburrabee  Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/204>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/204/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/60100101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/6> ;
+    schema:description """Six Rivers Aboriginal Corporation\r
+,Indigenous Ranger Program,Round 1 Expansion""" ;
+    schema:name "Panatana Muka Milaythina Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/205>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/205/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40300201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "South Australian Native Title Services LTD,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Nauo-Wirangu Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/206>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/206/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/60100401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/6> ;
+    schema:description "South East Tasmanian Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "South East Tasmanian Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/207>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/207/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Tagalaka Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Tagalaka Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/208>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/208/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10201101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Tamworth Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Walaaybaa Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/209>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/209/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401902> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Taree Indigenous Development and Employment Ltd,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Taree Mid North Coast Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/21>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/21/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70900902> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Tjakura Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/210>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/210/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30500302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Taribelang Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Taribelang Bunda Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/211>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/211/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/60100803> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/6> ;
+    schema:description "Tasmanian Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Pakana mana-mapali milaythina mana-mapali   Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/212>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/212/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "The PKKP Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Puutu Kunti Kurrama and Pinikura Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/213>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/213/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20201203> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "The Trustee for Framlingham Aboriginal Trust,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Deen Maar and Framlingham Forest Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/214>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/214/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20200703> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "The Trustee for Lake Tyers Aboriginal Trust,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Bung Yarnda Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/215>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/215/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400603> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Tiwi Resources Pty Ltd,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Tiwi Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/216>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/216/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description """Tjrilya Aboriginal Corporation\r
+,Indigenous Ranger Program,Round 1 Expansion""" ;
+    schema:name "Tjirilya TigaR Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/217>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/217/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70901403> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Tjuwanpa Outstation Resource Centre Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Tjuwanpa Women's Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/218>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/218/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900602> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Wabubadda Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Jirrbal Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/219>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/219/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20200902> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "Wadawurrung Traditional Owners Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Wadawurrung Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/22>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/22/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Dawul Wuru Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Yirrganydji Indigenous Land and Sea Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/220>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/220/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700802> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Wagyl Kaip Southern Noongar Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Wagyl Kaip Southern Noongar Womens Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/221>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/221/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10300301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Walhallow Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Walhallow Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/222>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/222/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10200302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Wangaaypuwan Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Wangaaypuwan Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/223>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/223/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600111> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Wanparta Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Ngarla Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/224>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/224/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Warddeken Land Management Limited,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Daluk Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/225>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/225/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Wik Projects Limited,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Wik Projects Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/226>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/226/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400702> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Wilinggin Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Darran.gu Wulagura Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/227>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/227/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Winangakirri Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Mawonga Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/228>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/228/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20201301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "Winda-Mara Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Winda-Mara Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/229>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/229/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Wirrawandi Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Wirrawandi Marduthuni Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/23>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/23/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/60100202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/6> ;
+    schema:description "Department of Natural Resources and Environment Tasmania,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Tasmania PWS Trainees" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/230>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/230/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20101002> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "Wurundjeri Woi-wurrung Cultural Heritage Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Narrap Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/231>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/231/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Wuthathi Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Wuthathi Custodians " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/232>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/232/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10400904> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Wuunggati Barriya Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Macleay Valley (Dunghutti)Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/233>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/233/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50200501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yamatji Southern Regional Corporation Limited,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Yamatji Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/234>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/234/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30500201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Yambangku Aboriginal Cultural Heritage & Tourism Development Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Iningai (Yambangku) Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/235>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/235/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yanunijarra Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Yi-Martuwarra Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/236>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/236/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yindjibarndi Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Yindjibarndi Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/237>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/237/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70901403> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Tjuwanpa Outstation Resource Centre Aboriginal Corporation,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Tjuwanpa Women's Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/238>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/238/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10702301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "La Perouse Local Aboriginal Land Council,Indigenous Ranger Program,Round 1 Expansion" ;
+    schema:name "Gamay Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/239>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/239/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40101901> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Burrandies Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Maruwinya MeritBi - Limestone Country Carers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/24>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/24/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "NSW Department Planning, Industry and Environment ,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Willandra Lakes Region Indigenous Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/240>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/240/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20100102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20100801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20101202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20101203> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20101301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20101901> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20101902> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/20101903> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/2> ;
+    schema:description "Bunurong Land Council Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Baliṯ Biik Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/241>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/241/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Albury and District Local Aboriginal Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Wirimbirra Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/242>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/242/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10501001> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Werai Land and Water Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Werai Land and Water Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/243>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/243/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10600401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Ngambri Local Aboriginal Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Ngambri Senior Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/244>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/244/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10600303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Ulladulla Local Aboriginal Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Murramarang Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/245>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/245/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/80100101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/8> ;
+    schema:description "Ginninderry Conservation Ltd,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Ginninderry Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/246>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/246/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Southern Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Southern Aboriginal Corporation Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/247>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/247/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40101302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "The River Murray and Mallee Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "River Murray Wetlands and Mallee Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/248>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/248/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701002> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701503> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Karri Karrak Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Karri Karrak South-West Boojarah Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/249>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/249/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500205> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Education Services International Supply Group Pty Ltd,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Cultural Tourism Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/25>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/25/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600112> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Tjamu Tjamu (Aboriginal Corporation) RNTBC,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Kiwirrkurra Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/250>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/250/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Education Services International Supply Group Pty Ltd,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Balranald Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/251>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/251/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Badgebup Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Ngoolyark Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/252>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/252/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40100301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40102201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Ngadjuri Nation Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Ngadjuri Nation Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/253>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/253/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10100403> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "THRIV3 (Indigenous Corporation),Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "THRIV3 Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/254>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/254/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401503> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Bunyah Local Aboriginal Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Guulabaa Coastal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/255>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/255/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10200601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Nungaroo Local Aboriginal Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Nungaroo Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/256>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/256/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40300204> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Yalata Anangu Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Yalata Women's Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/257>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/257/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10100701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Coonabarabran Local Aboriginal Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Murrunmala Dhawun Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/258>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/258/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10400901> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10400902> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10400905> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Dunghutti Elders Council Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Gurrgiyn Gurrgiyn Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/259>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/259/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10200301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Red Chief Local Aboriginal Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Gomeroi Land and Water Management Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/26>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/26/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Dhimurru Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Dhimurru Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/260>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/260/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10400902> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Thunggutti Local Aboriginal Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Thunggutti Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/261>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/261/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yued Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Yued Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/262>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/262/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10400503> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Coffs Harbour & District Local Aboriginal Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Darrunda Wajaarr Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/263>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/263/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401703> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Minyumai Land Holding Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Minyumai IPA Women's Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/264>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/264/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30600101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30600102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Yuwaalaraay Euahlayi Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Yuwaalaraay Euahlayi Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/265>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/265/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Arabana Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Arabana Womens Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/266>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/266/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30100101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30100705> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30100903> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30101403> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Danggan Balun Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Danggan Balun Land and Sea Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/267>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/267/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50200303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yamatji Marlpa Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Nanda Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/268>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/268/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50200702> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yamatji Marlpa Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Baiyungu Yinnigurrura Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/269>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/269/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30100303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Jinibara People Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Jinibara Freshwater Womens Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/27>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/27/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Djunbunji Limited,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mandingalbay Yidinji Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/270>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/270/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "South Australian Native Title Services Ltd,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Northern SA Anangu Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/271>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/271/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30100302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30101001> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30600401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30601101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Kabi Kabi Peoples Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Kabi Kabi Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/272>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/272/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30500201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30500703> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Wangan Jagalingou Traditional Owners Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Wangan Jagalingou Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/273>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/273/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30500906> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Woppaburra TUMRA Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Woppaburra Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/274>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/274/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70900301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Australian Wildlife Conservancy,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Ngalurrtju Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/275>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/275/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600104> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600108> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600109> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Jamukurnu-Yapalikurnu Aboriginal Corporation (Western Desert Lands) RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Warla-Warrarn Martu IPA Women's Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/276>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/276/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600111> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Palyku-Jartayi Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "PJAC / Budadee Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/277>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/277/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Murujuga Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Murujuga Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/278>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/278/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70700201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Dugalunji Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Rocklands Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/279>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/279/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50100207> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Karajarri Traditional Lands Association Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Karajarri Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/28>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/28/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Esperance Tjaltjraak Native Title Aboriginal Corporation RNTBC,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Tjaltjraak Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/280>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/280/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900603> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Girringun Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Girringun Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/281>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/281/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800603> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800605> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Walalakoo Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Nyikina Mangala Women's Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/282>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/282/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "goondoi arts aboriginal corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Goondoi Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/283>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/283/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50100207> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Gogolanyngor Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Bindan Djak Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/284>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/284/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400702> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Joombarn-buru Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Joombarn-Buru Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/285>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/285/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Jaragun Pty Ltd,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Wanjuru Land and Sea Country Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/286>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/286/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Gudanji For Country Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Karranjini Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/287>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/287/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600104> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Anindilyakwa Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Anindilyakwa Land & Sea Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/288>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/288/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Ngana Malngkanichi Pama (CNCRM) Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Umpila IPA Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/289>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/289/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Southern Kaantju Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Southern Kaantju Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/29>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/29/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40300201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Gawler Ranges Aboriginal Corporation RNTBC,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Gawler Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/290>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/290/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Tjuwaliyn-Wagiman Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Tjuwaliyn Wagiman Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/291>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/291/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600304> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Laynhapuy Homelands Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Yirralka Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/292>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/292/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Gong-dal Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Mutjung Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/293>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/293/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Gundjeihmi Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Djurrubu Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/294>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/294/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700204> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700205> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Ballardong Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Ballardong Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/295>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/295/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300409> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Manta Wakamurru Pty Ltd,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Wakamurru Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/296>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/296/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401001> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Ngullingah Jugun (Our Country) Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Western Bundjalung Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/297>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/297/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "WA Mirning People Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "WA Mirning Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/298>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/298/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Gnowangerup Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Ngowanjerindj Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/299>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/299/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400103> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Kija Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/3>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/3/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200107> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Anangu Pitjantjatjaraku Incorporated,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "APY Land Management Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/30>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/30/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30500302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Gidarjil Development Corporation Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Gidarjil Land and Sea Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/300>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/300/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900204> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Nguddaboolgan Native Title Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Djungan Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/301>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/301/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Robe River Kuruma Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Jajiwurra Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/302>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/302/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50200402> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Wajarri Yamaji Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Wajarri Yamaji Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/303>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/303/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600111> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Karlka Nyiyaparli Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Nyiyaparli Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/304>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/304/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600203> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Yinhawangka Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Yinhawangka Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/305>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/305/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500402> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council ,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Alawa Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/306>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/306/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70300501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council ,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "NLC Rangers team to support  Junior Ranger Programs and Traineeship Pilots" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/307>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/307/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70700302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council ,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Kulumindini Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/308>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/308/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council ,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "SEAL Sea Country IPA Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/309>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/309/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70300501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council ,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "NLC Womens Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/31>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/31/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30901001> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Girringun Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Girringun Aboriginal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/310>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/310/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701001> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Binalup Aboriginal Corporation,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Binalup Cultural Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/311>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/311/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50500102> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50501003> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50501301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50501903> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50501906> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50501907> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50700205> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50701401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Bibbul Ngarma Aboriginal Association Incorporated,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Mandoon Bilya Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/312>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/312/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70900401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Central Land Council,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Aputula Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/313>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/313/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Gobawarrah Yinhawangka Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Gobawarrah Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/314>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/314/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50100207> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Nyamba Buru Yawuru Ltd,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Yawuru Country Managers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/315>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/315/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400104> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Thamarrurr Development Corporation Limited,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Nganmarriyanga Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/316>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/316/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "The Dieri Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Dieri Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/317>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/317/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30400402> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Kalkadoon Native Title Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Kalkadoon PBC Rangers " ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/318>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/318/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40100101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Kaurna Yerta Aboriginal Corporation RNTBC,Indigenous Ranger Program,Round 2 Expansion" ;
+    schema:name "Kaurna Yerta Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/32>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/32/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Goldfields Aboriginal Community Services Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Goldfields Land Management Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/33>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/33/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30901201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Gunggandji PBC Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Gunggandji Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/34>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/34/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30900301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Jabalbina Yalanji Aboriginal Corporation RNTBC,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Eastern Kuku Yalanji Indigenous Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/35>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/35/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Jawoyn Association Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Jawoyn Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/36>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/36/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Jawoyn Association Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mangarrayi Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/37>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/37/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Kalan Enterprises Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Kalan Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/38>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/38/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600111> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kalyuku Ninti - Puntuku Ngurra Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Jigalong Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/39>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/39/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600111> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kalyuku Ninti - Puntuku Ngurra Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Punmu Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/4>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/4/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Anindilyakwa Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Anindilyakwa Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/40>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/40/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600108> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kalyuku Ninti - Puntuku Ngurra Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Parnngurr Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/41>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/41/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50600104> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kalyuku Ninti - Puntuku Ngurra Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Kunawarritji Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/42>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/42/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50100203> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Karajarri Traditional Lands Association Aboriginal Corporation RNTBC,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Karajarri Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/43>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/43/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Balanggarra Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/44>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/44/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50100201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Bardi Jawi Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/45>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/45/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50800501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Gooniyandi Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/46>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/46/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50100202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Nyul Nyul Indigenous Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/47>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/47/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400205> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Paruku Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/48>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/48/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50400103> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Kimberley Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Kija Indigenous Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/49>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/49/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Kowanyama Aboriginal Shire Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Kowanyama Indigenous Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/5>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/5/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Arabana Aboriginal Corporation RNTBC,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Arabana Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/50>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/50/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10702301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "La Perouse Local Aboriginal Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Gamay Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/51>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/51/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600305> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Laynhapuy Homelands Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Yirralka Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/52>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/52/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Mabunji Aboriginal Resource Indigenous Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Li-Anthawirriyarra Sea Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/53>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/53/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Mapoon Aboriginal Shire Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mapoon Land and Sea Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/54>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/54/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600705> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Milingimbi and Outstations Progress Resource Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Crocodile Islands Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/55>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/55/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500308> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Mimal Land Management Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mimal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/56>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/56/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401703> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Minyumai Land Holding Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Jahnala Yenbalehla Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/57>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/57/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40101701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Murraylands and Riverland Landscape Board,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "River Murray and Mallee Aboriginal Corporation Ranger Team" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/58>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/58/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200303> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Murraylands and Riverland Landscape Board,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Australian Landscapes Trust Ranger Team" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/59>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/59/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300702> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Napranum Aboriginal Shire Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Nanum Wungthim Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/6>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/6/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600705> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Arafura Swamp Rangers Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Arafura Swamp Ranger Groups" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/60>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/60/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10200801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Border Ranges Contractors Pty Ltd,Murray Darling Basin Indigenous River Rangers Program,MDBIRRP" ;
+    schema:name "Northern Gomeroi River Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/61>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/61/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10300609> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Dharriwaa Elders Group Incorporated,Murray Darling Basin Indigenous River Rangers Program,MDBIRRP" ;
+    schema:name "Ngarrangarra-li Walaaybaa Walgett River Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/62>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/62/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "First People of the Millewa-Mallee Aboriginal Corporation,Murray Darling Basin Indigenous River Rangers Program,MDBIRRP" ;
+    schema:name "Lindsay Mulcra and Wallpolla Islands River Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/63>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/63/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Nari Nari Tribal Council,Murray Darling Basin Indigenous River Rangers Program,MDBIRRP" ;
+    schema:name "Gayini River Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/64>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/64/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Yarkuwa Indigenous Knowledge Centre Aboriginal Corporation,Murray Darling Basin Indigenous River Rangers Program,MDBIRRP" ;
+    schema:name "Yarkuwa Indigenous River Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/65>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/65/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300406> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Ngaanyajtarra Council Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Blackstone Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/66>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/66/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300410> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Ngaanyatjarra Council Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Warakurna Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/67>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/67/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Ngaanyatjarra Council Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Warburton Women Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/68>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/68/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300410> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Ngaanyatjarra Council Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Warburton Men Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/69>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/69/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300206> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Ngadju Native Title Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Ngadju Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/7>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/7/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10300503> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Barkandji Native Title Group Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Barkandji River Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/70>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/70/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40101302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Ngarrindjeri Lands and Progress Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Ngarrindjeri Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/71>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/71/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40101201> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Ngopamuldi Aboriginal Corporation ,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Coorong and Murray Lower Lakes Area Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/72>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/72/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401204> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Ngulingah Local Aboriginal Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Ngulingah Aboriginal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/73>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/73/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40200302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Nipapanha Community Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Nantawarrina Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/74>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/74/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50200302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Northern Agricultural Catchments Council Incorporated ,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mid West Aboriginal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/75>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/75/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Numbulwar Numburindi Land and Sea Management Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/76>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/76/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70300404> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Bulgul Land and Sea Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/77>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/77/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400103> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Malak Malak Land and Water Management Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/78>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/78/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70700301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Waanyi Garawa Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/79>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/79/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500701> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Yugul Mangi Land and Sea Management Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/8>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/8/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10500202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Barkindji Maraura Elders Environment Team Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Barkindji Maraura Elders Environment Team Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/80>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/80/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400106> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Wagiman Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/81>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/81/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400405> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Garngi Land and Sea Management Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/82>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/82/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70600401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Gumurr Marthakal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/83>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/83/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400406> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mardbalk Land and Sea Management Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/84>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/84/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70500404> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Garawa Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/85>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/85/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Northern Land Council ,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Njanjma Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/86>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/86/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30300801> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Northern Peninsula Area Regional Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Apudthama Land and Sea Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/87>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/87/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50100104> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Nyamba Buru Yawuru Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Yawuru Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/88>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/88/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/40300202> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/4> ;
+    schema:description "Oak Valley (Maralinga) Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Oak Valley Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/89>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/89/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/50300503> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/5> ;
+    schema:description "Pila Nguru Aboriginal Corporation RNTBC,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Spinifex Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/9>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/9/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400301> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Bawinanga Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Bawinanga Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/90>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/90/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30101402> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Quandamooka Yoolooburrabee Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Quandamooka Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/91>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/91/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30600601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Queensland Murray Darling Catchment Limited,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Queensland Murray Darling Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/92>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/92/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10201101> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Tamworth Local Aboriginal Land Council,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Walaaybaa Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/93>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/93/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/10401902> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/1> ;
+    schema:description "Taree Indigenous Development and Employment Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Mid North Coast Indigenous Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/94>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/94/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/60100302> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/6> ;
+    schema:description "Tasmanian Aboriginal Corporation,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "milythina pakana Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/95>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/95/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400502> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description """Thamarrurr Development Corporation Ltd
+,Indigenous Ranger Program,2021-2028 Extension""" ;
+    schema:name "Thamarrurr Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/96>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/96/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/70400601> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/7> ;
+    schema:description "Tiwi Resources Pty Ltd,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Tiwi Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/97>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/97/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700403> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Warraberalgal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/98>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/98/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700401> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Iamalgal Rangers" ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/99>
+    a geo:Feature ;
+    geo:hasGeometry <https://data.idnau.org/pid/niaa-rangers/99/geometry> ;
+    geo:sfWithin
+        <https://linked.data.gov.au/dataset/asgsed3/ILOC/30700501> ,
+        <https://linked.data.gov.au/dataset/asgsed3/STE/3> ;
+    schema:description "Torres Strait Regional Authority,Indigenous Ranger Program,2021-2028 Extension" ;
+    schema:name "Erubam Rangers" ;
+.
+
+}

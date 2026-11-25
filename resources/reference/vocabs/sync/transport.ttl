@@ -1,0 +1,70 @@
+PREFIX : <https://data.idnau.org/pid/vocab/cfm/transport/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX cs: <https://data.idnau.org/pid/vocab/cfm/transport>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:boat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Transport by boat"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Boat"^^xsd:token ;
+    skos:prefLabel "Boat"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:camel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Transport by camel"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Camel"^^xsd:token ;
+    skos:prefLabel "Camel"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:foot
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Transport by foot"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Foot"^^xsd:token ;
+    skos:prefLabel "Foot"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:horse
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Transport by horse"@en ;
+    skos:inScheme cs: ;
+    skos:notation "Horse"^^xsd:token ;
+    skos:prefLabel "Horse"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/idn>
+    a sdo:Organization ;
+    sdo:name "Indigenous Data Network" ;
+    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:changeNote "2026-11-05: Updated to be VocPub conformant" ;
+    skos:definition "Vocabulary of transport modes in colonial frontier massacres in Australia"@en ;
+    skos:hasTopConcept
+        :boat ,
+        :camel ,
+        :foot ,
+        :horse ;
+    skos:prefLabel "Transport modes"@en ;
+    sdo:creator <https://linked.data.gov.au/org/idn> ;
+    sdo:dateCreated "2026-08-06"^^xsd:date ;
+    sdo:dateModified "2026-11-05"^^xsd:date ;
+    sdo:publisher <https://linked.data.gov.au/org/idn> ;
+    sdo:status astatus:experimental ;
+.

@@ -1,0 +1,42 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/niaa-rangers>
+    a schema:Dataset ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON((109.2 -44.4, 157.8 -44.4, 157.8 -9.5, 96 -9.5, 109.2 -44.4))"^^geo:wktLiteral ;
+        ] ;
+    rdfs:member <https://data.idnau.org/pid/niaa-rangers/feature-collection> ;
+    skos:historyNote "Location data is collected through the application process for the Indigenous Ranger Program. The National Indigenous Australians Agency represent the location that the ranger group is based as a series of points. Where data was uncertain, approximations of locations were used." ;
+    schema:additionalType <https://data.idnau.org/pid/vocab/cat-obj-types/SpatialDataset> ;
+    schema:citation
+        "https://digital.atlas.gov.au/apps/c9a949f7db744d28901e65cc759375fa/explore"^^xsd:anyURI ,
+        "https://www.arcgis.com/home/item.html?id=dba5dfe3a4134333891ce6050d6fbe94#overview"^^xsd:anyURI ;
+    schema:conditionsOfAccess "Public"@en ;
+    schema:creator <https://linked.data.gov.au/org/niaa> ;
+    schema:dateCreated "2025-10-15"^^xsd:date ;
+    schema:dateModified "2026-02-17"^^xsd:date ;
+    schema:description """This dataset shows the locations of Indigenous ranger groups across Australia that are funded through the Commonwealth Indigenous Rangers Program (IRP).
+
+The IRP assists First Nations people in managing Country according to Traditional Owners’ objectives. Indigenous rangers use Traditional Knowledge and cultural practices, combined with Western science, to manage land, river and sea Country and deliver environmental, cultural, social and economic development outcomes.
+
+Through the IRP, the Australian Government acknowledges and supports First Nations peoples’ unique, critical and continuing role in managing and protecting Australia’s natural and cultural heritage and is increasing investment in programs.
+
+Information for this dataset was provided by the National Indigenous Australians Agency (NIAA). Information in this dataset was created from successful projects funded through IRP grant opportunities. Where data was uncertain, approximations of locations were used.
+
+This data includes the Indigenous Rangers Program 2021-28 extension, IRP Round 1 and IRP Round 2 expansions. This data will be updated periodically as the program changes.""" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "Indigenous Ranger Group Locations" ;
+    schema:publisher <https://linked.data.gov.au/org/niaa> ;
+.
+
+<https://data.idnau.org/pid/niaa-rangers/feature-collection>
+    a geo:FeatureCollection ;
+    schema:isPartOf <https://data.idnau.org/pid/niaa-rangers> ;
+    schema:name "Ranger Locations" ;
+.

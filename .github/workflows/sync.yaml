@@ -33,7 +33,7 @@ jobs:
               - 'resources/agents/sync/items/*.ttl'
               - 'scripts/sync_agents.py'
             features:
-              - 'resources/reference/datasets/features/*.trig'
+              - 'resources/spatial/features/*.trig'
               - 'scripts/spatial_tdb.sh'
   sync:
     needs: changes
@@ -76,7 +76,7 @@ jobs:
       - name: Copy spatial data
         run: |
           rm /home/ubuntu/fuseki/rdf/*
-          cp resources/reference/datasets/features/* /home/ubuntu/fuseki/rdf/
+          cp resources/spatial/features/* /home/ubuntu/fuseki/rdf/
       - name: Stop Fuseki
         working-directory: /home/ubuntu/fuseki
         run: docker compose -f fuseki-compose.yaml stop
