@@ -272,3 +272,11 @@ The Act establishes the Tribunal as an independent body with a wide range of fun
     sdo:name "Australian Government" ;
     sdo:url "https://www.australia.gov.au"^^xsd:anyURI ;
 .
+
+
+<https://data.idnau.org/pid/org/sum>
+    a sdo:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    sdo:name "Summer Institute of Linguistics" ;
+    sdo:url "https://www.sila.org.au/"^^xsd:anyURI ;
+.
