@@ -10,7 +10,10 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX unit: <http://qudt.org/vocab/unit/>
 PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX void: <http://rdfs.org/ns/void#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 schema:OrganizationRole
@@ -285,9 +288,29 @@ vann:preferredNamespaceUri
     schema:name "Preferred Namespace Uri" ;
 .
 
+unit:AUD
+    schema:name "Australian Dollars" ;
+.
+
+unit:COUNT
+    schema:name "count" ;
+.
+
+void:inDataset
+    schema:name "in dataset" ;
+.
+
 <http://viaf.org/viaf/3517148390832810830006>
     schema:description "Australian aboriginal leader" ;
     schema:name "RaymattjaMarika-Munungirritj"@en-AU ;
+.
+
+<http://www.opengis.net/ont/geosparql>
+    schema:name "GeoSPARQL Ontology" ;
+.
+
+geo:Feature
+    schema:name "Feature" ;
 .
 
 geo:FeatureCollection
@@ -311,12 +334,20 @@ geo:sfWithin
     schema:name "within" ;
 .
 
+rdf:Property
+    schema:name "Property" ;
+.
+
 rdf:first
     schema:name "first" ;
 .
 
 rdf:langString
     schema:name "Lang String" ;
+.
+
+()
+    schema:name "nil" ;
 .
 
 rdf:rest
@@ -372,6 +403,10 @@ owl:deprecated
     schema:name "deprecated" ;
 .
 
+owl:imports
+    schema:name "imports" ;
+.
+
 owl:unionOf
     schema:name "union of" ;
 .
@@ -412,6 +447,10 @@ skos:broadMatch
 skos:broader
     schema:description "Broader concepts are typically rendered as parents in a concept hierarchy (tree)." ;
     schema:name "has broader" ;
+.
+
+skos:changeNote
+    schema:name "change note" ;
 .
 
 skos:closeMatch
@@ -1706,6 +1745,38 @@ sh:union
     schema:name "union"@en ;
 .
 
+sosa:ObservableProperty
+    schema:name "Observable Property" ;
+.
+
+sosa:Observation
+    schema:name "Observation" ;
+.
+
+sosa:ObservationCollection
+    schema:name "Collection of observations" ;
+.
+
+sosa:Result
+    schema:name "Result" ;
+.
+
+sosa:hasFeatureOfInterest
+    schema:name "has feature of interest" ;
+.
+
+sosa:hasResult
+    schema:name "has result" ;
+.
+
+sosa:hasSimpleResult
+    schema:name "has simple result" ;
+.
+
+sosa:observedProperty
+    schema:name "observed property" ;
+.
+
 <https://data.idnau.org/pid/adb/abn>
     schema:name "Australian Business Number" ;
 .
@@ -1881,6 +1952,582 @@ We use data modelling, data governance and data systems implementation expertise
 We use knowledge graphs for data storage, as a transfer format, when serialised, and as inputs to advanced reasoning and data processing tasks, such as for Machine Learning and Artificial Intelligence applications.""" ;
     schema:name "KurrawongAI" ;
     schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/AUS/AUS>
+    schema:name "Australia" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/19499>
+    schema:name "No usual address (NSW)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/19799>
+    schema:name "Migratory - Offshore - Shipping (NSW)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/1GSYD>
+    schema:name "Greater Sydney" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/1RNSW>
+    schema:name "Rest of NSW" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/29499>
+    schema:name "No usual address (Vic.)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/29799>
+    schema:name "Migratory - Offshore - Shipping (Vic.)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/2GMEL>
+    schema:name "Greater Melbourne" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/2RVIC>
+    schema:name "Rest of Vic." ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/39499>
+    schema:name "No usual address (Qld)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/39799>
+    schema:name "Migratory - Offshore - Shipping (Qld)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/3GBRI>
+    schema:name "Greater Brisbane" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/3RQLD>
+    schema:name "Rest of Qld" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/49499>
+    schema:name "No usual address (SA)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/49799>
+    schema:name "Migratory - Offshore - Shipping (SA)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/4GADE>
+    schema:name "Greater Adelaide" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/4RSAU>
+    schema:name "Rest of SA" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/59499>
+    schema:name "No usual address (WA)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/59799>
+    schema:name "Migratory - Offshore - Shipping (WA)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/5GPER>
+    schema:name "Greater Perth" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/5RWAU>
+    schema:name "Rest of WA" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/69499>
+    schema:name "No usual address (Tas.)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/69799>
+    schema:name "Migratory - Offshore - Shipping (Tas.)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/6GHOB>
+    schema:name "Greater Hobart" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/6RTAS>
+    schema:name "Rest of Tas." ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/79499>
+    schema:name "No usual address (NT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/79799>
+    schema:name "Migratory - Offshore - Shipping (NT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/7GDAR>
+    schema:name "Greater Darwin" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/7RNTE>
+    schema:name "Rest of NT" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/89499>
+    schema:name "No usual address (ACT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/89799>
+    schema:name "Migratory - Offshore - Shipping (ACT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/8ACTE>
+    schema:name "Australian Capital Territory" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/99499>
+    schema:name "No usual address (OT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/99799>
+    schema:name "Migratory - Offshore - Shipping (OT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/9OTER>
+    schema:name "Other Territories" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/GCCSA/ZZZZZ>
+    schema:name "Outside Australia" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/101>
+    schema:name "Capital Region" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/102>
+    schema:name "Central Coast" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/103>
+    schema:name "Central West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/104>
+    schema:name "Coffs Harbour - Grafton" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/105>
+    schema:name "Far West and Orana" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/106>
+    schema:name "Hunter Valley exc Newcastle" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/107>
+    schema:name "Illawarra" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/108>
+    schema:name "Mid North Coast" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/109>
+    schema:name "Murray" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/110>
+    schema:name "New England and North West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/111>
+    schema:name "Newcastle and Lake Macquarie" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/112>
+    schema:name "Richmond - Tweed" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/113>
+    schema:name "Riverina" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/114>
+    schema:name "Southern Highlands and Shoalhaven" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/115>
+    schema:name "Sydney - Baulkham Hills and Hawkesbury" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/116>
+    schema:name "Sydney - Blacktown" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/117>
+    schema:name "Sydney - City and Inner South" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/118>
+    schema:name "Sydney - Eastern Suburbs" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/119>
+    schema:name "Sydney - Inner South West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/120>
+    schema:name "Sydney - Inner West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/121>
+    schema:name "Sydney - North Sydney and Hornsby" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/122>
+    schema:name "Sydney - Northern Beaches" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/123>
+    schema:name "Sydney - Outer South West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/124>
+    schema:name "Sydney - Outer West and Blue Mountains" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/125>
+    schema:name "Sydney - Parramatta" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/126>
+    schema:name "Sydney - Ryde" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/127>
+    schema:name "Sydney - South West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/128>
+    schema:name "Sydney - Sutherland" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/197>
+    schema:name "Migratory - Offshore - Shipping (NSW)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/199>
+    schema:name "No usual address (NSW)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/201>
+    schema:name "Ballarat" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/202>
+    schema:name "Bendigo" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/203>
+    schema:name "Geelong" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/204>
+    schema:name "Hume" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/205>
+    schema:name "Latrobe - Gippsland" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/206>
+    schema:name "Melbourne - Inner" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/207>
+    schema:name "Melbourne - Inner East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/208>
+    schema:name "Melbourne - Inner South" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/209>
+    schema:name "Melbourne - North East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/210>
+    schema:name "Melbourne - North West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/211>
+    schema:name "Melbourne - Outer East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/212>
+    schema:name "Melbourne - South East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/213>
+    schema:name "Melbourne - West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/214>
+    schema:name "Mornington Peninsula" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/215>
+    schema:name "North West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/216>
+    schema:name "Shepparton" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/217>
+    schema:name "Warrnambool and South West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/297>
+    schema:name "Migratory - Offshore - Shipping (Vic.)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/299>
+    schema:name "No usual address (Vic.)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/301>
+    schema:name "Brisbane - East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/302>
+    schema:name "Brisbane - North" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/303>
+    schema:name "Brisbane - South" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/304>
+    schema:name "Brisbane - West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/305>
+    schema:name "Brisbane Inner City" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/306>
+    schema:name "Cairns" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/307>
+    schema:name "Darling Downs - Maranoa" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/308>
+    schema:name "Central Queensland" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/309>
+    schema:name "Gold Coast" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/310>
+    schema:name "Ipswich" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/311>
+    schema:name "Logan - Beaudesert" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/312>
+    schema:name "Mackay - Isaac - Whitsunday" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/313>
+    schema:name "Moreton Bay - North" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/314>
+    schema:name "Moreton Bay - South" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/315>
+    schema:name "Queensland - Outback" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/316>
+    schema:name "Sunshine Coast" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/317>
+    schema:name "Toowoomba" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/318>
+    schema:name "Townsville" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/319>
+    schema:name "Wide Bay" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/397>
+    schema:name "Migratory - Offshore - Shipping (Qld)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/399>
+    schema:name "No usual address (Qld)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/401>
+    schema:name "Adelaide - Central and Hills" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/402>
+    schema:name "Adelaide - North" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/403>
+    schema:name "Adelaide - South" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/404>
+    schema:name "Adelaide - West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/405>
+    schema:name "Barossa - Yorke - Mid North" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/406>
+    schema:name "South Australia - Outback" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/407>
+    schema:name "South Australia - South East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/497>
+    schema:name "Migratory - Offshore - Shipping (SA)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/499>
+    schema:name "No usual address (SA)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/501>
+    schema:name "Bunbury" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/502>
+    schema:name "Mandurah" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/503>
+    schema:name "Perth - Inner" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/504>
+    schema:name "Perth - North East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/505>
+    schema:name "Perth - North West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/506>
+    schema:name "Perth - South East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/507>
+    schema:name "Perth - South West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/509>
+    schema:name "Western Australia - Wheat Belt" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/510>
+    schema:name "Western Australia - Outback (North)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/511>
+    schema:name "Western Australia - Outback (South)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/597>
+    schema:name "Migratory - Offshore - Shipping (WA)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/599>
+    schema:name "No usual address (WA)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/601>
+    schema:name "Hobart" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/602>
+    schema:name "Launceston and North East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/603>
+    schema:name "South East" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/604>
+    schema:name "West and North West" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/697>
+    schema:name "Migratory - Offshore - Shipping (Tas.)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/699>
+    schema:name "No usual address (Tas.)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/701>
+    schema:name "Darwin" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/702>
+    schema:name "Northern Territory - Outback" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/797>
+    schema:name "Migratory - Offshore - Shipping (NT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/799>
+    schema:name "No usual address (NT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/801>
+    schema:name "Australian Capital Territory" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/897>
+    schema:name "Migratory - Offshore - Shipping (ACT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/899>
+    schema:name "No usual address (ACT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/901>
+    schema:name "Other Territories" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/997>
+    schema:name "Migratory - Offshore - Shipping (OT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/999>
+    schema:name "No usual address (OT)" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA4/ZZZ>
+    schema:name "Outside Australia" ;
 .
 
 <https://linked.data.gov.au/dataset/asgsed3/STE/1>
@@ -2249,6 +2896,10 @@ schema:Dataset
     schema:name "Dataset" ;
 .
 
+schema:Event
+    schema:name "Event" ;
+.
+
 schema:FundingAgency
     schema:name "Funding Agency" ;
 .
@@ -2532,6 +3183,10 @@ schema:temporalCoverage
 
 schema:text
     schema:name "text" ;
+.
+
+schema:unitCode
+    schema:name "unit code" ;
 .
 
 schema:unitText

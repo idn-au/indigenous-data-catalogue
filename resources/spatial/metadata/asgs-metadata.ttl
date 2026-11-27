@@ -13,7 +13,10 @@ d:
             a geo:Geometry ;
             geo:asWKT "POLYGON ((167.99804 -43.740497, 167.99804 -9.142162, 96.816951 -9.142162, 96.816951 -43.740497, 167.99804 -43.740497))"^^geo:wktLiteral ;
         ] ;
-    rdfs:member <https://linked.data.gov.au/dataset/asgsed3/SA2> ;
+    rdfs:member
+        <https://linked.data.gov.au/dataset/asgsed3/SA2> ,
+        <https://linked.data.gov.au/dataset/asgsed3/SA3> ;
+    skos:editorialNote "2026-11: Aligned dataset names of ASGS datasets"@en ;
     schema:additionalType <https://data.idnau.org/pid/vocab/cat-obj-types/SpatialDataset> ;
     schema:citation "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026"^^xsd:anyURI ;
     schema:codeRepository "https://github.com/dcceew-bdr/asgs-etl"^^xsd:anyURI ;
@@ -26,8 +29,7 @@ d:
         "Reference" ;
     schema:name "ASGS Ed. 3 - Main Structure" ;
     schema:publisher <https://linked.data.gov.au/org/abs> ;
-    schema:version "3" ;
-    skos:editorialNote "2026-11: Aligned dataset names of ASGS datasets"@en ;
+    schema:version "4" ;
 .
 
 <https://linked.data.gov.au/dataset/asgsed3/SA2>
@@ -40,4 +42,15 @@ d:
         ] ;
     schema:description "Statistical Areas Level 2 in ASGS Edition 3." ;
     schema:name "Statistical Areas Level 2" ;
+.
+
+<https://linked.data.gov.au/dataset/asgsed3/SA3>
+    a geo:FeatureCollection ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((167.99804 -43.740497, 167.99804 -9.142162, 96.816951 -9.142162, 96.816951 -43.740497, 167.99804 -43.740497))"^^geo:wktLiteral ;
+        ] ;
+    schema:description "Statistical Areas Level 3 in ASGS Edition 3." ;
+    schema:name "Statistical Areas Level 3" ;
 .
