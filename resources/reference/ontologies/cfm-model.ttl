@@ -4,14 +4,14 @@ PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/idn>
-    a sdo:Organization ;
-    sdo:name "Indigenous Data Network"@en ;
-    sdo:url <https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network> ;
+    a schema:Organization ;
+    schema:name "Indigenous Data Network"@en ;
+    schema:url <https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network> ;
 .
 
 cfm:ont
@@ -37,12 +37,12 @@ cfm:ont
         cfm:victimNotes ,
         cfm:victimsDead ,
         cfm:weaponsUsed ;
-    sdo:creator <https://linked.data.gov.au/org/idn> ;
-    sdo:dateCreated "2026-08-05"^^xsd:date ;
-    sdo:dateModified "2026-08-21"^^xsd:date ;
-    sdo:description "Model for the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
-    sdo:name "Colonial Frontier Massacres in Australia Ontology"@en ;
-    sdo:publisher <https://linked.data.gov.au/org/idn> ;
+    schema:creator <https://linked.data.gov.au/org/idn> ;
+    schema:dateCreated "2026-08-05"^^xsd:date ;
+    schema:dateModified "2026-08-21"^^xsd:date ;
+    schema:description "Model for the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    schema:name "Colonial Frontier Massacres in Australia Ontology"@en ;
+    schema:publisher <https://linked.data.gov.au/org/idn> ;
 .
 
 cfm:Massacre
@@ -50,9 +50,9 @@ cfm:Massacre
     rdfs:isDefinedBy cfm:ont ;
     rdfs:subClassOf
         geo:Feature ,
-        sdo:Event ;
-    sdo:description "A massacre event recorded in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
-    sdo:name "Massacre"@en ;
+        schema:Event ;
+    schema:description "A massacre event recorded in the Colonial Frontier Massacres in Australia, 1788–1930 dataset."@en ;
+    schema:name "Massacre"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
     skos:prefLabel "Massacre"@en ;
     skos:scopeNote "A massacre is modelled as one identified event with a spatial extent. An independently identified place may optionally be linked using schema:location when a trustworthy place resource is available."@en ;
@@ -64,7 +64,7 @@ cfm:aboriginalPlaceName
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range xsd:string ;
-    sdo:name "Aboriginal or Torres Strait Islander place name"@en ;
+    schema:name "Aboriginal or Torres Strait Islander place name"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -74,7 +74,7 @@ cfm:attackTime
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range skos:Concept ;
-    sdo:name "Attack time"@en ;
+    schema:name "Attack time"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -84,7 +84,7 @@ cfm:attackersDead
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range xsd:integer ;
-    sdo:name "Attackers dead"@en ;
+    schema:name "Attackers dead"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -94,7 +94,7 @@ cfm:colony
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range skos:Concept ;
-    sdo:name "Colony, state or territory at the time"@en ;
+    schema:name "Colony, state or territory at the time"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -104,7 +104,7 @@ cfm:corroborationRating
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range skos:Concept ;
-    sdo:name "Corroboration rating"@en ;
+    schema:name "Corroboration rating"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -114,7 +114,7 @@ cfm:knownDate
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range xsd:string ;
-    sdo:name "Known date"@en ;
+    schema:name "Known date"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -124,7 +124,7 @@ cfm:languageGroup
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range xsd:string ;
-    sdo:name "Language group, nation or people"@en ;
+    schema:name "Language group, nation or people"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -133,8 +133,8 @@ cfm:massacreRole
     rdfs:comment "A role played by an agent in a massacre event."@en ;
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
-    rdfs:range sdo:Role ;
-    sdo:name "Massacre role"@en ;
+    rdfs:range schema:Role ;
+    schema:name "Massacre role"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -144,7 +144,7 @@ cfm:motive
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range skos:Concept ;
-    sdo:name "Motive"@en ;
+    schema:name "Motive"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -154,7 +154,7 @@ cfm:policeDistrict
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range xsd:string ;
-    sdo:name "Police district"@en ;
+    schema:name "Police district"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -164,7 +164,7 @@ cfm:sourceRecordType
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range xsd:string ;
-    sdo:name "Source record type"@en ;
+    schema:name "Source record type"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -174,7 +174,7 @@ cfm:transport
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range skos:Concept ;
-    sdo:name "Transport"@en ;
+    schema:name "Transport"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -184,7 +184,7 @@ cfm:victimNotes
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range xsd:string ;
-    sdo:name "Victim notes"@en ;
+    schema:name "Victim notes"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -194,7 +194,7 @@ cfm:victimsDead
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range xsd:integer ;
-    sdo:name "Victims dead"@en ;
+    schema:name "Victims dead"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .
 
@@ -204,6 +204,6 @@ cfm:weaponsUsed
     rdfs:domain cfm:Massacre ;
     rdfs:isDefinedBy cfm:ont ;
     rdfs:range skos:Concept ;
-    sdo:name "Weapons used"@en ;
+    schema:name "Weapons used"@en ;
     skos:historyNote "Developed for the Colonial Frontier Massacres in Australia Ontology."@en ;
 .

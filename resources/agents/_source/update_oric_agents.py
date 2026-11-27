@@ -17,7 +17,7 @@ from pathlib import Path
 
 ICN_RE = re.compile(r'"(\d+)"\^\^idncp:ICN')
 ORG_RE = re.compile(
-    r"^(oricAgents:[^\s]+) a sdo:Organization ;\n.*?(?=\n(?:oricAgents:|\Z))",
+    r"^(oricAgents:[^\s]+) a schema:Organization ;\n.*?(?=\n(?:oricAgents:|\Z))",
     re.MULTILINE | re.DOTALL,
 )
 STATE_CODES = {"NSW": "1", "VIC": "2", "QLD": "3", "SA": "4", "WA": "5", "TAS": "6", "NT": "7", "ACT": "8"}
@@ -50,21 +50,21 @@ def new_block(subject: str, row: dict[str, str]) -> str:
     status = row["status"]
     predicates = [
         "    dcterms:type idni:indigenous-persons-organisation",
-        f'    sdo:description "ORIC {status} Corporation"',
+        f'    schema:description "ORIC {status} Corporation"',
     ]
     if row.get("registeredOn"):
-        predicates.append(f'    sdo:foundingDate "{iso_date(row["registeredOn"])}"^^xsd:date')
+        predicates.append(f'    schema:foundingDate "{iso_date(row["registeredOn"])}"^^xsd:date')
     if row.get("deregisteredOn"):
-        predicates.append(f'    sdo:dissolutionDate "{iso_date(row["deregisteredOn"])}"^^xsd:date')
-    predicates.append(f'    sdo:identifier "{row["icn"]}"^^idncp:ICN')
+        predicates.append(f'    schema:dissolutionDate "{iso_date(row["deregisteredOn"])}"^^xsd:date')
+    predicates.append(f'    schema:identifier "{row["icn"]}"^^idncp:ICN')
     state, postcode = address_fields(row.get("address", ""))
     if state:
-        predicates.append(f"    sdo:location <http://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/STE/items/{state}>")
-    predicates.append(f'    sdo:name "{turtle_string(row["name"])}"')
+        predicates.append(f"    schema:location <http://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/STE/items/{state}>")
+    predicates.append(f'    schema:name "{turtle_string(row["name"])}"')
     if postcode:
-        predicates.append(f'    sdo:postalCode "{postcode}"')
-    predicates.append(f'    sdo:url "{turtle_string(row["url"])}"^^xsd:anyURI')
-    return f"{subject} a sdo:Organization ;\n" + " ;\n".join(predicates) + " .\n"
+        predicates.append(f'    schema:postalCode "{postcode}"')
+    predicates.append(f'    schema:url "{turtle_string(row["url"])}"^^xsd:anyURI')
+    return f"{subject} a schema:Organization ;\n" + " ;\n".join(predicates) + " .\n"
 
 
 def main() -> None:
@@ -102,7 +102,7 @@ def main() -> None:
         row = by_icn.get(icn)
         if not row:
             return block
-        identifier_match = re.search(r"    sdo:identifier (.*?) ;\n", block, re.DOTALL)
+        identifier_match = re.search(r"    schema:identifier (.*?) ;\n", block, re.DOTALL)
         if identifier_match:
             values = [value.strip() for value in identifier_match.group(1).split(",")]
             values = [value for value in values if "^^idncp:ICN" not in value]
@@ -110,8 +110,8 @@ def main() -> None:
             indent = ",\n        ".join(values)
             block = block[: identifier_match.start(1)] + indent + block[identifier_match.end(1) :]
         return re.sub(
-            r'    sdo:url .*?\s*\.\s*$',
-            f'    sdo:url "{turtle_string(row["url"])}"^^xsd:anyURI .\n',
+            r'    schema:url .*?\s*\.\s*$',
+            f'    schema:url "{turtle_string(row["url"])}"^^xsd:anyURI .\n',
             block,
             flags=re.DOTALL,
         )
@@ -128,22 +128,22 @@ def main() -> None:
         subjects.add(subject)
         additions.append(new_block(subject, row))
 
-    dataset_match = re.search(r"oricAgents: a sdo:Dataset ;\n.*?\n\s+sdo:name \"ORIC Extract\" \.\n", text, re.DOTALL)
+    dataset_match = re.search(r"oricAgents: a schema:Dataset ;\n.*?\n\s+schema:name \"ORIC Extract\" \.\n", text, re.DOTALL)
     if not dataset_match:
         raise ValueError("could not find ORIC dataset block")
     dataset = dataset_match.group(0)
-    part_match = re.search(r"\n\s+sdo:hasPart (.*?) ;\n\s+sdo:name", dataset, re.DOTALL)
+    part_match = re.search(r"\n\s+schema:hasPart (.*?) ;\n\s+schema:name", dataset, re.DOTALL)
     existing_order = re.findall(r"oricAgents:[^\s,;]+", part_match.group(1)) if part_match else []
-    dataset = re.sub(r"\n\s+sdo:hasPart .*? ;\n\s+sdo:name", "\n    sdo:name", dataset, flags=re.DOTALL)
-    dataset = re.sub(r"\n\s+sdo:dateModified \"[^\"]+\"\^\^xsd:date ;", "", dataset)
+    dataset = re.sub(r"\n\s+schema:hasPart .*? ;\n\s+schema:name", "\n    schema:name", dataset, flags=re.DOTALL)
+    dataset = re.sub(r"\n\s+schema:dateModified \"[^\"]+\"\^\^xsd:date ;", "", dataset)
     dataset = dataset.replace(
-        '    sdo:dateCreated "2024-01-11"^^xsd:date ;',
-        f'    sdo:dateCreated "2024-01-11"^^xsd:date ;\n    sdo:dateModified "{date.today().isoformat()}"^^xsd:date ;',
+        '    schema:dateCreated "2024-01-11"^^xsd:date ;',
+        f'    schema:dateCreated "2024-01-11"^^xsd:date ;\n    schema:dateModified "{date.today().isoformat()}"^^xsd:date ;',
     )
     ordered = [subject for subject in existing_order if subject in subjects]
     ordered.extend(sorted(subjects - set(ordered), key=lambda value: value.casefold()))
-    has_part = "    sdo:hasPart " + ",\n        ".join(ordered) + " ;\n"
-    dataset = dataset.replace('    sdo:name "ORIC Extract" .', has_part + '    sdo:name "ORIC Extract" .')
+    has_part = "    schema:hasPart " + ",\n        ".join(ordered) + " ;\n"
+    dataset = dataset.replace('    schema:name "ORIC Extract" .', has_part + '    schema:name "ORIC Extract" .')
     text = text[: dataset_match.start()] + dataset + text[dataset_match.end() :]
     if additions:
         text = text.rstrip() + "\n\n" + "\n".join(additions)

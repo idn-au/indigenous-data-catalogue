@@ -51,14 +51,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 dbpedia:Mitch_Tambo
     a schema:Person ;
-    dcterms:type pis:indigenous ;
+    schema:keywords pis:indigenous ;
     schema:email "management@mitchtambo.com"^^xsd:anyURI ;
     schema:name "Mitch Tambo" ;
 .
 
 sbs:
     a schema:Organization ;
-    dcterms:type orgind:non-indigenous ;
+    schema:keywords orgind:non-indigenous ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
@@ -72,7 +72,7 @@ sbs:
 
 nitv:
     a schema:Organization ;
-    dcterms:type orgind:indigenous ;
+    schema:keywords orgind:indigenous ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;

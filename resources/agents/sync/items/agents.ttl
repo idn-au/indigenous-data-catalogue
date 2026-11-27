@@ -5,278 +5,278 @@ PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX idncp: <https://data.idnau.org/pid/cp/>
 PREFIX pis: <https://data.idnau.org/pid/vocab/persons-indigenous-status/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://linked.data.gov.au/org/nla>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/au> ;
-            sdo:roleName aarr:partOf ;
+            schema:agent <https://linked.data.gov.au/org/au> ;
+            schema:roleName aarr:partOf ;
         ] ;
-    sdo:name "National Library of Australia" ;
-    sdo:url "https://www.nla.gov.au/"^^xsd:anyURI ;
+    schema:name "National Library of Australia" ;
+    schema:url "https://www.nla.gov.au/"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/abs-coatsis>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcterms:replaces <https://data.idnau.org/pid/agent/abs-coatsis> ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/abs> ;
-            sdo:roleName aarr:partOf ;
+            schema:agent <https://linked.data.gov.au/org/abs> ;
+            schema:roleName aarr:partOf ;
         ] ;
-    sdo:description "The Centre of Aboriginal and Torres Strait Islander Statistics (CoATSIS) has a leadership and coordination role for national statistical activity about Aboriginal and Torres Strait Islander peoples. They engage with communities across a range of statistical activities and outputs such as the Aboriginal and Torres Strait Islander health and social surveys, the five-yearly Census, administrative data, and data integration projects."@en ;
-    sdo:name "Australian Bureau of Statistics Centre of Aboriginal and Torres Strait Islander Statistics" ;
-    sdo:url "https://www.abs.gov.au/about/aboriginal-and-torres-strait-islander-peoples/aboriginal-and-torres-strait-islander-engagement"^^xsd:anyURI ;
+    schema:description "The Centre of Aboriginal and Torres Strait Islander Statistics (CoATSIS) has a leadership and coordination role for national statistical activity about Aboriginal and Torres Strait Islander peoples. They engage with communities across a range of statistical activities and outputs such as the Aboriginal and Torres Strait Islander health and social surveys, the five-yearly Census, administrative data, and data integration projects."@en ;
+    schema:name "Australian Bureau of Statistics Centre of Aboriginal and Torres Strait Islander Statistics" ;
+    schema:url "https://www.abs.gov.au/about/aboriginal-and-torres-strait-islander-peoples/aboriginal-and-torres-strait-islander-engagement"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/agilwg>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcterms:replaces <https://data.idnau.org/pid/organization/agilwg> ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/au> ;
-            sdo:roleName aarr:partOf ;
+            schema:agent <https://linked.data.gov.au/org/au> ;
+            schema:roleName aarr:partOf ;
         ] ;
-    sdo:description "Australian Government Indigenous Locations Working Group 2007-2012" ;
-    sdo:name "Australian Government Indigenous Locations Working Group" ;
+    schema:description "Australian Government Indigenous Locations Working Group 2007-2012" ;
+    schema:name "Australian Government Indigenous Locations Working Group" ;
 .
 
 <https://data.idnau.org/pid/org/atns>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcterms:replaces <https://data.idnau.org/pid/agent/atns> ;
-    sdo:description "ATNS was launched in 2002 and developed under a series of Australian Research Council (ARC) Linkage Projects focusing on treaties and agreement making with Indigenous Australians. The projects were led by a team of multidisciplinary researchers and partner organisations, including Indigenous organisations and industry partners." ;
-    sdo:name "Agreements Treaties and Negotiated Settlements" ;
-    sdo:url "https://www.atns.net.au"^^xsd:anyURI ;
+    schema:description "ATNS was launched in 2002 and developed under a series of Australian Research Council (ARC) Linkage Projects focusing on treaties and agreement making with Indigenous Australians. The projects were led by a team of multidisciplinary researchers and partner organisations, including Indigenous organisations and industry partners." ;
+    schema:name "Agreements Treaties and Negotiated Settlements" ;
+    schema:url "https://www.atns.net.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/cecc>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcterms:replaces <https://data.idnau.org/pid/agent/cecc> ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/anu> ;
-            sdo:roleName aarr:partOf ;
+            schema:agent <https://linked.data.gov.au/org/anu> ;
+            schema:roleName aarr:partOf ;
         ] ;
     prov:qualifiedGeneration
         [
             a prov:Generation ;
             prov:atTime "2023-01-27"^^xsd:date ;
-            sdo:agent <https://orcid.org/0000-0002-8742-7730> ;
+            schema:agent <https://orcid.org/0000-0002-8742-7730> ;
         ] ;
-    sdo:name "College of Engineering, Computing & Cybernetics" ;
-    sdo:status <https://linked.data.gov.au/def/reg-status/submitted> ;
-    sdo:url "https://cecc.anu.edu.au/"^^xsd:anyURI ;
+    schema:name "College of Engineering, Computing & Cybernetics" ;
+    schema:status <https://linked.data.gov.au/def/reg-status/submitted> ;
+    schema:url "https://cecc.anu.edu.au/"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/lc>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcterms:replaces <https://data.idnau.org/pid/agent/lc> ;
-    sdo:description "Local Contexts was founded by Jane Anderson and Kim Christen in 2010. The primary objectives of Local Contexts are to enhance and legitimize locally based decision-making and Indigenous governance frameworks for determining ownership, access, and culturally appropriate conditions for sharing historical, contemporary and future collections of cultural heritage and Indigenous data. Local Contexts is focused on increasing Indigenous involvement in data governance through the integration of Indigenous values into data systems. Local Contexts offers digital strategies for Indigenous communities, cultural institutions and researchers through the TK (Traditional Knowledge) & BC (Biocultural) Labels and Notices. Together they function as a practical mechanism to advance aspirations for Indigenous data sovereignty and Indigenous innovation." ;
-    sdo:identifier "https://ror.org/03k8h3h23"^^id:ror ;
-    sdo:name "Local Contexts" ;
-    sdo:url "https://localcontexts.org/about/"^^xsd:anyURI ;
+    schema:description "Local Contexts was founded by Jane Anderson and Kim Christen in 2010. The primary objectives of Local Contexts are to enhance and legitimize locally based decision-making and Indigenous governance frameworks for determining ownership, access, and culturally appropriate conditions for sharing historical, contemporary and future collections of cultural heritage and Indigenous data. Local Contexts is focused on increasing Indigenous involvement in data governance through the integration of Indigenous values into data systems. Local Contexts offers digital strategies for Indigenous communities, cultural institutions and researchers through the TK (Traditional Knowledge) & BC (Biocultural) Labels and Notices. Together they function as a practical mechanism to advance aspirations for Indigenous data sovereignty and Indigenous innovation." ;
+    schema:identifier "https://ror.org/03k8h3h23"^^id:ror ;
+    schema:name "Local Contexts" ;
+    schema:url "https://localcontexts.org/about/"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/nby>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcterms:replaces <https://data.idnau.org/pid/agent/nby> ;
-    sdo:description "The Yawuru people are the traditional owners of the lands and waters in and around Rubibi (the town of Broome)" ;
-    sdo:name "Nyamba Buru Yawuru Ltd" ;
-    sdo:url "http://www.yawuru.org.au"^^xsd:anyURI ;
+    schema:description "The Yawuru people are the traditional owners of the lands and waters in and around Rubibi (the town of Broome)" ;
+    schema:name "Nyamba Buru Yawuru Ltd" ;
+    schema:url "http://www.yawuru.org.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/nntt>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcterms:replaces <https://data.idnau.org/pid/agent/nntt> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/au> ;
-            sdo:roleName aarr:partOf ;
+            schema:agent <https://linked.data.gov.au/org/au> ;
+            schema:roleName aarr:partOf ;
         ] ;
-    sdo:description """The Native Title Act 1993 (Cth) (the "Act") creates an Australia-wide native title scheme, the objectives of which include:
+    schema:description """The Native Title Act 1993 (Cth) (the "Act") creates an Australia-wide native title scheme, the objectives of which include:
 
 * providing for the recognition and protection of native title;
 * establishing a mechanism for determining claims to native title; and
 * establishing ways in which future dealings affecting native title (future acts) may proceed.
 
 The Act establishes the Tribunal as an independent body with a wide range of functions. The Act is, itself, a 'special measure' for the advancement and protection of Aboriginal peoples and Torres Strait Islanders (Indigenous Australian peoples). The Act is intended to advance the process of reconciliation among all Australians.""" ;
-    sdo:name "National Native Title Tribunal" ;
-    sdo:url "http://www.nntt.gov.au"^^xsd:anyURI ;
+    schema:name "National Native Title Tribunal" ;
+    schema:url "http://www.nntt.gov.au"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/uom>
-    a sdo:Organization ;
-    sdo:description "The University of Melbourne is a public research university located in Melbourne, Australia. Founded in 1853, it is Australia's second oldest university and the oldest in Victoria." ;
-    sdo:identifier
+    a schema:Organization ;
+    schema:description "The University of Melbourne is a public research university located in Melbourne, Australia. Founded in 1853, it is Australia's second oldest university and the oldest in Victoria." ;
+    schema:identifier
         "84002705224"^^id:ausbn ,
         "https://ror.org/01ej9dk98"^^id:ror ;
-    sdo:name "The University of Melbourne" ;
-    sdo:url "https://www.unimelb.edu.au/"^^xsd:anyURI ;
+    schema:name "The University of Melbourne" ;
+    schema:url "https://www.unimelb.edu.au/"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/uts>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:identifier "03f0f6041"^^id:ror ;
-    sdo:name "University of Technology Sydney" ;
-    sdo:sameAs <https://ror.org/03f0f6041> ;
-    sdo:url "https://www.uts.edu.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:identifier "03f0f6041"^^id:ror ;
+    schema:name "University of Technology Sydney" ;
+    schema:sameAs <https://ror.org/03f0f6041> ;
+    schema:url "https://www.uts.edu.au"^^xsd:anyURI ;
 .
 
 <https://orcid.org/0000-0002-5477-0874>
-    a sdo:Person ;
-    dcterms:type pis:nonIndigenous ;
+    a schema:Person ;
+    schema:keywords pis:nonIndigenous ;
     dcat:qualifiedRelation 
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/anu> ;
-            sdo:roleName aarr:affiliateOf ;
+            schema:agent <https://linked.data.gov.au/org/anu> ;
+            schema:roleName aarr:affiliateOf ;
         ] ,
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/idn> ;
-            sdo:roleName aarr:affiliateOf ;
+            schema:agent <https://linked.data.gov.au/org/idn> ;
+            schema:roleName aarr:affiliateOf ;
         ] ;
-    sdo:email "leonard.smith@anu.edu.au"^^xsd:anyURI ;
-    sdo:name "Len Smith"@en ;
+    schema:email "leonard.smith@anu.edu.au"^^xsd:anyURI ;
+    schema:name "Len Smith"@en ;
 .
 
 <https://orcid.org/0000-0003-1983-6687>
-    a sdo:Person ;
+    a schema:Person ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/idn> ;
-            sdo:roleName aarr:affiliateOf ;
+            schema:agent <https://linked.data.gov.au/org/idn> ;
+            schema:roleName aarr:affiliateOf ;
         ] ;
-    sdo:email "ssilcot@gmail.com"^^xsd:anyURI ;
-    sdo:name "Sandra Silcot"@en ;
+    schema:email "ssilcot@gmail.com"^^xsd:anyURI ;
+    schema:name "Sandra Silcot"@en ;
 .
 
 <https://data.idnau.org/pid/org/isu>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcterms:replaces <https://data.idnau.org/pid/agent/isu> ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/run-by-indigenous-persons> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://data.idnau.org/pid/org/uom> ;
-            sdo:roleName aarr:partOf ;
+            schema:agent <https://data.idnau.org/pid/org/uom> ;
+            schema:roleName aarr:partOf ;
         ] ;
-    sdo:description "The Indigenous Studies Unit undertakes research aiming to improve outcomes in Indigenous health and wellbeing, particularly in relation to alcohol misuse and family violence, Indigenous data governance, digital archives, cultural heritage, technology and resource management. We make regular contributions to Parliamentary reviews and Inquiries, cross-platform media, and policy development." ;
-    sdo:name "Indigenous Studies Unit of the University of Melbourne" ;
-    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit"^^xsd:anyURI ;
+    schema:description "The Indigenous Studies Unit undertakes research aiming to improve outcomes in Indigenous health and wellbeing, particularly in relation to alcohol misuse and family violence, Indigenous data governance, digital archives, cultural heritage, technology and resource management. We make regular contributions to Parliamentary reviews and Inquiries, cross-platform media, and policy development." ;
+    schema:name "Indigenous Studies Unit of the University of Melbourne" ;
+    schema:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit"^^xsd:anyURI ;
 .
 
 <https://kurrawong.ai>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:description "Kurrawong AI is a small, Artificial Intelligence, company in Australia specialising in Knowledge Graphs." ;
-    sdo:identifier "31353542036"^^id:ausbn ;
-    sdo:name "KurrawongAI" ;
-    sdo:url "https://kurrawong.ai"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:description "Kurrawong AI is a small, Artificial Intelligence, company in Australia specialising in Knowledge Graphs." ;
+    schema:identifier "31353542036"^^id:ausbn ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/abs>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:name "Australian Bureau of Statistics" ;
-    sdo:url "https://www.abs.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:name "Australian Bureau of Statistics" ;
+    schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/dhs>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    a schema:Organization ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/sa> ;
-            sdo:roleName aarr:descendantOrganisation ;
+            schema:agent <https://linked.data.gov.au/org/sa> ;
+            schema:roleName aarr:descendantOrganisation ;
         ] ;
-    sdo:identifier
+    schema:identifier
         "O-000880"^^idncp:agorId ,
         "CA-7853"^^idncp:crsId ;
-    sdo:name "Department of Human Services" ;
-    sdo:url "https://www.humanservices.gov.au"^^xsd:anyURI ;
+    schema:name "Department of Human Services" ;
+    schema:url "https://www.humanservices.gov.au"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/sa>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    a schema:Organization ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://linked.data.gov.au/org/dhs> ;
-            sdo:roleName aarr:precursorOrganisation ;
+            schema:agent <https://linked.data.gov.au/org/dhs> ;
+            schema:roleName aarr:precursorOrganisation ;
         ] ;
-    sdo:identifier "03gwaxw53"^^id:ror ;
-    sdo:name "Services Australia" ;
-    sdo:sameAs <https://ror.org/03gwaxw53> ;
-    sdo:url "https://www.servicesaustralia.gov.au"^^xsd:anyURI ;
+    schema:identifier "03gwaxw53"^^id:ror ;
+    schema:name "Services Australia" ;
+    schema:sameAs <https://ror.org/03gwaxw53> ;
+    schema:url "https://www.servicesaustralia.gov.au"^^xsd:anyURI ;
 .
 
 <https://orcid.org/0000-0002-8742-7730>
-    a sdo:Person ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    a schema:Person ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://kurrawong.ai> ;
-            sdo:roleName aarr:affiliateOf ;
+            schema:agent <https://kurrawong.ai> ;
+            schema:roleName aarr:affiliateOf ;
         ] ;
-    sdo:email "nick@kurrawong.ai"^^xsd:anyURI ;
-    sdo:name "Nicholas J. Car"@en ;
+    schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
+    schema:name "Nicholas J. Car"@en ;
 .
 
 <https://linked.data.gov.au/org/anu>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:alternateName "ANU" ;
-    sdo:description "ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education." ;
-    sdo:identifier
+    a schema:Organization ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:alternateName "ANU" ;
+    schema:description "ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education." ;
+    schema:identifier
         "https://ror.org/019wvm592"^^id:ror ,
         "O-000827"^^idncp:agorId ;
-    sdo:name "Australian National University" ;
-    sdo:url "https://www.anu.edu.au"^^xsd:anyURI ;
+    schema:name "Australian National University" ;
+    schema:url "https://www.anu.edu.au"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/idn>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    a schema:Organization ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
-            sdo:agent <https://data.idnau.org/pid/org/isu> ;
-            sdo:roleName aarr:part ;
+            schema:agent <https://data.idnau.org/pid/org/isu> ;
+            schema:roleName aarr:part ;
         ] ;
-    sdo:description "The IDN was established in 2018 to support and coordinate the governance of Indigenous data for Aboriginal and Torres Strait Islander peoples and empower Aboriginal and Torres Strait Islander communities to decide their own local data priorities." ;
-    sdo:name "Indigenous Data Network" ;
-    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/centre-for-health-equity/research-group/indigenous-data-network"^^xsd:anyURI ;
+    schema:description "The IDN was established in 2018 to support and coordinate the governance of Indigenous data for Aboriginal and Torres Strait Islander peoples and empower Aboriginal and Torres Strait Islander communities to decide their own local data priorities." ;
+    schema:name "Indigenous Data Network" ;
+    schema:url "https://mspgh.unimelb.edu.au/centres-institutes/centre-for-health-equity/research-group/indigenous-data-network"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/au>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:identifier "https://ror.org/0314h5y94"^^id:ror ;
-    sdo:name "Australian Government" ;
-    sdo:url "https://www.australia.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:identifier "https://ror.org/0314h5y94"^^id:ror ;
+    schema:name "Australian Government" ;
+    schema:url "https://www.australia.gov.au"^^xsd:anyURI ;
 .
 
 
 <https://data.idnau.org/pid/org/sum>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:name "Summer Institute of Linguistics" ;
-    sdo:url "https://www.sila.org.au/"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:name "Summer Institute of Linguistics" ;
+    schema:url "https://www.sila.org.au/"^^xsd:anyURI ;
 .

@@ -2,7 +2,7 @@ PREFIX : <https://data.idnau.org/pid/vocab/massacre-roles/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://data.idnau.org/pid/vocab/massacre-roles>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -394,9 +394,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/org/idn>
-    a sdo:Organization ;
-    sdo:name "Indigenous Data Network" ;
-    sdo:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:name "Indigenous Data Network" ;
+    schema:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/indigenous-data-network"^^xsd:anyURI ;
 .
 
 :axes
@@ -465,9 +465,9 @@ cs:
         :swords ,
         :unknown ;
     skos:prefLabel "Weapons of the colonial fronteir massacres"@en ;
-    sdo:creator <https://linked.data.gov.au/org/idn> ;
-    sdo:dateCreated "2026-08-06"^^xsd:date ;
-    sdo:dateModified "2026-11-05"^^xsd:date ;
-    sdo:publisher <https://linked.data.gov.au/org/idn> ;
-    sdo:status astatus:experimental ;
+    schema:creator <https://linked.data.gov.au/org/idn> ;
+    schema:dateCreated "2026-08-06"^^xsd:date ;
+    schema:dateModified "2026-11-05"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/idn> ;
+    schema:status astatus:experimental ;
 .
