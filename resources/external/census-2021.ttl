@@ -6,6 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://linked.data.gov.au/dataset/census-2021>
+    a schema:Dataset ;
     rdfs:member <https://linked.data.gov.au/dataset/census-2021/indigenous-persons> ;
     schema:citation "https://results.aec.gov.au/27966/Website/HouseDownloadsMenu-27966-Csv.htm"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/abs> ;
@@ -16,7 +17,7 @@
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Australian Census 2021" ;
     schema:publisher <https://linked.data.gov.au/org/abs> ;
-    schema:version "1" ;
+    schema:version "2" ;
 .
 
 <https://linked.data.gov.au/dataset/census-2021/indigenous-persons> a sosa:ObservationCollection ;

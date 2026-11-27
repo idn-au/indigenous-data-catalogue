@@ -5,7 +5,8 @@ PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX unit: <http://qudt.org/vocab/unit/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/dataset/2023-referendum-yes>
+<https://linked.data.gov.au/dataset/2023-referendum>
+    a schema:Dataset ;
     rdfs:member <https://linked.data.gov.au/dataset/2023-referendum-yes> ;
     schema:citation "https://www.aec.gov.au/Elections/referendums/2023-downloads.htm"^^xsd:anyURI ;
     schema:conditionsOfAccess "Public"@en ;
@@ -16,7 +17,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Australian Referendum 2023" ;
     schema:publisher <https://linked.data.gov.au/org/aec> ;
-    schema:version "1" ;
+    schema:version "2" ;
 .
 
 <https://linked.data.gov.au/dataset/2023-referendum-yes>
