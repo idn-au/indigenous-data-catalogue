@@ -49,9 +49,7 @@ The health of both mothers and babies can have important ongoing implications. E
             a schema:DataDownload ;
             dcat:accessURL "https://www.rific.gov.au/life-stages/mothers-and-babies?app=rific&code=lsmb&release=r2&latitude=-24&longitude=134&region=MH_AUS"^^xsd:anyURI ;
             schema:description """The Life stages dashboard allows you to search for a community (or other location) and access regional level statistics on and related to the relevant life stage. You can use the dashboard to compare regions and look at trends over time, where possible.
-The health of both mothers and babies can have important ongoing implications. Explore the characteristics and health of mothers and their babies through interactive data visualisations, and in-depth information and trends on the antenatal period, labour and birth, and outcomes for babies at birth.
-
-""" ;
+The health of both mothers and babies can have important ongoing implications. Explore the characteristics and health of mothers and their babies through interactive data visualisations, and in-depth information and trends on the antenatal period, labour and birth, and outcomes for babies at birth.""" ;
             schema:name "Mothers and Babies : Life Stages" ;
         ] ;
     schema:keywords
@@ -67,7 +65,7 @@ The health of both mothers and babies can have important ongoing implications. E
         <https://vocabularyserver.com/apais/xml.php?skosTema=8> ,
         "External" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-    schema:name " The Regional Insights for Indigenous Communities (RIFIC)" ;
+    schema:name "The Regional Insights for Indigenous Communities (RIFIC)" ;
     schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/open> ;
 .
 
