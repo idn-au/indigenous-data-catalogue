@@ -5,8 +5,21 @@ PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX unit: <http://qudt.org/vocab/unit/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/dataset/2023-referendum>
-    a schema:Dataset ;
+<https://linked.data.gov.au/dataset/2023-referendum-yes>
+    rdfs:member <https://linked.data.gov.au/dataset/2023-referendum-yes> ;
+    schema:citation "https://www.aec.gov.au/Elections/referendums/2023-downloads.htm"^^xsd:anyURI ;
+    schema:conditionsOfAccess "Public"@en ;
+    schema:creator <https://linked.data.gov.au/org/aec> ;
+    schema:dateCreated "2026-11-05"^^xsd:date ;
+    schema:dateModified "2026-11-28"^^xsd:date ;
+    schema:description "Australian Referendum 2023 results" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "Australian Referendum 2023" ;
+    schema:publisher <https://linked.data.gov.au/org/aec> ;
+    schema:version "1" ;
+.
+
+<https://linked.data.gov.au/dataset/2023-referendum-yes>
     rdfs:member 
         [
             a sosa:Observation ;
@@ -1820,15 +1833,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             sosa:hasSimpleResult 0.31 ;
             sosa:observedProperty _:N6e4798ad794e4a0da9cde5d8c9058556 ;
         ] ;
-    schema:citation "https://www.aec.gov.au/Elections/referendums/2023-downloads.htm"^^xsd:anyURI ;
-    schema:conditionsOfAccess "Public"@en ;
-    schema:creator <https://linked.data.gov.au/org/aec> ;
-    schema:dateCreated "2026-11-05"^^xsd:date ;
-    schema:dateModified "2026-11-27"^^xsd:date ;
-    schema:description "2023 Australian Referendum results: fraction of Yes votes per electorate" ;
-    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-    schema:name "2023 Australian Referendum results" ;
-    schema:publisher <https://linked.data.gov.au/org/aec> ;
+    schema:name "Fraction of Yes vote" ;
+    schema:description "Fraction of Yes vote per electorate" ;
 .
 
 _:N6e4798ad794e4a0da9cde5d8c9058556
