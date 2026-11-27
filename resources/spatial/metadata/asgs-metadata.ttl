@@ -32,5 +32,6 @@ d:
     schema:description "Australian Statistical Geography Standard (ASGS) Edition 3, represented with reduced-resolution geometries for BDR reference-data discovery and display." ;
     schema:name "Australian Statistical Geography Standard Edition 3" ;
     schema:publisher <https://linked.data.gov.au/org/abs> ;
-    schema:version "2" ;
+    schema:version "3" ;
+    rdfs:member <https://linked.data.gov.au/dataset/asgsed3/SA2> ;
 .
