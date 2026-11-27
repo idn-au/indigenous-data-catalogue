@@ -104,6 +104,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://doi.org/10.18584/iipj.2023.14.1.10987> ,
         <https://doi.org/10.3138/9781442624986-020> ,
         <https://linked.data.gov.au/dataset/2023-referendum> ,
+        <https://linked.data.gov.au/dataset/asgsed3> ,
         <https://linked.data.gov.au/dataset/electorates-2019> ,
         <https://linked.data.gov.au/def/cfm/source-reliability> ,
         <https://linked.data.gov.au/def/data-access-rights> ,

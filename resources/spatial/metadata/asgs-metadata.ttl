@@ -1,0 +1,35 @@
+PREFIX d: <https://linked.data.gov.au/dataset/asgsed3>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX schema: <https://schema.org/>
+PREFIX void: <http://rdfs.org/ns/void#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/asgsed3/SA2>
+    a geo:FeatureCollection ;
+    void:inDataset d: ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON ((167.99804 -43.740497, 167.99804 -9.142162, 96.816951 -9.142162, 96.816951 -43.740497, 167.99804 -43.740497))"^^geo:wktLiteral ;
+        ] ;
+    schema:description "Statistical Areas Level 2 in ASGS Edition 3." ;
+    schema:name "Statistical Areas Level 2" ;
+.
+
+d:
+    a schema:Dataset ;
+    geo:hasBoundingBox
+        [
+            a geo:Geometry ;
+            geo:asWKT "POLYGON((112.92 -43.66, 153.64 -43.66, 153.64 -9.22, 112.92 -9.22, 112.92 -43.66))"^^geo:wktLiteral ;
+        ] ;
+    schema:citation "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026"^^xsd:anyURI ;
+    schema:codeRepository "https://github.com/dcceew-bdr/asgs-etl"^^xsd:anyURI ;
+    schema:creator <https://linked.data.gov.au/org/abs> ;
+    schema:dateCreated "2021-07-20"^^xsd:date ;
+    schema:dateModified "2026-09-18"^^xsd:date ;
+    schema:description "Australian Statistical Geography Standard (ASGS) Edition 3, represented with reduced-resolution geometries for BDR reference-data discovery and display." ;
+    schema:name "Australian Statistical Geography Standard Edition 3" ;
+    schema:publisher <https://linked.data.gov.au/org/abs> ;
+    schema:version "1" ;
+.
