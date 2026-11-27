@@ -68,14 +68,14 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         [
             prof:hasArtifact "resources/isu/sync/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:description "sdo:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
+            schema:description "schema:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
             schema:name "ISU Resource Data" ;
         ] ,
         [
             prof:hasArtifact "resources/isu/sync/isu-archive.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:additionalType schema:CreativeWork ;
-            schema:description "sdo:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
+            schema:description "schema:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
             schema:name "ISU Archive Data" ;
         ] ,
         [
@@ -99,7 +99,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         [
             prof:hasArtifact "catalogue.ttl" ;
             prof:hasRole mrr:CatalogueData ;
-            schema:description "The definition of, and metadata for, the container which here is a sdo:DataCatalog object" ;
+            schema:description "The definition of, and metadata for, the container which here is a schema:DataCatalog object" ;
             schema:name "Catalogue Definition" ;
         ] ,
         [
@@ -119,7 +119,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         [
             prof:hasArtifact "resources/keeping-place/sync/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:description "sdo:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
+            schema:description "schema:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
             schema:name "Keeping Place Resource Data" ;
         ] ,
         [
