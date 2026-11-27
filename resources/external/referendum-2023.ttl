@@ -9,7 +9,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a schema:Dataset ;
     rdfs:member <https://linked.data.gov.au/dataset/2023-referendum-yes> ;
     schema:citation "https://www.aec.gov.au/Elections/referendums/2023-downloads.htm"^^xsd:anyURI ;
-    schema:conditionsOfAccess "Public"@en ;
     schema:creator <https://linked.data.gov.au/org/aec> ;
     schema:dateCreated "2026-11-05"^^xsd:date ;
     schema:dateModified "2026-11-28"^^xsd:date ;
@@ -17,10 +16,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Australian Referendum 2023" ;
     schema:publisher <https://linked.data.gov.au/org/aec> ;
-    schema:version "2" ;
+    schema:version "3" ;
 .
 
 <https://linked.data.gov.au/dataset/2023-referendum-yes>
+    a sosa:ObservationCollection ;
     rdfs:member 
         [
             a sosa:Observation ;
