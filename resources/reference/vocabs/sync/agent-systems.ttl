@@ -71,7 +71,7 @@ id:ror
 
 <https://kurrawong.ai>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:description "Kurrawong AI is a small, Artificial Intelligence, company in Australia specialising in Knowledge Graphs." ;
     schema:identifier "31353542036"^^id:ausbn ;
     schema:name "KurrawongAI" ;
@@ -80,7 +80,7 @@ id:ror
 
 <https://linked.data.gov.au/org/idn>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;

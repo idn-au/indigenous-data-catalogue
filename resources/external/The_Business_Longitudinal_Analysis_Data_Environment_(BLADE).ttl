@@ -120,7 +120,7 @@ Additional requestable BLADE data include:
 
 <https://linked.data.gov.au/org/abs>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:name "Australian Bureau of Statistics" ;
     schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
 .

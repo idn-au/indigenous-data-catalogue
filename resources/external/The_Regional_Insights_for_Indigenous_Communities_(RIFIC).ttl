@@ -6,7 +6,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/resource/319ac706-fb32-4021-9759-634cfce12819>
     a schema:CreativeWork ;
-    dcterms:type <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
@@ -73,7 +73,7 @@ The health of both mothers and babies can have important ongoing implications. E
 
 <https://data.idnau.org/pid/organization/5b819e8a-927f-49ef-b885-2bb072b067ef>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:description """The Australian Institute of Health and Welfare (AIHW) is an independent statutory Australian Government agency with more than 35 years of experience working with health and welfare data.
 Role
 Their role is to provide meaningful information and statistics for the benefit of the Australian people by:

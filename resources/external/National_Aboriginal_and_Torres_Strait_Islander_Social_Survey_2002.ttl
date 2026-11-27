@@ -6,7 +6,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/resource/59659ef3-df5b-4da4-b8c8-c19dfb498953>
     a schema:CreativeWork ;
-    dcterms:type <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
@@ -90,7 +90,7 @@ Presents summary results from the 2002 National Aboriginal and Torres Strait Isl
 
 <https://linked.data.gov.au/org/abs>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:name "Australian Bureau of Statistics" ;
     schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
 .

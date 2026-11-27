@@ -78,7 +78,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/anu>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:alternateName "ANU" ;
     schema:description "ANU is a world-leading university in Australia's capital. Excellence is embedded in our approach to research and education." ;
     schema:identifier

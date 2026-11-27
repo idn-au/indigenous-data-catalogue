@@ -7,7 +7,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/resource/6c1c09c4-067a-4991-85e2-ba8c3f550f95>
     a schema:CreativeWork ;
-    dcterms:type <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
     odrl:hasPolicy
         [
             a odrl:Policy ;
@@ -133,7 +133,7 @@ The Department of Social Services are currently reviewing our arrangements for i
 
 <https://data.idnau.org/pid/organization/61dc125d-7311-4bae-add2-428a68fbfa8f>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:description "The Department of Social Services seeks to improve the lifetime well-being of people and families in Australia through the creation and promotion of longitudinal evidence. The evidence informs policies and practices. The Department produces and manages quality longitudinal resources, encourages the use of those data assets, fosters collaboration between longitudinal survey developers, researchers and policy makers and facilitates broader use of longitudinal data. " ;
     schema:identifier "ABN: 36 342 015 855"^^<http://id.loc.gov/vocabulary/identifiers/ausbn> ;
     schema:name "Australian Government Department of Social Services" ;

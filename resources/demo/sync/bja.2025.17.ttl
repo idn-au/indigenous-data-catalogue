@@ -1,4 +1,4 @@
-# this ScholarlyArticle for CARE scoring testing is created by an Indigenous person indicated with the dcterms:type property and Persons Indigenous Status vocabulary, and is not about Indigenous things or people, and indludes no Indigenous themes, keywords or other descriptive metadata. 
+# this ScholarlyArticle for CARE scoring testing is created by an Indigenous person indicated with the schema:keywords property and Persons Indigenous Status vocabulary, and is not about Indigenous things or people, and indludes no Indigenous themes, keywords or other descriptive metadata.
 
 PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
@@ -28,7 +28,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/0000-0003-3446-0227>
     a schema:Person ;
-    dcterms:type pis:indigenous ;
+    schema:keywords pis:indigenous ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;

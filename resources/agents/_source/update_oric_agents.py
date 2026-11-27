@@ -49,7 +49,7 @@ def address_fields(address: str) -> tuple[str | None, str | None]:
 def new_block(subject: str, row: dict[str, str]) -> str:
     status = row["status"]
     predicates = [
-        "    dcterms:type idni:indigenous-persons-organisation",
+        "    schema:keywords idni:indigenous-persons-organisation",
         f'    schema:description "ORIC {status} Corporation"',
     ]
     if row.get("registeredOn"):

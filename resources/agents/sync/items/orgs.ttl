@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/org/7fb4c3c8-2317-4cfd-b5b8-b1c6a8c6e321>
     a schema:Organization ;
-    dcterms:type <file:///Users/jamie/dev/idn/indigenous-data-catalogue/resources/agents/items/undefined//data.idnau.org/pid/vocab/org-indigeneity/indigeneity-unknown> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/indigeneity/indigeneity-unknown> ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
@@ -319,7 +319,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/anu>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:alternateName "ANU" ;
     schema:description "ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education." ;
     schema:identifier

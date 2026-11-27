@@ -6,7 +6,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/resource/4393d4c1-96c0-4363-a87e-8a6c96c5cde8>
     a schema:CreativeWork ;
-    dcterms:type <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
@@ -95,7 +95,7 @@ Apart from any use as permitted under the Copyright Act 1968, and those explicit
 
 <https://linked.data.gov.au/org/abs>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:name "Australian Bureau of Statistics" ;
     schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
 .

@@ -30,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://kurrawong.ai>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:description "Kurrawong AI is a small, Artificial Intelligence, company in Australia specialising in Knowledge Graphs." ;
     schema:identifier "31353542036"^^id:ausbn ;
     schema:name "KurrawongAI" ;
@@ -39,7 +39,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/0000-0001-5640-3202>
     a schema:Person ;
-    dcterms:type pis:indigenousStatusUnknown ;
+    schema:keywords pis:indigenousStatusUnknown ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;

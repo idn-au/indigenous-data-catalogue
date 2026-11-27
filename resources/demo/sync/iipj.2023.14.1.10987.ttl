@@ -1,4 +1,4 @@
-# This creative work is to be used to test CARE scoring and is by a non-indigenous person and is about indigenous things indicated by dcterms:type and has an IDN-TH theme indicated by dcat:theme, and is published by a non-Indigenous organization.
+# This creative work is to be used to test CARE scoring and is by a non-indigenous person and is about indigenous things indicated by schema:keywords and has an IDN-TH theme indicated by dcat:theme, and is published by a non-Indigenous organization.
 
 PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
 PREFIX dataIndig: <https://data.idnau.org/pid/vocab/indigeneity/>
@@ -38,7 +38,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://orcid.org/0000-0002-1398-7524>
     a schema:Person ;
-    dcterms:type pis:nonIndigenous ;
+    schema:keywords pis:nonIndigenous ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
@@ -51,7 +51,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pkp.sfu.ca>
     a prov:Organization ;
-    dcterms:type indorg:non-indigenous ;
+    schema:keywords indorg:non-indigenous ;
     schema:name "Public Knowledge Project" ;
     schema:url "https://pkp.sfu.ca"^^xsd:anyURI ;
 .

@@ -6,7 +6,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/resource/b51ee7b0-d2d9-49f3-9d72-bb6cc9fb8330>
     a schema:CreativeWork ;
-    dcterms:type <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ;
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
@@ -78,7 +78,7 @@ Topics summarised in this release include language and culture, social networks 
 
 <https://linked.data.gov.au/org/abs>
     a schema:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    schema:keywords <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
     schema:name "Australian Bureau of Statistics" ;
     schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
 .

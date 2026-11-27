@@ -211,13 +211,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/person/briscoe>
     a schema:Person ;
-    dcterms:type pis:indigenous ;
+    schema:keywords pis:indigenous ;
     schema:name "Gordon Briscoe" ;
 .
 
 <https://orcid.org/0000-0002-1398-7524>
     a schema:Person ;
-    dcterms:type pis:indigenous ;
+    schema:keywords pis:indigenous ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;

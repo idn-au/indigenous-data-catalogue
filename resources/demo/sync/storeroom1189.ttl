@@ -80,7 +80,7 @@ aiatsistop:XX36665
 
 uom:
     a schema:Organization ;
-    dcterms:type orgind:non-indigenous ;
+    schema:keywords orgind:non-indigenous ;
     schema:alternateName "UoM" ;
     schema:name "University of Melboourne" ;
     schema:url "https://www.unimelb.edu.au"^^xsd:anyURI ;

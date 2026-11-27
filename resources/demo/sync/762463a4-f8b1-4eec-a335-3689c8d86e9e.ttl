@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/762463a4-f8b1-4eec-a335-3689c8d86e9e>
     a schema:CreativeWork ;
-    dcterms:type dataind:about-indigenous-people ;
+    schema:keywords dataind:about-indigenous-people ;
     schema:additionalType schema:Book ;
     schema:creator <https://orcid.org/0000-0002-1398-7524> ;
     schema:dateCreated "2023"^^xsd:gYear ;
@@ -30,14 +30,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/isu>
     a schema:Organization ;
-    dcterms:type orgind:run-by-indigenous-persons ;
+    schema:keywords orgind:run-by-indigenous-persons ;
     schema:name "Indigenous Studies Unit" ;
     schema:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit"^^xsd:anyURI ;
 .
 
 <https://orcid.org/0000-0002-1398-7524>
     a schema:Person ;
-    dcterms:type pis:indigenous ;
+    schema:keywords pis:indigenous ;
     dcat:qualifiedRelation
         [
             a dcat:Relationship ;
