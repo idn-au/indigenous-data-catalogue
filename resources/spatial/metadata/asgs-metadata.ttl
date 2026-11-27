@@ -23,6 +23,7 @@ d:
             a geo:Geometry ;
             geo:asWKT "POLYGON((112.92 -43.66, 153.64 -43.66, 153.64 -9.22, 112.92 -9.22, 112.92 -43.66))"^^geo:wktLiteral ;
         ] ;
+    schema:additionalType <https://data.idnau.org/pid/vocab/cat-obj-types/SpatialDataset> ;
     schema:citation "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026"^^xsd:anyURI ;
     schema:codeRepository "https://github.com/dcceew-bdr/asgs-etl"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/abs> ;
@@ -31,5 +32,5 @@ d:
     schema:description "Australian Statistical Geography Standard (ASGS) Edition 3, represented with reduced-resolution geometries for BDR reference-data discovery and display." ;
     schema:name "Australian Statistical Geography Standard Edition 3" ;
     schema:publisher <https://linked.data.gov.au/org/abs> ;
-    schema:version "1" ;
+    schema:version "2" ;
 .
