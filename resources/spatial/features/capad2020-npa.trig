@@ -51,7 +51,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     geo:hasMetricArea "28085202.26878731"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -73,7 +73,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "1699883052.248525"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -95,7 +95,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "4150392.7928648745"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -117,7 +117,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "80419912.07284732"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -139,7 +139,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "3812762822.062742"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -161,7 +161,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "666024.7034705684"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -183,7 +183,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "1312866.4671884442"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -205,7 +205,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "849716.1447343396"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -227,7 +227,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "1647928558.2412794"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -249,7 +249,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "86400565.67989899"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -271,7 +271,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "4476966.842813849"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -293,7 +293,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "355514313.5878889"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -315,7 +315,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "1587874271.9218652"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -337,7 +337,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "382385213.9474695"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -359,7 +359,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "353734.50053157035"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -381,7 +381,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "425189382.2865323"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -403,7 +403,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "132182098.78643404"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -425,7 +425,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "5439468247.774237"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -447,7 +447,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "531360468.4781308"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -469,7 +469,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "262814.56738513464"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -491,7 +491,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "13680.237759946402"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -513,7 +513,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "68374.04685543203"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -535,7 +535,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "1064071.4792956323"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -557,7 +557,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "560102995.2739666"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -579,7 +579,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "3735871534.655838"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -601,7 +601,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "293081176.80302256"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -623,7 +623,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "164943373.94142517"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -645,7 +645,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "372754257.954269"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -667,7 +667,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "403413025.77635574"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -689,7 +689,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "106807416.51189207"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-QLD_DES> ;
         ] ;
     schema:description """IUCN protected area management category: National Park

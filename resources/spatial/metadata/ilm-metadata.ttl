@@ -36,17 +36,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         [
             a prov:Attribution ;
             schema:agent <https://linked.data.gov.au/org/aiatsis> ;
-            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/originator> ;
+            schema:roleName <https://def.isotc211.org/codeset/RoleCode/originator> ;
         ] ,
         [
             a prov:Attribution ;
             schema:agent <https://linked.data.gov.au/org/idn> ;
-            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            schema:roleName <https://def.isotc211.org/codeset/RoleCode/contributor> ;
         ] ,
         [
             a prov:Attribution ;
             schema:agent <https://linked.data.gov.au/org/aiatsis> ;
-            schema:roleName <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/custodian> ;
+            schema:roleName <https://def.isotc211.org/codeset/RoleCode/custodian> ;
         ] ;
     schema:citation "https://collection.aiatsis.gov.au/austlang"^^xsd:anyURI ;
     schema:description "Spatial point locations for 841 of the 1208 AustLang languages"@en ;

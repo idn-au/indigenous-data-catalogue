@@ -118,7 +118,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     geo:hasMetricArea "4325960925.693262"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -140,7 +140,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "4805008202.264019"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -162,7 +162,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "7189514843.482494"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -184,7 +184,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "4706413.783268257"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -206,7 +206,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "154444811.41989067"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -228,7 +228,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "16566842185.248117"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -250,7 +250,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "7291642962.783412"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -272,7 +272,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "726755135.8645246"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -300,11 +300,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "583468995.0005889"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -326,7 +326,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "12434922.069750035"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -354,11 +354,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "985299.7863240994"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -380,7 +380,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "433137.2360738168"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-TSRA> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -402,7 +402,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "1357712695.69696"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -424,7 +424,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "6451299.440805169"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -452,11 +452,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "4206802631.476838"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -478,7 +478,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "3741576547.993089"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -500,7 +500,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "544025013.2268518"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -528,11 +528,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "99740489039.51686"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -554,7 +554,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "2374906.2722782674"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -576,7 +576,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "41137473.30975488"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -598,7 +598,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "5288195.368144252"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -620,7 +620,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "2610527194.1672416"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -648,11 +648,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "4782481458.846344"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -674,7 +674,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "462261918.3755428"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -696,7 +696,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "6088688.543960041"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Natural Monument or Feature
@@ -718,7 +718,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "40036544610.1552"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -740,7 +740,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "16166055131.194221"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -762,7 +762,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "1798892597.3902698"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -784,7 +784,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "4412074.809022802"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -806,7 +806,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "3540313.95307384"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -828,7 +828,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "81591203.7280303"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -850,7 +850,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "151678.0166304919"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-TSRA> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -872,7 +872,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "788945.9793158137"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -894,7 +894,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "9285265.275098184"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -916,7 +916,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "3203847437.2001767"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -944,11 +944,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "13704955521.46131"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -976,11 +976,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "6404672411.669724"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1002,7 +1002,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "382941913.11966133"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1024,7 +1024,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "3672751.786350783"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1046,7 +1046,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "11416218.650898743"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1068,7 +1068,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "5585215111.524643"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1090,7 +1090,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "26654263.850733474"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1112,7 +1112,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "472090.5557089034"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -1140,11 +1140,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "15215695.863621209"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1166,7 +1166,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "380122.32837406814"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1188,7 +1188,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "695038128.1911972"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -1210,7 +1210,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "2609300.097843381"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1238,11 +1238,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "7594590961.178083"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1264,7 +1264,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "11075233185.192007"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1286,7 +1286,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "8426232794.204108"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1308,7 +1308,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "851658.9408733707"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1330,7 +1330,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "40732435.39455044"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1358,11 +1358,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "1304117783.9893813"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1384,7 +1384,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "21601369.624168456"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -1406,7 +1406,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "1108083.184665284"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1428,7 +1428,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "4266971.13240778"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1456,11 +1456,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "59666801.56551233"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1482,7 +1482,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "101535078202.8746"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1504,7 +1504,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "45042375.819236785"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -1526,7 +1526,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "8612071.953278527"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1554,11 +1554,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "61101536553.088875"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1580,7 +1580,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "5571990564.3834305"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Natural Monument or Feature
@@ -1608,11 +1608,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "158521935.28059846"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1640,11 +1640,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "395248415.8440972"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1666,7 +1666,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "839393998.7850657"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1694,11 +1694,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "430273487.54528356"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -1726,11 +1726,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "3537019529.5051146"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Natural Monument or Feature
@@ -1758,11 +1758,11 @@ Governance: Joint - Jointly managed protected areas where several social actors 
         "139008157.71545032"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -1784,7 +1784,7 @@ Governance: Joint - Jointly managed protected areas where several social actors 
     geo:hasMetricArea "8299342.986826001"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1812,11 +1812,11 @@ Governance: Joint - Jointly managed protected areas where several social actors 
         "16758960078.902325"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1838,7 +1838,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "7630152826.164121"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1866,11 +1866,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "6172106626.81152"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1898,11 +1898,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "4643966983.641422"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1924,7 +1924,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "10909046484.775461"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1946,7 +1946,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "1249664122.1647787"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -1968,7 +1968,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "108854778.64353967"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -1990,7 +1990,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "2246963852.6298137"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2018,11 +2018,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "23964050765.817146"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2044,7 +2044,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "440207052.70059645"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -2066,7 +2066,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "1863304254.025535"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -2088,7 +2088,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "634013.3660510122"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-TSRA> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2110,7 +2110,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "42682525420.20806"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2138,11 +2138,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "26160423580.178505"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2164,7 +2164,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "5875880893.510343"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape
@@ -2186,7 +2186,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "79540938.90123901"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Natural Monument or Feature
@@ -2208,7 +2208,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "10995499.149744257"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -2230,7 +2230,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "16571825748.761595"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -2252,7 +2252,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "50437544493.54594"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2274,7 +2274,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "10932857860.196829"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2296,7 +2296,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "39298419.882437594"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2318,7 +2318,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "3230469007.2432237"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2340,7 +2340,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "18199093780.321453"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-LILC> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2368,11 +2368,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "1053929369.3514826"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected area with sustainable use of natural resources
@@ -2400,11 +2400,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "120170403.62264717"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -2432,11 +2432,11 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
         "219873026.96472654"^^xsd:float ;
     prov:wasAttributedTo 
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ,
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Habitat/Species Management Area
@@ -2458,7 +2458,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "10688564550.175993"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: National Park
@@ -2480,7 +2480,7 @@ Governance: Community - Community conserved areas where indigenous peoples or lo
     geo:hasMetricArea "3234355.5069250152"^^xsd:float ;
     prov:wasAttributedTo
         [
-            prov:hadRole <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
             schema:agent <https://linked.data.gov.au/org/capad-IMG> ;
         ] ;
     schema:description """IUCN protected area management category: Protected Landscape/Seascape

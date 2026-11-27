@@ -1,7 +1,7 @@
 PREFIX : <https://linked.data.gov.au/def/data-roles/>
 PREFIX cs: <https://linked.data.gov.au/def/data-roles>
-PREFIX iso: <https://def.isotc211.org/common/RoleCode/>
-PREFIX isovoc: <https://def.isotc211.org/common/RoleCode>
+PREFIX iso: <https://def.isotc211.org/codeset/RoleCode/>
+PREFIX isovoc: <https://def.isotc211.org/codeset/RoleCode>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -414,12 +414,12 @@ cs:
             prov:entity cs: ;
             schema:roleName <https://linked.data.gov.au/def/vocdermods/none> ;
         ] ;
-    schema:citation "http://iso.kurrawong.net/vocab/CI_RoleCode"^^xsd:anyURI ;
+    schema:citation "https://def.isotc211.org/codeset/RoleCode"^^xsd:anyURI ;
     schema:copyrightNotice "(c) Australian Government Linked Data Working Group, 2024" ;
     schema:creator <https://linked.data.gov.au/org/idn> ;
     schema:dateCreated "2024-02-28"^^xsd:date ;
     schema:dateIssued "2024-02-28"^^xsd:date ;
-    schema:dateModified "2025-08-26"^^xsd:date ;
+    schema:dateModified "2025-11-27"^^xsd:date ;
     schema:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
     schema:status status:stable ;

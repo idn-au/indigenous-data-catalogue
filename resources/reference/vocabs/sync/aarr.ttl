@@ -135,14 +135,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :contactPointOf
     a skos:Concept ;
-    dcterms:provenance "Informed by http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/pointOfContact"@en ;
+    dcterms:provenance "Informed by https://def.isotc211.org/codeset/RoleCode/pointOfContact"@en ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The same as Contact Point but for inverse agent relations"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Contact Point Of"@en ;
     skos:scopeNote "Person to Organisation relations" ;
     skos:topConceptOf cs: ;
-    schema:citation "http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/pointOfContact"^^xsd:anyURI ;
+    schema:citation "https://def.isotc211.org/codeset/RoleCode/pointOfContact"^^xsd:anyURI ;
 .
 
 :descendant
@@ -243,14 +243,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :contactPoint
     a skos:Concept ;
-    dcterms:provenance "Informed by http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/pointOfContact"@en ;
+    dcterms:provenance "Informed by https://def.isotc211.org/codeset/RoleCode/pointOfContact"@en ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Party who can be contacted for acquiring knowledge about the target Agent"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Contact Point"@en ;
     skos:scopeNote "Organisation to Person relations" ;
     skos:topConceptOf cs: ;
-    schema:citation "http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/pointOfContact"^^xsd:anyURI ;
+    schema:citation "https://def.isotc211.org/codeset/RoleCode/pointOfContact"^^xsd:anyURI ;
 .
 
 :elder

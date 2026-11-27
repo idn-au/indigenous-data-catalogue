@@ -1,8 +1,8 @@
 PREFIX : <https://linked.data.gov.au/def/data-roles/>
 PREFIX cs: <https://linked.data.gov.au/def/data-roles>
 PREFIX idn: <https://linked.data.gov.au/org/idn>
-PREFIX iso: <https://def.isotc211.org/common/RoleCode/>
-PREFIX isovoc: <https://def.isotc211.org/common/RoleCode>
+PREFIX iso: <https://def.isotc211.org/codeset/RoleCode/>
+PREFIX isovoc: <https://def.isotc211.org/codeset/RoleCode>
 PREFIX lingvoj: <https://w3id.org/vocab/lingvoj#>
 PREFIX lingvojcol: <https://linked.data.gov.au/def/data-roles/lingvojCol>
 PREFIX lingvojont: <https://w3id.org/vocab/lingvoj>

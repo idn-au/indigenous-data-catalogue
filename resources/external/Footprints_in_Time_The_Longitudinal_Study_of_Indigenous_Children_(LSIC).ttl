@@ -47,15 +47,15 @@ to LongitudinalStudies@dss.gov.au and ada@anu.edu.au. """ ;
             a prov:Attribution ;
             schema:agent <https://data.idnau.org/pid/organization/61dc125d-7311-4bae-add2-428a68fbfa8f> ;
             schema:roleName
-                <https://def.isotc211.org/common/RoleCode/author> ,
-                <https://def.isotc211.org/common/RoleCode/custodian> ,
-                <https://def.isotc211.org/common/RoleCode/distributor> ,
-                <https://def.isotc211.org/common/RoleCode/funder> ,
-                <https://def.isotc211.org/common/RoleCode/originator> ,
-                <https://def.isotc211.org/common/RoleCode/owner> ,
-                <https://def.isotc211.org/common/RoleCode/pointOfContact> ,
-                <https://def.isotc211.org/common/RoleCode/publisher> ,
-                <https://def.isotc211.org/common/RoleCode/rightsHolder> ;
+                <https://def.isotc211.org/codeset/RoleCode/author> ,
+                <https://def.isotc211.org/codeset/RoleCode/custodian> ,
+                <https://def.isotc211.org/codeset/RoleCode/distributor> ,
+                <https://def.isotc211.org/codeset/RoleCode/funder> ,
+                <https://def.isotc211.org/codeset/RoleCode/originator> ,
+                <https://def.isotc211.org/codeset/RoleCode/owner> ,
+                <https://def.isotc211.org/codeset/RoleCode/pointOfContact> ,
+                <https://def.isotc211.org/codeset/RoleCode/publisher> ,
+                <https://def.isotc211.org/codeset/RoleCode/rightsHolder> ;
         ] ,
         [
             a prov:Attribution ;

@@ -16,10 +16,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a prov:Attribution ;
             schema:agent <https://linked.data.gov.au/org/abs> ;
             schema:roleName
-                <https://def.isotc211.org/common/RoleCode/custodian> ,
-                <https://def.isotc211.org/common/RoleCode/distributor> ,
-                <https://def.isotc211.org/common/RoleCode/pointOfContact> ,
-                <https://def.isotc211.org/common/RoleCode/publisher> ;
+                <https://def.isotc211.org/codeset/RoleCode/custodian> ,
+                <https://def.isotc211.org/codeset/RoleCode/distributor> ,
+                <https://def.isotc211.org/codeset/RoleCode/pointOfContact> ,
+                <https://def.isotc211.org/codeset/RoleCode/publisher> ;
         ] ;
     schema:additionalType schema:Dataset ;
     schema:copyrightNotice """© Commonwealth of Australia
