@@ -17,7 +17,7 @@
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Australian Census 2021" ;
     schema:publisher <https://linked.data.gov.au/org/abs> ;
-    schema:version "3" .
+    schema:version "4" .
 
 <https://linked.data.gov.au/dataset/census-2021/indigenous-persons> a sosa:ObservationCollection ;
     rdfs:member [ a sosa:Observation ;
